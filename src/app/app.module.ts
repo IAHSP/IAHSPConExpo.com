@@ -5,9 +5,24 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { HeaderComponent } from "./shared/header.component";
+import { FooterComponent } from "./shared/footer.component";
+import { Home2018Component } from "./pages-2018/home.component";
+import { Countdown2018Component } from "./pages-2018/countdown.component";
+import { Hero2018Component } from "./pages-2018/hero.component";
+import { Speakers2018Component } from "./pages-2018/speakers.component";
+import { Vendors2018Component } from "./pages-2018/vendors.component";
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    Home2018Component,
+    Countdown2018Component,
+    Hero2018Component,
+    Speakers2018Component,
+    Vendors2018Component
   ],
   imports: [
     BrowserModule,

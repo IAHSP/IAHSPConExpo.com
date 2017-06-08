@@ -1,0 +1,17 @@
+{
+  "name": "iahspconexpo",
+  "description": "IAHSP Conference Website",
+  "main": "index.js",
+  "authors": [
+    "DERRICKLT\\Derrick Leem <derricktleem@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/IAHSP/IAHSPConExpo.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
