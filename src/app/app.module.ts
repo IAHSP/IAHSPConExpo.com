@@ -12,6 +12,7 @@ import { Countdown2018Component } from "./pages-2018/countdown.component";
 import { Hero2018Component } from "./pages-2018/hero.component";
 import { Speakers2018Component } from "./pages-2018/speakers.component";
 import { Vendors2018Component } from "./pages-2018/vendors.component";
+import { Contact2018Component } from "./pages-2018/contact/contact.component";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Vendors2018Component } from "./pages-2018/vendors.component";
     Countdown2018Component,
     Hero2018Component,
     Speakers2018Component,
-    Vendors2018Component
+    Vendors2018Component,
+    Contact2018Component
   ],
   imports: [
     BrowserModule,

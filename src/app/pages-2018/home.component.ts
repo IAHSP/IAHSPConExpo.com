@@ -11,6 +11,8 @@ import { Component } from '@angular/core';
             <app-2018-vendors></app-2018-vendors>
 
             <app-2018-countdown></app-2018-countdown>
+
+            <app-2018-contact></app-2018-contact>
         </div>
     `
 
