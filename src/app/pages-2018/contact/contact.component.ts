@@ -71,7 +71,7 @@ import { Component } from '@angular/core';
 
                             <div class="row">
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-primary btn-lg" ">Clear</button>
+                                    <button type="button" class="btn btn-primary btn-lg" >Clear</button>
                                     <button type="button" class="btn btn-primary btn-lg" id="submit">Send Message</button>
                                 </div>
                             </div>
