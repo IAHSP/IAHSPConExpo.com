@@ -18,10 +18,11 @@ var x = setInterval(function() {
     
     // Output the result in an element with id="demo"
     document.getElementById("demo").innerHTML = 
-    "<div class='col-xs-6 col-sm-offset-2 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + days + "</h1><p class='lead font-weight-400'>Days</p></div>" + 
-    "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + hours + "</h1><p class='lead font-weight-400'>Hours</p></div>" +
-    "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + minutes + "</h1><p class='lead font-weight-400'>Minutes</p></div>" +
-    "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + seconds + "</h1><p class='lead font-weight-400'>Second</p></div>";
+        "<div class='col-xs-6 col-sm-offset-2 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + days + "</h1><p class='lead font-weight-400'>Days</p></div>" + 
+        "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + hours + "</h1><p class='lead font-weight-400'>Hours</p></div>" +
+        "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + minutes + "</h1><p class='lead font-weight-400'>Minutes</p></div>" +
+        "<div class='col-xs-6 col-sm-2'><h1 class='space-bottom-10 font-60 font-weight-500'>" + seconds + "</h1><p class='lead font-weight-400'>Second</p></div>"
+    ;
     
     // If the count down is over, write some text 
     if (distance < 0) {

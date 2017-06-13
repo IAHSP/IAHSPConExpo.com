@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" >
                         <!-- MAIN IMAGE -->
-                        <img src="http://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg" alt="Ft. Lauderdale, FL" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg" alt="Ft. Lauderdale, FL" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
                             data-endeasing="Power4.easeIn"
                             style="z-index: 2">
 
-                            <img src="http://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/2018-conference-expo-logo.png" alt="Journey to the Top" class="img-responsive center-block logo-raisethebar" />
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/2018-conference-expo-logo.png" alt="Journey to the Top" class="img-responsive center-block logo-raisethebar" />
                         </div>
 
                         <!-- LAYER NR. 1 -->

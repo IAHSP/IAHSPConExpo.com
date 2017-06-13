@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-speakers',
     template: `
-        <section id="speakershelp" class="padding-40-0-100">
+        <section class="padding-40-0-100">
             <div class="container ng-scope">
                 <h1 class="text-center"><strong>Call for Speakers</strong></h1>
 
@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
                 <!-- CALL FOR SPEAKERS -->
                 <div class="row space-top-40">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <div class="text-center space-bottom-20"><a href="mailto:jennie@iahsp.com" target="_blank" class="btn btn-primary btn-lg"><strong>Please email Jennie@iahsp.com</strong></a></div>
+                        <div class="text-center space-bottom-20"><a href="#contact" class="btn btn-primary btn-lg scrollTo"><strong>Contact Us</strong></a></div>
                     </div><!-- /col -->
                 </div><!-- /row -->
             </div><!-- /container -->

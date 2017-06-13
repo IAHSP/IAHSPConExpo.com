@@ -3,7 +3,5 @@ export interface User {
     strEmail;
     strSubject;
     strMessage;
-    sfSignature;
-    sfSignatureDate;
     googleResponse;
 }

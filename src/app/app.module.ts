@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+// Addons
+import { ReCaptchaModule } from 'angular2-recaptcha';
+
 import { AppComponent } from './app.component';
 
-import { HeaderComponent } from "./shared/header.component";
-import { FooterComponent } from "./shared/footer.component";
+import { HeaderComponent } from "./pages-2018/shared/header.component";
+import { FooterComponent } from "./pages-2018/shared/footer.component";
 import { Home2018Component } from "./pages-2018/home.component";
 import { Countdown2018Component } from "./pages-2018/countdown.component";
 import { Hero2018Component } from "./pages-2018/hero.component";
@@ -29,7 +32,8 @@ import { Contact2018Component } from "./pages-2018/contact/contact.component";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ReCaptchaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

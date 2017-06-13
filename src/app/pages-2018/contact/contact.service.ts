@@ -8,38 +8,37 @@ import {Observable} from "rxjs/Observable";
 import "rxjs/Rx"; // used for .map
 
 @Injectable()
-export class JobApplicationService {
+export class ContactService {
     // REST API Location
     strRegisterAPI: string;
 
     // Enable this if form needs to be tested.
-    isTesting: boolean = false;
+    isTesting: boolean = true;
 
     // Stores user contents.
     objUser: User;
     
     constructor (private http: Http) {
         if (this.isTesting) {
-            this.strRegisterAPI = "http://localhost:3003/forms/secure-forms/changessalon/job-application";
+            this.strRegisterAPI = "http://localhost:5002/iahsp-31959/us-central1/iahspconexpo/contact-form";
             
             // Contains user's info.
             this.objUser = {
                 /* ========================================================
                     Section 1: Personal Information
                 ======================================================== */
-                strFullName: null,
-                strEmail: null,
-                strSubject: null,
-                strMessage: null,
+                strFullName: "Duane Leem",
+                strEmail: "Duane@IAHSP.com",
+                strSubject: "Just a test.",
+                strMessage: "Test email from the upgraded IAHSPConExpo.com",
 
                 /* ========================================================
                     Final Section: Google reCaptcha
                 ======================================================== */
-                sfSignature: null, sfSignatureDate: null,
                 googleResponse: null
             }; // objUser
         } else {
-            this.strRegisterAPI = "https://leemtek.com/forms/secure-forms/changessalon/job-application";
+            this.strRegisterAPI = "https://www.leemtek.com/forms/stagedhomes/iahspconexpo";
             
             // Contains user's info.
             this.objUser = {
@@ -54,7 +53,6 @@ export class JobApplicationService {
                 /* ========================================================
                     Final Section: Google reCaptcha
                 ======================================================== */
-                sfSignature: null, sfSignatureDate: null,
                 googleResponse: null
             }; // objUser
         }
