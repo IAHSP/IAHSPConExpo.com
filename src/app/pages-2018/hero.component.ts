@@ -91,7 +91,63 @@ import { Component } from '@angular/core';
                 <div class="tp-bannertimer"></div>
             </div>
         </section>
-    `
+    `,
+    styles: [`
+        /* Phone */
+        @media only screen and (max-width : 767px) {
+            #revolution-layer-0 {
+                top: 25px !important;
+            }
+
+            #revolution-layer-1 {
+                top: 175px !important;
+            }
+
+            #revolution-layer-2 {
+                top: 200px !important;
+            }
+
+            #revolution-layer-3 {
+                top: 228px !important;
+            }
+
+            #revolution-layer-3 > p {
+                margin-bottom: 10px;
+                line-height: 11px;
+            }
+        }
+
+        /* Desktop */
+        @media only screen and (min-width : 1200px) {
+            #revolution-layer-0 {
+                top: 50px !important;
+            }
+
+            #revolution-layer-0 img {
+                width: 300px !important;
+                height: 268px !important;
+            }
+
+            #revolution-layer-1 {
+                top: 318px !important;
+                font-size: 40px;
+            }
+
+            #revolution-layer-2 {
+                top: 380px !important;
+                font-size: 45px;
+            }
+
+            #revolution-layer-3 {
+                top: 467px !important;
+            }
+
+            #revolution-layer-3 > p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    `]
     
 })
 export class Hero2018Component {
