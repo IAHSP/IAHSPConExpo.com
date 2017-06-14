@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        S3_BUCKET: "web.iahspconexpo.com"
+        S3_BUCKET: "iahspconexpo"
         BUILD_ENV: "prod"
             
 phases:
@@ -29,10 +29,10 @@ phases:
     post_build:
         commands:
         # STEP: Clear S3 bucket.
-        - aws s3 rm s3://web.iahspconexpo.com --recursive
-        - echo S3 bucket "web.iahspconexpo.com" is cleared.
+        - aws s3 rm s3://${S3_BUCKET} --recursive
+        - echo S3 bucket "${S3_BUCKET}" is cleared.
         # STEP: Copy dist folder to S3 bucket.
-        - aws s3 cp dist s3://web.iahspconexpo.com --recursive
+        - aws s3 cp dist s3://${S3_BUCKET} --recursive
         # STEP: Clear CloudFront cache.
         - aws cloudfront create-invalidation --distribution-id E1JGFAMTTY6PA --paths /*
         - echo Build completed on `date`
