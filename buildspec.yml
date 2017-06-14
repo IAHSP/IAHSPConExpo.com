@@ -34,6 +34,7 @@ phases:
         # STEP: Copy dist folder to S3 bucket.
         - aws s3 cp dist s3://${S3_BUCKET} --recursive
         # STEP: Clear CloudFront cache.
+        - aws configure set preview.cloudfront true
         - aws cloudfront create-invalidation --distribution-id E1JGFAMTTY6PA --paths /*
         - echo Build completed on `date`
 artifacts:
