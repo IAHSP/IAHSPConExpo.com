@@ -28,12 +28,13 @@ phases:
         - ng build --${BUILD_ENV}
     post_build:
         commands:
-        # Clear S3 bucket.
+        # STEP: Clear S3 bucket.
         - aws s3 rm s3://${S3_BUCKET} --recursive
         - echo S3 bucket "duaneleem.com" is cleared.
-        # Copy dist folder to S3 bucket "duaneleem.com"
+        # STEP: Copy dist folder to S3 bucket "duaneleem.com"
         - aws s3 cp dist s3://${S3_BUCKET} --recursive
-        # TODO: Clear CloudFront cache.
+        # STEP: Clear CloudFront cache.
+        - aws cloudfront create-invalidation --distribution-id E1JGFAMTTY6PA --paths /*
         - echo Build completed on `date`
 artifacts:
     files:
