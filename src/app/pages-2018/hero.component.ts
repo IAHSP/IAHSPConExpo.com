@@ -97,7 +97,7 @@ import { Component } from '@angular/core';
             background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg");
         }
 
-        /* Phone */
+        /* Phone 1 */
         @media only screen and (max-width : 767px) {
             #revolution-layer-0 {
                 top: 25px !important;
@@ -126,7 +126,7 @@ import { Component } from '@angular/core';
             }
         }
 
-        /* Tablet */
+        /* Phone 2 */
         @media (min-width: 426px) and (max-width: 767px) {
             #revolution-layer-2 {
                 top: 220px !important;
