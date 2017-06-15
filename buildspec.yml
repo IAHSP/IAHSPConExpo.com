@@ -35,7 +35,7 @@ phases:
         - aws s3 cp dist s3://${S3_BUCKET} --recursive
         # STEP: Clear CloudFront cache.
         - aws configure set preview.cloudfront true
-        - aws cloudfront create-invalidation --distribution-id E1RY4ESLFCDK6N
+        - aws cloudfront create-invalidation --distribution-id E1RY4ESLFCDK6N --paths "/*"
         - echo Build completed on `date`
 artifacts:
     files:
