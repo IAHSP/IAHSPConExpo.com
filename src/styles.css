@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Margins */
+/* Margins & Paddings */
+.margin-top-0 { margin-top: 0px; }
 .space-top-15 { margin-top: 15px !important; }
 .space-bottom-5 { margin-bottom: 5px !important; }
 .space-bottom-10 { margin-bottom: 10px !important; }
+.padding-top-0 { padding-top: 0px !important; }
+.padding-top-5 { padding-top: 5px !important; }
 
 /* Font Size */
 .font-60 { font-size: 60px !important; }
