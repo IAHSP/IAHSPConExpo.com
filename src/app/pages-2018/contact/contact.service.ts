@@ -38,7 +38,7 @@ export class ContactService {
                 googleResponse: null
             }; // objUser
         } else {
-            this.strRegisterAPI = "https://www.leemtek.com/forms/stagedhomes/iahspconexpo";
+            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/contact-form";
             
             // Contains user's info.
             this.objUser = {
