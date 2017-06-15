@@ -13,7 +13,7 @@ export class ContactService {
     strRegisterAPI: string;
 
     // Enable this if form needs to be tested.
-    isTesting: boolean = true;
+    isTesting: boolean = false;
 
     // Stores user contents.
     objUser: User;
