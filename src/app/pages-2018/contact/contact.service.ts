@@ -12,7 +12,7 @@ export class ContactService {
     // REST API Location
     strRegisterAPI: string;
 
-    // Enable this if form needs to be tested.
+    // Enable this if form needs to use test data.
     isTesting: boolean = false;
 
     // Stores user contents.
