@@ -21,6 +21,7 @@ export class ContactService {
     constructor (private http: Http) {
         if (this.isTesting) {
             this.strRegisterAPI = "http://localhost:5002/iahsp-31959/us-central1/iahspconexpo/contact-form";
+            // this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/contact-form";
             
             // Contains user's info.
             this.objUser = {
