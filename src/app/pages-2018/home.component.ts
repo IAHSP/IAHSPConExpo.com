@@ -21,9 +21,16 @@ import { Component } from '@angular/core';
                     <nav class="nav-main mega-menu">
                         <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
                             <li class="active"><a class="scrollTo" href="#wrapper">Home</a></li>
-                            <li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
-                            <li><a class="scrollTo" href="#vendors">Vendors</a></li>
-                            <li><a class="scrollTo" href="#contact">Contact</a></li>
+                            <li class="dropdown">
+								<a class="dropdown-toggle" href="#">
+									Information <i class="fa fa-angle-down"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
+                                    <li><a class="scrollTo" href="#vendors">Vendors</a></li>
+								</ul>
+							</li>
+                            <li><a class="scrollTo" href="#contact"><button type="button" class="btn btn-primary btn-sm">Contact Us</button></a></li>
                         </ul>
                     </nav>
                 </div>
@@ -47,7 +54,14 @@ import { Component } from '@angular/core';
         </div>
 
         <app-shared-footer></app-shared-footer>
-    `
+    `,
+    styles: [`
+        @media only screen and (min-width : 991px) {
+            header li > a[href="#contact"] {
+                padding-top: 4px !important;
+            }
+        }
+    `]
 
 })
 export class Home2018Component {

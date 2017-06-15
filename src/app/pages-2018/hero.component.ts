@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     template: `
         <!-- REVOLUTION SLIDER -->
         <section class="fullscreenbanner-container">
-            <div class="fullscreenbanner" >
+            <div class="fullscreenbanner">
                 <ul>
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" >
@@ -91,7 +91,88 @@ import { Component } from '@angular/core';
                 <div class="tp-bannertimer"></div>
             </div>
         </section>
-    `
+    `,
+    styles: [`
+        #charlotte-nc-bg {
+            background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg");
+        }
+
+        /* Phone 1 */
+        @media only screen and (max-width : 767px) {
+            #revolution-layer-0 {
+                top: 25px !important;
+            }
+
+            #revolution-layer-0 img {
+                width: 160px !important;
+                height: 142.667px !important;
+            }
+
+            #revolution-layer-1 {
+                top: 175px !important;
+            }
+
+            #revolution-layer-2 {
+                top: 200px !important;
+            }
+
+            #revolution-layer-3 {
+                top: 228px !important;
+            }
+
+            #revolution-layer-3 > p {
+                margin-bottom: 10px;
+                line-height: 11px;
+            }
+        }
+
+        /* Phone 2 */
+        @media (min-width: 426px) and (max-width: 767px) {
+            #revolution-layer-2 {
+                top: 220px !important;
+            }
+
+            #revolution-layer-3 {
+                top: 275px !important;
+            }
+
+            #revolution-layer-3 > p {
+                line-height: 14px;
+                font-size: 12px;
+            }
+        }
+
+        /* Desktop */
+        @media only screen and (min-width : 1200px) {
+            #revolution-layer-0 {
+                top: 50px !important;
+            }
+
+            #revolution-layer-0 img {
+                width: 300px !important;
+                height: 268px !important;
+            }
+
+            #revolution-layer-1 {
+                top: 318px !important;
+                font-size: 40px;
+            }
+
+            #revolution-layer-2 {
+                top: 380px !important;
+                font-size: 45px;
+            }
+
+            #revolution-layer-3 {
+                top: 467px !important;
+            }
+
+            #revolution-layer-3 > p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    `]
     
 })
 export class Hero2018Component {
