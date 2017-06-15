@@ -14,6 +14,8 @@ import { Component } from '@angular/core';
 
             <app-2018-vendors id="vendors"></app-2018-vendors>
 
+            <app-2018-wholesale id="wholesale"></app-2018-wholesale>
+
             <app-2018-countdown></app-2018-countdown>
 
             <app-2018-contact id="contact"></app-2018-contact>
@@ -22,11 +24,7 @@ import { Component } from '@angular/core';
         <app-shared-footer></app-shared-footer>
     `,
     styles: [`
-        @media only screen and (min-width : 991px) {
-            header li > a[href="#contact"] {
-                padding-top: 4px !important;
-            }
-        }
+        
     `]
 
 })
