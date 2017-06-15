@@ -82,9 +82,9 @@ import { Component } from '@angular/core';
                                 of our event.  Sign up NOW to secure your spot!
                             </p>
 
-                            <div class="text-center">
-                                <a class="btn btn-success text-bold" onclick="fnRevolutionNext();"><i class="fa fa-play" aria-hidden="true"></i>IAHSP Conference Video</a>
-                            </div>
+                            <!-- <div class="text-center">
+                                 <a class="btn btn-success text-bold" onclick="fnRevolutionNext();"><i class="fa fa-play" aria-hidden="true"></i>IAHSP Conference Video</a>
+                            </div> -->
                         </div>
                     </li>
                 </ul>
@@ -93,10 +93,6 @@ import { Component } from '@angular/core';
         </section>
     `,
     styles: [`
-        #charlotte-nc-bg {
-            background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg");
-        }
-
         /* Phone 1 */
         @media only screen and (max-width : 767px) {
             #revolution-layer-0 {

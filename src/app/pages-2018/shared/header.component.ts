@@ -28,9 +28,10 @@ import { Component } from '@angular/core';
 								<ul class="dropdown-menu">
 									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
+                                    <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
 								</ul>
 							</li>
-                            <li><a class="scrollTo" href="#contact"><button type="button" class="btn btn-primary btn-sm">Contact Us</button></a></li>
+                            <li><div><a href="#contact" class="btn btn-primary scrollTo">Contact Us</a></div></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,7 +39,20 @@ import { Component } from '@angular/core';
 
             </div>
         </header>
-    `
+    `,
+    styles: [`
+        @media only screen and (max-width : 990px) {
+            header li > div > a[href="#contact"] {
+                text-align: left;
+            }
+        }
+
+        @media only screen and (min-width : 991px) {
+            header li > div > a[href="#contact"] {
+                color: #fff !important;
+            }
+        }
+    `]
 })
 export class HeaderComponent {
 

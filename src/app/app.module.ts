@@ -15,6 +15,7 @@ import { Countdown2018Component } from "./pages-2018/countdown.component";
 import { Hero2018Component } from "./pages-2018/hero.component";
 import { Speakers2018Component } from "./pages-2018/speakers.component";
 import { Vendors2018Component } from "./pages-2018/vendors.component";
+import { Wholesale2018Component } from "./pages-2018/wholesale.component";
 import { Contact2018Component } from "./pages-2018/contact/contact.component";
 
 @NgModule({
@@ -27,6 +28,7 @@ import { Contact2018Component } from "./pages-2018/contact/contact.component";
     Hero2018Component,
     Speakers2018Component,
     Vendors2018Component,
+    Wholesale2018Component,
     Contact2018Component
   ],
   imports: [
