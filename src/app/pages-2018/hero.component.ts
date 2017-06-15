@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     template: `
         <!-- REVOLUTION SLIDER -->
         <section class="fullscreenbanner-container">
-            <div class="fullscreenbanner" >
+            <div class="fullscreenbanner">
                 <ul>
                     <!-- SLIDE  -->
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" >
@@ -93,10 +93,19 @@ import { Component } from '@angular/core';
         </section>
     `,
     styles: [`
+        #charlotte-nc-bg {
+            background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2018/charlotte-nc.jpg");
+        }
+
         /* Phone */
         @media only screen and (max-width : 767px) {
             #revolution-layer-0 {
                 top: 25px !important;
+            }
+
+            #revolution-layer-0 img {
+                width: 160px !important;
+                height: 142.667px !important;
             }
 
             #revolution-layer-1 {
@@ -114,6 +123,22 @@ import { Component } from '@angular/core';
             #revolution-layer-3 > p {
                 margin-bottom: 10px;
                 line-height: 11px;
+            }
+        }
+
+        /* Tablet */
+        @media (min-width: 426px) and (max-width: 767px) {
+            #revolution-layer-2 {
+                top: 220px !important;
+            }
+
+            #revolution-layer-3 {
+                top: 275px !important;
+            }
+
+            #revolution-layer-3 > p {
+                line-height: 14px;
+                font-size: 12px;
             }
         }
 
