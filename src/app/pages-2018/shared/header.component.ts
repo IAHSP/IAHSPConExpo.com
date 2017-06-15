@@ -30,7 +30,7 @@ import { Component } from '@angular/core';
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
 								</ul>
 							</li>
-                            <li><a class="padding-top-5 scrollTo" href="#contact"><button type="button" class="btn btn-primary btn-sm">Contact Us</button></a></li>
+                            <li><a class="scrollTo" href="#contact"><button type="button" class="btn btn-primary btn-sm">Contact Us</button></a></li>
                         </ul>
                     </nav>
                 </div>
