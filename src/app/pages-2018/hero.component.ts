@@ -58,7 +58,7 @@ import { Component } from '@angular/core';
                             data-endeasing="Power4.easeIn"
                             style="z-index: 3">
                             
-                            Oct 19-21, 2018 – Charlotte, NC
+                            Oct 18-20, 2018 – Charlotte, NC
                         </div>
 
                         <!-- LAYER NR. 3 -->
