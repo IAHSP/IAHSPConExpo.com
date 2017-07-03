@@ -15,5 +15,8 @@
 .font-weight-400 { font-weight: 400 !important; }
 .font-weight-500 { font-weight: 500 !important; }
 
+/* Color */
+.color-white { color: #fff; }
+
 /* Background Color */
 .bg-black-trans3 { background-color: rgba(0,0,0,0.3); }

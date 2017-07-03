@@ -31,7 +31,8 @@ import { Component } from '@angular/core';
                                     <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
 								</ul>
 							</li>
-                            <li><div><a href="#contact" class="btn btn-primary scrollTo">Contact Us</a></div></li>
+                            <li><a class="scrollTo" href="#contact">Contact</a></li>
+                            <li><div><a id="btnRegister" href="https://www.regonline.com/2018iahspconferenceexpo" target="_blank" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
                         </ul>
                     </nav>
                 </div>
@@ -41,14 +42,18 @@ import { Component } from '@angular/core';
         </header>
     `,
     styles: [`
+        #btnRegister {
+            margin: 2px 0px 0px 10px;
+        }
+        
         @media only screen and (max-width : 990px) {
-            header li > div > a[href="#contact"] {
+            header li > div > a[href="https://iahsp.com"] {
                 text-align: left;
             }
         }
 
         @media only screen and (min-width : 991px) {
-            header li > div > a[href="#contact"] {
+            header li > div > a[href="https://iahsp.com"] {
                 color: #fff !important;
             }
         }
