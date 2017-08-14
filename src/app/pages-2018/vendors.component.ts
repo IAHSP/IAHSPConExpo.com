@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-vendors',
     template: `
-        <section class="padding100 special-row">
+        <section class="padding100 bg-white">
             <div class="container ng-scope">
                 <h1 class="text-center"><strong>Vendors</strong></h1>
 

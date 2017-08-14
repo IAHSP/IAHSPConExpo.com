@@ -29,6 +29,7 @@ import { Component } from '@angular/core';
 									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
                                     <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
+                                    <li><a class="scrollTo" href="#lhsiahsp">Luxury Home Staging</a></li>
 								</ul>
 							</li>
                             <li><a class="scrollTo" href="#contact">Contact</a></li>

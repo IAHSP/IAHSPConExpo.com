@@ -93,6 +93,10 @@ import { Component } from '@angular/core';
         </section>
     `,
     styles: [`
+        .fullscreenbanner-container {
+            margin-bottom: 0 !important;
+        }
+
         /* Phone 1 */
         @media only screen and (max-width : 767px) {
             #revolution-layer-0 {

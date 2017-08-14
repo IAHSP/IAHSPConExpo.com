@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-speakers',
     template: `
-        <section class="padding-40-0-100">
+        <section class="special-row padding100">
             <div class="container ng-scope">
                 <h1 class="text-center"><strong>Call for Speakers</strong></h1>
 
