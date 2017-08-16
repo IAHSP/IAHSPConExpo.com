@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 
                 <div class="row">
                     <div class="col-md-offset-1 col-md-5 space-bottom-40">
-                        <img src="http://d3oaxt0bwkjnjn.cloudfront.net/web/images/lhs-logo-blk%20gradient-lux-word.jpg" width="320px" class="center-block img-responsive space-bottom-30" alt="iahsp highpoint wholesale expo">
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/lhs-logo-blk%20gradient-lux-word.jpg" width="320px" class="center-block img-responsive space-bottom-30" alt="iahsp highpoint wholesale expo">
                     </div>
                     <div class="col-md-5">
                         <p class="lead"><strong>Your GETAWAY with a TAKEAWAY!</strong></p>
