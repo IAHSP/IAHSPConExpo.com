@@ -5,18 +5,31 @@ import { Component } from '@angular/core';
     template: `
         <section class="special-row padding100">
             <div class="container ng-scope">
-                <h1 class="text-center"><strong>Call for Speakers</strong></h1>
+                <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO CALL FOR SPEAKERS</strong></h2>
+                <p class="lead">Our 2018 IAHSP Conference &amp; EXPO is going to be a FANTASTIC event with high level education and premier industry Vendors coming together to provide a memorable experience for all attendees.</p>
+                <p class="lead"><em><strong>We are looking for SPEAKERS that would like to share their insight and wisdom at this event.  If you are interested, please submit the following to <a href="mailto:Jennie@iahsp.com">Jennie@iahsp.com</a>.</strong></em></p>
+                <p class="lead"><em><strong>Educational Sessions are OCTOBER 19-20, 2018 with our exciting VENDOR EXPO on Oct 18th!</strong></em></p>
+                
+                <ol class="lead">
+                    <li>Name & Company Name</li>
+                    <li>Your Resume/Background Qualifications</li>
+                    <li>Topic of interest that falls in the following categories:</li>
+                </ol>
 
-                <div class="lead">
-                    <p class="text-center">If you are interested in speaking at the IAHSP 2018 Conference & EXPO</p>
-                </div><!-- /lead -->
+                <ul class="lead padding-left-80">
+                    <li>Marketing</li>
+                    <li>Business Development/Sales</li>
+                    <li>Management Systems</li>
+                    <li>Industry Trends</li>
+                    <li>Business Growth</li>
+                    <li>Luxury Staging</li>
+                    <li>Other</li>
+                </ul>
 
-                <!-- CALL FOR SPEAKERS -->
-                <div class="row space-top-40">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <div class="text-center space-bottom-20"><a href="#contact" class="btn btn-primary btn-lg scrollTo"><strong>Contact Us</strong></a></div>
-                    </div><!-- /col -->
-                </div><!-- /row -->
+                <p class="lead"><font color="red"><strong>Please submit an outline for your topic including details on what you will cover and why you believe this is a topic that we should include at our upcoming event.</strong></font></p>
+                <p class="lead">We will assign length of topics and speaker slots once we receive Speaker information.  We have always been an industry Association with Education at the core of membership, and our events are touted as the most advanced and informative in the industry.</p>
+                <p class="lead">If your topic is selected, all Speakers will receive complimentary attendance to the 2018 Conference. </p>
+                <p class="lead">Please submit information to <a href="mailto:Jennie@iahsp.com">Jennie@iahsp.com</a>.</p>
             </div><!-- /container -->
         </section>
     `,
