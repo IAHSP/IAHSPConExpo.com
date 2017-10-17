@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
     selector: 'app-2018-vendors',
@@ -7,9 +8,7 @@ import { Component } from '@angular/core';
             <div class="container ng-scope">
                 <h1 class="text-center"><strong>Vendors</strong></h1>
 
-                <div class="lead">
-                    <p class="text-center">­If you are interested in displaying your company products and services as a Preferred Vendor at our event</p>
-                </div><!-- /lead -->
+                <div [innerHTML]="strVendorContents"></div>
 
                 <!-- CALL FOR SPEAKERS -->
                 <div class="row space-top-40">
@@ -23,5 +22,21 @@ import { Component } from '@angular/core';
 
 })
 export class Vendors2018Component {
+    strVendorContents: string;
 
+    constructor(private http: HttpClient) {
+        this.fnFetchWP();
+    }
+    
+    /**
+     * Store WP endpoint to variable.
+     */
+    private fnFetchWP() {
+        let strUrl = "https://pages.iahsp.com/wp-json/wp/v2/pages/75";
+
+        this.http.get(strUrl).subscribe(data => {
+            this.strVendorContents = data["content"].rendered;
+            console.log(this.strVendorContents);
+        })
+    } // fnFetchWP()
 }
