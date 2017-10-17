@@ -64,8 +64,6 @@ export class ContactService {
         const strBody = JSON.stringify(objFinalUserInfo);
         const objHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });
 
-        return this.http.post(this.strRegisterAPI, strBody, { headers: objHeaders })
-            .map((data: Response) => data.toString())
-        ; // this.http.post()
+        return this.http.post(this.strRegisterAPI, strBody, { headers: objHeaders });
     } // mdSendData
 } // RegisterService
