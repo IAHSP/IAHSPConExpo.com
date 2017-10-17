@@ -45,7 +45,14 @@
     "typescript": "~2.2.0"
   },
   "description": "IAHSP Conference Website",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/IAHSP/IAHSPConExpo.com",
-  "author": "DERRICKLT\\Derrick Leem <derricktleem@gmail.com>"
+  "author": "Duane Leem <duaneleem@alumni.ggu.edu>",
+  "contributors": [
+    {
+      "name": "Derrick Leem",
+      "email": "derricktleem@gmail.com",
+      "url": "https://github.com/derricktleem"
+    }
+  ]
 }
