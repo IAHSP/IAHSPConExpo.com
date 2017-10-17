@@ -34,10 +34,9 @@ export class Vendors2018Component {
         // Settings
         let strUrl = "https://pages.iahsp.com/wp-json/wp/v2/pages/75";
 
-        // Consume WP API.
+        // Extract WP API.
         this.http.get(strUrl).subscribe(data => {
             this.strVendorContents = data["content"].rendered;
-            console.log(this.strVendorContents);
         })
     } // fnFetchWP()
 }
