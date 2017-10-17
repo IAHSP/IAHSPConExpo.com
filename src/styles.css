@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* ====================================================================
+    WordPress Formatting
+==================================================================== */
+.aligncenter {
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+/* ====================================================================
+    IAHSP Technology
+==================================================================== */
 /* Margins & Paddings */
 .margin-top-0 { margin-top: 0px; }
 .space-top-15 { margin-top: 15px !important; }

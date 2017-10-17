@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 // Addons
 import { ReCaptchaModule } from 'angular2-recaptcha';
@@ -36,7 +36,7 @@ import { Contact2018Component } from "./pages-2018/contact/contact.component";
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     ReCaptchaModule
   ],
   providers: [],
