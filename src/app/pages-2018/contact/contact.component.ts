@@ -27,8 +27,8 @@ export class Contact2018Component {
 
         // Attempt to send email.
         this.contactService.mdSendData(this.objUser)
-            .subscribe(data => {
-                if (data.status === "email sent") {
+            .subscribe(response => {
+                if (JSON.parse(response).status === "email sent") {
                     // Success
                     document.getElementById("btnSubmit").textContent = "Email Sent!";
                     document.getElementById("btnSubmit").classList.remove("btn-info");

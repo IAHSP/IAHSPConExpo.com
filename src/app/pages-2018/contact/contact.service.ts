@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Http, Response, Headers } from "@angular/http";
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { User } from "./user.model";
 
@@ -18,7 +18,7 @@ export class ContactService {
     // Stores user contents.
     objUser: User;
     
-    constructor (private http: Http) {
+    constructor (private http: HttpClient) {
         if (this.isTesting) {
             this.strRegisterAPI = "http://localhost:5002/iahsp-31959/us-central1/iahspconexpo/contact-form";
             // this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/contact-form";
@@ -62,10 +62,10 @@ export class ContactService {
     // Send Payment and Registration
     mdSendData(objFinalUserInfo: any) {
         const strBody = JSON.stringify(objFinalUserInfo);
-        const constHeaders = new Headers({ 'Content-Type': 'application/json' });
+        const objHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });
 
-        return this.http.post(this.strRegisterAPI, strBody, { headers: constHeaders })
-            .map((data: Response) => data.json())
+        return this.http.post(this.strRegisterAPI, strBody, { headers: objHeaders })
+            .map((data: Response) => data.toString())
         ; // this.http.post()
     } // mdSendData
 } // RegisterService
