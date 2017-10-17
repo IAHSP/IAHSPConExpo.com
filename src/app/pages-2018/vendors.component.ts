@@ -19,7 +19,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
             </div><!-- /container -->
         </section>
     `
-
 })
 export class Vendors2018Component {
     strVendorContents: string;
@@ -32,8 +31,10 @@ export class Vendors2018Component {
      * Store WP endpoint to variable.
      */
     private fnFetchWP() {
+        // Settings
         let strUrl = "https://pages.iahsp.com/wp-json/wp/v2/pages/75";
 
+        // Consume WP API.
         this.http.get(strUrl).subscribe(data => {
             this.strVendorContents = data["content"].rendered;
             console.log(this.strVendorContents);
