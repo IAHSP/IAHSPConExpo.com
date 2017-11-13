@@ -9,12 +9,12 @@ import { Component } from '@angular/core';
                     <div class="col-md-12">
                     </div>
                     <div class="col-md-12">
-                        <h2 class="text-center"><strong>Premier Platinum Sponsors</strong></h2>
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/feizy-logo.png" width="800px" class="center-block img-responsive space-bottom-50" alt="Feizy">
+                        <h2 class="text-center"><strong>Premier Platinum<br />Sponsors</strong></h2>
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/feizy-logo.png" width="440px" class="center-block img-responsive feizy space-bottom-50" alt="Feizy">
                     </div>
-                    <div class="col-md-4 space-8-0">
+                    <div class="col-md-4 space-8-0 padding-0">
                         <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive" alt="Dalyn Rug Company Beauty Beyond the Surface">   
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug" width="320px" alt="Dalyn Rug Company Beauty Beyond the Surface">   
                     </div>
                     <div class="col-md-8 small-group-imgs">
                     <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
@@ -55,10 +55,17 @@ import { Component } from '@angular/core';
             background-color: white;
         }
 
+        .feizy {
+            border: 2px solid lightgray;
+            border-radius: 18px;
+            padding: 81px 25px;
+        }
+
         .dalyn-rug {
             display: flex;
+            border: 1px solid lightgray;
             border-radius: 8px;
-            padding: 15px 10px;
+            padding: 25px 20px;
         }
 
         .dalyn-rug img {
@@ -84,6 +91,7 @@ import { Component } from '@angular/core';
             display: flex;
             border-radius: 8px;
             padding: 5px 50px;
+            border: 1px solid lightgray;
         }
     `]
 
