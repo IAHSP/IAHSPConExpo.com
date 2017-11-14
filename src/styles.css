@@ -14,12 +14,16 @@
 ==================================================================== */
 /* Margins & Paddings */
 .margin-top-0 { margin-top: 0px; }
+.margin-bottom-0 { margin-bottom: 0px; }
 .space-top-15 { margin-top: 15px !important; }
 .space-bottom-5 { margin-bottom: 5px !important; }
 .space-bottom-10 { margin-bottom: 10px !important; }
 .space-bottom-15 { margin-bottom: 15px !important; }
 .space-bottom-30 { margin-bottom: 30px !important; }
+.space-bottom-32 { margin-bottom: 32px !important; }
 .space-bottom-40 { margin-bottom: 40px !important; }
+.space-bottom-50 { margin-bottom: 50px !important; }
+.padding-0 { padding: 0px !important; }
 .padding-top-0 { padding-top: 0px !important; }
 .padding-top-5 { padding-top: 5px !important; }
 .padding-left-80 { padding-left: 80px !important}
