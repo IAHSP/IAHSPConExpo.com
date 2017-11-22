@@ -28,6 +28,7 @@ import { Component } from '@angular/core';
 								<ul class="dropdown-menu">
 									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
+                                    <li><a class="scrollTo" href="#hotel">Hotel</a></li>
                                     <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
                                     <li><a class="scrollTo" href="#lhsiahsp">Luxury Home Staging</a></li>
 								</ul>

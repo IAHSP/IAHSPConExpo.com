@@ -16,6 +16,8 @@ import { Component } from '@angular/core';
 
             <app-2018-vendors id="vendors"></app-2018-vendors>
 
+            <app-2018-hotel id="hotel"></app-2018-hotel>
+
             <app-2018-wholesale id="wholesale"></app-2018-wholesale>
 
             <app-2018-lhsiahsp id="lhsiahsp"></app-2018-lhsiahsp>
