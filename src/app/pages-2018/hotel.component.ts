@@ -39,7 +39,7 @@ import { Component } from '@angular/core';
                                  width="555" height="311" alt="Westin Outside Daytime">
                             </div>
                             <div>
-                                <img class="img-responsive" src="http://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg"
+                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg"
                                  width="555" height="311" alt="The Westin Outside Nighttime">
                             </div>
 						</div>
