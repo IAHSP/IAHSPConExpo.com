@@ -39,13 +39,6 @@ import { Component } from '@angular/core';
                                 <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-daytime.jpg"
                                  width="555" height="311" alt="Westin Outside Daytime">
                             </div>
-<<<<<<< HEAD
-=======
-                            <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg"
-                                 width="555" height="311" alt="The Westin Outside Nighttime">
-                            </div>
->>>>>>> master
 						</div>
 					</div>
 					<div class="col-md-6">
