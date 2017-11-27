@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-hotel',
     template: `
-        <section class="special-row padding100">
+        <section class="parallax delayed parallax-init" data-stellar-background-ratio="0.99" style="background-image: url(&quot;http://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg&quot;); background-size: cover !important;">
+        <span class="overlay bg-black-trans5"></span>
             <div class="container ng-scope">
                 <h2 class="text-center"><strong>Hotel Information</strong></h2>
                 
@@ -11,36 +12,32 @@ import { Component } from '@angular/core';
 					<div class="col-md-6">
 						<div class="owl-carousel controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
 							<div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-grand-ballroom.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-grand-ballroom.jpg"
                                  width="555" height="311" alt="The Westin Charlotte Grand Ballroom">
 							</div>
 							<div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-bar.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-bar.jpg"
                                  width="555" height="311" alt="The Westin Charlotte Bar">
 							</div>
 							<div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-lounge.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-lounge.jpg"
                                  width="555" height="311" alt="The Westin Charlotte Lounge">
                             </div>
                             <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-presidential-suite.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-presidential-suite.jpg"
                                  width="555" height="311" alt="The Westin Charlotte Hotel Presidential Suite">
                             </div>
                             <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-double-room.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-double-room.jpg"
                                  width="555" height="311" alt="The Westin Charlotte Hotel Double Room">
                             </div>
                             <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-bedroom.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-bedroom.jpg"
                                  width="555" height="311" alt="The Westin Bedroom">
                             </div>
                             <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-daytime.jpg"
+                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-daytime.jpg"
                                  width="555" height="311" alt="Westin Outside Daytime">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg"
-                                 width="555" height="311" alt="The Westin Outside Nighttime">
                             </div>
 						</div>
 					</div>
