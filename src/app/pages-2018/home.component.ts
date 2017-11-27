@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
         <div id="wrapper">
             <app-2018-hero></app-2018-hero>
             
-            <app-2018-sponsors></app-2018-sponsors>
+            <app-2018-sponsors id="sponsors"></app-2018-sponsors>
 
             <app-2018-speakers id="speakershelp"></app-2018-speakers>
 
