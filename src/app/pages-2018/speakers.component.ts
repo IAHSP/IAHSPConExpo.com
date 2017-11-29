@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
         <section class="special-row padding100">
             <div class="container ng-scope">
                 <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO CALL FOR SPEAKERS</strong></h2>
-                <p class="lead">Our 2018 IAHSP Conference &amp; EXPO is going to be a FANTASTIC event with high level education and premier industry Vendors coming together to provide a memorable experience for all attendees.</p>
+                <p class="lead">Our 2018 IAHSP® Conference Speakers are going to inspire, motivate and educate you!  We have a great line-up planned and will be adding more speakers as they are confirmed!</p>
                 <p class="lead"><em><strong>We are looking for SPEAKERS that would like to share their insight and wisdom at this event.  If you are interested, please submit the following to <a href="mailto:Jennie@iahsp.com">Jennie@iahsp.com</a>.</strong></em></p>
                 <p class="lead"><em><strong>Educational Sessions are OCTOBER 19-20, 2018 with our exciting VENDOR EXPO on Oct 18th!</strong></em></p>
                 
