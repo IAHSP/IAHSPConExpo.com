@@ -6,30 +6,9 @@ import { Component } from '@angular/core';
         <section class="special-row padding100">
             <div class="container ng-scope">
                 <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO CALL FOR SPEAKERS</strong></h2>
-                <p class="lead">Our 2018 IAHSP® Conference Speakers are going to inspire, motivate and educate you!  We have a great line-up planned and will be adding more speakers as they are confirmed!</p>
-                <p class="lead"><em><strong>We are looking for SPEAKERS that would like to share their insight and wisdom at this event.  If you are interested, please submit the following to <a href="mailto:Jennie@iahsp.com">Jennie@iahsp.com</a>.</strong></em></p>
-                <p class="lead"><em><strong>Educational Sessions are OCTOBER 19-20, 2018 with our exciting VENDOR EXPO on Oct 18th!</strong></em></p>
-                
-                <ol class="lead">
-                    <li>Name & Company Name</li>
-                    <li>Your Resume/Background Qualifications</li>
-                    <li>Topic of interest that falls in the following categories:</li>
-                </ol>
-
-                <ul class="lead padding-left-80">
-                    <li>Marketing</li>
-                    <li>Business Development/Sales</li>
-                    <li>Management Systems</li>
-                    <li>Industry Trends</li>
-                    <li>Business Growth</li>
-                    <li>Luxury Staging</li>
-                    <li>Other</li>
-                </ul>
-
-                <p class="lead"><font color="red"><strong>Please submit an outline for your topic including details on what you will cover and why you believe this is a topic that we should include at our upcoming event.</strong></font></p>
-                <p class="lead">We will assign length of topics and speaker slots once we receive Speaker information.  We have always been an industry Association with Education at the core of membership, and our events are touted as the most advanced and informative in the industry.</p>
-                <p class="lead">If your topic is selected, all Speakers will receive complimentary attendance to the 2018 Conference. </p>
-                <p class="lead">Please submit information to <a href="mailto:Jennie@iahsp.com">Jennie@iahsp.com</a>.</p>
+                <p class="lead">These are the AMAZING Speakers we have CONFIRMED so far with more joining them soon!! And WAIT until you learn who our Keynote Speakers for 
+                Friday and Saturday are going to be!! You won't want to miss it this event!! Go to <a href="https://www.iahspconexpo.com/">www.iahspconexpo.com</a> to 
+                REGISTER now and get the SUPER EARLY BIRD Pricing and Guarantee your SPOT as a VIP!!!</p>
 
                 <div class="row">
                 
@@ -746,7 +725,6 @@ import { Component } from '@angular/core';
                                 </figure>
                                 <div class="item-box-desc">
                                     <h4>JoAnne Lenart-Weary</h4>
-                                    <small class="styleColor space-bottom-5">CKD, CBD, CID, CAPS, CGP, CLIPP</small>
                                     <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
 
                                     <!-- modal trigger -->
@@ -789,6 +767,49 @@ import { Component } from '@angular/core';
                                                     WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
                                                     Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
                                                     you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Christopher Corder -->
+                        <li class="isotope-item col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/christopher-corder-320-392.jpg" 
+                                    alt="Christopher Corder">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Christopher Corder</h4>
+                                    <h5>TOPIC: Mastering Consultations</h5>
+
+                                    <!-- modal trigger -->
+                                    <!-- <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#fourteen">View Bio</a>
+                                    </div> -->
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="fourteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Christopher Corder</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p></p>
                                                 </div>
                                                 <!-- /modal body -->
             
