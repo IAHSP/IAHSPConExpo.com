@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
                     <ul class="sort-destination isotope" data-sort-id="isotope-list">
 
                         <!-- Barb Schwarz -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/barb-schwarz-320-392.jpg" 
@@ -28,9 +28,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Inspirational Speaker</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#one">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -78,7 +78,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Jennie Norris -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jennie-norris-320-392.jpg" 
@@ -90,9 +90,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Journey to the Top – Laying the Groundwork for Long Term Success</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#two">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -138,7 +138,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Catherine Lewis Brown -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/catherine-lewis-brown-320-392.png" 
@@ -149,9 +149,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Pricing Strategies that Work</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#three">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="three" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -196,7 +196,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Fred Berns -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/fred-berns-320-392.jpg" alt="Fred Berns">
@@ -206,9 +206,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Selling Methods of the Masters</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#four">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="four" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -254,7 +254,7 @@ import { Component } from '@angular/core';
                         <div class="clearfix"></div>
 
                         <!-- June Carter -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/june-carter-320-392.jpg" alt="June Carter">
@@ -264,9 +264,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Timing Sanity, The 34 Minute Time Management Process</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#five">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="five" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -305,7 +305,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Karen Mendenhall -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/karen-mendenhall-320-392.jpg" 
@@ -317,9 +317,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Luxury Home Staging</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#six">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -364,7 +364,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Kat Troulinos -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kat-troulinos-320-392.jpg" 
@@ -376,9 +376,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Designation &amp; Memberships</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#seven">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="seven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -427,7 +427,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Kevin Htain -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kevin-htain-320-392.jpg" 
@@ -439,9 +439,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Working with the Media</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#eight">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="eight" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -485,7 +485,7 @@ import { Component } from '@angular/core';
                         <div class="clearfix"></div>
 
                         <!-- Naheed Oberfeld -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/naheed-oberfeld-320-392.jpg" 
@@ -496,9 +496,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Mindset Strategies to Boost Your Income</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#nine">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="nine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -541,7 +541,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Sandra Holmes -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sandra-holmes-320-392.jpg" 
@@ -553,9 +553,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Luxury Home Staging</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ten">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="ten" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -601,7 +601,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Blair Hamaty -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/blair-hamaty-320-392.jpg" 
@@ -613,9 +613,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Luxury Home Staging</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#eleven">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="eleven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -662,7 +662,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- MaryJo Camp -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/maryjo-camp-320-392.jpg" 
@@ -674,9 +674,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Defining and Translating Design Trends</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#twelve">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="twelve" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -717,7 +717,7 @@ import { Component } from '@angular/core';
                         <div class="clearfix"></div>
 
                         <!-- JoAnne Lenart-Weary -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
@@ -728,9 +728,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -782,7 +782,7 @@ import { Component } from '@angular/core';
                         </li>
 
                         <!-- Christopher Corder -->
-                        <li class="isotope-item col-sm-3">
+                        <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
                                     <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/christopher-corder-320-392.jpg" 
@@ -793,9 +793,9 @@ import { Component } from '@angular/core';
                                     <h5>TOPIC: Mastering Consultations</h5>
 
                                     <!-- modal trigger -->
-                                    <!-- <div class="text-center">
+                                    <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#fourteen">View Bio</a>
-                                    </div> -->
+                                    </div>
             
                                     <!-- modal dialog -->
                                     <div class="modal fade" id="fourteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
