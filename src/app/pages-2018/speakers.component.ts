@@ -77,52 +77,53 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <!-- Jennie Norris -->
+                        <!-- Blair Hamaty -->
                         <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jennie-norris-320-392.jpg" 
-                                    alt="Jennie Norris">
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/blair-hamaty-320-392.jpg" 
+                                    alt="Blair Hamaty">
                                 </figure>
                                 <div class="item-box-desc">
-                                    <h4>Jennie Norris</h4>
-                                    <small class="styleColor space-bottom-5">ASPM<sup>®</sup>, IAHSP-Premier, BTS, REO, SRS, CB</small>
-                                    <h5>TOPIC: Journey to the Top – Laying the Groundwork for Long Term Success</h5>
+                                    <h4>Blair Hamaty</h4>
+                                    <small class="styleColor space-bottom-5">ASP<sup>®</sup>, IAHSP-Premier, CB</small>
+                                    <h5>TOPIC: Luxury Home Staging</h5>
 
                                     <!-- modal trigger -->
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#two">View Bio</a>
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#eleven">View Bio</a>
                                     </div>
             
                                     <!-- modal dialog -->
-                                    <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="eleven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
             
                                                 <div class="modal-header"><!-- modal header -->
                                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Jennie Norris</h4>
+                                                    <h4 class="modal-title" id="myModalLabel">Blair Hamaty</h4>
                                                 </div><!-- /modal header -->
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                <p>Jennie is the Chairwoman for IAHSP® International, President & CEO of Stagedhomes.com, and Owner & Principal Home Stager for 
-                                                Sensational Home Staging.  She is a Certified ASP® and ASPM® Course Trainer and as a professional speaker, she presents the Accredited 
-                                                Staging Professional® (ASP®) Course on behalf of Stagedhomes.com throughout North America.  Jennie has been featured in national 
-                                                and local television segments, publications, and radio. She is the only two‐time Winner of the Staging Award of Excellence and was the 
-                                                first recipient of the IAHSP® Staging Spirit Award. She launched the first Home Staging company in the Sacramento region and now owns and 
-                                                operates a successful Home Staging company in Denver.</p>
-                                                
-                                                <p>Having personally Staged over 4,300 houses for sale since 2002 she has educated thousands of Realtors, Stagers and 
-                                                Sellers about Home Staging, and has helped mentor Home Staging colleagues as a Business Coach and Trainer.  She and her 
-                                                team Stage properties throughout the greater Denver region, from modest to multi-million dollar properties.</p>
+                                                    <p>Founded in 2006, Setting the Space has become a leading resource for staging and design in New England. CEO, Blair 
+                                                    Hamaty, leads a team of over 25 who provide innovative and leading-edge services to realtors, developers as well as 
+                                                    design clients.</p>
 
-                                                <p>Jennie is the President of the Denver IAHSP® Regional Chapter, and is the co‐author of “Marketing Made Simple: The 
-                                                Key to Succeeding in Business.”  She is also a professional blogger, author, and social media networking expert.  
-                                                Jennie earned her B.A. from UCLA in PsychoBiology and was a Marketing & Business Development Manager for environmental 
-                                                consulting companies before eventually finding her way into Home Staging.   She is a mother to four children (a daughter 
-                                                and three sons), and wife of over 30 years to her husband, John.</p>
-                                                
+                                                    <p>Setting the Space prides itself on its ability to bring fresh, unique and bold designs to their clientele. With a 
+                                                    20,000 square foot warehouse in Plymouth, MA and six retail design centers, the Setting the Space empire is growing at 
+                                                    an impressive rate. On average, Setting the Space has over 100 properties staged within the Boston / New England area. 
+                                                    Additionally, the design team completes multiple projects monthly  including new construction, remodels, room make-overs, 
+                                                    model homes, apartment complex and corporate office design from New York to Florida and beyond.</p>
+
+                                                    <p>Driving the growth of Setting the Space is Blair’s personal philosophy for exceeding the needs of their customer’s. 
+                                                    Blair leads from a position of YES!, accepting any challenge presented by his customers and supporting his team to 
+                                                    develop creative solutions to meet the request. This is what has driven the diversification of the business.</p>
+
+                                                    <p>Opening their first retail location in 2011, Setting the Space has become a top name in the greater Boston area 
+                                                    known for selling unique, quality furnishings and décor as well as unexpected and special gift ware. Blair is a true 
+                                                    business visionary that has catapulted his original Staging business into a multi-million-dollar staging, design and 
+                                                    retail enterprise.</p>
                                                 </div>
                                                 <!-- /modal body -->
             
@@ -195,6 +196,51 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Christopher Corder -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/christopher-corder-320-392.jpg" 
+                                    alt="Christopher Corder">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Christopher Corder</h4>
+                                    <h5>TOPIC: Mastering Consultations</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#fourteen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="fourteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Christopher Corder</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p></p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <div class="clearfix"></div>
+
                         <!-- Fred Berns -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -251,7 +297,130 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
+                        <!-- Jennie Norris -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jennie-norris-320-392.jpg" 
+                                    alt="Jennie Norris">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Jennie Norris</h4>
+                                    <small class="styleColor space-bottom-5">ASPM<sup>®</sup>, IAHSP-Premier, BTS, REO, SRS, CB</small>
+                                    <h5>TOPIC: Journey to the Top – Laying the Groundwork for Long Term Success</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#two">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Jennie Norris</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                <p>Jennie is the Chairwoman for IAHSP® International, President & CEO of Stagedhomes.com, and Owner & Principal Home Stager for 
+                                                Sensational Home Staging.  She is a Certified ASP® and ASPM® Course Trainer and as a professional speaker, she presents the Accredited 
+                                                Staging Professional® (ASP®) Course on behalf of Stagedhomes.com throughout North America.  Jennie has been featured in national 
+                                                and local television segments, publications, and radio. She is the only two‐time Winner of the Staging Award of Excellence and was the 
+                                                first recipient of the IAHSP® Staging Spirit Award. She launched the first Home Staging company in the Sacramento region and now owns and 
+                                                operates a successful Home Staging company in Denver.</p>
+                                                
+                                                <p>Having personally Staged over 4,300 houses for sale since 2002 she has educated thousands of Realtors, Stagers and 
+                                                Sellers about Home Staging, and has helped mentor Home Staging colleagues as a Business Coach and Trainer.  She and her 
+                                                team Stage properties throughout the greater Denver region, from modest to multi-million dollar properties.</p>
+
+                                                <p>Jennie is the President of the Denver IAHSP® Regional Chapter, and is the co‐author of “Marketing Made Simple: The 
+                                                Key to Succeeding in Business.”  She is also a professional blogger, author, and social media networking expert.  
+                                                Jennie earned her B.A. from UCLA in PsychoBiology and was a Marketing & Business Development Manager for environmental 
+                                                consulting companies before eventually finding her way into Home Staging.   She is a mother to four children (a daughter 
+                                                and three sons), and wife of over 30 years to her husband, John.</p>
+                                                
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- JoAnne Lenart-Weary -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
+                                    alt="JoAnne Lenart-Weary">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>JoAnne Lenart-Weary</h4>
+                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
+                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
+                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
+                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
+                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
+
+                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
+                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
+                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
+                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
+                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
+                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
+                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
+
+                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
+                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
+                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
+
+                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
+                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
+                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
+                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
+                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
                         <!-- June Carter -->
                         <li class="col-sm-3">
@@ -303,6 +472,8 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <div class="clearfix"></div>
 
                         <!-- Karen Mendenhall -->
                         <li class="col-sm-3">
@@ -482,6 +653,59 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- MaryJo Camp -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/maryjo-camp-320-392.jpg" 
+                                    alt="MaryJo Camp">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>MaryJo Camp</h4>
+                                    <small class="styleColor space-bottom-5">CKD, CBD, CID, CAPS, CGP, CLIPP</small>
+                                    <h5>TOPIC: Defining and Translating Design Trends</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#twelve">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="twelve" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">MaryJo Camp</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
+                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
+                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
+                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
+                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
+
+                                                    <p>MaryJo is currently Partner in DesignCamp, RLLP, a Kitchen and Bath Design Experience in Denver, NC, consulting 
+                                                    with residential and industry clients. Her kitchens are featured in the Bosch Kitchen Design Guide App and she is 
+                                                    the author of Kitchens with Confidence, a training program designed for Lowe’s. MaryJo is an active member of NKBA 
+                                                    and NAHB and the designer of record for kitchens and baths at all price levels in locations across the country.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <div class="clearfix"></div>
 
                         <!-- Naheed Oberfeld -->
@@ -539,7 +763,7 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
-
+                        
                         <!-- Sandra Holmes -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -586,230 +810,6 @@ import { Component } from '@angular/core';
                                                     years in both sales and management positions.   Sandra is a results driven catalyst and respected decision maker. 
                                                     She resides in Fort Lauderdale, Florida where she has two beautiful grown daughters with whom she enjoys spending her 
                                                     time.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- Blair Hamaty -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/blair-hamaty-320-392.jpg" 
-                                    alt="Blair Hamaty">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>Blair Hamaty</h4>
-                                    <small class="styleColor space-bottom-5">ASP<sup>®</sup>, IAHSP-Premier, CB</small>
-                                    <h5>TOPIC: Luxury Home Staging</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#eleven">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="eleven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Blair Hamaty</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Founded in 2006, Setting the Space has become a leading resource for staging and design in New England. CEO, Blair 
-                                                    Hamaty, leads a team of over 25 who provide innovative and leading-edge services to realtors, developers as well as 
-                                                    design clients.</p>
-
-                                                    <p>Setting the Space prides itself on its ability to bring fresh, unique and bold designs to their clientele. With a 
-                                                    20,000 square foot warehouse in Plymouth, MA and six retail design centers, the Setting the Space empire is growing at 
-                                                    an impressive rate. On average, Setting the Space has over 100 properties staged within the Boston / New England area. 
-                                                    Additionally, the design team completes multiple projects monthly  including new construction, remodels, room make-overs, 
-                                                    model homes, apartment complex and corporate office design from New York to Florida and beyond.</p>
-
-                                                    <p>Driving the growth of Setting the Space is Blair’s personal philosophy for exceeding the needs of their customer’s. 
-                                                    Blair leads from a position of YES!, accepting any challenge presented by his customers and supporting his team to 
-                                                    develop creative solutions to meet the request. This is what has driven the diversification of the business.</p>
-
-                                                    <p>Opening their first retail location in 2011, Setting the Space has become a top name in the greater Boston area 
-                                                    known for selling unique, quality furnishings and décor as well as unexpected and special gift ware. Blair is a true 
-                                                    business visionary that has catapulted his original Staging business into a multi-million-dollar staging, design and 
-                                                    retail enterprise.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- MaryJo Camp -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/maryjo-camp-320-392.jpg" 
-                                    alt="MaryJo Camp">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>MaryJo Camp</h4>
-                                    <small class="styleColor space-bottom-5">CKD, CBD, CID, CAPS, CGP, CLIPP</small>
-                                    <h5>TOPIC: Defining and Translating Design Trends</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#twelve">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="twelve" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">MaryJo Camp</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
-                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
-                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
-                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
-                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
-
-                                                    <p>MaryJo is currently Partner in DesignCamp, RLLP, a Kitchen and Bath Design Experience in Denver, NC, consulting 
-                                                    with residential and industry clients. Her kitchens are featured in the Bosch Kitchen Design Guide App and she is 
-                                                    the author of Kitchens with Confidence, a training program designed for Lowe’s. MaryJo is an active member of NKBA 
-                                                    and NAHB and the designer of record for kitchens and baths at all price levels in locations across the country.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <div class="clearfix"></div>
-
-                        <!-- JoAnne Lenart-Weary -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
-                                    alt="JoAnne Lenart-Weary">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>JoAnne Lenart-Weary</h4>
-                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
-                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
-                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
-                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
-                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
-
-                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
-                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
-                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
-                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
-                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
-                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
-                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
-
-                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
-                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
-                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
-
-                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
-                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
-                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
-                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
-                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- Christopher Corder -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/christopher-corder-320-392.jpg" 
-                                    alt="Christopher Corder">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>Christopher Corder</h4>
-                                    <h5>TOPIC: Mastering Consultations</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#fourteen">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="fourteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Christopher Corder</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p></p>
                                                 </div>
                                                 <!-- /modal body -->
             
