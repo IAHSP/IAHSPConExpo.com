@@ -5,10 +5,12 @@ import { Component } from '@angular/core';
     template: `
         <section class="special-row padding100">
             <div class="container ng-scope">
-                <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO CALL FOR SPEAKERS</strong></h2>
-                <p class="lead">These are the AMAZING Speakers we have CONFIRMED so far with more joining them soon!! And WAIT until you learn who our Keynote Speakers for 
-                Friday and Saturday are going to be!! You won't want to miss it this event!! Go to <a href="https://www.iahspconexpo.com/">www.iahspconexpo.com</a> to 
-                REGISTER now and get the SUPER EARLY BIRD Pricing and Guarantee your SPOT as a VIP!!!</p>
+                <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO FEATURED SPEAKERS</strong></h2>
+                <p class="lead" style="color: #000;">
+                    Our lineup of Speakers for our 2018 IAHSP Conference will inspire, motivate and share knowledge 
+                    and information that you can implement right away to grow your business to new heights!  We have 
+                    compiled topics that will help YOU in your Journey to the Top of the Home Staging Industry!
+                </p>
 
                 <div class="row">
                 
