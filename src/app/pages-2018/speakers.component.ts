@@ -226,7 +226,14 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                    <p></p>
+                                                    <p>Christopher Corder is part of the award-winning Identity Home Team serving the Southern California market.  He 
+                                                    has carved out a niche specialty providing Staging Consultations for their clients and has the unique knack of 
+                                                    turning the undesirable properties into the shining beacon of the block.  Known for delivering powerful Staging 
+                                                    Consultations, his Clients praise him for helping them shove extra money down their pockets!</p>
+
+                                                    <p>Beyond powerful consultations, Christopher is the Co-Owner/ Operations Director for his Staging company, Identity 
+                                                    Home Staging.  Christopher is often known to jump into the trenches of Staging, working his way from the nitty-gritty 
+                                                    home to the perfectly poised and Staged property.</p>
                                                 </div>
                                                 <!-- /modal body -->
             
