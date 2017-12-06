@@ -493,22 +493,22 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                    <p>Karen B. Mendenhall, had been practicing real estate in the Charlotte region as a career for more than 15 years before 
-                                                    opening a home staging company. Stage It! was established in 2005 and is Charlotte’s premiere accredited, home staging 
-                                                    company. Making houses out shine the competition is her passion.</p>
+                                                    <p>Karen B. Mendenhall, had been practicing real estate in the Charlotte region as a career for more than
+                                                    15 years before opening a home staging company. Stage It! was established in 2005 and is Charlotte’s
+                                                    premiere accredited, home staging company. Making houses out shine the competition is her passion.</p>
 
-                                                    <p>I have a “furniture moving” disease. I need to see pieces in different places before I decide which location is best 
-                                                    for the camera, the traffic flow, and the use of the space. Staging is the only cure for my ailment. Having been 
-                                                    personally trained by the Creator of Home Staging, Barb Schwarz, I am forever grateful to her for sharing all of her 
-                                                    knowledge and expertise while at the same time caring enough to make sure I succeeded. The Stage It! Team has now staged 
-                                                    more than 1000 properties!</p>
+                                                    <p>I have a “furniture moving” disease. I need to see pieces in different places before I decide which
+                                                    location is best for the camera, the traffic flow, and the use of the space. Staging is the only cure for my
+                                                    ailment. Having been personally trained by the Creator of Home Staging, Barb Schwarz, I am forever
+                                                    grateful to her for sharing all of her knowledge and expertise while at the same time caring enough to
+                                                    make sure I succeeded. The Stage It! Team has now staged more than 1000 properties!</p>
 
-                                                    <p>Karen holds a degree in Sociology from the University of North Carolina at Charlotte; is a licensed agent in North 
-                                                    and South Carolina; is a Lifetime Accredited Staging Professional Master; and, is an official ASP course instructor for 
-                                                    <a href="https://stagedhomes.com/">Stagedhomes.com</a></p>
+                                                    <p>Karen holds a degree in Sociology from the University of North Carolina at Charlotte; is a licensed agent
+                                                    in North and South Carolina; is a Lifetime Accredited Staging Professional Master; and, is an official ASP
+                                                    course instructor for <a href="https://stagedhomes.com/">Stagedhomes.com</a></p>
 
-                                                    <p>Karen and her husband, Dave, have two married sons, four grandchildren, four great- grandchildren, one dog and one 
-                                                    cat.</p>
+                                                    <p>Karen and her husband, Dave, have two married sons, four grandchildren, four great- grandchildren, one
+                                                    dog and one cat.</p>
                                                 </div>
                                                 <!-- /modal body -->
             
@@ -1019,7 +1019,7 @@ import { Component } from '@angular/core';
                         <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/karen-mendenhall-320-392.jpg" 
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/karen-mendenhall-020317-320-392.jpg" 
                                     alt="Karen Mendenhall">
                                 </figure>
                                 <div class="item-box-desc">
@@ -1030,45 +1030,6 @@ import { Component } from '@angular/core';
                                     <!-- modal trigger -->
                                     <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#six">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="six" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Karen Mendenhall</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Karen B. Mendenhall, had been practicing real estate in the Charlotte region as a career for more than 15 years 
-                                                    before opening a home staging company. Stage It! was established in 2005 and is Charlotte’s premiere accredited, home 
-                                                    staging company. Making houses out shine the competition is her passion.</p>
-
-                                                    <p>Karen has a “furniture moving” disease. She needs to see pieces in different places before she can decide which location 
-                                                    is best for the camera, the traffic flow, and the use of the space. Staging is the only cure for her ailment. Having been 
-                                                    personally trained by the Creator of Home Staging, Barb Schwarz, she is forever grateful to her for sharing all her knowledge 
-                                                    and expertise while at the same time caring enough to make sure she succeeded. The Stage It! Team has now staged more than 1000 
-                                                    properties!</p>
-
-                                                    <p>Karen holds a degree in Sociology from the University of North Carolina at Charlotte; is a licensed agent in 
-                                                    North and South Carolina; is a Lifetime Accredited Staging Professional Master; and, is an official Certified ASP 
-                                                    Course Trainer for <a href="https://stagedhomes.com/">Stagedhomes.com</a></p>
-
-                                                    <p>Karen and her husband, Dave, have two married sons, four grandchildren, three great- grandchildren, one dog and one 
-                                                    cat.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
