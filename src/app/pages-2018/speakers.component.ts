@@ -704,6 +704,54 @@ import { Component } from '@angular/core';
 
                         <div class="clearfix"></div>
 
+                        <!-- Lakeitha Smith -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/lakeitha-smith-320-392.jpg" 
+                                    alt="Lakeitha Smith">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Lakeitha Smith</h4>
+                                    <h5>TOPIC: L-Suite Netwërk Business Management Streamlined</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#fifteen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="fifteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Lakeitha Smith</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                <p>Lakeitha Smith, the Founder of L-Suite Netwërk and L-Design Wërks. L-Suite Netwërk is a small business web based platform 
+                                                that allows small business owners, entrepreneurs and freelancers to perform multi-faceted business functions all in one place. 
+                                                L-Design Wërks is a Houston based design studio that specializes in residential interior design and decorating.</p>
+
+                                                <p>Lakeitha is a Certified Staging Professional (C.S.P.) a Texas Real Estate Commission Instructor and the former 2016-2017 
+                                                RESA - Houston Chapter President. Lakeitha prides herself on being both an educator and leader in the Houston community.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Kat Troulinos -->
                         <li class="col-sm-3">
                             <div class="item-box">
