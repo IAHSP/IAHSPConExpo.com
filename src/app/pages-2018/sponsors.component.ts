@@ -18,12 +18,7 @@ import { Component } from '@angular/core';
                     </div>
                     <div class="col-md-8 small-group-imgs">
                     <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
-                        
-                        <div class="col-md-6">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block img-responsive" alt="Artist Guild of America">
-                            </div>
-                        </div>
+                                                
                         <div class="col-md-6">
                             <div class="small-img">
                                 <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/elk-group-international.jpg" class="center-block img-responsive" alt="Elk Group International">
