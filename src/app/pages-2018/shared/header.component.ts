@@ -35,7 +35,7 @@ import { Component } from '@angular/core';
 								</ul>
 							</li>
                             <li><a class="scrollTo" href="#contact">Contact</a></li>
-                            <li><div><a id="btnRegister" href="https://www.regonline.com/2018iahspconferenceexpo" target="_blank" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
+                            <li><div><a id="btnRegister" href="https://www.eventbrite.com/e/2018-iahsp-conference-expo-tickets-36424043294" target="_blank" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
                         </ul>
                     </nav>
                 </div>
