@@ -663,12 +663,6 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
-                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
-                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
-                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
-                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
-
                                                     <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
                                                     The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
                                                     JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
