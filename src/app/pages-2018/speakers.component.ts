@@ -137,6 +137,68 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Debbie Boggs -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/debbie-boggs-320-392.jpg" 
+                                    alt="Debbie Boggs">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Debbie Boggs</h4>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#debbie-boggs">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="debbie-boggs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Debbie Boggs</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Debbie Boggs left her career as an investment broker to pursue a more creative path. With her business background, 
+                                                        she and Julie Young built BY Design Home Staging, which caters to luxury clientele. Debbie has earned numerous awards 
+                                                        for her interior design and staging work, including Top Ten Vacant Stagers, Top Ten Staging Teams, and Top Five 
+                                                        Staging Companies. 
+                                                    </p>
+                                                    <p>
+                                                        Staging Studio, co-founded by Debbie, provides accredited staging certifications and training. Through Staging Studio, 
+                                                        Debbie trains stagers and realtors, helping them build profitable businesses.
+                                                    </p>
+                                                    <p>
+                                                        Debbie is one of the industry “Ask the Expert” staging gurus, and a regular contributor for RESA’s “Trainer Tuesday”.
+                                                    </p>
+                                                    <p>
+                                                        As a licensed realtor herself, Debbie understands the needs of agents and how to serve them most effectively as a 
+                                                        stager. She is the author of multiple CE courses that she and others teach to realtors.
+                                                    </p>
+                                                    <p>
+                                                        Debbie’s weekly ‘My Staging Studio’ blog covers topics ranging from design projects to staging business tips and has been 
+                                                        named one of the top staging blogs by Feedspot.
+                                                    </p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Catherine Lewis Brown -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -573,6 +635,71 @@ import { Component } from '@angular/core';
 
                         <div class="clearfix"></div>
 
+                        <!-- JoAnne Lenart-Weary -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
+                                    alt="JoAnne Lenart-Weary">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>JoAnne Lenart-Weary</h4>
+                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
+                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
+                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
+                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
+                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
+
+                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
+                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
+                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
+                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
+                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
+                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
+                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
+
+                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
+                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
+                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
+
+                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
+                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
+                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
+                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
+                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Karen Mendenhall -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -910,71 +1037,6 @@ import { Component } from '@angular/core';
 
                                                     <p>KAT enjoys healthy eating weight training, yoga and spending time with her family &amp; fur babies.   
                                                     Did I mention she is a master “Kazoo” player?</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- JoAnne Lenart-Weary -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
-                                    alt="JoAnne Lenart-Weary">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>JoAnne Lenart-Weary</h4>
-                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
-                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
-                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
-                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
-                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
-
-                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
-                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
-                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
-                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
-                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
-                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
-                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
-
-                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
-                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
-                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
-
-                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
-                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
-                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
-                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
-                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
                                                 </div>
                                                 <!-- /modal body -->
             
