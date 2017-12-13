@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
 									Information <i class="fa fa-angle-down"></i>
 								</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="scrollTo" href="#scott">Scott Brother's</a></li>
+                                    <li><a class="scrollTo" href="#scott">Keynote Speakers</a></li>
                                     <li><a class="scrollTo" href="#sponsors">Sponsors</a></li>
 									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
