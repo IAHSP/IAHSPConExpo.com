@@ -146,6 +146,8 @@ import { Component } from '@angular/core';
                                 </figure>
                                 <div class="item-box-desc">
                                     <h4>Debbie Boggs</h4>
+                                    <small class="styleColor space-bottom-5">by Design and Staging Studio</small>
+                                    <h5>TOPIC: Luxury Home Staging</h5>
 
                                     <!-- modal trigger -->
                                     <div class="text-center">
@@ -1207,6 +1209,26 @@ import { Component } from '@angular/core';
 
                     <ul class="sort-destination isotope" data-sort-id="isotope-list">
 
+                        <!-- Debbie Boggs -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/debbie-boggs-320-392.jpg" 
+                                    alt="Debbie Boggs">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Debbie Boggs</h4>
+                                    <small class="styleColor space-bottom-5">by Design and Staging Studio</small>
+                                    <h5>TOPIC: Luxury Home Staging</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#debbie-boggs">View Bio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Blair Hamaty -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -1222,47 +1244,6 @@ import { Component } from '@angular/core';
                                     <!-- modal trigger -->
                                     <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#eleven">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="eleven" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Blair Hamaty</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Founded in 2006, Setting the Space has become a leading resource for staging and design in New England. CEO, Blair 
-                                                    Hamaty, leads a team of over 25 who provide innovative and leading-edge services to realtors, developers as well as 
-                                                    design clients.</p>
-
-                                                    <p>Setting the Space prides itself on its ability to bring fresh, unique and bold designs to their clientele. With a 
-                                                    20,000 square foot warehouse in Plymouth, MA and six retail design centers, the Setting the Space empire is growing at 
-                                                    an impressive rate. On average, Setting the Space has over 100 properties staged within the Boston / New England area. 
-                                                    Additionally, the design team completes multiple projects monthly  including new construction, remodels, room make-overs, 
-                                                    model homes, apartment complex and corporate office design from New York to Florida and beyond.</p>
-
-                                                    <p>Driving the growth of Setting the Space is Blair’s personal philosophy for exceeding the needs of their customer’s. 
-                                                    Blair leads from a position of YES!, accepting any challenge presented by his customers and supporting his team to 
-                                                    develop creative solutions to meet the request. This is what has driven the diversification of the business.</p>
-
-                                                    <p>Opening their first retail location in 2011, Setting the Space has become a top name in the greater Boston area 
-                                                    known for selling unique, quality furnishings and décor as well as unexpected and special gift ware. Blair is a true 
-                                                    business visionary that has catapulted his original Staging business into a multi-million-dollar staging, design and 
-                                                    retail enterprise.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1283,46 +1264,6 @@ import { Component } from '@angular/core';
                                     <!-- modal trigger -->
                                     <div class="text-center">
                                         <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ten">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="ten" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">Sandra Holmes</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Sandra Holmes is Accredited Staging Professional Master® (ASPM®), IAHSP Board Member, Executive Vice President with 
-                                                    Stagedhomes.com, and the President of Home Staging Concepts, the Premiere Home Staging Company in South Florida.  Sandra 
-                                                    and her team have staged over $1 Billion dollars in real estate since she created her business in 2005. She continues 
-                                                    her education in real estate and in the staging industry to keep current with the trends of today’s market.</p>
-
-                                                    <p>Sandra currently serves Director of Fundraising for Worldwide Staging Service Week® and is the Director of Affiliate 
-                                                    &amp; Vendor Relations for IAHSP.  She was also the Founder of the South Florida International Association of Home Staging 
-                                                    Professionals Chapter and has held various board positions. Sandra believes that continuing education is the key to 
-                                                    success in the staging industry. Sandra’s philosophy is that together we can do more!</p>
-
-                                                    <p>In 2014, She also received the Barb Schwarz Staging Excellence Award.  Sandra became a Certified ASP® Trainer for 
-                                                    <a href="https://stagedhomes.com/">Stagedhomes.com</a> in 2014 and her passion is to teach new students about how to 
-                                                    run and operate a home staging business and become outstanding Accredited Staging Professionals. Before starting her 
-                                                    own career in the staging industry, Sandra was a Sales Manager for the B2B division of AT&amp;T Wireless Services for 15 
-                                                    years in both sales and management positions.   Sandra is a results driven catalyst and respected decision maker. 
-                                                    She resides in Fort Lauderdale, Florida where she has two beautiful grown daughters with whom she enjoys spending her 
-                                                    time.</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
