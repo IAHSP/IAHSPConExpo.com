@@ -45,11 +45,8 @@
 .bg-black-trans5 { background-color: rgba(0,0,0,0.5); }
 
 /* Display */
-.display-flex {
-    display: flex !important;
-}
+.display-flex { display: flex !important; }
 
 /* List Style */
-.list-style-none {
-    list-style: none !important;
-}
+.list-style-none { list-style: none !important; }
+.list-style-disc { list-style: disc }

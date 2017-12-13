@@ -391,7 +391,42 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
+                                                    <ul class="list-style-disc">
+                                                        <li>Andrea is a well rounded Leader that has 23 years of Store Leadership experience in “Big Box Retail” leading teams 
+                                                        up to 250 team members. Andrea has been recognized by Regional Management for her leadership role in the Houston 
+                                                        Market.</li>
+                                                        
+                                                        <li>Andrea is a certified RSL Trainer;</li>
+                                                        
+                                                        <li>Teaching, Managers, and Department Managers; Foundations of Leadership, Retail Store Leadership, and Coordinator 
+                                                        Development Program She is only 1 of only a handful, company wide to be certified by MOHR retail group.</li>
+                                                        
+                                                        <li>Andrea has lead the Store Director Group in the Houston Market for the Develop the Organization; Training, 
+                                                        Recruiting, and Development 2012, 2013, 2014, 2015. Andrea now leads Driving Sales for the Store Director Group in 
+                                                        the Market 2016 & 2017.</li>
 
+                                                        <li>Andrea’s Store Team has won Team of the Year recognized by TJX Companies for 2016 and 2017.</li>
+
+                                                        <li>Andrea received her ASP in 2012 and ASPM in 2014.</li>
+
+                                                        <li>Andrea has staged successful staged over 275 properties.</li>
+
+                                                        <li>Andrea is a winner of 2017 IAHSP.</li>
+
+                                                        <li>Top Stager and 2017 IAHSP Best Vacant staging.</li>
+
+                                                        <li>Andrea’s Stagings have been featured on NBC’s Channel 2 - Home Showcase over 8 times.</li>
+
+                                                        <li>Andrea continues to run a Big Box Retail Store and Team, as well as, maintains her Business she started in 2008;
+                                                        </li>
+
+                                                        <li>Houston’s Delightful Designs.</li>
+                                                    </ul>
+
+                                                    <p>
+                                                        Andrea lives in Houston, Tx with husband Greg for the last 25 years. Andrea and Greg have 3 labs and a booming 
+                                                        Business in North Houston.
+                                                    </p>
                                                 </div>
                                                 <!-- /modal body -->
             
