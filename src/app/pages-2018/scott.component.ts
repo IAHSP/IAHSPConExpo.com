@@ -11,10 +11,10 @@ import { Component } from '@angular/core';
                         <h2 class="text-center space-bottom-5"><strong>Jonathan and Drew - The Scott Brothers</strong></h2>
                         <h3 class="text-center"><em>Hosts of the hit HGTV show "Property Brothers"</em></h3>
                     </div>
-                    <div class="col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/scott-brothers-in-house.jpg" width="320px" class="center-block img-responsive space-bottom-15" alt="Scott Brother's">
+                    <div class="col-md-5">
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/20171213-promo-scott-brothers.jpg" class="center-block img-responsive space-bottom-15" alt="Scott Brother's" />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                         <p class="lead">
                             Entrepreneurs, TV personalities, and best-selling authors, Jonathan and Drew Scott are co-founders of Scott Brothers Global, which includes Scott 
                             Brothers Entertainment and Scott Living.
