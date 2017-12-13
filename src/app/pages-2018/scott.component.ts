@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <div class="container ng-scope">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center space-bottom-5"><strong>Jonathan and Drew the Scott Brothers!</strong></h2>
+                        <h1 class="text-center">Keynote Speakers</h1>
+                        <h2 class="text-center space-bottom-5"><strong>Jonathan and Drew - The Scott Brothers</strong></h2>
                         <h3 class="text-center"><em>Hosts of the hit HGTV show "Property Brothers"</em></h3>
                     </div>
                     <div class="col-md-4">
