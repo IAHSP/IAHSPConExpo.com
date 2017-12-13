@@ -363,6 +363,49 @@ import { Component } from '@angular/core';
 
                         <div class="clearfix"></div>
 
+                        <!-- Andrea Chennisi -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/andrea-chennisi-320-392.jpg" 
+                                    alt="Andrea Chennisi">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Andrea Chennisi</h4>
+                                    <h5>TOPIC: Create a Winning Team and How to Maintain It</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#andrea-chennisi">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="andrea-chennisi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Andrea Chennisi</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Christopher Corder -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -399,6 +442,48 @@ import { Component } from '@angular/core';
                                                     <p>Beyond powerful consultations, Christopher is the Co-Owner/ Operations Director for his Staging company, Identity 
                                                     Home Staging.  Christopher is often known to jump into the trenches of Staging, working his way from the nitty-gritty 
                                                     home to the perfectly poised and Staged property.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Margaret Gehr -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/margaret-gehr-320-392.jpg" 
+                                    alt="Margaret Gehr">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Margaret Gehr</h4>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#margaret-gehr">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="margaret-gehr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Margaret Gehr</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    
                                                 </div>
                                                 <!-- /modal body -->
             
@@ -502,7 +587,18 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                    
+                                                    <p>
+                                                        Scott Hansen is a high performance coach, sought after speaker, and renowned pod-cast host. He’s helped numerous business 
+                                                        owners increase their number of  clients, become more productive; while ultimately helping them substantially increase 
+                                                        their overall revenues. Scotts work has been featured on: ABC, NBC, FOX,  INC,  and Six Figure Coach magazine labeled 
+                                                        Scott as one of the top business coaches in the country . In addition, Scott is a contributing writer at Entrepreneur.com, 
+                                                        an international Best Selling Author and creator of Success Hackers; one of the most listened to business podcasts on 
+                                                        Itunes, downloaded in multiple countries.
+                                                    </p>
+                                                    <p>
+                                                        Scott's not your typical speaker.  Hi speaking style is dynamic and electric, engaging audiences to participate 
+                                                        during his presentations.  You'll come away empowered, informed and ready to crush it!
+                                                    </p>
                                                 </div>
                                                 <!-- /modal body -->
             
