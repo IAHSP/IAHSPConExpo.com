@@ -71,6 +71,72 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Carrie Bey-Little -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/carrie-bey-little-320-392.jpg" alt="Carrie 
+                                    Bey-Little">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Carrie Bey-Little</h4>
+                                    <h5>TOPIC: Social Media Strategies</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#carrie-bey-little">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="carrie-bey-little" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Carrie Bey-Little</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Carrie Bey-Little, is an active Licensed Real Estate Broker in Illinois. As a licensee she has the privilege of 
+                                                        training for Midwest Real Estate Data, one of the largest MLS’ in the U.S. She is actively involved in her local 
+                                                        board and prides herself with the ability to motivate agents to “figure out how to, figure it out”.
+                                                    </p>
+                                                    <p>
+                                                        As a C.E instructor and trainer she has educated agents, locally and nationally. Carrie was an early adopter of 
+                                                        Social Media which allows her to integrate technology into her training making it practical for every real estate 
+                                                        audience. She’s produced television programming, worked for one of the largest Commercial Real Estate holders in the
+                                                        world and is driven to motivate others to reach their professional goals, personal goals and real estate dreams. She 
+                                                        is an author, blogger, certified paralegal, holds a B.S in Business Administration and a M.S. in Digital Marketing and 
+                                                        Analytics.
+                                                    </p>
+                                                    <p>
+                                                        Women’s Council of REALTORS® speaker, National Speaker – NAHREP, National of Association of REALTOR® 2016 conference 
+                                                        speaker, PMN – Professional Management Network Instructor, PSA- Pricing Strategy Advisor Instructor, RPR – Instructor, 
+                                                        CIPS Designation, PMN Designation, SFR Designation, BOD – MORe – 2015-2018, 2017 State of Illinois Women’s Council 
+                                                        President.
+                                                    </p>
+
+                                                    <ul class="display-flex list-style-none">
+                                                        <li><img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/docusign-real-estate-trainer.jpg"></li>
+                                                        <li><img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/hootsuite-professional-certified.jpg"></li>
+                                                    </ul>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Catherine Lewis Brown -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -332,6 +398,49 @@ import { Component } from '@angular/core';
                                                     known for selling unique, quality furnishings and décor as well as unexpected and special gift ware. Blair is a true 
                                                     business visionary that has catapulted his original Staging business into a multi-million-dollar staging, design and 
                                                     retail enterprise.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Scott Hansen -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/scott-hansen-320-392.png" 
+                                    alt="Scott Hansen">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Scott Hansen</h4>
+                                    <h5>TOPIC: Sales Strategies & Productivity</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scott-hansen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="scott-hansen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Scott Hansen</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    
                                                 </div>
                                                 <!-- /modal body -->
             
