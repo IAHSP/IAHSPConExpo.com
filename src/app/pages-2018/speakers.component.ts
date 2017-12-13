@@ -257,6 +257,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- MaryJo Camp -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -360,8 +362,6 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
-
-                        <div class="clearfix"></div>
 
                         <!-- Andrea Chennisi -->
                         <li class="col-sm-3">
@@ -491,6 +491,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Margaret Gehr -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -500,6 +502,7 @@ import { Component } from '@angular/core';
                                 </figure>
                                 <div class="item-box-desc">
                                     <h4>Margaret Gehr</h4>
+                                    <h5>TOPIC: Successful Expansion of Your Business</h5>
 
                                     <!-- modal trigger -->
                                     <div class="text-center">
@@ -722,6 +725,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Kevin Htain -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -777,8 +782,6 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
-
-                        <div class="clearfix"></div>
 
                         <!-- JoAnne Lenart-Weary -->
                         <li class="col-sm-3">
@@ -958,6 +961,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Naheed Oberfeld -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -1076,8 +1081,6 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
-
-                        <div class="clearfix"></div>
 
                         <!-- Lakeitha Smith -->
                         <li class="col-sm-3">
