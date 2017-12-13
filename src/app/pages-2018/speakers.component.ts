@@ -71,6 +71,134 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Carrie Bey-Little -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/carrie-bey-little-320-392.jpg" alt="Carrie 
+                                    Bey-Little">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Carrie Bey-Little</h4>
+                                    <h5>TOPIC: Social Media Strategies</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#carrie-bey-little">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="carrie-bey-little" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Carrie Bey-Little</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Carrie Bey-Little, is an active Licensed Real Estate Broker in Illinois. As a licensee she has the privilege of 
+                                                        training for Midwest Real Estate Data, one of the largest MLS’ in the U.S. She is actively involved in her local 
+                                                        board and prides herself with the ability to motivate agents to “figure out how to, figure it out”.
+                                                    </p>
+                                                    <p>
+                                                        As a C.E instructor and trainer she has educated agents, locally and nationally. Carrie was an early adopter of 
+                                                        Social Media which allows her to integrate technology into her training making it practical for every real estate 
+                                                        audience. She’s produced television programming, worked for one of the largest Commercial Real Estate holders in the
+                                                        world and is driven to motivate others to reach their professional goals, personal goals and real estate dreams. She 
+                                                        is an author, blogger, certified paralegal, holds a B.S in Business Administration and a M.S. in Digital Marketing and 
+                                                        Analytics.
+                                                    </p>
+                                                    <p>
+                                                        Women’s Council of REALTORS® speaker, National Speaker – NAHREP, National of Association of REALTOR® 2016 conference 
+                                                        speaker, PMN – Professional Management Network Instructor, PSA- Pricing Strategy Advisor Instructor, RPR – Instructor, 
+                                                        CIPS Designation, PMN Designation, SFR Designation, BOD – MORe – 2015-2018, 2017 State of Illinois Women’s Council 
+                                                        President.
+                                                    </p>
+
+                                                    <ul class="display-flex list-style-none">
+                                                        <li><img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/docusign-real-estate-trainer.jpg"></li>
+                                                        <li><img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/hootsuite-professional-certified.jpg"></li>
+                                                    </ul>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Debbie Boggs -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/debbie-boggs-320-392.jpg" 
+                                    alt="Debbie Boggs">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Debbie Boggs</h4>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#debbie-boggs">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="debbie-boggs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Debbie Boggs</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Debbie Boggs left her career as an investment broker to pursue a more creative path. With her business background, 
+                                                        she and Julie Young built BY Design Home Staging, which caters to luxury clientele. Debbie has earned numerous awards 
+                                                        for her interior design and staging work, including Top Ten Vacant Stagers, Top Ten Staging Teams, and Top Five 
+                                                        Staging Companies. 
+                                                    </p>
+                                                    <p>
+                                                        Staging Studio, co-founded by Debbie, provides accredited staging certifications and training. Through Staging Studio, 
+                                                        Debbie trains stagers and realtors, helping them build profitable businesses.
+                                                    </p>
+                                                    <p>
+                                                        Debbie is one of the industry “Ask the Expert” staging gurus, and a regular contributor for RESA’s “Trainer Tuesday”.
+                                                    </p>
+                                                    <p>
+                                                        As a licensed realtor herself, Debbie understands the needs of agents and how to serve them most effectively as a 
+                                                        stager. She is the author of multiple CE courses that she and others teach to realtors.
+                                                    </p>
+                                                    <p>
+                                                        Debbie’s weekly ‘My Staging Studio’ blog covers topics ranging from design projects to staging business tips and has been 
+                                                        named one of the top staging blogs by Feedspot.
+                                                    </p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Catherine Lewis Brown -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -128,6 +256,8 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <div class="clearfix"></div>
 
                         <!-- MaryJo Camp -->
                         <li class="col-sm-3">
@@ -233,7 +363,83 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
+                        <!-- Andrea Chennisi -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/andrea-chennisi-320-392.jpg" 
+                                    alt="Andrea Chennisi">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Andrea Chennisi</h4>
+                                    <h5>TOPIC: Create a Winning Team and How to Maintain It</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#andrea-chennisi">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="andrea-chennisi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Andrea Chennisi</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <ul class="list-style-disc">
+                                                        <li>Andrea is a well rounded Leader that has 23 years of Store Leadership experience in “Big Box Retail” leading teams 
+                                                        up to 250 team members. Andrea has been recognized by Regional Management for her leadership role in the Houston 
+                                                        Market.</li>
+                                                        
+                                                        <li>Andrea is a certified RSL Trainer;</li>
+                                                        
+                                                        <li>Teaching, Managers, and Department Managers; Foundations of Leadership, Retail Store Leadership, and Coordinator 
+                                                        Development Program She is only 1 of only a handful, company wide to be certified by MOHR retail group.</li>
+                                                        
+                                                        <li>Andrea has lead the Store Director Group in the Houston Market for the Develop the Organization; Training, 
+                                                        Recruiting, and Development 2012, 2013, 2014, 2015. Andrea now leads Driving Sales for the Store Director Group in 
+                                                        the Market 2016 & 2017.</li>
+
+                                                        <li>Andrea’s Store Team has won Team of the Year recognized by TJX Companies for 2016 and 2017.</li>
+
+                                                        <li>Andrea received her ASP in 2012 and ASPM in 2014.</li>
+
+                                                        <li>Andrea has staged successful staged over 275 properties.</li>
+
+                                                        <li>Andrea is a winner of 2017 IAHSP.</li>
+
+                                                        <li>Top Stager and 2017 IAHSP Best Vacant staging.</li>
+
+                                                        <li>Andrea’s Stagings have been featured on NBC’s Channel 2 - Home Showcase over 8 times.</li>
+
+                                                        <li>Andrea continues to run a Big Box Retail Store and Team, as well as, maintains her Business she started in 2008;
+                                                        </li>
+
+                                                        <li>Houston’s Delightful Designs.</li>
+                                                    </ul>
+
+                                                    <p>
+                                                        Andrea lives in Houston, Tx with husband Greg for the last 25 years. Andrea and Greg have 3 labs and a booming 
+                                                        Business in North Houston.
+                                                    </p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
                         <!-- Christopher Corder -->
                         <li class="col-sm-3">
@@ -271,6 +477,65 @@ import { Component } from '@angular/core';
                                                     <p>Beyond powerful consultations, Christopher is the Co-Owner/ Operations Director for his Staging company, Identity 
                                                     Home Staging.  Christopher is often known to jump into the trenches of Staging, working his way from the nitty-gritty 
                                                     home to the perfectly poised and Staged property.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <div class="clearfix"></div>
+
+                        <!-- Margaret Gehr -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/margaret-gehr-320-392.jpg" 
+                                    alt="Margaret Gehr">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Margaret Gehr</h4>
+                                    <h5>TOPIC: Successful Expansion of Your Business</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#margaret-gehr">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="margaret-gehr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Margaret Gehr</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Margaret Gehr, one of the nation’s foremost leaders in the real estate staging industry, is the founder and co-owner of 
+                                                        Chicagoland Home Staging in Illinois.  Margaret, a multiple national award winning professional, has designed and 
+                                                        merchandised thousands of resale properties in Chicago’s western suburbs since 2005. Her, and her partner Kathy Lobkovich 
+                                                        and their team have been featured in national media ranging from the Wall Street Journal to ABC News to the Chicago 
+                                                        Tribune. She co-authored Amazon’s Best Selling book, “Home Staging: The Power that Sells Real Estate” and is a Technical 
+                                                        Staging Editor for Aspired Home Online Magazine.
+                                                    </p>
+                                                    <p>
+                                                        Margaret, is also a HSR Home Staging Mentor, RESA PRO, IAHSP member, and studied at Harrington Institute of Interior 
+                                                        Design. She was among the first members of the Real Estate Staging Association (RESA), and currently the Illinois State 
+                                                        President. Chicagoland Home Staging, has been involved in the sale of nearly one billion dollars worth of staged 
+                                                        properties, and has established strong bonds and lasting relationships within the real estate community. They are 
+                                                        actively involved with area boards of realtors and other real estate groups.
+                                                    </p>
                                                 </div>
                                                 <!-- /modal body -->
             
@@ -346,6 +611,60 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Scott Hansen -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/scott-hansen-320-392.png" 
+                                    alt="Scott Hansen">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Scott Hansen</h4>
+                                    <h5>TOPIC: Sales Strategies & Productivity</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scott-hansen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="scott-hansen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Scott Hansen</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>
+                                                        Scott Hansen is a high performance coach, sought after speaker, and renowned pod-cast host. He’s helped numerous business 
+                                                        owners increase their number of  clients, become more productive; while ultimately helping them substantially increase 
+                                                        their overall revenues. Scotts work has been featured on: ABC, NBC, FOX,  INC,  and Six Figure Coach magazine labeled 
+                                                        Scott as one of the top business coaches in the country . In addition, Scott is a contributing writer at Entrepreneur.com, 
+                                                        an international Best Selling Author and creator of Success Hackers; one of the most listened to business podcasts on 
+                                                        Itunes, downloaded in multiple countries.
+                                                    </p>
+                                                    <p>
+                                                        Scott's not your typical speaker.  Hi speaking style is dynamic and electric, engaging audiences to participate 
+                                                        during his presentations.  You'll come away empowered, informed and ready to crush it!
+                                                    </p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
                         <!-- Sandra Holmes -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -406,6 +725,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Kevin Htain -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -462,7 +783,64 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
+                        <!-- JoAnne Lenart-Weary -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
+                                    alt="JoAnne Lenart-Weary">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>JoAnne Lenart-Weary</h4>
+                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
+                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
+                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
+                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
+                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
+                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
+                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
+
+                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
+                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
+                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
+
+                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
+                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
+                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
+                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
+                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
                         <!-- Karen Mendenhall -->
                         <li class="col-sm-3">
@@ -583,6 +961,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Naheed Oberfeld -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -702,8 +1082,6 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
-
                         <!-- Lakeitha Smith -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -801,71 +1179,6 @@ import { Component } from '@angular/core';
 
                                                     <p>KAT enjoys healthy eating weight training, yoga and spending time with her family &amp; fur babies.   
                                                     Did I mention she is a master “Kazoo” player?</p>
-                                                </div>
-                                                <!-- /modal body -->
-            
-                                                <div class="modal-footer"><!-- modal footer -->
-                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
-                                                </div><!-- /modal footer -->
-            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <!-- JoAnne Lenart-Weary -->
-                        <li class="col-sm-3">
-                            <div class="item-box">
-                                <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/joanne-lenart-weary-320-392.jpg" 
-                                    alt="JoAnne Lenart-Weary">
-                                </figure>
-                                <div class="item-box-desc">
-                                    <h4>JoAnne Lenart-Weary</h4>
-                                    <h5>TOPIC: ONE DAY DECORATING - How to turn this immediate gratification service into income.</h5>
-
-                                    <!-- modal trigger -->
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#thirteen">View Bio</a>
-                                    </div>
-            
-                                    <!-- modal dialog -->
-                                    <div class="modal fade" id="thirteen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-            
-                                                <div class="modal-header"><!-- modal header -->
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                    <h4 class="modal-title" id="myModalLabel">JoAnne Lenart-Weary</h4>
-                                                </div><!-- /modal header -->
-            
-                                                <!-- modal body -->
-                                                <div class="modal-body">
-                                                    <p>Driven by a philosophy that thoughtful, practical and architecturally driven design improves lives, MaryJo is an 
-                                                    award-winning designer who has built a career on providing expertise for clients to live and work well. 
-                                                    For over 30 years, she has practiced her skill in a variety of positions including Principal of Great Kitchens in 
-                                                    Menlo Park, CA., Vice President of Marketing and Lead Designer for Standards of Excellence’s (now Monark) State of 
-                                                    the Industry appliance showrooms and Adjunct Professor at Canada College.</p>
-
-                                                    <p>Face it, we are living in an immediate gratification world and clients that can go shopping in their jammies. 
-                                                    The result is either a house filled with things they don’t know how to use or a room desperately in need of suggestions. 
-                                                    JoAnne Lenart-Weary is the Original One Day Decorator. She has been offering the service long before HGTV turned the 
-                                                    concept into a decorating niche. One Day Decorating blends the art of arrangement (what many call redesign) using what 
-                                                    they already have with color, retail shopping and window treatments to create a room that rocks in hours…not weeks. 
-                                                    This highly lucrative service can build your bottom line. JoAnne doubled her income in 1 year with the simple addition 
-                                                    of this service. Learn how to transform a room quickly, select a color palette, shop smart and most of all, make money.</p>
-
-                                                    <p>JoAnne Lenart-Weary is a Professional Interior Decorator, Color Authority and Staging Expert. As a 40+ year industry 
-                                                    veteran, she has had the pleasure of creating beautiful rooms in 29 states and 3 countries. This experience has led 
-                                                    to appearances on HGTV, WJET-TV ABC, Good Morning Atlanta and other regional TV stations.</p>
-
-                                                    <p>In 1999, JoAnne founded what is now called The Decorating and Staging Academy and has taught thousands of Professional 
-                                                    and DIY Decorators and Stagers around the country. She is a frequent speaker for groups like IAHSP, IWCE, RESA, IDS, 
-                                                    WCAA, the former CHF Academy, and more. She is also the creator of many industry tools such as the Confident Consultation, 
-                                                    Decorating in the Zone, the Confident Color System, the DIY series and DIY-Decorate It Yourself. JoAnne believes in arming 
-                                                    you with practical information and helps you do your job more efficiently with a profit driven mind set.</p>
                                                 </div>
                                                 <!-- /modal body -->
             
