@@ -483,7 +483,21 @@ import { Component } from '@angular/core';
             
                                                 <!-- modal body -->
                                                 <div class="modal-body">
-                                                    
+                                                    <p>
+                                                        Margaret Gehr, one of the nation’s foremost leaders in the real estate staging industry, is the founder and co-owner of 
+                                                        Chicagoland Home Staging in Illinois.  Margaret, a multiple national award winning professional, has designed and 
+                                                        merchandised thousands of resale properties in Chicago’s western suburbs since 2005. Her, and her partner Kathy Lobkovich 
+                                                        and their team have been featured in national media ranging from the Wall Street Journal to ABC News to the Chicago 
+                                                        Tribune. She co-authored Amazon’s Best Selling book, “Home Staging: The Power that Sells Real Estate” and is a Technical 
+                                                        Staging Editor for Aspired Home Online Magazine.
+                                                    </p>
+                                                    <p>
+                                                        Margaret, is also a HSR Home Staging Mentor, RESA PRO, IAHSP member, and studied at Harrington Institute of Interior 
+                                                        Design. She was among the first members of the Real Estate Staging Association (RESA), and currently the Illinois State 
+                                                        President. Chicagoland Home Staging, has been involved in the sale of nearly one billion dollars worth of staged 
+                                                        properties, and has established strong bonds and lasting relationships within the real estate community. They are 
+                                                        actively involved with area boards of realtors and other real estate groups.
+                                                    </p>
                                                 </div>
                                                 <!-- /modal body -->
             
