@@ -1142,7 +1142,7 @@ import { Component } from '@angular/core';
                                 <div class="item-box-desc">
                                     <h4>Kat Troulinos</h4>
                                     <small class="styleColor space-bottom-5">ASP, ASPM, IHASP, BTS-CB, HAR, TAR, NAR, MCNE</small>
-                                    <h5>TOPIC: Designation &amp; Memberships</h5>
+                                    <h5>TOPIC: Staging for Builders</h5>
 
                                     <!-- modal trigger -->
                                     <div class="text-center">
