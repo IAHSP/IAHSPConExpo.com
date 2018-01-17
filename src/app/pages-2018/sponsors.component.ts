@@ -28,27 +28,39 @@ import { Component } from '@angular/core';
                     <div class="col-md-8 small-group-imgs">
 
                     <!-- Gold Sponsors -->
-                    <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
-                                                
-                        <div class="col-md-6">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/elk-group-international.jpg" class="center-block img-responsive" alt="Elk Group International">
+                        <div class="col-md-12">  
+                            <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/elk-group-international.jpg" class="center-block img-responsive" alt="Elk Group International">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/paragon-logo.jpg" class="center-block img-responsive" alt="Paragon">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-home-decor.jpg" class="center-block img-responsive" alt="UMA Home Decor">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/cort-furniture-rental.jpg" class="center-block img-responsive" alt="Cort 
+                                    Furniture Rental">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/paragon-logo.jpg" class="center-block img-responsive" alt="Paragon">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-home-decor.jpg" class="center-block img-responsive" alt="UMA Home Decor">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/cort-furniture-rental.jpg" class="center-block img-responsive" alt="Cort 
-                                Furniture Rental">
+
+                        <!-- Silver Sponsors -->
+                        <div class="col-md-12">
+                            <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" class="center-block img-responsive" 
+                                    alt="Churchill">
+                                </div>
                             </div>
                         </div>
                     </div>
