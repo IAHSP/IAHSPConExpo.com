@@ -56,15 +56,28 @@ import { Component } from '@angular/core';
 
                     <!-- Silver Sponsors -->
                     <div class="small-group-imgs">
-                    <div class="col-md-12">
-                        <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
-                        <div class="col-md-offset-4 col-md-4">
-                            <div class="small-img">
-                                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" class="center-block img-responsive" 
-                                alt="Churchill">
+                        <div class="col-md-12">
+                            <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
+                            <div class="col-md-offset-4 col-md-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" class="center-block img-responsive" 
+                                    alt="Churchill">
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Bronze Sponsors -->
+                    <div class="small-group-imgs">
+                        <div class="col-md-12">
+                            <h2 class="text-center"><strong>Bronze Sponsors</strong></h2>
+                            <div class="col-md-offset-4 col-md-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kmrd-partners-logo.jpg" class="center-block img-responsive" 
+                                    alt="KMRD Partners Inc Risk and Insurance Solutions">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div><!-- /row -->
             </div><!-- /container -->
