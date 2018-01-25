@@ -91,6 +91,17 @@ import { Component } from '@angular/core';
                 <div class="tp-bannertimer"></div>
             </div>
         </section>
+
+        <section class="padding100 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nLte2bd_SNo" frameborder="0" allow="autoplay; encrypted-media" 
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     `,
     styles: [`
         .fullscreenbanner-container {
