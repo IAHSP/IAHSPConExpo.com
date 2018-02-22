@@ -1,0 +1,160 @@
+/* ===========================================================================
+    StagedHomes.com
+    Developer: Duane Leem, MSc
+    Email: duane@stagedhomes.com
+=========================================================================== */
+
+/* ===========================================================================
+    Intro
+=========================================================================== */
+.darken-main-parallax {
+    opacity: 0.8;
+    background: black;
+}
+
+/* Mobile L + */
+@media only screen and (max-width: 425px) {
+    /*#revolution-layer-0 {
+        z-index: 4;
+        white-space: normal;
+        width: 90%;
+        font-size: 220%;
+        text-align: center;
+    }*/
+
+    .logo-raisethebar {
+        width: 600px;
+    }
+
+    #revolution-layer-3, #revolution-layer-1-2 {
+        z-index: 4;
+        white-space: normal;
+        width: 90%;
+
+        /* Font */
+        font-size: xx-large;
+        line-height: 100%;
+    }
+}
+
+/* Tablet + */
+@media only screen and (min-width: 426px) {
+    /*#revolution-layer-0 {
+        z-index: 4;
+        white-space: normal;
+        width: 90%;
+        font-size: 200%;
+        text-align: center;
+    }*/
+
+    .logo-raisethebar {
+        width: 400px;
+    }
+
+    #revolution-layer-3, #revolution-layer-1-2 {
+        z-index: 4;
+        white-space: normal;
+        width: 90%;
+        font-size: x-large;
+    }
+}
+
+
+/* ===========================================================================
+    Speakers
+=========================================================================== */
+#speaker-modals > .modal {
+    padding-top: 0px;
+}
+
+/* ===========================================================================
+    Premier Platinum Sponsor
+=========================================================================== */
+.tp-bannershadow.tp-shadow1 {
+    background: none;
+}
+
+#premier-platinum {
+    margin-top: -60px;
+    border-bottom: thin solid #C6C6C6;
+
+    padding: 30px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    #premier-platinum > div > div > div.col-md-8 { top: 0px; }
+
+    /* Font size of title. */
+    #premier-platinum h2 { 
+        font-size: 2.5em;
+        text-align: center;
+    }
+}
+
+/* Laptops, Desktops, Large Screens */
+@media (min-width: 1025px) {
+    #premier-platinum > div > div > div.col-md-8 { top: 35px; }
+
+    /* Font size of title. */
+    #premier-platinum h2 { 
+        font-size: 2.5em;
+    }
+}
+
+
+
+
+/* ===========================================================================
+    Vertical Timeline
+=========================================================================== */
+/* Paragraph */
+.item-box.fixed-box .item-box-desc p {
+    height: 110px;
+}
+
+/* Description Box */
+.item-box.fixed-box .item-box-desc {
+    height: 290px;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+    font-size: 2em;
+}
+
+#sponsorLevels td {
+    vertical-align: middle;
+}
+
+
+/* ===========================================================================
+    Registration Fees
+=========================================================================== */
+.lead > ul > li { color: black; }
+#pricing > .container > .lead > p { color: black; }
+#pricing > .container > div > div > p { color: black; }
+
+
+/* ===========================================================================
+    Footer
+=========================================================================== */
+footer .column.logo {
+    background: white;
+}
+
+
+/* ===========================================================================
+    Common Components
+=========================================================================== */
+.space-top-10 { margin-top: 10px; }
+.space-top-20 { margin-top: 20px; }
+.space-top-40 { margin-top: 40px; }
+.space-bottom-20 { margin-bottom: 20px; }
+
+.width-500p { width: 400px; }
+.height-100p { height: 100%; }
+
+.text-valign-middle { vertical-align: middle !important; }
+.text-white { color: #ffffff; }
+.text-light-blue { color: #00B0F0; }
+.text-bold { font-weight: bold; }
