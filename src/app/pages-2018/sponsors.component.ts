@@ -51,6 +51,11 @@ import { Component } from '@angular/core';
                                     Furniture Rental">
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/d-w-silks.jpg" class="center-block img-responsive" alt="D & W Silks">
+                                </div>
+                            </div>
                         </div>
                     </div>
 
