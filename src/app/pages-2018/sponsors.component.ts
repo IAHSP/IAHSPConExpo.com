@@ -56,6 +56,11 @@ import { Component } from '@angular/core';
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/d-w-silks.jpg" class="center-block img-responsive" alt="D & W Silks">
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block img-responsive" alt="Artists Guild of America">
+                                </div>
+                            </div>
                         </div>
                     </div>
 
