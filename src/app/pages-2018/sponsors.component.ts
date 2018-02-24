@@ -31,7 +31,7 @@ import { Component } from '@angular/core';
                     </div>
                     <div class="col-md-8 small-group-imgs">
 
-                    <!-- Gold Sponsors -->
+                        <!-- Gold Sponsors -->
                         <div class="col-md-12">  
                             <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
                             <div class="col-md-6">
@@ -63,6 +63,12 @@ import { Component } from '@angular/core';
                             <div class="col-md-6">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block img-responsive" alt="Artists Guild of America">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/europe-2-you-curate-a-life-well-lived.png" class="center-block 
+                                    img-responsive" alt="Europe 2 You Curate A Life Well Lived">
                                 </div>
                             </div>
                         </div>
