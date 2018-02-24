@@ -11,13 +11,17 @@ import { Component } from '@angular/core';
                     <div class="col-md-12">
                         <h2 class="text-center"><strong>Premier Platinum<br />Sponsors</strong></h2>
                     </div>
-                    <div class="col-md-offset-2 col-md-4">
+                    <div class="col-md-4">
                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/feizy-logo.png" width="440px" class="center-block img-responsive pps feizy 
                         space-bottom-50" alt="Feizy">
                     </div>
                     <div class="col-md-4">
                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/coaster-furniture.jpg" width="440px" class="center-block img-responsive pps 
                         coaster-furniture space-bottom-50" alt="Coaster Furniture">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/classic-home.png" width="440px" class="center-block img-responsive pps 
+                        classic-home space-bottom-50" alt="Classic Home">
                     </div>
 
                     <!-- Platinum Sponsors -->
@@ -113,6 +117,10 @@ import { Component } from '@angular/core';
 
         .feizy {
             padding: 93px 25px 94px;
+        }
+
+        .classic-home {
+            padding: 64px 23px;
         }
 
         .dalyn-rug {
