@@ -8,121 +8,128 @@ import { Component } from '@angular/core';
                 <div class="row">
 
                     <!-- Premier Platinum Sponsors -->
-                    <div class="col-md-12">
-                        <h2 class="text-center"><strong>Premier Platinum<br />Sponsors</strong></h2>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/classic-home.png" width="440px" class="center-block img-responsive pps 
-                        classic-home space-bottom-25" alt="Classic Home">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/coaster-furniture.jpg" width="440px" class="center-block img-responsive pps 
-                        coaster-furniture space-bottom-25" alt="Coaster Furniture">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/feizy-logo.png" width="440px" class="center-block img-responsive pps feizy 
-                        space-bottom-25" alt="Feizy">
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-offset-2 col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/smith-noble.png" width="440px" class="center-block img-responsive pps 
-                        classic-home space-bottom-25" alt="Smith & Noble">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/surya.png" width="440px" class="center-block img-responsive pps 
-                        surya space-bottom-25" alt="Surya">
+                    <div class="clearfix">
+                        <div class="col-md-12">
+                            <h2 class="text-center"><strong>Premier Platinum<br />Sponsors</strong></h2>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/classic-home.png" width="440px" class="center-block img-responsive pps 
+                            classic-home space-bottom-25" alt="Classic Home">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/coaster-furniture.jpg" width="440px" class="center-block img-responsive pps 
+                            coaster-furniture space-bottom-25" alt="Coaster Furniture">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/feizy-logo.png" width="440px" class="center-block img-responsive pps feizy 
+                            space-bottom-25" alt="Feizy">
+                        </div>
                     </div>
 
-                    <div class="clearfix"></div>
+                    <div class="clearfix">
+                        <div class="col-md-offset-2 col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/smith-noble.png" width="440px" class="center-block img-responsive pps 
+                            classic-home space-bottom-25" alt="Smith & Noble">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/surya.png" width="440px" class="center-block img-responsive pps 
+                            surya space-bottom-25" alt="Surya">
+                        </div>
+                    </div><br /><br />
 
-                    <!-- Platinum Sponsors -->
-                    <div class="col-md-4 space-8-0 padding-0">
-                        <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug" width="275px" alt="Dalyn Rug Company Beauty Beyond the Surface">   
-                    </div>
+                    <div class="clearfix">
+                        
+                        <!-- Platinum Sponsors -->
+                        <div class="col-md-4 space-8-0 padding-0">
+                            <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug" 
+                            width="275px" alt="Dalyn Rug Company Beauty Beyond the Surface">   
+                        </div><br class="visible-xs visible-sm" /><br class="visible-xs visible-sm" />
 
-                    <div class="col-md-8 small-group-imgs">
+                        <div class="col-md-8 small-group-imgs">
 
-                        <!-- Gold Sponsors -->
-                        <div class="col-md-12 gold">  
-                            <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block 
-                                    img-responsive artists-guild-of-america" alt="Artists Guild of America">
+                            <!-- Gold Sponsors -->
+                            <div class="clearfix col-md-12 gold">  
+                                <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block 
+                                        img-responsive artists-guild-of-america" alt="Artists Guild of America">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/cort-furniture-rental.jpg" class="center-block 
-                                    img-responsive cort" alt="Cort 
-                                    Furniture Rental">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/cort-furniture-rental.jpg" class="center-block 
+                                        img-responsive cort" alt="Cort 
+                                        Furniture Rental">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/d-w-silks.jpg" class="center-block img-responsive d-w-silks" 
-                                    alt="D & W Silks">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/d-w-silks.jpg" class="center-block img-responsive d-w-silks" 
+                                        alt="D & W Silks">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img-2">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/elk-group-international.jpg" class="center-block img-responsive elk-group" alt="Elk Group International">
-                                    <br />
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sterling-furnishing-creativity.jpg" class="center-block img-responsive sterling" alt="Sterling Furnishing Creativity">
+                                <div class="col-sm-6">
+                                    <div class="small-img-2">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/elk-group-international.jpg" class="center-block 
+                                        img-responsive elk-group" alt="Elk Group International">
+                                        <br />
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sterling-furnishing-creativity.jpg" class="center-block 
+                                        img-responsive sterling" alt="Sterling Furnishing Creativity">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/europe-2-you-curate-a-life-well-lived.png" class="center-block 
-                                    img-responsive" alt="Europe 2 You Curate A Life Well Lived">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/europe-2-you-curate-a-life-well-lived.png" class="center-block 
+                                        img-responsive europe-2-u" alt="Europe 2 You Curate A Life Well Lived">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/ollix-jla-home.png" class="center-block 
-                                    img-responsive" alt="Ollix/JLA Home">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/ollix-jla-home.png" class="center-block 
+                                        img-responsive ollix-jla" alt="Ollix/JLA Home">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/paragon-logo.jpg" class="center-block img-responsive" alt="Paragon">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/paragon-logo.jpg" class="center-block img-responsive
+                                        paragon" alt="Paragon">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/props-america.jpg" class="center-block 
-                                    img-responsive props-america" alt="Props America">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/props-america.jpg" class="center-block 
+                                        img-responsive props-america" alt="Props America">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/rave-staging-business-training.png" class="center-block 
-                                    img-responsive rave-staging" alt="Rave Staging Business Training">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/rave-staging-business-training.png" class="center-block 
+                                        img-responsive rave-staging" alt="Rave Staging Business Training">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-enterprises-logo.png" class="center-block 
-                                    img-responsive uma-enterprises" alt="UMA Enterprises">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-enterprises-logo.png" class="center-block 
+                                        img-responsive uma-enterprises" alt="UMA Enterprises">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-home-decor.jpg" class="center-block img-responsive" 
-                                    alt="UMA Home Decor">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-home-decor.jpg" class="center-block img-responsive 
+                                        uma-home-decor" alt="UMA Home Decor">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uttermost.png" class="center-block 
-                                    img-responsive uttermost" alt="Uttermost">
+                                <div class="col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uttermost.png" class="center-block 
+                                        img-responsive uttermost" alt="Uttermost">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div><br /><br />
 
                     <!-- Silver Sponsors -->
                     <div class="clearfix small-group-imgs">
@@ -130,34 +137,46 @@ import { Component } from '@angular/core';
                             <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
                             <div class="col-sm-4">
                                 <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" width="140px" class="center-block img-responsive" 
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" class="center-block img-responsive churchill" 
                                     alt="Churchill">
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sherwin-williams-logo.png" width="140px" class="center-block img-responsive" 
-                                    alt="Sherwin Williams">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sherwin-williams-logo.png" class="center-block img-responsive
+                                    sherwin-williams" alt="Sherwin Williams">
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" width="165px" class="center-block 
-                                    img-responsive" alt="Viberent">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/staging-studio-logo.png" class="center-block 
+                                    img-responsive staging-studio" alt="Staging Studio">
+                                </div>
+                            </div>
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" class="center-block 
+                                    img-responsive viberent" alt="Viberent">
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div><br  /><br />
 
                     <!-- Bronze Sponsors -->
                     <div class="small-group-imgs">
                         <div class="col-md-12">
                             <h2 class="text-center"><strong>Bronze Sponsors</strong></h2>
-                            <div class="col-md-offset-4 col-md-4">
+                            <div class="col-sm-offset-2 col-sm-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jlw-company.jpg" class="center-block 
+                                    img-responsive jlw-company" alt="The JLW Company">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
                                 <div class="small-img-2">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kmrd-partners-logo.jpg" width="160px" class="center-block img-responsive" 
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kmrd-partners-logo.jpg" class="center-block img-responsive kmrd" 
                                     alt="KMRD Partners">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/trusentry.png" width="135px" class="center-block img-responsive" 
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/trusentry.png" class="center-block img-responsive trusentry" 
                                     alt="Trusentry">
                                 </div>
                             </div>
@@ -168,21 +187,9 @@ import { Component } from '@angular/core';
         </section>
     `,
     styles: [`
-        .space-8-0 { margin: 8px 0; }
-        .padding-0-4 { padding: 0 4px; }
-
-        .white-bg {
-            background-color: white;
-        }
-        
         /* Premier Platnium Sponsors */
-        .pps {
-            border: 2px solid lightgray;
-            border-radius: 18px;
-        }
-
-        .artists-guild-of-america {
-            height: 95px;
+        .classic-home {
+            padding: 64px 23px;
         }
 
         .coaster-furniture {
@@ -193,18 +200,13 @@ import { Component } from '@angular/core';
             padding: 93px 25px 94px;
         }
 
-        .classic-home {
-            padding: 64px 23px;
+        .surya {
+            padding: 93px 23px;
         }
 
-        .cort {
-            height: 85px;
-        }
 
-        .d-w-silks {
-            height: 90px;
-        }
 
+        /* Platnium Sponsors */
         .dalyn-rug {
             display: flex;
             border: 1px solid lightgray;
@@ -212,33 +214,89 @@ import { Component } from '@angular/core';
             padding: 25px 20px;
         }
 
+
+
+        /* Gold Sponsors */
+        .artists-guild-of-america {
+            height: 95px;
+        }
+
+        .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost {
+            height: 85px;
+        }
+
+        .d-w-silks {
+            height: 90px;
+        }
+
         .elk-group {
-            max-height: 48px !important;
+            height: 48px;
             margin-bottom: 5px !important;
+        }
+
+        .europe-2-u {
+            height: 60px;
+        }
+
+        .ollix-jla {
+            height: 73px;
+        }
+
+        .paragon {
+            height: 45px;
         }
 
         .props-america {
             height: 100px;
         }
 
-        .rave-staging {
-            height: 85px;
-        }
-
         .sterling {
-            max-height: 50px !important;
+            height: 50px;
+        }
+        
+
+
+        /* Silver sponsors */
+        .churchill {
+            height: 57px;
+        }
+        
+        .sherwin-williams {
+            height: 68px;
         }
 
-        .surya {
-            padding: 93px 23px;
-        }
-
-        .uma-enterprises {
-            height: 95px;
-        }
-
-        .uttermost {
+        .staging-studio {
             height: 85px;
+        }
+
+        .viberent {
+            height: 57px;
+        }
+
+
+
+        /* Bronze sponsors */        
+        .kmrd, .jlw-company {
+            height: 47px;
+        }
+
+        .trusentry {
+            height: 69px;
+        }
+
+
+
+        /* Common, column, and spacing styles*/
+        .space-8-0 { margin: 8px 0; }
+        .padding-0-4 { padding: 0 4px; }
+
+        .white-bg {
+            background-color: white;
+        }
+
+        .pps {
+            border: 2px solid lightgray;
+            border-radius: 18px;
         }
 
         .small-group-imgs .col-md-6 {
@@ -252,7 +310,6 @@ import { Component } from '@angular/core';
 
         .small-group-imgs img {
             margin: auto;
-            max-height: 110px;
         }
 
         .small-img {
