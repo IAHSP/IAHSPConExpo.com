@@ -24,6 +24,7 @@
 .space-bottom-32 { margin-bottom: 32px !important; }
 .space-bottom-40 { margin-bottom: 40px !important; }
 .space-bottom-50 { margin-bottom: 50px !important; }
+.space-bottom-80 { margin-bottom: 80px !important; }
 .padding-0 { padding: 0px !important; }
 .padding-top-0 { padding-top: 0px !important; }
 .padding-top-5 { padding-top: 5px !important; }
@@ -35,6 +36,9 @@
 /* Font Weight */
 .font-weight-400 { font-weight: 400 !important; }
 .font-weight-500 { font-weight: 500 !important; }
+
+/* Line Height */
+.line-height-28 { line-height: 28px; }
 
 /* Color */
 .color-gold { color: #cf8f12 }
