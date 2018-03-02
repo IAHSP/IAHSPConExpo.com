@@ -82,7 +82,7 @@ import { Component } from '@angular/core';
                         <table class="table table-bordered">
                             <tbody>
                                 <tr class="bg-color-d9d9d9">
-                                    <td class="td-width-150" scope="row"><strong>THURSDAY OCT 18<sup>th</sup></strong></td>
+                                    <th class="td-width-150" scope="row">THURSDAY OCT 18<sup>th</sup></th>
                                     <td colspan="2"><strong>4:30-10 PM: REGISTRATION AND EXPO 25+ COMPANIES DISPLAYING THEIR PRODUCTS AND SERVICES! 
                                         INCLUDES FOOD STATIONS, NO-HOST BARS!  PLUS - DJ, KAROKE, DANCING, PHOTO BOOTH</strong> <em>provided by the Charlotte IAHSP® 
                                         Regional Chapter – the official 2018 HOST CHAPTER</em></td>
@@ -91,35 +91,34 @@ import { Component } from '@angular/core';
 
 
                                 <tr class="bg-color-d9e2f3">
-                                    <td scope="row"><strong>FRIDAY<br />
-                                        OCT 19<sup>th</sup>:
-                                        </strong></td>
-                                    <td class="text-center"><strong>SPEAKER</strong></td>
-                                    <td class="text-center"><strong>TOPIC</strong></td>
+                                    <th scope="row">FRIDAY<br />
+                                        OCT 19<sup>th</sup>:</th>
+                                    <th class="text-center">SPEAKER</th>
+                                    <th class="text-center">TOPIC</th>
                                 </tr>
                                 <tr>
                                     <td scope="row">9:00-9:15</td>
-                                    <td><strong>LEADERSHIP TEAM</strong></td>
+                                    <th>LEADERSHIP TEAM</th>
                                     <td>WELCOME &amp; OVERVIEW</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">9:15-9:45</td>
-                                    <td><strong>JENNIE NORRIS</strong></td>
+                                    <th>JENNIE NORRIS</th>
                                     <td>JOURNEY TO THE TOP</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">10:00-10:45</td>
-                                    <td><strong>FRED BERNS</strong></td>
+                                    <th>FRED BERNS</th>
                                     <td>Selling Methods of the Masters</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">10:50-11:20</td>
-                                    <td><strong>NAHEED OBERFELD</strong></td>
+                                    <th>NAHEED OBERFELD</th>
                                     <td>Mindset Strategies to Boost Your Income</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">11:25-12:15</td>
-                                    <td><strong>JOANNE LENART WEARY</strong></td>
+                                    <th>JOANNE LENART WEARY</th>
                                     <td>ONE DAY DECORATING-How to turn this immediate gratification service into income.</td>
                                 </tr>
 
@@ -133,42 +132,42 @@ import { Component } from '@angular/core';
                                 </tr>
                                 <tr>
                                     <td scope="row">1:15-1:50</td>
-                                    <td><strong>ANDREA CHENISI</strong></td>
+                                    <th>ANDREA CHENISI</th>
                                     <td>Create a Winning Team and How to Maintain It</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:15-1:50</td>
-                                    <td><strong>JUNE CARTER</strong></td>
+                                    <th>JUNE CARTER</th>
                                     <td>Timing Sanity, The 34 Minute Time Management Process</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:15-1:50</td>
-                                    <td><strong>CATHERINE LEWIS BROWN</strong></td>
+                                    <th>CATHERINE LEWIS BROWN</th>
                                     <td>Pricing Strategies that Work</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:15-1:50</td>
-                                    <td><strong>MARGARET GEHR</strong></td>
+                                    <th>MARGARET GEHR</th>
                                     <td>Planning for the Successful Expansion of your Business</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:55-2:30</td>
-                                    <td><strong>ANDREA CHENISI</strong></td>
+                                    <th>ANDREA CHENISI</th>
                                     <td>Create a Winning Team and How to Maintain it</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:55-2:30</td>
-                                    <td><strong>JUNE CARTER</strong></td>
+                                    <th>JUNE CARTER</th>
                                     <td>Timing Sanity, The 34 Minute Time Management Process</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:55-2:30</td>
-                                    <td><strong>CATHERINE LEWIS BROWN</strong></td>
+                                    <th>CATHERINE LEWIS BROWN</th>
                                     <td>Pricing Strategies that Work</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">1:55-2:30</td>
-                                    <td><strong>MARGARET GEHR</strong></td>
+                                    <th>MARGARET GEHR</th>
                                     <td>Planning for the Successful Expansion of your Business</td>
                                 </tr>
 
@@ -182,42 +181,42 @@ import { Component } from '@angular/core';
                                 </tr>
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
-                                    <td><strong>KEVIN HTAIN</strong></td>
+                                    <th>KEVIN HTAIN</th>
                                     <td>Working with the Media</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
-                                    <td><strong>CHRISTOPHER CORDER</strong></td>
+                                    <th>CHRISTOPHER CORDER</th>
                                     <td>Mastering Consultations</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
-                                    <td><strong>LAKEITHA SMITH</strong></td>
+                                    <th>LAKEITHA SMITH</th>
                                     <td>LWERKS - Company Management</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
-                                    <td><strong>KAT TROULINOS</strong></td>
+                                    <th>KAT TROULINOS</th>
                                     <td>Staging for Builders</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
-                                    <td><strong>KEVIN HTAIN</strong></td>
+                                    <th>KEVIN HTAIN</th>
                                     <td>Working with the Media</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
-                                    <td><strong>CHRISTOPHER CORDER</strong></td>
+                                    <th>CHRISTOPHER CORDER</th>
                                     <td>Mastering Consultations</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
-                                    <td><strong>LAKEITHA SMITH</strong></td>
+                                    <th>LAKEITHA SMITH</th>
                                     <td>LWERKS - Company Management</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
-                                    <td><strong>KAT TROULINOS</strong></td>
+                                    <th>KAT TROULINOS</th>
                                     <td>Staging for Builders</td>
                                 </tr>
 
@@ -226,15 +225,15 @@ import { Component } from '@angular/core';
                                 <!-- KEYNOTE SPEAKERS - THE SCOTT BROTHERS -->
                                 <tr class="bg-color-d9e2f3">
                                     <td scope="row">4:15-5:15 PM</td>
-                                    <td colspan="2"><span class="text-danger"><strong>KEYNOTE SPEAKERS - THE SCOTT BROTHERS</strong></span></td>
+                                    <th colspan="2"><span class="text-danger">KEYNOTE SPEAKERS - THE SCOTT BROTHERS</span></th>
                                 </tr>
                                 <tr>
                                     <td scope="row">5:00-6:00 PM</td>
-                                    <td colspan="2"><strong>MEET N GREET and BOOK SIGNING</strong></td>
+                                    <th colspan="2">MEET N GREET and BOOK SIGNING</th>
                                 </tr>
                                 <tr>
                                     <td scope="row">6:30-9:30 PM</td>
-                                    <td colspan="2"><strong>DINNER &amp; AWARDS CEREMONY AND WWSSW<sup>®</sup> FUNDRAISER</strong></td>
+                                    <th colspan="2">DINNER &amp; AWARDS CEREMONY AND WWSSW<sup>®</sup> FUNDRAISER</th>
                                 </tr>
 
 
