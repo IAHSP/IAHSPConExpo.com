@@ -31,10 +31,6 @@ import { Component } from '@angular/core';
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/smith-noble.png" width="440px" class="center-block img-responsive pps 
                             classic-home space-bottom-25" alt="Smith & Noble">
                         </div>
-                        <div class="col-md-4">
-                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/surya.png" width="440px" class="center-block img-responsive pps 
-                            surya space-bottom-25" alt="Surya">
-                        </div>
                     </div><br /><br />
 
                     <div class="clearfix">
@@ -198,10 +194,6 @@ import { Component } from '@angular/core';
 
         .feizy {
             padding: 93px 25px 94px;
-        }
-
-        .surya {
-            padding: 93px 23px;
         }
 
 
