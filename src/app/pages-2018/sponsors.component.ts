@@ -101,6 +101,12 @@ import { Component } from '@angular/core';
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/propac-images.png" class="center-block 
+                                        img-responsive propac-images" alt="Propac Images">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/rave-staging-business-training.png" class="center-block 
                                         img-responsive rave-staging" alt="Rave Staging Business Training">
                                     </div>
@@ -236,6 +242,10 @@ import { Component } from '@angular/core';
 
         .paragon {
             height: 45px;
+        }
+
+        .propac-images {
+            height: 70px;
         }
 
         .props-america {
