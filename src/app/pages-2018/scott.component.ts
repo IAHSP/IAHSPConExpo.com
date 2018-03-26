@@ -77,7 +77,7 @@ import { Component } from '@angular/core';
 
                         <h2 class="text-center font-weight-400">2018 IAHSP<sup>®</sup> CONFERENCE &amp; EXPO SCHEDULE OF EVENTS</h2>
 
-                        <h3 class="text-center line-height-28">ALL EDUCATIONAL SESSIONS, IAHSP-LHS DESIGNATION AND<br />
+                        <h3 class="text-center line-height-28">ALL EDUCATIONAL SESSIONS, IAHSP-LHS DESIGNATION, VENDOR EXPO, THURSDAY DINNER, AND FRIDAY
                         AWARDS DINNER INCLUDED IN YOUR TICKET PRICE!</h3>
 
                         <table class="table table-bordered">
