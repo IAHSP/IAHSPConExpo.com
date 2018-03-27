@@ -201,6 +201,100 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <!-- Kelli Ellis -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/kelli-ellis-designs-kelli-ellis.jpg" 
+                                    alt="Kelli Ellis">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Kelli Ellis</h4>
+                                    <small class="styleColor space-bottom-5">Celebrity Interior Designer</small>
+                                    <h5>Celebrity Designer that has a show on HGTV and The Design Network and was on TLC</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#kelli-ellis">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="kelli-ellis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Kelli Ellis</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Kelli Ellis, interior designer and lifelong traveler, represents the epitome of livable luxury, casual 
+                                                    international style mixed with rock star glam. Her celebrity and discerning clientele benefit from her 
+                                                    extensive world travels,adding dramatic artwork and unique accessories used to create havens.  Her influences 
+                                                    translate to her new furniture collection with Sunpan debuting Spring of 2018, her art collection with Leftbank 
+                                                    Art, the luxe Kelli Ellis Collection for Tilebar, a linen collection with Instalinen debuting in 2018, her art 
+                                                    glass line with Frates and her whimsy outdoor rug line for Jaipur Rugs International.</p>
+
+                                                    <p>An accomplished interior designer, Certified Life Coach and Design Psychology Coach, Kelli received her 
+                                                    Certification in Interior Design from the Interior Design Institute in California. She also holds a Bachelor 
+                                                    of Arts Degree in Marketing from California State University Fullerton, a Law school education from Western 
+                                                    State University and a liberal arts education from The University of London. Her international schooling and 
+                                                    extensive travel have given Kelli a unique perspective in her design work, which has been published in numerous 
+                                                    national and international magazines including Traditional Home, Angeleno Modern Luxury, Riviera Modern Luxury, 
+                                                    LUXE Magazine, CA Home and Lifestyle, Better Homes and Gardens, Las Vegas Luxury Magazine, Image, Dabble Magazine 
+                                                    and Hearst publications Nationwide.  Kelli is a proud member of the Board of Director’s for Miracles for Kids 
+                                                    lending her name and time to her passion project; aiding Orange County’s children in need.</p>
+                                                    
+                                                    <p>You’ve likely seen Kelli as the featured designer on TLC’s Clean Sweep, HGTV‘s Takeover my Makeover, and 
+                                                    productions of Value Booster’s, Move or Improve,  and The House Therapist. You’ve watched Kelli design homes 
+                                                    and offices on Bravo’s, Real Housewives of Orange County. On HGTV’s #1 Holiday hit, Celebrity Holiday Homes, 
+                                                    and is a guest designer on HGTV’s current hit show, House Hunters Renovation. Kelli proudly stars in her own 
+                                                    show on The Design Network, Design Therapy. And just in: Kelli will be guest designing on a hit show in London, 
+                                                    late 2017!</p>
+                                                    
+                                                    <p>Kelli has many internationally recognized celebrity clients designing their homes and businesses; Maria Menounos 
+                                                    (E! Network), Robert and Kym Herjavec (Shark Tank/DWTS), Ashley Greene (Twilight) and Paul Khoory (Lookai), Sasha 
+                                                    Farber and Emma Slater (DWTS) to name a few.</p>
+                                                    
+                                                    <p>The web knows Kelli from RST Brands Ambassador, eHow.com, AT&T Business Circle , and blog expert for Ziploc and 
+                                                    Clorox. You’ve heard her give decor and “Design Psychology” advice on HGTV Radio, Sirius Radio with celebrity 
+                                                    client, E! Network’s, Maria Menounos, and BlogTalk Radio. She is also a regular keynote and panelist at High 
+                                                    Point Market, Las Vegas Market, Atlanta Market, Seattle Market, Dallas Market, Modernism, and Maison Objet in 
+                                                    Paris.</p>
+                                                    
+                                                    <p>Awards: Riviera Magazine recently gave Kelli the Best of OC, and Top 5 Favorite Designers status. She is Luxury 
+                                                    Magazine’s “Editor’s Top 10 Designers” and also voted “Top Interior Designer in Orange County” by OC Metro magazine. 
+                                                    Kelli is also a featured expert in the global documentaries, “The Compass”, “Riches”, and “The Vow”. Kelli was also 
+                                                    nominated for “Remarkable Woman of the Year” by NAWBO, National Association of Women Business Owners, Orange County’s 
+                                                    outstanding Women in Business keynote and nominee, panelist at the Women of Influence conference, Blogher, and 
+                                                    opening panelist for High Point Market.</p>
+                                                    
+                                                    <p>As a Certified Life Strategies Coach and the leading CDPC, she has created the Certified Design Psychology Coaching 
+                                                    program through the nationally accredited, Spencer Institute. As a follow-up, She has authored the ”Design 
+                                                    Psychology” book entitled, “Do I look skinny in this house?”</p>
+                                                    
+                                                    <p>To bring education to all designers, she co-created Interior Design Camp and Design Campus, the world’s leading 
+                                                    interior design conference, educating thousands of interior designers, decorators, and design lovers nationally 
+                                                    and internationally. And most recently the creator of the DESIGN MasterMind, coaching top designers from across 
+                                                    the country.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <div class="clearfix"></div>
+
                         <!-- Catherine Lewis Brown -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -258,8 +352,6 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
-
-                        <div class="clearfix"></div>
 
                         <!-- MaryJo Camp -->
                         <li class="col-sm-3">
@@ -443,6 +535,8 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
+                        <div class="clearfix"></div>
+
                         <!-- Christopher Corder -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -493,8 +587,6 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
-
                         <!-- Margaret Gehr -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -538,6 +630,57 @@ import { Component } from '@angular/core';
                                                         properties, and has established strong bonds and lasting relationships within the real estate community. They are 
                                                         actively involved with area boards of realtors and other real estate groups.
                                                     </p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Joseph Haecker -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dezign-wall-joseph-haecker.jpg" 
+                                    alt="Joseph Haecker">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Joseph Haecker</h4>
+                                    <small class="styleColor space-bottom-5">CEO and Founder of Dezignwall.com</small>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#joseph-haecker">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="joseph-haecker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Joseph Haecker</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Joseph is our fearless leader and the visionary behind Dezignwall.com. An accomplished custom lighting designer, 
+                                                    Joseph understands first-hand the pains and rewards of the commercial design and manufacturing industry. Over the 
+                                                    past 10 years, he has served as executive product designer for Solatube International and head of product design 
+                                                    for Triton Chandelier and Alger. His lighting fixture designs can be found at the world’s top luxury hotels and 
+                                                    casinos, as well as commercial and residential projects.</p>
+
+                                                    <p>A seasoned entrepreneur with a head for business, Joseph has brought together his passion for tech start-ups and the 
+                                                    world of commercial design to create the Dezignwall platform. For him, Dezignwall is an opportunity to give back to 
+                                                    the community of professionals he so highly admires for creating awe-inspiring and impactful public environments.</p>                                                   
                                                 </div>
                                                 <!-- /modal body -->
             
@@ -612,6 +755,8 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <div class="clearfix"></div>
 
                         <!-- Scott Hansen -->
                         <li class="col-sm-3">
@@ -727,8 +872,6 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
-
                         <!-- Kevin Htain -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -843,6 +986,8 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <div class="clearfix"></div>
 
                         <!-- Karen Mendenhall -->
                         <li class="col-sm-3">
@@ -963,8 +1108,6 @@ import { Component } from '@angular/core';
                             </div>
                         </li>
 
-                        <div class="clearfix"></div>
-
                         <!-- Naheed Oberfeld -->
                         <li class="col-sm-3">
                             <div class="item-box">
@@ -1083,6 +1226,8 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <div class="clearfix"></div>
 
                         <!-- Lakeitha Smith -->
                         <li class="col-sm-3">
