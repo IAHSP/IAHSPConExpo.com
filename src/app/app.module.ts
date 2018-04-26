@@ -19,6 +19,8 @@ import { Sponsors2018Component } from "./pages-2018/sponsors.component";
 import { Vendors2018Component } from "./pages-2018/vendors.component";
 import { Hotel2018Component } from "./pages-2018/hotel.component";
 import { Wholesale2018Component } from "./pages-2018/wholesale.component";
+import { Ast2018Component } from "./pages-2018/ast.component";
+import { Ccs2018Component } from "./pages-2018/ccs.component";
 import { Lhsiahsp2018Component } from "./pages-2018/lhsiahsp.component";
 import { Contact2018Component } from "./pages-2018/contact/contact.component";
 
@@ -36,6 +38,8 @@ import { Contact2018Component } from "./pages-2018/contact/contact.component";
     Vendors2018Component,
     Hotel2018Component,
     Wholesale2018Component,
+    Ast2018Component,
+    Ccs2018Component,
     Lhsiahsp2018Component,
     Contact2018Component
   ],

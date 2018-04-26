@@ -22,6 +22,10 @@ import { Component } from '@angular/core';
 
             <app-2018-wholesale id="wholesale"></app-2018-wholesale>
 
+            <app-2018-ast id="ast"></app-2018-ast>
+
+            <app-2018-ccs id="ccs"></app-2018-ccs>
+
             <app-2018-lhsiahsp id="lhsiahsp"></app-2018-lhsiahsp>
 
             <app-2018-countdown></app-2018-countdown>
