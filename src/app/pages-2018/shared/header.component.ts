@@ -59,7 +59,10 @@ import { Component } from '@angular/core';
                                     <li><a class="scrollTo" href="#vendors">Vendors</a></li>
                                     <li><a class="scrollTo" href="#hotel">Hotel</a></li>
                                     <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
+                                    <li><a class="scrollTo" href="#ast">Advance Stager Training</a></li>
+                                    <li><a class="scrollTo" href="#ccs">Confident Color System</a></li>
                                     <li><a class="scrollTo" href="#lhsiahsp">Luxury Home Staging</a></li>
+                                    <li><a class="scrollTo" href="#stageindustawards">Staging Industry Awards</a></li>
 								</ul>
 							</li>
                             <li><a class="scrollTo" href="#contact">Contact</a></li>
