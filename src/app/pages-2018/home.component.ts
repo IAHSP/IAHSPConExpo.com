@@ -28,6 +28,8 @@ import { Component } from '@angular/core';
 
             <app-2018-lhsiahsp id="lhsiahsp"></app-2018-lhsiahsp>
 
+            <app-2018-stageindustawards id="stageindustawards"></app-2018-stageindustawards>
+
             <app-2018-countdown></app-2018-countdown>
 
             <app-2018-contact id="contact"></app-2018-contact>

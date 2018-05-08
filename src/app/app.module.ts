@@ -22,6 +22,7 @@ import { Wholesale2018Component } from "./pages-2018/wholesale.component";
 import { Ast2018Component } from "./pages-2018/ast.component";
 import { Ccs2018Component } from "./pages-2018/ccs.component";
 import { Lhsiahsp2018Component } from "./pages-2018/lhsiahsp.component";
+import { Stageindustawards2018Component } from "./pages-2018/stageindustawards.component";
 import { Contact2018Component } from "./pages-2018/contact/contact.component";
 
 @NgModule({
@@ -41,6 +42,7 @@ import { Contact2018Component } from "./pages-2018/contact/contact.component";
     Ast2018Component,
     Ccs2018Component,
     Lhsiahsp2018Component,
+    Stageindustawards2018Component,
     Contact2018Component
   ],
   imports: [
