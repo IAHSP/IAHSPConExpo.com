@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-home',
     template: `
-        <app-shared-header-2018>Loading...</app-shared-header-2018>
+       <app-shared-header-2018>Loading...</app-shared-header-2018>
 
         <span id="header_shadow"></span>
         
@@ -43,5 +43,5 @@ import { Component } from '@angular/core';
 
 })
 export class Home2018Component {
-
+  constructor() {}
 }
