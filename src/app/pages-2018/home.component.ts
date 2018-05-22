@@ -3,31 +3,12 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-home',
     template: `
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-text-promo.png" class="center-block img-responsive" alt="IAHSP Text Promo">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">I'm not interested</button>
-                        <button type="button" class="btn btn-sm btn-default">Remind me later</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <app-shared-header-2018>Loading...</app-shared-header-2018>
+       <app-shared-header-2018>Loading...</app-shared-header-2018>
 
         <span id="header_shadow"></span>
         
         <div id="wrapper">
             <app-2018-hero></app-2018-hero>
-            
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
-                Launch modal
-            </button>
 
             <app-2018-scott id="scott"></app-2018-scott>
             
@@ -62,5 +43,5 @@ import { Component } from '@angular/core';
 
 })
 export class Home2018Component {
-
+  constructor() {}
 }
