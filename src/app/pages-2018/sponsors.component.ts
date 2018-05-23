@@ -155,7 +155,13 @@ import { Component } from '@angular/core';
                                     img-responsive staging-studio" alt="Staging Studio">
                                 </div>
                             </div>
-                            <div class="col-sm-offset-4 col-sm-4">
+                            <div class="col-sm-offset-2 col-sm-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/stagency-logo.png" class="center-block 
+                                    img-responsive stagency" alt="Stagency">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" class="center-block 
                                     img-responsive viberent" alt="Viberent">
@@ -168,7 +174,7 @@ import { Component } from '@angular/core';
                     <div class="small-group-imgs">
                         <div class="col-md-12">
                             <h2 class="text-center"><strong>Bronze Sponsors</strong></h2>
-                            <div class="col-sm-offset-2 col-sm-4">
+                            <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jlw-company.jpg" class="center-block 
                                     img-responsive jlw-company" alt="The JLW Company">
@@ -180,6 +186,12 @@ import { Component } from '@angular/core';
                                     alt="KMRD Partners">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/trusentry.png" class="center-block img-responsive trusentry" 
                                     alt="Trusentry">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-successful-stager-logo.png" class="center-block 
+                                    img-responsive the-successful-stager" alt="The Successful Stager">
                                 </div>
                             </div>
                         </div>
@@ -271,6 +283,10 @@ import { Component } from '@angular/core';
             height: 85px;
         }
 
+        .stagency {
+            height: 75px;
+        }
+
         .viberent {
             height: 57px;
         }
@@ -284,6 +300,10 @@ import { Component } from '@angular/core';
 
         .trusentry {
             height: 69px;
+        }
+
+        .the-successful-stager {
+            height: 52px;
         }
 
 
