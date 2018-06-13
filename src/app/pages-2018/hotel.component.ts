@@ -45,7 +45,21 @@ import { Component } from '@angular/core';
                         <h3>The Westin Charlotte Hotel</h3>
                         <p class="guest-can-make">Guests can make reservations by calling <a href="tel:18668374148">1-866-837-4148</a> and asking for the <strong><u>IAHSP 2018 Room Block</u></strong>.  
                         If you prefer to make reservations online, please click the button below:</p>
-                        <a href="https://www.starwoodmeeting.com/Book/IAHSP2018" class="btn btn-primary btn-lg" role="button">Book a Room</a>
+                        <a href="https://www.starwoodmeeting.com/Book/IAHSP2018" class="btn btn-primary btn-lg space-bottom-15" role="button">Book a Room</a>
+                        <h3>IAHSP 2018</h3>
+                        <hr />
+                        <p class="lead font-weight-400">Event Date:<br />
+                        October 15 - 21, 2018</p>
+
+                        <p class="lead font-weight-400">Venue:<br />
+                        Westin Charlotte</p>
+
+                        <p class="lead font-weight-400">**The Group Rate is only available Arriving Thursday October 18<sup>th</sup>, 2018 and departing on Saturday October 20<sup>th</sup>, 2018.**</p>
+
+                        <p class="lead font-weight-400">If you need other dates than those listed above please reach out to Danae Kaupp at <a href="mailto:Danae.Kaupp1@westin.com">Danae.Kaupp1@westin.com</a>.</p>
+
+                        <p class="lead font-weight-400">Group rate available until September 19, 2018. Subject to availability.</p>
+
                     </div>
 				</article>
 
