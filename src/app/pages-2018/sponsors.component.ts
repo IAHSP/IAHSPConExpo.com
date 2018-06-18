@@ -113,6 +113,12 @@ import { Component } from '@angular/core';
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/srm-staging-policy-logo.jpg" class="center-block 
+                                        img-responsive srm-staging" alt="SRM Staging Policy">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uma-enterprises-logo.png" class="center-block 
                                         img-responsive uma-enterprises" alt="UMA Enterprises">
                                     </div>
@@ -231,7 +237,7 @@ import { Component } from '@angular/core';
             height: 95px;
         }
 
-        .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost {
+        .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost, srm-staging {
             height: 85px;
         }
 

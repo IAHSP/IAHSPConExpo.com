@@ -233,8 +233,9 @@ import { Component } from '@angular/core';
                                     <th colspan="2">MEET N GREET and BOOK SIGNING</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">6:30-9:30 PM</td>
-                                    <th colspan="2">DINNER &amp; AWARDS CEREMONY AND WWSSW<sup>®</sup> FUNDRAISER</th>
+                                    <td scope="row">7:15-10:30 PM</td>
+                                    <th colspan="2">DINNER &amp; AWARDS CEREMONY AND WWSSW<sup>®</sup> FUNDRAISER and <a 
+                                    href="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/red-carpet-gala-logo.jpg" target="_blank">RED CARPET GALA</a></th>
                                 </tr>
 
 
