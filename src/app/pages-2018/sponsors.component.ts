@@ -36,7 +36,7 @@ import { Component } from '@angular/core';
                     <div class="clearfix">
                         
                         <!-- Platinum Sponsors -->
-                        <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-1 col-md-3 padding-0">
+                        <div class="col-xs-offset-2 col-xs-8 col-sm-offset-4 col-sm-4 col-md-offset-1 col-md-3 padding-0">
                             <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
 
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug space-bottom-10"
@@ -53,7 +53,7 @@ import { Component } from '@angular/core';
 
                             <!-- Gold Sponsors -->
                             <div class="clearfix col-md-12 gold">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                     <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
                                 </div>
                                 <div class="col-sm-6">
