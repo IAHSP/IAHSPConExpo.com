@@ -42,11 +42,8 @@ import { Component } from '@angular/core';
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug space-bottom-10"
                             alt="Dalyn Rug Company Beauty Beyond the Surface">
 
-                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/oriental-express-furn-logo.png" class="center-block img-responsive oriental-ex space-bottom-10"
-                            alt="Oriental Express Furniture">
-
-                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/star-international-logo-top.jpg" class="center-block img-responsive star-inter space-bottom-10"
-                            alt="Star International"><br class="visible-xs visible-sm" /><br class="visible-xs visible-sm" />
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/orient-express-and-star-international-logos.jpg" class="center-block img-responsive 
+                            ori-ex-star-inter space-bottom-10" alt="Oriental Express Furniture">
                         </div>
 
                         <div class="col-md-8 small-group-imgs">
@@ -239,18 +236,11 @@ import { Component } from '@angular/core';
             padding: 25px 20px;
         }
 
-        .oriental-ex {
+        .ori-ex-star-inter {
             display: flex;
             border: 1px solid lightgray;
             border-radius: 8px;
-            padding: 55px 20px;
-        }
-
-        .star-inter {
-            display: flex;
-            border: 1px solid lightgray;
-            border-radius: 8px;
-            padding: 78px 20px;
+            padding: 43px 20px;
         }
 
 
