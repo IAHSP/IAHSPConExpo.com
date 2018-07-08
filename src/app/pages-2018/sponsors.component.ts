@@ -29,24 +29,33 @@ import { Component } from '@angular/core';
                     <div class="clearfix">
                         <div class="col-md-offset-2 col-md-4">
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/smith-noble.png" width="440px" class="center-block img-responsive pps 
-                            classic-home space-bottom-25" alt="Smith & Noble">
+                            classic-home space-bottom-25" alt="Smith & Noble"><br /><br />
                         </div>
-                    </div><br /><br />
+                    </div>
 
                     <div class="clearfix">
                         
                         <!-- Platinum Sponsors -->
-                        <div class="col-md-4 space-8-0 padding-0">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-4 col-sm-4 col-md-offset-1 col-md-3 padding-0">
                             <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
-                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug" 
-                            width="275px" alt="Dalyn Rug Company Beauty Beyond the Surface">   
-                        </div><br class="visible-xs visible-sm" /><br class="visible-xs visible-sm" />
+
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug space-bottom-10"
+                            alt="Dalyn Rug Company Beauty Beyond the Surface">
+
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/oriental-express-furn-logo.png" class="center-block img-responsive oriental-ex space-bottom-10"
+                            alt="Oriental Express Furniture">
+
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/star-international-logo-top.jpg" class="center-block img-responsive star-inter space-bottom-10"
+                            alt="Star International"><br class="visible-xs visible-sm" /><br class="visible-xs visible-sm" />
+                        </div>
 
                         <div class="col-md-8 small-group-imgs">
 
                             <!-- Gold Sponsors -->
-                            <div class="clearfix col-md-12 gold">  
-                                <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
+                            <div class="clearfix col-md-12 gold">
+                                <div class="col-xs-12">
+                                    <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
+                                </div>
                                 <div class="col-sm-6">
                                     <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/artists-guild-of-america.jpg" class="center-block 
@@ -228,6 +237,20 @@ import { Component } from '@angular/core';
             border: 1px solid lightgray;
             border-radius: 8px;
             padding: 25px 20px;
+        }
+
+        .oriental-ex {
+            display: flex;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            padding: 55px 20px;
+        }
+
+        .star-inter {
+            display: flex;
+            border: 1px solid lightgray;
+            border-radius: 8px;
+            padding: 78px 20px;
         }
 
 
