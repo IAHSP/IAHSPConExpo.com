@@ -157,6 +157,12 @@ import { Component } from '@angular/core';
                             </div>
                             <div class="col-sm-4">
                                 <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
+                                    class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sherwin-williams-logo.png" class="center-block img-responsive
                                     sherwin-williams" alt="Sherwin Williams">
                                 </div>
@@ -167,7 +173,7 @@ import { Component } from '@angular/core';
                                     img-responsive staging-studio" alt="Staging Studio">
                                 </div>
                             </div>
-                            <div class="col-sm-offset-2 col-sm-4">
+                            <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/stagency-logo.png" class="center-block 
                                     img-responsive stagency" alt="Stagency">
@@ -294,6 +300,10 @@ import { Component } from '@angular/core';
             height: 57px;
         }
         
+        .cubiqz-usa {
+            height: 75px;
+        }
+
         .sherwin-williams {
             height: 68px;
         }
