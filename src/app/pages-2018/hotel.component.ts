@@ -48,15 +48,24 @@ import { Component } from '@angular/core';
                         <a href="https://www.starwoodmeeting.com/Book/IAHSP2018" class="btn btn-primary btn-lg space-bottom-15" role="button">Book a Room</a>
                         <h3>IAHSP 2018</h3>
                         <hr />
-                        <p class="lead font-weight-400">Event Date:<br />
-                        October 15 - 21, 2018</p>
+                        <p class="lead"><strong>Event Date:<br />
+                        October 18-20, 2018</strong></p>
 
-                        <p class="lead font-weight-400">Venue:<br />
-                        Westin Charlotte</p>
+                        <p class="lead"><strong><u>OPTIONAL ADD-ON EVENTS:</u></strong></p>
 
-                        <p class="lead font-weight-400">**The Group Rate is only available Arriving Thursday October 18<sup>th</sup>, 2018 and departing on Saturday October 20<sup>th</sup>, 2018.**</p>
+                        <ul>
+                            <li><p class="lead font-weight-400"><a href="#wholesale" class="text-white">High Point Wholesale Experience - Oct 16</a></p></li>
+                            <li><p class="lead font-weight-400"><a href="#ast" class="text-white">Advanced Stager Training - Oct 21</a></p></li>
+                            <li><p class="lead font-weight-400"><a href="#ccs" class="text-white">Color Course - Oct 22-23</a></p></li>
+                        </ul>
 
-                        <p class="lead font-weight-400">If you need other dates than those listed above please reach out to Danae Kaupp at <a href="mailto:Danae.Kaupp1@westin.com">Danae.Kaupp1@westin.com</a>.</p>
+                        <p class="lead"><strong>Venue:<br />
+                        Westin Charlotte</strong></p>
+
+                        <p class="lead font-weight-400">**The Group Rate is available Arriving <strong>Thursday October 18th and Friday, Oct 19th, 2018.</strong> We had a smaller block for 
+                        Saturday that is sold out BUT <font color="yellow"><strong>there are plenty of rooms available for Saturday at our negotiated rate. To get a room for Saturday at our 
+                        negotiated rate you must contact our conference coordinator:</strong></font> Danae Kaupp at <a href="tel:7043352037" class="text-white">704.335.2037</a> or <a href="mailto:Danae.Kaupp1@westin.com" class="text-white">Danae.Kaupp1@westin.com
+                        </a></p>
 
                         <p class="lead font-weight-400">Group rate available until September 19, 2018. Subject to availability.</p>
 
