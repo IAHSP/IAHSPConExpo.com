@@ -42,10 +42,9 @@ import { Component } from '@angular/core';
 						</div>
 					</div>
 					<div class="col-md-6">
-                        <h3>The Westin Charlotte Hotel</h3>
-                        <p class="guest-can-make">Guests can make reservations by calling <a href="tel:18668374148">1-866-837-4148</a> and asking for the <strong><u>IAHSP 2018 Room Block</u></strong>.  
-                        If you prefer to make reservations online, please click the button below:</p>
-                        <a href="https://www.starwoodmeeting.com/Book/IAHSP2018" class="btn btn-primary btn-lg space-bottom-15" role="button">Book a Room</a>
+                        <h2>The Westin Charlotte Hotel</h2>
+                        <p class="guest-can-make">Please make your reservations by calling Danae Kaupp at <a href="tel:7043352037">704-335-2037</a> and 
+                        asking for the <strong><u>IAHSP 2018 Room Block</u></strong>.</p>
                         <h3>IAHSP 2018</h3>
                         <hr />
                         <p class="lead"><strong>Event Date:<br />
