@@ -212,6 +212,12 @@ import { Component } from '@angular/core';
                                     img-responsive the-successful-stager" alt="The Successful Stager">
                                 </div>
                             </div>
+                            <div class="col-sm-offset-4 col-sm-4">
+                                <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/stagedhomes-black-and-gold-logo.png" class="center-block 
+                                    img-responsive staged-homes" alt="Staged Homes">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div><!-- /row -->
@@ -333,6 +339,10 @@ import { Component } from '@angular/core';
 
         .the-successful-stager {
             height: 52px;
+        }
+
+        .staged-homes {
+            height: 100px;
         }
 
 
