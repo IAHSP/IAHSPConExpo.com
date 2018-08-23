@@ -28,8 +28,12 @@ import { Component } from '@angular/core';
 
                     <div class="clearfix">
                         <div class="col-md-offset-2 col-md-4">
+                            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/rst-brands-logo-black.jpg" width="440px" class="center-block img-responsive pps 
+                            rst-brand space-bottom-25" alt="RST Brand">                          
+                        </div>
+                        <div class="col-md-4">
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/smith-noble.png" width="440px" class="center-block img-responsive pps 
-                            classic-home space-bottom-25" alt="Smith & Noble"><br /><br />
+                            smith-noble space-bottom-25" alt="Smith & Noble">
                         </div>
                     </div>
 
@@ -151,6 +155,12 @@ import { Component } from '@angular/core';
                             <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
                             <div class="col-sm-4">
                                 <div class="small-img">
+                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/alfac-janine-brown.jpg" class="center-block img-responsive 
+                                    aflac" alt="Aflac">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/churchill.png" class="center-block img-responsive churchill" 
                                     alt="Churchill">
                                 </div>
@@ -226,7 +236,7 @@ import { Component } from '@angular/core';
     `,
     styles: [`
         /* Premier Platnium Sponsors */
-        .classic-home {
+        .classic-home, .smith-noble {
             padding: 64px 23px;
         }
 
@@ -236,6 +246,10 @@ import { Component } from '@angular/core';
 
         .feizy {
             padding: 93px 25px 94px;
+        }
+
+        .rst-brand {
+            padding: 50px 63px;
         }
 
 
@@ -262,7 +276,7 @@ import { Component } from '@angular/core';
             height: 95px;
         }
 
-        .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost, srm-staging {
+        .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost, .srm-staging {
             height: 85px;
         }
 
@@ -302,11 +316,15 @@ import { Component } from '@angular/core';
 
 
         /* Silver sponsors */
-        .churchill {
+        .aflac {
+            height: 105px;
+        }
+
+        .churchill, .viberent {
             height: 57px;
         }
         
-        .cubiqz-usa {
+        .cubiqz-usa, .stagency {
             height: 75px;
         }
 
@@ -316,14 +334,6 @@ import { Component } from '@angular/core';
 
         .staging-studio {
             height: 85px;
-        }
-
-        .stagency {
-            height: 75px;
-        }
-
-        .viberent {
-            height: 57px;
         }
 
 
