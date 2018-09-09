@@ -189,7 +189,7 @@ import { Component } from '@angular/core';
                                     img-responsive stagency" alt="Stagency">
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-offset-4 col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" class="center-block 
                                     img-responsive viberent" alt="Viberent">

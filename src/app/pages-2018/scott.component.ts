@@ -193,7 +193,7 @@ import { Component } from '@angular/core';
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
                                     <th>LAKEITHA SMITH</th>
-                                    <td>LWERKS - Company Management</td>
+                                    <td>L-Suite Netwërk - Company Management</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">2:45-3:20</td>
@@ -213,7 +213,7 @@ import { Component } from '@angular/core';
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
                                     <th>LAKEITHA SMITH</th>
-                                    <td>LWERKS - Company Management</td>
+                                    <td>L-Suite Netwërk - Company Management</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:25-4:00 PM</td>
@@ -276,7 +276,7 @@ import { Component } from '@angular/core';
                                 <tr>
                                     <td scope="row">4:20-5:00 PM</td>
                                     <th>SCOTT HANSEN - BUSINESS KEYNOTE SPEAKER</th>
-                                    <td>MARKET DOMINATING POSITIONING, PRODUCTIVITY AND SALES</td>
+                                    <td>Outthink - Outmarket - Outsell Your competition - 5 Part Profit Formula for Getting New Clients and Doubling Revenues</td>
                                 </tr>
                                 <tr>
                                     <td scope="row">5:00-5:30 PM</td>
