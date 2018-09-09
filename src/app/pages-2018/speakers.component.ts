@@ -1337,6 +1337,56 @@ import { Component } from '@angular/core';
                                 </div>
                             </div>
                         </li>
+
+                        <!-- Sanja Radovanovic -->
+                        <li class="col-sm-3">
+                            <div class="item-box">
+                                <figure>
+                                    <img class="img-responsive center-block" src="https://d2itdnqewolu1g.cloudfront.net/images/iahsp/iahsp-photo-sanja-radovanovic.jpg" 
+                                    alt="Sanja Radovanovic">
+                                </figure>
+                                <div class="item-box-desc">
+                                    <h4>Sanja Radovanovic</h4>
+                                    <small class="styleColor space-bottom-5">ASPM<sup>®</sup></small>
+                                    <h5>TOPIC: IAHSP - Europe Update</h5>
+
+                                    <!-- modal trigger -->
+                                    <div class="text-center">
+                                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#sanja-radovanovic">View Bio</a>
+                                    </div>
+            
+                                    <!-- modal dialog -->
+                                    <div class="modal fade" id="sanja-radovanovic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+            
+                                                <div class="modal-header"><!-- modal header -->
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">Sanja Radovanovic</h4>
+                                                </div><!-- /modal header -->
+            
+                                                <!-- modal body -->
+                                                <div class="modal-body">
+                                                    <p>Sanja is an Accredited Staging Professional Master and an Interior Designer.</p>
+
+                                                    <p>Combining her passion and knowledge for these two professions, in 2013 she has founded The Art Of Staging 
+                                                        with the aim to provide Home Staging & Interior Design services with ethical and high-quality standards 
+                                                        through creative designs and successful communication. After living many years abroad and in the United 
+                                                        States, she has now settled in Rome, Italy where she is successfully pursuing her career as a Professional 
+                                                        Home Stager. Sanja serves the IAHSP® Board of Directors as a European Director.</p>
+                                                </div>
+                                                <!-- /modal body -->
+            
+                                                <div class="modal-footer"><!-- modal footer -->
+                                                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div><!-- /modal footer -->
+            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div><!-- /row -->
 
