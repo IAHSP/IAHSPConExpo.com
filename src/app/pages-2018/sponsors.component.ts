@@ -145,6 +145,12 @@ import { Component } from '@angular/core';
                                         img-responsive uttermost" alt="Uttermost">
                                     </div>
                                 </div>
+                                <div class="col-sm-offset-3 col-sm-6">
+                                    <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
+                                        class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div><br /><br />
@@ -167,12 +173,6 @@ import { Component } from '@angular/core';
                             </div>
                             <div class="col-sm-4">
                                 <div class="small-img">
-                                    <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
-                                    class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/sherwin-williams-logo.png" class="center-block img-responsive
                                     sherwin-williams" alt="Sherwin Williams">
                                 </div>
@@ -189,7 +189,7 @@ import { Component } from '@angular/core';
                                     img-responsive stagency" alt="Stagency">
                                 </div>
                             </div>
-                            <div class="col-sm-offset-4 col-sm-4">
+                            <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" class="center-block 
                                     img-responsive viberent" alt="Viberent">
@@ -305,7 +305,7 @@ import { Component } from '@angular/core';
             height: 70px;
         }
 
-        .props-america {
+        .props-america, .cubiqz-usa {
             height: 100px;
         }
 
@@ -324,7 +324,7 @@ import { Component } from '@angular/core';
             height: 57px;
         }
         
-        .cubiqz-usa, .stagency {
+        .stagency {
             height: 75px;
         }
 
