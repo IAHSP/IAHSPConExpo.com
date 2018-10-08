@@ -72,6 +72,12 @@ import { Component } from '@angular/core';
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="small-img">
+                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
+                                        class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/d-w-silks.jpg" class="center-block img-responsive d-w-silks" 
                                         alt="D & W Silks">
                                     </div>
@@ -91,6 +97,9 @@ import { Component } from '@angular/core';
                                         img-responsive europe-2-u" alt="Europe 2 You Curate A Life Well Lived">
                                     </div>
                                 </div>
+
+                                <div class="clearfix hidden-xs"></div>
+
                                 <div class="col-sm-6">
                                     <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/ollix-jla-home.png" class="center-block 
@@ -139,16 +148,10 @@ import { Component } from '@angular/core';
                                         uma-home-decor" alt="UMA Home Decor">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-offset-3 col-sm-6">
                                     <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/uttermost.png" class="center-block 
                                         img-responsive uttermost" alt="Uttermost">
-                                    </div>
-                                </div>
-                                <div class="col-sm-offset-3 col-sm-6">
-                                    <div class="small-img">
-                                        <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
-                                        class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
                                     </div>
                                 </div>
                             </div>
@@ -273,86 +276,86 @@ import { Component } from '@angular/core';
 
         /* Gold Sponsors */
         .artists-guild-of-america {
-            height: 95px;
+            max-height: 95px;
         }
 
         .cort, .rave-staging, .uma-enterprises, .uma-home-decor, .uttermost, .srm-staging {
-            height: 85px;
+            max-height: 85px;
         }
 
         .d-w-silks {
-            height: 90px;
+            max-height: 90px;
         }
 
         .elk-group {
-            height: 48px;
+            max-height: 48px;
             margin-bottom: 5px !important;
         }
 
         .europe-2-u {
-            height: 60px;
+            max-height: 60px;
         }
 
         .ollix-jla {
-            height: 73px;
+            max-height: 73px;
         }
 
         .paragon {
-            height: 45px;
+            max-height: 45px;
         }
 
         .propac-images {
-            height: 70px;
+            max-height: 70px;
         }
 
         .props-america, .cubiqz-usa {
-            height: 100px;
+            max-height: 100px;
         }
 
         .sterling {
-            height: 50px;
+            max-height: 50px;
         }
         
 
 
         /* Silver sponsors */
         .aflac {
-            height: 105px;
+            max-height: 105px;
         }
 
         .churchill, .viberent {
-            height: 57px;
+            max-height: 57px;
         }
         
         .stagency {
-            height: 75px;
+            max-height: 75px;
         }
 
         .sherwin-williams {
-            height: 68px;
+            max-height: 68px;
         }
 
         .staging-studio {
-            height: 85px;
+            max-height: 85px;
         }
 
 
 
         /* Bronze sponsors */        
         .kmrd, .jlw-company {
-            height: 47px;
+            max-height: 47px;
         }
 
         .trusentry {
-            height: 69px;
+            max-height: 69px;
         }
 
         .the-successful-stager {
-            height: 52px;
+            max-height: 52px;
         }
 
         .staged-homes {
-            height: 100px;
+            max-height: 100px;
         }
 
 
