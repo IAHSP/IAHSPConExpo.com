@@ -145,7 +145,7 @@ import { Component } from '@angular/core';
                                         img-responsive uttermost" alt="Uttermost">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-offset-3 col-sm-6">
                                     <div class="small-img">
                                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-original-cubiqz-cardboard-furniture-for-homestaging.jpg" 
                                         class="center-block img-responsive cubiqz-usa" alt="Cubiqz USA">
@@ -189,7 +189,7 @@ import { Component } from '@angular/core';
                                     img-responsive stagency" alt="Stagency">
                                 </div>
                             </div>
-                            <div class="col-sm-offset-4 col-sm-4">
+                            <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/viberent-landscape-logo.png" class="center-block 
                                     img-responsive viberent" alt="Viberent">
