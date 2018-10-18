@@ -77,50 +77,63 @@ import { Component } from '@angular/core';
 
                         <h2 class="text-center font-weight-400">2018 IAHSP<sup>®</sup> CONFERENCE &amp; EXPO SCHEDULE OF EVENTS</h2>
 
-                        <h3 class="text-center line-height-28">ALL EDUCATIONAL SESSIONS, IAHSP-LHS DESIGNATION, VENDOR EXPO, THURSDAY DINNER, AND FRIDAY
+                        <h3 class="text-center line-height-28">ALL EDUCATIONAL SESSIONS, IAHSP<sup>®</sup>-LHS DESIGNATION, VENDOR EXPO, THURSDAY DINNER, AND FRIDAY
                         AWARDS DINNER INCLUDED IN YOUR TICKET PRICE!</h3>
 
                         <table class="table table-bordered">
                             <tbody>
                                 <tr class="bg-color-d9d9d9">
-                                    <th class="td-width-150" scope="row">THURSDAY OCT 18<sup>th</sup></th>
-                                    <td colspan="2"><strong>4:30-10 PM: REGISTRATION AND EXPO 25+ COMPANIES DISPLAYING THEIR PRODUCTS AND SERVICES! 
-                                        INCLUDES FOOD STATIONS, NO-HOST BARS!  PLUS - DJ, KAROKE, DANCING, PHOTO BOOTH</strong> <em>provided by the Charlotte IAHSP® 
-                                        Regional Chapter – the official 2018 HOST CHAPTER</em></td>
+                                    <th class="td-width-150" scope="row">THURSDAY</th>
+                                    <th>EVENT</th>
+                                    <th>SESSIONS</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4:30 - 10:30 PM</th>
+                                    <th>IAHSP<sup>®</sup> CONFERENCE REGISTRATION &amp; EXPO</th>
+                                    <th>VENDOR BOOTHS AND TABLES, DJ, KAROKE, PHOTO BOOTH, DANCING, FOOD, AND FUN!</th>
                                 </tr>
 
 
 
                                 <tr class="bg-color-d9e2f3">
-                                    <th scope="row">FRIDAY<br />
-                                        OCT 19<sup>th</sup>:</th>
-                                    <th class="text-center">SPEAKER</th>
-                                    <th class="text-center">TOPIC</th>
+                                    <th scope="row">FRIDAY</th>                                    
+                                    <th>TOPIC</th>
+                                    <th>SPEAKER &amp; LOCATION</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">9:00-9:15</td>
-                                    <th>LEADERSHIP TEAM</th>
+                                    <td scope="row">9:00 - 9:15 AM</td>                                    
                                     <td>WELCOME &amp; OVERVIEW</td>
+                                    <th>LEADERSHIP TEAM - GRAND BALLROOM</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">9:15-9:45</td>
-                                    <th>JENNIE NORRIS</th>
+                                    <td scope="row">9:15 - 9:45 AM</td>                                    
                                     <td>JOURNEY TO THE TOP</td>
+                                    <th>JENNIE NORRIS - GRAND BALLROOM</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">10:00-10:45</td>
-                                    <th>FRED BERNS</th>
+                                    <td scope="row">9:50 - 10:35 AM</td>                                    
                                     <td>Selling Methods of the Masters</td>
+                                    <th>FRED BERNS - GRAND BALLROOM</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">10:50-11:20</td>
-                                    <th>NAHEED OBERFELD</th>
+                                    <th scope="row">BREAK</th>
+                                    <th>BREAK 20 MINS</th>
+                                    <th>BREAK 20 MINS</th>
+                                </tr>
+                                <tr>
+                                    <td scope="row">10:55 - 11:30 AM</td>                                    
                                     <td>Mindset Strategies to Boost Your Income</td>
+                                    <th>NAHEED OBERFELD - GRAND BALLROOM</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">11:25-12:15</td>
-                                    <th>JOANNE LENART WEARY</th>
-                                    <td>ONE DAY DECORATING-How to turn this immediate gratification service into income.</td>
+                                    <td scope="row">11:45 AM - 12:30 PM</td>                                    
+                                    <td>ONE DAY DECORATING - How to turn this immediate gratification service into income.</td>
+                                    <th>JOANNE LENART WEARY - GRAND BALLROOM</th>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12:30 - 1:15 PM</th>
+                                    <th>LUNCH BREAK</th>
+                                    <th>LUNCH (ON YOUR OWN)</th>                                    
                                 </tr>
 
 
@@ -132,44 +145,44 @@ import { Component } from '@angular/core';
                                         </td>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:15-1:50</td>
-                                    <th>ANDREA CHENISI</th>
+                                    <td scope="row">1:15 - 1:50 PM</td>                                    
                                     <td>Create a Winning Team and How to Maintain It</td>
+                                    <th>ANDREA CHENISI - PROVIDENCE 1</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:15-1:50</td>
-                                    <th>JUNE CARTER</th>
+                                    <td scope="row">1:15 - 1:50 PM</td>                                    
                                     <td>Timing Sanity, The 34 Minute Time Management Process</td>
+                                    <th>JUNE CARTER - PROVIDENCE 2</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:15-1:50</td>
-                                    <th>CATHERINE LEWIS BROWN</th>
+                                    <td scope="row">1:15 - 1:50 PM</td>                                    
                                     <td>Pricing Strategies that Work</td>
+                                    <th>CATHERINE LEWIS BROWN - PROVIDENCE 3</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:15-1:50</td>
-                                    <th>MARGARET GEHR</th>
+                                    <td scope="row">1:15 - 1:50 PM</td>                                    
                                     <td>Planning for the Successful Expansion of your Business</td>
+                                    <th>MARGARET GEHR - UPTOWN 1</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:55-2:30</td>
-                                    <th>ANDREA CHENISI</th>
+                                    <td scope="row">1:55 - 2:30 PM</td>                                    
                                     <td>Create a Winning Team and How to Maintain it</td>
+                                    <th>ANDREA CHENISI - PROVIDENCE 1</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:55-2:30</td>
-                                    <th>JUNE CARTER</th>
+                                    <td scope="row">1:55 - 2:30 PM</td>                                    
                                     <td>Timing Sanity, The 34 Minute Time Management Process</td>
+                                    <th>JUNE CARTER - PROVIDENCE 2</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:55-2:30</td>
-                                    <th>CATHERINE LEWIS BROWN</th>
+                                    <td scope="row">1:55 - 2:30 PM</td>                                    
                                     <td>Pricing Strategies that Work</td>
+                                    <th>CATHERINE LEWIS BROWN - PROVIDENCE 3</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:55-2:30</td>
-                                    <th>MARGARET GEHR</th>
+                                    <td scope="row">1:55 - 2:30 PM</td>                                    
                                     <td>Planning for the Successful Expansion of your Business</td>
+                                    <th>MARGARET GEHR - UPTOWN 1</th>
                                 </tr>
 
 
@@ -181,107 +194,122 @@ import { Component } from '@angular/core';
                                         be done online prior to conference)</td>
                                 </tr>
                                 <tr>
-                                    <td scope="row">2:45-3:20</td>
-                                    <th>KEVIN HTAIN</th>
+                                    <td scope="row">2:45 - 3:20 PM</td>
                                     <td>Working with the Media</td>
+                                    <th>KEVIN HTAIN - PROVIDENCE 1</th>                                    
                                 </tr>
                                 <tr>
-                                    <td scope="row">2:45-3:20</td>
-                                    <th>CHRISTOPHER CORDER</th>
+                                    <td scope="row">2:45 - 3:20 PM</td>
                                     <td>Mastering Consultations</td>
+                                    <th>CHRISTOPHER CORDER - PROVIDENCE 2</th>                                    
                                 </tr>
                                 <tr>
-                                    <td scope="row">2:45-3:20</td>
-                                    <th>LAKEITHA SMITH</th>
+                                    <td scope="row">2:45 - 3:20 PM</td>
                                     <td>L-Suite Netwërk - Company Management</td>
+                                    <th>LAKEITHA SMITH - PROVIDENCE 3</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">2:45-3:20</td>
-                                    <th>KAT TROULINOS</th>
+                                    <td scope="row">2:45 - 3:20 PM</td>                                    
                                     <td>Staging for Builders</td>
+                                    <th>KAT TROULINOS - UPTOWN 1</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">3:25-4:00 PM</td>
-                                    <th>KEVIN HTAIN</th>
+                                    <td scope="row">3:25 - 4:00 PM</td>                                    
                                     <td>Working with the Media</td>
+                                    <th>KEVIN HTAIN - PROVIDENCE 1</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">3:25-4:00 PM</td>
-                                    <th>CHRISTOPHER CORDER</th>
+                                    <td scope="row">3:25 - 4:00 PM</td>                                    
                                     <td>Mastering Consultations</td>
+                                    <th>CHRISTOPHER CORDER - PROVIDENCE 2</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">3:25-4:00 PM</td>
-                                    <th>LAKEITHA SMITH</th>
+                                    <td scope="row">3:25 - 4:00 PM</td>                                    
                                     <td>L-Suite Netwërk - Company Management</td>
+                                    <th>LAKEITHA SMITH - PROVIDENCE 3</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">3:25-4:00 PM</td>
-                                    <th>KAT TROULINOS</th>
+                                    <td scope="row">3:25 - 4:00 PM</td>                                    
                                     <td>Staging for Builders</td>
+                                    <th>KAT TROULINOS - UPTOWN 1</th>
                                 </tr>
 
 
 
                                 <!-- KEYNOTE SPEAKERS - THE SCOTT BROTHERS -->
                                 <tr class="bg-color-d9e2f3">
-                                    <td scope="row">4:15-5:15 PM</td>
-                                    <th colspan="2"><span class="text-danger">KEYNOTE SPEAKERS - THE SCOTT BROTHERS</span></th>
+                                    <td scope="row">4:30 - 5:30 PM</td>
+                                    <td>KEYNOTE SPEAKERS</td>
+                                    <th><span class="text-danger">KEYNOTE SPEAKERS - THE SCOTT BROTHERS - GRAND BALLROOM</span></th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">5:00-6:00 PM</td>
-                                    <th colspan="2">MEET N GREET and BOOK SIGNING</th>
+                                    <td scope="row">5:30 - 6:45 PM</td>
+                                    <td>MEET N GREET - BOOK SIGNING</td>
+                                    <th>MEET N GREET and BOOK SIGNING - PROMENADE</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">7:15-10:30 PM</td>
-                                    <th colspan="2">DINNER &amp; AWARDS CEREMONY AND WWSSW<sup>®</sup> FUNDRAISER and <a 
-                                    href="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/red-carpet-gala-logo.jpg" target="_blank">RED CARPET GALA</a></th>
+                                    <td scope="row">7:30 - 10:30 PM</td>
+                                    <td>Red Carpet Gala Awards Dinner</td>
+                                    <th>DINNER &amp; AWARDS CEREMONY - GRAND BALLROOM</th>
                                 </tr>
 
 
 
                                 <!-- SATURDAY OCT 20TH -->
                                 <tr class="bg-color-fff2cc">
-                                    <th scope="row">SATURDAY 
-                                        OCT 20<sup>th</sup>:
-                                        </th>
-                                    <th class="text-center">SPEAKER</th>
-                                    <th class="text-center">TOPIC</th>
+                                    <th scope="row">SATURDAY</th>
+                                    <th>TOPIC</th>
+                                    <th>SPEAKER - ALL SESSIONS IN GRAND BALLROOM</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">9:00 - 9:40 AM</td>
+                                    <td scope="row">9:00 - 9:40 AM</td>                                    
+                                    <td>INSPIRATIONAL KEYNOTE</td>
                                     <th>BARB SCHWARZ - INSPIRATIONAL KEYNOTE SPEAKER</th>
-                                    <td>INSPIRATIONAL TALK</td>
                                 </tr>
                                 <tr>
-                                    <td scope="row">9:45AM - 12:45 PM</td>
-                                    <th>LHS DESIGNATION</th>
-                                    <td>LUXURY HOME STAGING DESIGNATION</td>
+                                    <td scope="row">9:45 AM - 12:45 PM</td>
+                                    <td>LUXURY HOME STAGING DESIGNATION (includes 1 break)</td>
+                                    <th>LHS DESIGNATION</th>                                    
                                 </tr>
                                 <tr>
-                                    <td scope="row">1:45-2:45 PM</td>
-                                    <th>JOSEPH HAECKER</th>
-                                    <td>IAHSP<sup>®</sup> AND PRODUCT INTEGRATION</td>
+                                    <th scope="row">12:45 - 1:30 PM</th>
+                                    <th>LUNCH BREAK</th>
+                                    <th>LUNCH (ON YOUR OWN)</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">2:50-3:30 PM</td>
-                                    <th>CARRIE LITTLE</th>
+                                    <td scope="row">1:45 - 2:00 PM</td>
+                                    <td>IAHSP EUROPE UPDATE</td>
+                                    <th>SANJA RADOVANOVIC</th>                                    
+                                </tr>
+                                <tr>
+                                    <td scope="row">2:10 - 2:45 PM</td>
+                                    <td>PREMIER PARTNER VENDORS</td>
+                                    <th>CLASSIC HOME, COASTER, FEIZY, RST, SMITH & NOBLE</th>                                    
+                                </tr>
+                                <tr>
+                                    <td scope="row">2:50 - 3:30 PM</td>
                                     <td>SOCIAL MEDIA STRATEGIES</td>
+                                    <th>CARRIE LITTLE</th>                                    
+                                </tr>
+                                <tr>
+                                    <th scope="row">3:30 - 3:45 PM</th>
+                                    <th>BREAK</th>
+                                    <th>BREAK</th>
                                 </tr>
                                 <tr>
                                     <td scope="row">3:45 - 4:15 PM</td>
-                                    <th>MARY JO CAMP</th>
                                     <td>DESIGN TRENDS</td>
+                                    <th>MARY JO CAMP</th>                                    
                                 </tr>
                                 <tr>
-                                    <td scope="row">4:20-5:00 PM</td>
-                                    <th>SCOTT HANSEN - BUSINESS KEYNOTE SPEAKER</th>
+                                    <td scope="row">4:20 - 5:00 PM</td>                                    
                                     <td>Outthink - Outmarket - Outsell Your competition - 5 Part Profit Formula for Getting New Clients and Doubling Revenues</td>
+                                    <th>SCOTT HANSEN - BUSINESS KEYNOTE SPEAKER</th>
                                 </tr>
                                 <tr>
-                                    <td scope="row">5:00-5:30 PM</td>
-                                    <th>LEADERSHIP TEAM</th>
+                                    <td scope="row">5:00 - 5:30 PM</td>                                    
                                     <td>LEADERSHIP TEAM</td>
+                                    <th>LEADERSHIP TEAM</th>
                                 </tr>
                             </tbody>
                         </table>
