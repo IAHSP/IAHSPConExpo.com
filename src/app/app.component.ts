@@ -21,7 +21,7 @@ declare var $;
         </div>
 
         <!-- Homepage -->
-        <app-2018-home></app-2018-home>
+        <app-2019-home></app-2019-home>
     `
 })
 export class AppComponent {
