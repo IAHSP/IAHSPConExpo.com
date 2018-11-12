@@ -44,7 +44,10 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li><div><a id="btnRegister" href="https://pages.iahsp.com/iahsp-conference-2018-registration/" target="_blank" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
+              <!-- <li><a href="#wrapper" class="scrollTo text-center">Home</a></li> -->
+              <!-- <li><a routerLink="pages-2018/home" class="text-center">Last</a></li> -->
+              <li><div><a href="https://cvent.me/dZKd4" target="_blank" class="btn btn-primary 
+              btn-sm color-white">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
@@ -53,21 +56,7 @@ import { Component, OnInit } from '@angular/core';
     </header>
   `,
   styles: [`
-    #btnRegister {
-      margin: 2px 0px 0px 10px;
-    }
-
-    @media only screen and (max-width : 990px) {
-      header li > div > a[href="https://iahsp.com"] {
-        text-align: left;
-      }
-    }
-
-    @media only screen and (min-width : 991px) {
-      header li > div > a[href="https://iahsp.com"] {
-        color: #fff !important;
-      }
-    }
+    
   `]
 })
 export class Header2019Component implements OnInit {
