@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
 
             <table class="table table-bordered">
                 <tbody>
-                    <tr class="bg-color-d9d9d9">
+                    <tr>
                       <th scope="row" width="33%">DATE &amp; TIME</th>
                       <th>EVENTS</th>
                     </tr>
