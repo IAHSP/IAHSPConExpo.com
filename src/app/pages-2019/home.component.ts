@@ -11,6 +11,16 @@ import { Component, OnInit } from '@angular/core';
 
         <app-2019-hero></app-2019-hero>
 
+        <app-2019-event></app-2019-event>
+
+        <app-2019-speakers></app-2019-speakers>
+
+        <app-2019-schedule></app-2019-schedule>
+
+        <app-2019-designation></app-2019-designation>
+
+        <app-2019-hotel></app-2019-hotel>
+
       </div>
 
     <app-shared-2019-footer></app-shared-2019-footer>
