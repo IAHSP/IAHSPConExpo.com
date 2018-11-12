@@ -31,6 +31,10 @@ import { Component, OnInit } from '@angular/core';
         text-align: center;
       }
 
+      #hotel {
+        text-align: center;
+      }
+
   `]
 })
 export class Home2019Component implements OnInit {
