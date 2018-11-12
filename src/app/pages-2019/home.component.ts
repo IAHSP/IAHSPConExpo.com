@@ -23,6 +23,8 @@ import { Component, OnInit } from '@angular/core';
 
         <app-2019-countdown id="countdown"></app-2019-countdown>
 
+        <app-2019-contact id="contact"></app-2019-contact>
+
       </div>
 
     <app-shared-2019-footer></app-shared-2019-footer>

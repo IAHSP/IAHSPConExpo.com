@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
         <!-- PHONE/EMAIL -->
         <span class="quick-contact pull-left">
           <i class="fa fa-phone"></i> <a href="tel:8003927161">800-392-7161</a>
-          <span class="hidden-xs">&bull;&nbsp; <a href="mailto:help@iahsp.com"><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a></span>
+          <span class="hidden-xs">&bull; <a href="mailto:help@iahsp.com"><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a></span>
         </span><!-- /PHONE/EMAIL -->
 
         <div class="pull-right">
@@ -44,10 +44,21 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <!-- <li><a href="#wrapper" class="scrollTo text-center">Home</a></li> -->
-              <!-- <li><a routerLink="pages-2018/home" class="text-center">Last</a></li> -->
-              <li><div><a href="https://cvent.me/dZKd4" target="_blank" class="btn btn-primary 
-              btn-sm color-white">Register Now</a></div></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                    <i class="fa fa-angle-down"></i>Information
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#wrapper" class="scrollTo">Home</a></li>
+                    <li><a href="#event" class="scrollTo">Event Summary</a></li>
+                    <li><a href="#speakers" class="scrollTo">Speakers</a></li>
+                    <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
+                    <li><a href="#designation" class="scrollTo">NEW Designation</a></li>
+                    <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
+                  </ul>
+              </li>
+              <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li>
+              <li><div><a href="https://cvent.me/dZKd4" target="_blank" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
@@ -55,9 +66,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </header>
   `,
-  styles: [`
-    
-  `]
+  styles: [``]
 })
 export class Header2019Component implements OnInit {
 

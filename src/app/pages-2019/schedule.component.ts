@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
             <h2 class="text-center">SCHEDULE OF EVENTS</h2>
 
             <p class="lead font-weight-400 text-center">You are going to be inspired to ROCK Your Business with<br />
-            what you learn at our 2019 IAHSP Conference & EXPO!</p>
+            what you learn at our 2019 IAHSP<sup>®</sup> Conference & EXPO!</p>
 
             <p class="text-center">We are working on specifics but general timing is below</p>
 
