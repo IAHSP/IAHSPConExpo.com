@@ -36,6 +36,7 @@ import { Speakers2019Component } from './pages-2019/speakers.component';
 import { Schedule2019Component } from './pages-2019/schedule.component';
 import { Designation2019Component } from './pages-2019/designation.component';
 import { Hotel2019Component } from './pages-2019/hotel.component';
+import { Countdown2019Component } from './pages-2019/countdown.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { Hotel2019Component } from './pages-2019/hotel.component';
     Speakers2019Component,
     Schedule2019Component,
     Designation2019Component,
-    Hotel2019Component
+    Hotel2019Component,
+    Countdown2019Component
   ],
   imports: [
     BrowserModule,

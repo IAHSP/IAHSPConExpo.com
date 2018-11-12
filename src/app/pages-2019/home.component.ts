@@ -21,6 +21,8 @@ import { Component, OnInit } from '@angular/core';
 
         <app-2019-hotel id="hotel"></app-2019-hotel>
 
+        <app-2019-countdown id="countdown"></app-2019-countdown>
+
       </div>
 
     <app-shared-2019-footer></app-shared-2019-footer>
@@ -34,6 +36,10 @@ import { Component, OnInit } from '@angular/core';
       #hotel {
         text-align: center;
       }
+
+      #countdown {
+        text-align: center;
+      } 
 
   `]
 })
