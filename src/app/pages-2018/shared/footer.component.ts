@@ -27,7 +27,7 @@ import { Component } from '@angular/core';
                             <address class="font-opensans">
                                 <ul>
                                     <li class="footer-sprite address">
-                                        <a href="https://www.google.com/maps/place/11757+W+Ken+Caryl+Ave,+Littleton,+CO+80127/@39.5817463,-105.1339234,17z/data=!3m1!4b1!4m5!3m4!1s0x876b79341fd57d89:0x7e7cef4fcaf4d8e1!8m2!3d39.5817463!4d-105.1317347" target="_blank">
+                                        <a href="https://www.google.com/maps/place/11757+W+Ken+Caryl+Ave,+Littleton,+CO+80127/@39.5817463,-105.1339234,17z/data=!3m1!4b1!4m5!3m4!1s0x876b79341fd57d89:0x7e7cef4fcaf4d8e1!8m2!3d39.5817463!4d-105.1317347" target="_blank" rel="noopener">
                                             11757 W Ken Caryl Ave., F402<br />
                                             Littleton, CO 80127<br />
                                         </a>
