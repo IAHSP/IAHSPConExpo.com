@@ -31,6 +31,13 @@ import { Header2019Component } from './pages-2019/shared/header.component';
 import { Footer2019Component } from './pages-2019/shared/footer.component';
 import { Home2019Component } from './pages-2019/home.component';
 import { Hero2019Component } from './pages-2019/hero.component';
+import { Event2019Component } from './pages-2019/event.component';
+import { Speakers2019Component } from './pages-2019/speakers.component';
+import { Schedule2019Component } from './pages-2019/schedule.component';
+import { Designation2019Component } from './pages-2019/designation.component';
+import { Hotel2019Component } from './pages-2019/hotel.component';
+import { Countdown2019Component } from './pages-2019/countdown.component';
+import { Contact2019Component } from './pages-2019/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +65,14 @@ import { Hero2019Component } from './pages-2019/hero.component';
     Header2019Component,
     Footer2019Component,
     Home2019Component,
-    Hero2019Component
+    Hero2019Component,
+    Event2019Component,
+    Speakers2019Component,
+    Schedule2019Component,
+    Designation2019Component,
+    Hotel2019Component,
+    Countdown2019Component,
+    Contact2019Component
   ],
   imports: [
     BrowserModule,
