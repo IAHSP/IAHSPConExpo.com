@@ -15,14 +15,14 @@ import { Component, OnInit } from '@angular/core';
         </span><!-- /PHONE/EMAIL -->
 
         <div class="pull-right">
-          <a href="https://iahsp.com/" target="_blank"><i class="fa fa-external-link"></i> IAHSP.com</a>
+          <a href="https://iahsp.com/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> IAHSP.com</a>
         </div>
 
         <!-- LINKS -->
         <div class="pull-right nav hidden-xs">
-          <a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-          <a href="https://plus.google.com/111999019043473881716" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
-          <a href="https://iahspblog.com/blog/" target="_blank"><i class="fa fa-wordpress fa-lg"></i></a>
+          <a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank" rel="noopener"><i class="fa fa-facebook fa-lg"></i></a>
+          <a href="https://plus.google.com/111999019043473881716" target="_blank" rel="noopener"><i class="fa fa-google-plus fa-lg"></i></a>
+          <a href="https://iahspblog.com/blog/" target="_blank" rel="noopener"><i class="fa fa-wordpress fa-lg"></i></a>
         </div>
       </div>
     </header><!-- /Top Bar -->
@@ -44,12 +44,12 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
+              <li><a href="#wrapper" class="scrollTo">Home</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#wrapper" class="scrollTo">Home</a></li>
+                  <ul class="dropdown-menu">                    
                     <li><a href="#event" class="scrollTo">Event Summary</a></li>
                     <li><a href="#speakers" class="scrollTo">Speakers</a></li>
                     <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
@@ -58,7 +58,7 @@ import { Component, OnInit } from '@angular/core';
                   </ul>
               </li>
               <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li>
-              <li><div><a href="https://cvent.me/dZKd4" target="_blank" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
+              <li><div><a href="https://cvent.me/dZKd4" target="_blank" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
