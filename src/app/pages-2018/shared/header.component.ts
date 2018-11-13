@@ -16,14 +16,14 @@ import { Component } from '@angular/core';
 				<!-- /PHONE/EMAIL -->
 
 				<div class="pull-right">
-					<a href="https://iahsp.com/" target="_blank"><i class="fa fa-external-link"></i> IAHSP.com</a>
+					<a href="https://iahsp.com/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> IAHSP.com</a>
 				</div>
 
 				<!-- LINKS -->
 				<div class="pull-right nav hidden-xs">
-					<a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="https://plus.google.com/111999019043473881716" target="_blank"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="https://iahspblog.com/blog/" target="_blank"><i class="fa fa-wordpress fa-lg"></i></a>
+					<a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank" rel="noopener"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="https://plus.google.com/111999019043473881716" target="_blank" rel="noopener"><i class="fa fa-google-plus fa-lg"></i></a>
+                    <a href="https://iahspblog.com/blog/" target="_blank" rel="noopener"><i class="fa fa-wordpress fa-lg"></i></a>
 				</div>
 
 			</div>
@@ -66,7 +66,7 @@ import { Component } from '@angular/core';
 								</ul>
 							</li>
                             <li><a class="scrollTo" href="#contact">Contact</a></li>
-                            <li><div><a id="btnRegister" href="https://pages.iahsp.com/iahsp-conference-2018-registration/" target="_blank" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
+                            <li><div><a id="btnRegister" href="https://pages.iahsp.com/iahsp-conference-2018-registration/" target="_blank" rel="noopener" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
                         </ul>
                     </nav>
                 </div>

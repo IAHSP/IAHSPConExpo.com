@@ -233,7 +233,7 @@ import { Component } from '@angular/core';
                                                     style mixed with rock star glam. Her celebrity and discerning clientele benefit from her extensive world travels, adding 
                                                     dramatic artwork and unique accessories used to create havens.  Her influences translate to her new furniture collection 
                                                     with Sunpan debuting Spring of 2018, her art collection with Leftbank Art, the luxe Kelli Ellis Collection for 
-                                                    <a href="http://tilebar.com/designer-tiles/kelli-ellis.html" target="_blank">Tilebar</a>, a linen collection with 
+                                                    <a href="http://tilebar.com/designer-tiles/kelli-ellis.html" target="_blank" rel="noopener">Tilebar</a>, a linen collection with 
                                                     Instalinen debuting in 2018, her art glass line with Frates and her whimsy outdoor rug line for Jaipur Rugs 
                                                     International.</p>
 
@@ -247,9 +247,9 @@ import { Component } from '@angular/core';
                                                     of the Board of Director’s for Miracles for Kids lending her name and time to her passion project; aiding Orange County’s 
                                                     children in need.</p>
                                                     
-                                                    <p>You’ve likely seen Kelli as the featured designer on TLC’s <em>Clean Sweep</em>, <a href="http://hgtv.com/" target="_blank">HGTV</a>‘s 
+                                                    <p>You’ve likely seen Kelli as the featured designer on TLC’s <em>Clean Sweep</em>, <a href="http://hgtv.com/" target="_blank" rel="noopener">HGTV</a>‘s 
                                                     <em>Takeover my Makeover</em>, and productions of <em>Value Booster’s, Move or Improve,  and The House Therapist</em>. You’ve watched 
-                                                    Kelli design homes and offices on <a href="http://bravo.com/" target="_blank">Bravo’s</a>, <em>Real Housewives of Orange County</em>. 
+                                                    Kelli design homes and offices on <a href="http://bravo.com/" target="_blank" rel="noopener">Bravo’s</a>, <em>Real Housewives of Orange County</em>. 
                                                     On HGTV’s #1 Holiday hit, <em>Celebrity Holiday Homes</em>, and is a guest designer on HGTV’s current hit show, <em>House Hunters 
                                                     Renovation</em>. Kelli proudly stars in her own show on <em>The Design Network, Design Therapy. And just in: Kelli will be guest 
                                                     designing on a hit show in London, late 2017!</em></p>
@@ -258,9 +258,9 @@ import { Component } from '@angular/core';
                                                     Network), Robert and Kym Herjavec (Shark Tank/DWTS), Ashley Greene (Twilight) and Paul Khoory (Lookai), Sasha Farber and 
                                                     Emma Slater (DWTS) to name a few.</p>
                                                     
-                                                    <p>The web knows Kelli from RST Brands Ambassador, <a href="http://www.ehow.com/" target="_blank">eHow.com</a>, <a href="https://bizcircle.att.com/circle-solutions/building-your-business/complete-tasks-with-cloud-based-project-management-software/#fbid=xA3guQv0pHd" target="_blank">AT&T Business Circle</a>, and blog expert for Ziploc and Clorox. 
+                                                    <p>The web knows Kelli from RST Brands Ambassador, <a href="http://www.ehow.com/" target="_blank" rel="noopener">eHow.com</a>, <a href="https://bizcircle.att.com/circle-solutions/building-your-business/complete-tasks-with-cloud-based-project-management-software/#fbid=xA3guQv0pHd" target="_blank" rel="noopener">AT&T Business Circle</a>, and blog expert for Ziploc and Clorox. 
                                                     You’ve heard her give decor and “Design Psychology” advice on HGTV Radio, Sirius Radio with celebrity client, E! Network’s, 
-                                                    <a href="http://www.conversationswithmaria.com/" target="_blank">Maria Menounos</a>, and BlogTalk Radio. She is also a regular keynote and panelist at High Point Market, Las Vegas Market, 
+                                                    <a href="http://www.conversationswithmaria.com/" target="_blank" rel="noopener">Maria Menounos</a>, and BlogTalk Radio. She is also a regular keynote and panelist at High Point Market, Las Vegas Market, 
                                                     Atlanta Market, Seattle Market, Dallas Market, Modernism, and Maison Objet in Paris.</p>
                                                     
                                                     <p>Awards: Riviera Magazine recently gave Kelli the Best of OC, and Top 5 Favorite Designers status. She is Luxury 
@@ -270,9 +270,9 @@ import { Component } from '@angular/core';
                                                     outstanding Women in Business keynote and nominee, panelist at the Women of Influence conference, Blogher, and opening 
                                                     panelist for High Point Market.</p>
                                                     
-                                                    <p>As a Certified Life Strategies Coach and the leading CDPC, she has created the <a href="http://www.spencerinstitute.com/design-psychology-coach-certification/" target="_blank">Certified Design Psychology Coaching 
+                                                    <p>As a Certified Life Strategies Coach and the leading CDPC, she has created the <a href="http://www.spencerinstitute.com/design-psychology-coach-certification/" target="_blank" rel="noopener">Certified Design Psychology Coaching 
                                                     program through the nationally accredited, Spencer Institute</a>. As a follow-up, She has authored the ”Design Psychology” 
-                                                    book entitled, <a href="http://www.amazon.com/Look-Skinny-This-House-Psychology/dp/1614488975" target="_blank">“Do I look skinny in this house?”</a></p>
+                                                    book entitled, <a href="http://www.amazon.com/Look-Skinny-This-House-Psychology/dp/1614488975" target="_blank" rel="noopener">“Do I look skinny in this house?”</a></p>
                                                     
                                                     <p>To bring education to all designers, she co-created Interior Design Camp and Design Campus, the world’s leading interior 
                                                     design conference, educating thousands of interior designers, decorators, and design lovers nationally and internationally. 
