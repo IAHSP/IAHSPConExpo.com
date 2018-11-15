@@ -15,19 +15,19 @@ import { Component, OnInit } from '@angular/core';
           <div class="col-md-offset-2 col-md-8">
             <div class="owl-carousel controlls-over" data-plugin-options='{"autoPlay":9000, "stopOnHover":true, "items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "itemsScaleUp":true}'>
               <div>
-                <img alt="" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-outside-hotel.png" />
+                <img alt="IAHSP Gaylord Outside Hotel" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-outside-hotel.jpg" />
               </div>
               <div>
-                <img alt="" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-bedroom.jpg" />
+                <img alt="IAHSP Gaylord Bedroom" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-bedroom.jpg" />
               </div>
               <div>
-                <img alt="" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-bedroom-1.jpg" />
+                <img alt="Second IAHSP Gaylord Bedroom " class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-gaylord-bedroom-1.jpg" />
               </div>
               <div>
-                <img alt="" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-nashville-tennessee-plaza.jpg" />
+                <img alt="IAHSP Nashville Tennessee Plaza" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-nashville-tennessee-plaza.jpg" />
               </div>
               <div>
-                <img alt="" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-nashville-tennessee-plaza-1.jpg" />
+                <img alt="Second IAHSP Nashville Tennessee Plaza" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-nashville-tennessee-plaza-1.jpg" />
               </div>
             </div>
           </div>
