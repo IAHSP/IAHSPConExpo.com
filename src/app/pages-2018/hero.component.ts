@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-2018-hero',
     template: `
+    
         <!-- REVOLUTION SLIDER -->
         <section class="fullscreenbanner-container">
             <div class="fullscreenbanner">
@@ -186,6 +187,11 @@ import { Component } from '@angular/core';
     `]
     
 })
-export class Hero2018Component {
 
+export class Hero2018Component implements OnInit {
+
+    constructor() {}
+  
+    ngOnInit() { }
+  
 }

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
                 <h2 class="text-center"><strong>Hotel Information</strong></h2>
                 
 				<article class="row">
-					<div class="col-md-6">
+                    <div class="col-md-6">
 						<div class="owl-carousel controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
 							<div>
                                 <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-grand-ballroom.jpg"

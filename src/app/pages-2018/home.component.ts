@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-2018-home',
@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
         <span id="header_shadow"></span>
         
         <div id="wrapper">
+
             <app-2018-hero></app-2018-hero>
 
             <app-2018-scott id="scott"></app-2018-scott>
@@ -30,9 +31,10 @@ import { Component } from '@angular/core';
 
             <app-2018-stageindustawards id="stageindustawards"></app-2018-stageindustawards>
 
-            <!-- <app-2018-countdown></app-2018-countdown> -->
+            <app-2018-countdown></app-2018-countdown>
 
-            <app-2018-contact id="contact"></app-2018-contact>
+            <app-2018-contact id="contact2018"></app-2018-contact>
+            
         </div>
 
         <app-shared-footer></app-shared-footer>
@@ -42,6 +44,10 @@ import { Component } from '@angular/core';
     `]
 
 })
-export class Home2018Component {
+
+export class Home2018Component implements OnInit {
+
   constructor() {}
+
+  ngOnInit() {}
 }

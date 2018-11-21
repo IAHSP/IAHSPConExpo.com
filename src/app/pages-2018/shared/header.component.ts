@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 
 @Component({
     selector: 'app-shared-header-2018',
@@ -12,8 +12,7 @@ import { Component } from '@angular/core';
 				<span class="quick-contact pull-left">
                     <i class="fa fa-phone"></i> <a href="tel:8003927161">800-392-7161</a>
                     <span class="hidden-xs">&bull;&nbsp;  <a href="mailto:help@iahsp.com"><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a></span>
-				</span>
-				<!-- /PHONE/EMAIL -->
+				</span><!-- /PHONE/EMAIL -->
 
 				<div class="pull-right">
 					<a href="https://iahsp.com/" target="_blank" rel="noopener"><i class="fa fa-external-link"></i> IAHSP.com</a>
@@ -27,8 +26,7 @@ import { Component } from '@angular/core';
 				</div>
 
 			</div>
-		</header>
-		<!-- /Top Bar -->
+		</header><!-- /Top Bar -->
 
         <header id="topNav" class="topHead">
             <div class="container">
@@ -65,12 +63,11 @@ import { Component } from '@angular/core';
                                     <li><a class="scrollTo" href="#stageindustawards">Staging Industry Awards</a></li>
 								</ul>
 							</li>
-                            <li><a class="scrollTo" href="#contact">Contact</a></li>
+                            <li><a class="scrollTo" routerLink="contact2018">Contact</a></li>
                             <li><div><a id="btnRegister" href="https://pages.iahsp.com/iahsp-conference-2018-registration/" target="_blank" rel="noopener" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
                         </ul>
                     </nav>
-                </div>
-                <!-- /Top Nav -->
+                </div><!-- /Top Nav -->
 
             </div>
         </header>
@@ -93,6 +90,9 @@ import { Component } from '@angular/core';
         }
     `]
 })
-export class HeaderComponent {
 
-}
+export class HeaderComponent implements OnInit {
+
+    ngOnInit() {}
+  
+  }
