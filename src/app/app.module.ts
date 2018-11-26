@@ -38,6 +38,7 @@ import { Designation2019Component } from './pages-2019/designation.component';
 import { Hotel2019Component } from './pages-2019/hotel.component';
 import { Countdown2019Component } from './pages-2019/countdown.component';
 import { Contact2019Component } from './pages-2019/contact/contact.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { Contact2019Component } from './pages-2019/contact/contact.component';
     Designation2019Component,
     Hotel2019Component,
     Countdown2019Component,
-    Contact2019Component
+    Contact2019Component,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
