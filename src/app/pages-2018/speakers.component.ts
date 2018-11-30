@@ -3,17 +3,17 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-speakers',
     template: `
-        <section class="special-row padding100">
-            <div class="container ng-scope">
-                <h2 class="text-center"><strong>2018 IAHSP Conference & EXPO FEATURED SPEAKERS</strong></h2>
-                <p class="lead" style="color: #000;">
+        <section class="padding100">
+            <div class="container">
+                <h2 class="text-center">2018 IAHSP Conference & EXPO FEATURED SPEAKERS</h2>
+                <p style="color: #000;">
                     Our lineup of Speakers for our 2018 IAHSP Conference will inspire, motivate and share knowledge 
                     and information that you can implement right away to grow your business to new heights!  We have 
                     compiled topics that will help YOU in your Journey to the Top of the Home Staging Industry!
                 </p>
 
                 <div class="row">
-                    <ul class="sort-destination isotope" data-sort-id="isotope-list">
+                    <ul class="list-style-none">
 
                         <!-- Fred Berns -->
                         <li class="col-sm-3">
@@ -1400,7 +1400,7 @@ import { Component } from '@angular/core';
                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/lhs-logo-blk%20gradient-lux-word.jpg" width="320px" class="img-responsive 
                     center-block space-bottom-20" alt="Luxury Home Staging">
 
-                    <ul class="sort-destination isotope" data-sort-id="isotope-list">
+                    <ul class="list-style-none">
 
                         <!-- Debbie Boggs -->
                         <li class="col-sm-3">

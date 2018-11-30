@@ -7,25 +7,25 @@ import { Component, OnInit } from '@angular/core';
 
     <span id="header_shadow"></span>
 
-      <div id="wrapper" class="padding-bottom-0">
+    <div id="wrapper" class="padding-bottom-0">
 
-        <app-2019-hero id="hero"></app-2019-hero>
+      <app-2019-hero id="hero"></app-2019-hero>
 
-        <app-2019-event id="event"></app-2019-event>
+      <app-2019-event id="event"></app-2019-event>
 
-        <app-2019-speakers id="speakers"></app-2019-speakers>
+      <app-2019-speakers id="speakers"></app-2019-speakers>
 
-        <app-2019-schedule id="schedule"></app-2019-schedule>
+      <app-2019-schedule id="schedule"></app-2019-schedule>
 
-        <app-2019-designation id="designation"></app-2019-designation>
+      <app-2019-designation id="designation"></app-2019-designation>
 
-        <app-2019-hotel id="hotel"></app-2019-hotel>
+      <app-2019-hotel id="hotel"></app-2019-hotel>
 
-        <app-2019-countdown id="countdown"></app-2019-countdown>
+      <app-2019-countdown id="countdown"></app-2019-countdown>
 
-        <app-2019-contact id="contact"></app-2019-contact>
+      <app-2019-contact id="contact"></app-2019-contact>
 
-      </div>
+    </div>
 
     <app-shared-2019-footer></app-shared-2019-footer>
   `,

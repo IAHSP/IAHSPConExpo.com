@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-shared-2019-header',
@@ -44,7 +44,7 @@ import { Component, OnInit } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li><a href="#wrapper" class="scrollTo">Home</a></li>
+              <li><a href="#wrapper" class="scrollTo">Home</a></li>              
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
@@ -55,6 +55,14 @@ import { Component, OnInit } from '@angular/core';
                     <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
                     <li><a href="#designation" class="scrollTo">NEW Designation</a></li>
                     <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" href="#">
+                    <i class="fa fa-angle-down"></i>Past Events
+                </a>
+                  <ul class="dropdown-menu">                    
+                    <li><a href="/iahsp2018">2018</a></li>
                   </ul>
               </li>
               <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li>
@@ -68,11 +76,11 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [``]
 })
+
 export class Header2019Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
