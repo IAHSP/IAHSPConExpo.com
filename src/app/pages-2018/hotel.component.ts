@@ -5,73 +5,96 @@ import { Component } from '@angular/core';
     template: `
         <section class="parallax delayed parallax-init" data-stellar-background-ratio="0.99" style="background-image: url(&quot;https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-nighttime.jpg&quot;); background-size: cover !important;">
         <span class="overlay bg-black-trans5"></span>
-            <div class="container ng-scope">
-                <h2 class="text-center"><strong>Hotel Information</strong></h2>
-                
+            <div class="container">
+                <h2 class="text-center">Hotel Information</h2>                
 				<article class="row">
                     <div class="col-md-6">
-						<div class="owl-carousel controlls-over" data-plugin-options='{"items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
-							<div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-grand-ballroom.jpg"
-                                 width="555" height="311" alt="The Westin Charlotte Grand Ballroom">
-							</div>
-							<div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-bar.jpg"
-                                 width="555" height="311" alt="The Westin Charlotte Bar">
-							</div>
-							<div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-lounge.jpg"
-                                 width="555" height="311" alt="The Westin Charlotte Lounge">
+                        <div id="myCarousel" class="carousel slide space-bottom-20" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                <li data-target="#myCarousel" data-slide-to="6"></li>
+                            </ol>
+                            
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-grand-ballroom.jpg"
+                                        width="555" height="311" alt="The Westin Charlotte Grand Ballroom">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-bar.jpg"
+                                        width="555" height="311" alt="The Westin Charlotte Bar">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-lounge.jpg"
+                                        width="555" height="311" alt="The Westin Charlotte Lounge">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-presidential-suite.jpg"
+                                        width="555" height="311" alt="The Westin Charlotte Hotel Presidential Suite">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-double-room.jpg"
+                                        width="555" height="311" alt="The Westin Charlotte Hotel Double Room">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-bedroom.jpg"
+                                        width="555" height="311" alt="The Westin Bedroom">
+                                </div>
+                                <div class="item">
+                                    <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-daytime.jpg"
+                                        width="555" height="311" alt="Westin Outside Daytime">
+                                </div>
                             </div>
-                            <div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-presidential-suite.jpg"
-                                 width="555" height="311" alt="The Westin Charlotte Hotel Presidential Suite">
-                            </div>
-                            <div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/the-westin-charlotte-hotel-double-room.jpg"
-                                 width="555" height="311" alt="The Westin Charlotte Hotel Double Room">
-                            </div>
-                            <div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-bedroom.jpg"
-                                 width="555" height="311" alt="The Westin Bedroom">
-                            </div>
-                            <div>
-                                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/westin-outside-daytime.jpg"
-                                 width="555" height="311" alt="Westin Outside Daytime">
-                            </div>
-						</div>
-					</div>
+                            
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>						
+                    </div>
+                    
 					<div class="col-md-6">
-                        <h2>The Westin Charlotte Hotel</h2>
-                        <p class="guest-can-make">Please make your reservations by calling Danae Kaupp at <a href="tel:7043352037">704-335-2037</a> and 
+                        <h3 class="space-bottom-12">The Westin Charlotte Hotel</h3>
+                        <p class="space-bottom-40">Please make your reservations by calling Danae Kaupp at <a href="tel:7043352037">704-335-2037</a> and 
                         asking for the <strong><u>IAHSP 2018 Room Block</u></strong>.</p>
-                        <h3>IAHSP 2018</h3>
-                        <hr />
-                        <p class="lead"><strong>Event Date:<br />
+
+                        <h3 class="space-bottom-12">IAHSP 2018</h3>
+                        <p><strong>Event Date:<br />
                         October 18-20, 2018</strong></p>
 
-                        <p class="lead"><strong><u>OPTIONAL ADD-ON EVENTS:</u></strong></p>
+                        <p><strong><u>OPTIONAL ADD-ON EVENTS:</u></strong></p>
+                        
+                        <a routerLink="/iahsp2018/wholesale">High Point Wholesale Experience - Oct 16</a><br />
+                        <a routerLink="/iahsp2018/ast">Advanced Stager Training - Oct 21</a><br />
+                        <a routerLink="/iahsp2018/ccs">Color Course - Oct 22-23</a><br /><br />
 
-                        <ul>
-                            <li><p class="lead font-weight-400"><a href="#wholesale" class="text-white">High Point Wholesale Experience - Oct 16</a></p></li>
-                            <li><p class="lead font-weight-400"><a href="#ast" class="text-white">Advanced Stager Training - Oct 21</a></p></li>
-                            <li><p class="lead font-weight-400"><a href="#ccs" class="text-white">Color Course - Oct 22-23</a></p></li>
-                        </ul>
-
-                        <p class="lead"><strong>Venue:<br />
+                        <p><strong>Venue:<br />
                         Westin Charlotte</strong></p>
 
-                        <p class="lead font-weight-400">**The Group Rate is available Arriving <strong>Thursday October 18th and Friday, Oct 19th, 2018.</strong> We had a smaller block for 
+                        <p>**The Group Rate is available Arriving <strong>Thursday October 18th and Friday, Oct 19th, 2018.</strong> We had a smaller block for 
                         Saturday that is sold out BUT <font color="yellow"><strong>there are plenty of rooms available for Saturday at our negotiated rate. To get a room for Saturday at our 
                         negotiated rate you must contact our conference coordinator:</strong></font> Danae Kaupp at <a href="tel:7043352037" class="text-white">704.335.2037</a> or <a href="mailto:Danae.Kaupp1@westin.com" class="text-white">Danae.Kaupp1@westin.com
                         </a></p>
 
-                        <p class="lead font-weight-400">Group rate available until September 19, 2018. Subject to availability.</p>
+                        <p>Group rate available until September 19, 2018. Subject to availability.</p>
 
                     </div>
 				</article>
-
             </div><!-- /container -->
+            
         </section>
     `,
     styles: [`

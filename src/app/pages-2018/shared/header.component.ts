@@ -37,7 +37,7 @@ import { Component, OnInit  } from '@angular/core';
                 </button>
 
                 <!-- Logo text or image -->
-                <a class="logo scrollTo" href="#wrapper">
+                <a class="logo" routerLink="/iahsp2018">
                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
                 </a>
 
@@ -45,26 +45,39 @@ import { Component, OnInit  } from '@angular/core';
                 <div class="navbar-collapse nav-main-collapse collapse pull-right">
                     <nav class="nav-main mega-menu">
                         <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-                            <li class="active"><a class="scrollTo" href="#wrapper">Home</a></li>
-                            <li class="dropdown">
+                            <li class="active"><a routerLink="/iahsp2018">Home</a></li>
+                            <li class="dropdown visible-md visible-lg">
 								<a class="dropdown-toggle" href="#">
 									Information <i class="fa fa-angle-down"></i>
 								</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="scrollTo" href="#scott">Keynote Speakers</a></li>
-                                    <li><a class="scrollTo" href="#sponsors">Sponsors</a></li>
-									<li><a class="scrollTo" href="#speakershelp">Speakers</a></li>
-                                    <li><a class="scrollTo" href="#vendors">Vendors</a></li>
-                                    <li><a class="scrollTo" href="#hotel">Hotel</a></li>
-                                    <li><a class="scrollTo" href="#wholesale">High Point Wholesale Experience</a></li>
-                                    <li><a class="scrollTo" href="#ast">Advance Stager Training</a></li>
-                                    <li><a class="scrollTo" href="#ccs">Confident Color System</a></li>
-                                    <li><a class="scrollTo" href="#lhsiahsp">Luxury Home Staging</a></li>
-                                    <li><a class="scrollTo" href="#stageindustawards">Staging Industry Awards</a></li>
+                                    <li><a routerLink="scott">Keynote Speakers</a></li>
+                                    <li><a routerLink="sponsors">Sponsors</a></li>
+									<li><a routerLink="speakers">Speakers</a></li>
+                                    <li><a routerLink="vendors">Vendors</a></li>
+                                    <li><a routerLink="hotel">Hotel</a></li>
+                                    <li><a routerLink="wholesale">High Point Wholesale Experience</a></li>
+                                    <li><a routerLink="ast">Advance Stager Training</a></li>
+                                    <li><a routerLink="ccs">Confident Color System</a></li>
+                                    <li><a routerLink="lhsiahsp">Luxury Home Staging</a></li>
+                                    <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
 								</ul>
-							</li>
-                            <li><a class="scrollTo" routerLink="contact2018">Contact</a></li>
-                            <li><div><a id="btnRegister" href="https://pages.iahsp.com/iahsp-conference-2018-registration/" target="_blank" rel="noopener" class="btn btn-primary btn-sm color-white">Register Now</a></div></li>
+                            </li>
+                            <div class="visible-xs visible-sm">
+                                <li><a routerLink="scott">Keynote Speakers</a></li>
+                                <li><a routerLink="sponsors">Sponsors</a></li>
+                                <li><a routerLink="speakers">Speakers</a></li>
+                                <li><a routerLink="vendors">Vendors</a></li>
+                                <li><a routerLink="hotel">Hotel</a></li>
+                                <li><a routerLink="wholesale">High Point Wholesale Experience</a></li>
+                                <li><a routerLink="ast">Advance Stager Training</a></li>
+                                <li><a routerLink="ccs">Confident Color System</a></li>
+                                <li><a routerLink="lhsiahsp">Luxury Home Staging</a></li>
+                                <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
+                            </div>
+                            <li><a routerLink="contact2018">Contact</a></li>
+                            <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-home" 
+                            aria-hidden="true"></i>Home</a></div></li>
                         </ul>
                     </nav>
                 </div><!-- /Top Nav -->
@@ -73,6 +86,14 @@ import { Component, OnInit  } from '@angular/core';
         </header>
     `,
     styles: [`
+        #topHead.fixed {
+            position: relative !important;
+        }
+
+        .topHead {
+            position: absolute !important;
+        }
+
         #btnRegister {
             margin: 2px 0px 0px 10px;
         }

@@ -3,14 +3,14 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-2018-sponsors',
     template: `
-        <section class="white-bg padding100">
-            <div class="container ng-scope">
+        <section class="padding100 bg-white">
+            <div class="container">
                 <div class="row">
 
                     <!-- Premier Platinum Sponsors -->
                     <div class="clearfix">
                         <div class="col-md-12">
-                            <h2 class="text-center"><strong>Premier Platinum<br />Sponsors</strong></h2>
+                            <h2 class="text-center">Premier Platinum<br />Sponsors</h2>
                         </div>
                         <div class="col-md-4">
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/classic-home.png" width="440px" class="center-block img-responsive pps 
@@ -41,7 +41,7 @@ import { Component } from '@angular/core';
                         
                         <!-- Platinum Sponsors -->
                         <div class="col-xs-offset-1 col-xs-10 col-sm-offset-4 col-sm-4 col-md-offset-1 col-md-3 padding-0">
-                            <h2 class="text-center"><strong>Platinum Sponsors</strong></h2>
+                            <h2 class="text-center">Platinum Sponsors</h2>
 
                             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/dalyn-rug-logo.jpg" class="center-block img-responsive dalyn-rug space-bottom-10"
                             alt="Dalyn Rug Company Beauty Beyond the Surface">
@@ -55,7 +55,7 @@ import { Component } from '@angular/core';
                             <!-- Gold Sponsors -->
                             <div class="clearfix col-md-12 gold">
                                 <div class="col-xs-12">
-                                    <h2 class="text-center"><strong>Gold Sponsors</strong></h2>
+                                    <h2 class="text-center">Gold Sponsors</h2>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="small-img">
@@ -161,7 +161,7 @@ import { Component } from '@angular/core';
                     <!-- Silver Sponsors -->
                     <div class="clearfix small-group-imgs">
                         <div class="col-md-12">
-                            <h2 class="text-center"><strong>Silver Sponsors</strong></h2>
+                            <h2 class="text-center">Silver Sponsors</h2>
                             <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/alfac-janine-brown.jpg" class="center-block img-responsive 
@@ -204,7 +204,7 @@ import { Component } from '@angular/core';
                     <!-- Bronze Sponsors -->
                     <div class="small-group-imgs">
                         <div class="col-md-12">
-                            <h2 class="text-center"><strong>Bronze Sponsors</strong></h2>
+                            <h2 class="text-center">Bronze Sponsors</h2>
                             <div class="col-sm-4">
                                 <div class="small-img">
                                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/jlw-company.jpg" class="center-block 
@@ -238,6 +238,11 @@ import { Component } from '@angular/core';
         </section>
     `,
     styles: [`
+
+        h2 {
+            line-height: 34px;
+        }
+
         /* Premier Platnium Sponsors */
         .classic-home, .smith-noble {
             padding: 64px 23px;

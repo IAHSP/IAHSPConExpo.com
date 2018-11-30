@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
         <div class="footer-bar">
             <div class="container">
                 <span class="copyright">Copyright &copy; IAHSP. All Rights Reserved.</span>
-                <a class="toTop" href="#topNav">BACK TO TOP <i class="fa fa-arrow-circle-up"></i></a>
             </div>
         </div><!-- copyright , scrollTo Top -->
 

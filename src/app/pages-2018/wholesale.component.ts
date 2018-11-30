@@ -4,12 +4,10 @@ import { Component } from '@angular/core';
     selector: 'app-2018-wholesale',
     template: `
         <section class="padding100 bg-white">
-            <div class="container ng-scope">
-                <h1 class="text-center"><strong>High Point Wholesale Experience</strong></h1>
+            <div class="container">
+                <h2 class="text-center">High Point Wholesale Experience</h2>
 
-                <div class="lead">
-                    <p class="text-center space-bottom-40">­This is a separate event you can register for and will be held Oct 16, 2018 in High Point, NC</p>
-                </div><!-- /lead -->
+                <p class="text-center">­This is a separate event you can register for and will be held Oct 16, 2018 in High Point, NC</p>                
 
                 <div class="row">
                     <div class="col-sm-12 space-bottom-40">

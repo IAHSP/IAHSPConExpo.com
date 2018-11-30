@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-center"><strong>Confident Color System</strong></h1>
+                        <h2 class="text-center">Confident Color System</h2>
                         <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/confident-color-system-flyer.jpg" width="560px" alt="Confident Color System Flyer" class="img-responsive 
                         center-block">
                     </div>

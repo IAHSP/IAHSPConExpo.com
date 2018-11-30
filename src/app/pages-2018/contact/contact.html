@@ -1,16 +1,15 @@
-<section class="padding100 margin-footer">
+<section class="padding100">
     <div class="container">
         <h1 class="text-center">Contact Us <strong><em>Today!</em></strong></h1>
-        <div class="divider"><!-- divider -->
+        <div class="divider half-margins"><!-- divider -->
             <i class="fa fa-star"></i>
         </div>
 
         <div class="row margin-top60">
+
             <!-- FORM -->
             <div class="col-md-8">
-
                 <h2>If you have questions about the IAHSP 2018 Educational Conference, just send us a message in the form below with any questions you may have.</h2>
-
                 <form role="form" name="formContactUs" class="white-row" #form="ngForm" novalidate="">
                     <div class="row">
                         <div class="form-group">
@@ -21,6 +20,7 @@
                                     [(ngModel)]="objUser.strFullName"
                                     required
                                 /><!-- /frmName -->
+
                             </div>
                             <div class="col-md-6">
                                 <label>E-mail Address *</label>
@@ -29,6 +29,7 @@
                                     [(ngModel)]="objUser.strEmail"
                                     required
                                 /><!-- /frmEmail -->
+
                             </div>
                         </div>
                     </div>
@@ -41,6 +42,7 @@
                                     [(ngModel)]="objUser.strSubject"
                                     required
                                 /><!-- /frmSubject -->
+
                             </div>
                         </div>
                     </div>
@@ -52,6 +54,7 @@
                                     [(ngModel)]="objUser.strMessage"
                                     required
                                 ></textarea><!-- /frmMessage -->
+
                             </div>
                         </div>
                     </div>
@@ -77,16 +80,12 @@
                         </div>
                     </div>
                 </form>
-
-            </div>
-            <!-- /FORM -->
+            </div><!-- /FORM -->
 
 
             <!-- INFO -->
             <div class="col-md-4">
-
                 <h2>Visit Us</h2>
-
                 <div class="white-row">
                     <iframe
                         width="100%"
