@@ -43,7 +43,7 @@ import { Component, OnInit } from '@angular/core';
             <!-- FOOTER LOGO -->
             <div class="column logo col-md-4 text-center">
               <div class="logo-content">
-                <img class="animate_fade_in img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo-iahsp-footer.png" alt="IAHSP Footer logo" />
+                <img class="center-block img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo-iahsp-footer.png" alt="IAHSP Footer logo" />
               </div>
             </div><!-- /FOOTER LOGO -->
 
