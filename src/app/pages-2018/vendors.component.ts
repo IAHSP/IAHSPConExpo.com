@@ -12,7 +12,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
                 <!-- CALL FOR SPEAKERS -->
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <div class="text-center space-bottom-20"><a href="#contact" class="btn btn-primary btn-lg scrollTo"><strong>Contact Us</strong></a></div>
+                        <div class="text-center space-bottom-20"><a routerLink="/iahsp2018/contact2018" class="btn btn-primary btn-lg scrollTo"><strong>Contact Us</strong></a></div>
                     </div><!-- /col -->
                 </div><!-- /row -->
             </div><!-- /container -->
