@@ -4,7 +4,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { User } from "./user.model";
 
 // rxjs
-import {Observable} from "rxjs/Observable";
 import "rxjs/Rx"; // used for .map
 
 @Injectable()
