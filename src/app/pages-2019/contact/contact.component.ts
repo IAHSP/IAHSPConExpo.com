@@ -6,7 +6,11 @@ import { ContactService } from "./contact.service";
 @Component({
     selector: 'app-2019-contact',
     templateUrl: "./contact.html",
-    styles: [``],
+    styles: [`
+        button {
+            margin: 0 5px 5px 0;
+        }
+    `],
     providers: [ContactService]
 })
 export class Contact2019Component {
