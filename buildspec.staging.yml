@@ -2,9 +2,9 @@ version: 0.2
 
 env:
     variables:
-        S3_BUCKET: "iahspconexpo"
+        S3_BUCKET: "iahspconexpo-staging"
         BUILD_ENV: "prod"
-        CLOUDFRONT_ID: "E1RY4ESLFCDK6N"
+        CLOUDFRONT_ID: "EVQB77DCKFGV0"
             
 phases:
     install:
