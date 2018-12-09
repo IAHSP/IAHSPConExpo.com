@@ -17,6 +17,8 @@ import { Component, OnInit } from '@angular/core';
 
       <app-2019-schedule id="schedule"></app-2019-schedule>
 
+      <app-2019-dinner id="dinner"></app-2019-dinner>
+
       <app-2019-designation id="designation"></app-2019-designation>
 
       <app-2019-hotel id="hotel"></app-2019-hotel>

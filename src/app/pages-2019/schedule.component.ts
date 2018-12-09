@@ -16,36 +16,36 @@ import { Component, OnInit } from '@angular/core';
             <p class="text-center">We are working on specifics but general timing is below</p>
 
             <table class="table table-bordered">
-                <tbody>
-                    <tr>
-                      <th scope="row" width="33%">DATE &amp; TIME</th>
-                      <th>EVENTS</th>
-                    </tr>
-                    <tr>
-                      <td scope="row">Thursday, Oct 3: 5:00 PM</td>
-                      <td>Registration and Vendor EXPO</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">Friday, Oct 4: 9:00 AM</td>
-                      <td>Education Sessions, Breakout Sessions and Keynote Speaker</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">Friday, Oct 4: 7:00 PM</td>
-                      <td>Awards Dinner</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">Saturday, Oct 6: 9:30 AM</td>
-                      <td>Education Sessions and Keynote Speaker</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">Saturday</td>
-                      <td>After Conference Ends we will have an After-Party!</td>
-                    </tr>
-                    <tr>
-                      <td scope="row">Sunday &amp; Monday, Oct 7-8</td>
-                      <td>Advanced Stager Training</td>
-                    </tr>
-                </tbody>
+              <tbody>
+                <tr>
+                  <th scope="row" width="33%">DATE &amp; TIME</th>
+                  <th>EVENTS</th>
+                </tr>
+                <tr>
+                  <td scope="row">Thursday, Oct 3: 5:00 PM</td>
+                  <td>Registration and Vendor EXPO</td>
+                </tr>
+                <tr>
+                  <td scope="row">Friday, Oct 4: 9:00 AM</td>
+                  <td>Education Sessions, Breakout Sessions and Keynote Speaker</td>
+                </tr>
+                <tr>
+                  <td scope="row">Friday, Oct 4: 7:00 PM</td>
+                  <td><a href="#dinner" class="scrollTo">Awards Dinner</a></td>
+                </tr>
+                <tr>
+                  <td scope="row">Saturday, Oct 6: 9:30 AM</td>
+                  <td>Education Sessions and Keynote Speaker</td>
+                </tr>
+                <tr>
+                  <td scope="row">Saturday</td>
+                  <td>After Conference Ends we will have an After-Party!</td>
+                </tr>
+                <tr>
+                  <td scope="row">Sunday &amp; Monday, Oct 7-8</td>
+                  <td>Advanced Stager Training</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
