@@ -53,6 +53,7 @@ import { Component, OnInit  } from '@angular/core';
                     <li><a href="#event" class="scrollTo">Event Summary</a></li>
                     <li><a href="#speakers" class="scrollTo">Speakers</a></li>
                     <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
+                    <li><a href="#dinner" class="scrollTo">Friday Awards Dinner</a></li>
                     <li><a href="#designation" class="scrollTo">NEW Designation</a></li>
                     <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
                   </ul>
