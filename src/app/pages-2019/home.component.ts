@@ -11,6 +11,8 @@ import { Component, OnInit } from '@angular/core';
 
       <app-2019-hero id="hero"></app-2019-hero>
 
+      <app-2019-cks id="cks"></app-2019-cks>
+
       <app-2019-event id="event"></app-2019-event>
 
       <app-2019-speakers id="speakers"></app-2019-speakers>
@@ -20,6 +22,8 @@ import { Component, OnInit } from '@angular/core';
       <app-2019-dinner id="dinner"></app-2019-dinner>
 
       <app-2019-designation id="designation"></app-2019-designation>
+
+      <app-2019-ast id="ast"></app-2019-ast>
 
       <app-2019-hotel id="hotel"></app-2019-hotel>
 

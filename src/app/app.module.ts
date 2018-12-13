@@ -22,13 +22,15 @@ import { Hotel2019Component } from './pages-2019/hotel.component';
 import { Countdown2019Component } from './pages-2019/countdown.component';
 import { Contact2019Component } from './pages-2019/contact/contact.component';
 import { Dinner2019Component } from './pages-2019/dinner.component';
+import { Ast2019Component } from './pages-2019/ast.component';
+import { Cks2019Component } from './pages-2019/cks.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
   { path: "", component: Home2019Component },
   
   // Lazy Loaded
-  { path: "iahsp2018", loadChildren: "./pages-2018/iahsp2018.module#Iahsp2018Module" }
+  { path: "2018", loadChildren: "./pages-2018/iahsp2018.module#Iahsp2018Module" }
 ];
 
 @NgModule({
@@ -48,7 +50,9 @@ const appRoutes: Routes = [
     Hotel2019Component,
     Countdown2019Component,
     Contact2019Component,
-    Dinner2019Component
+    Dinner2019Component,
+    Ast2019Component,
+    Cks2019Component
   ],
 
   imports: [
