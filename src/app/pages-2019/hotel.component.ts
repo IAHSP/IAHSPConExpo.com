@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-2019-hotel',
   template: `
   
-    <section class="padding100 bg-white">
+    <section class="padding100">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -33,7 +33,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <div class="col-md-12">
-            <p>Situated in the heart of Nashville, our luxury hotel allows you to hit all the high notes of Music City both in the area and under our 
+            <p class="lead">Situated in the heart of Nashville, our luxury hotel allows you to hit all the high notes of Music City both in the area and under our 
             roof. We also offer a full-service spa for a more relaxing way to unwind. When it's time to refuel, sip and savor in our stylish steak, 
             Mexican, Italian and Japanese restaurants followed by a frozen yogurt or gelato dessert. There is shopping located throughout the resort, 
             and the meeting space venues are beautiful spaces complete with built in stages, lobbies and professional amenities. Get ready for an 
@@ -41,7 +41,7 @@ import { Component, OnInit } from '@angular/core';
 
             <h4>Hotel Reservations will be open starting in December 2018</h4>
 
-            <p>We have negotiated special rates with the hotel<br />
+            <p class="lead">We have negotiated special rates with the hotel<br />
             that will be made available to all attendees including Reservation Codes.</p>
           </div>
         </div>
