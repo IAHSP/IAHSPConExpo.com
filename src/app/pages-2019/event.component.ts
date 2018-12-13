@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
           </div>
           <div class=" col-md-12">
             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-conference-and-expo-2019-logo.png" 
-            class="center-block img-responsive space-bottom-15" width="420px" alt="IAHSP 2019 Conference & Expo">
+            class="center-block img-responsive space-bottom-15" width="420px" alt="IAHSP 2019 Conference & Expo" width="360px">
 
             <p class="lead">The 2019 IAHSP<sup>®</sup> Conference and EXPO - ROCK Your Business in Music City- brings together top Home Staging Industry business owners and 
               Real Estate professionals, with key Affiliate Vendors for high-level teaching and networking. The Conference is being held in Nashville, 

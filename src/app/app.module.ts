@@ -23,6 +23,7 @@ import { Countdown2019Component } from './pages-2019/countdown.component';
 import { Contact2019Component } from './pages-2019/contact/contact.component';
 import { Dinner2019Component } from './pages-2019/dinner.component';
 import { Ast2019Component } from './pages-2019/ast.component';
+import { Cks2019Component } from './pages-2019/cks.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
@@ -50,7 +51,8 @@ const appRoutes: Routes = [
     Countdown2019Component,
     Contact2019Component,
     Dinner2019Component,
-    Ast2019Component
+    Ast2019Component,
+    Cks2019Component
   ],
 
   imports: [
