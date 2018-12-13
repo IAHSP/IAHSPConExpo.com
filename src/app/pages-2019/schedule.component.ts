@@ -13,9 +13,9 @@ import { Component, OnInit } from '@angular/core';
             <p class="lead font-weight-400 text-center">You are going to be inspired to ROCK Your Business with<br />
             what you learn at our 2019 IAHSP<sup>®</sup> Conference & EXPO!</p>
 
-            <p class="text-center">We are working on specifics but general timing is below</p>
+            <p class="lead text-center">We are working on specifics but general timing is below</p>
 
-            <table class="table table-bordered">
+            <table class="table table-bordered lead">
               <tbody>
                 <tr>
                   <th scope="row" width="33%">DATE &amp; TIME</th>
