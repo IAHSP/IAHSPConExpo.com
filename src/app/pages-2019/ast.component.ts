@@ -23,7 +23,7 @@ import { Component, OnInit } from '@angular/core';
             <p class="lead text-center"><strong>This year, we are excited to have six workshop facilitators who are very qualified to be part of this event:</strong></p>
 
             <p class="lead text-center">Advanced Stager Training Day<br />
-            <strong>Oct 7 & 8, 2019</strong><br />
+            <strong>Oct 6 & 7, 2019</strong><br />
             Nashville<br />
             $499<br />
             When you register for BOTH the 2019 IAHSP Conference & EXPO and the ASTl you can save $75.00. Use code AST75</p>
