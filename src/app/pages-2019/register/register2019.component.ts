@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderComponent } from "./shared/header.component";
+import { FooterComponent } from "./shared/footer.component";
 
 @Component({
   selector: 'app-register2019',
