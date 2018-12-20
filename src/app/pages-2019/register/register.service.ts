@@ -37,7 +37,7 @@ export class RegisterService {
             }; // objUser
         } else {
             //this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/register";
-            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo_register";
+            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo_register/";
             
             // Contains user's info.
             this.objUser = {
