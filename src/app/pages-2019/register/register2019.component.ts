@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { ReCaptchaComponent } from 'angular2-recaptcha';
-import { HeaderComponent } from "../shared/header.component";
-import { FooterComponent } from "../shared/footer.component";
+import { Header2019Component } from "../shared/header.component";
+import { Footer2019Component } from "../shared/footer.component";
 import { RegisterService } from "./register.service";
 
 @Component({
