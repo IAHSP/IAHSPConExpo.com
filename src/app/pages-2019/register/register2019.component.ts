@@ -27,7 +27,7 @@ export class Register2019Component {
     (<HTMLInputElement> document.getElementById("btnSubmit")).disabled = true;
 
     // Attempt to send email.
-    this.contactService.mdSendData(this.objUser)
+    this.registerService.mdSendData(this.objUser)
       .subscribe(response => {
         console.log(response["status"]);
         if (response["status"] === "email sent") {
@@ -36,6 +36,9 @@ export class Register2019Component {
           document.getElementById("btnSubmit").classList.remove("btn-info");
           document.getElementById("btnSubmit").classList.add("btn-success");
           (<HTMLInputElement> document.getElementById("btnSubmit")).disabled = true;
+
+          // Successful submission, so lets redirect
+          console.log('this is a pretend redirect...');
         } else {
           // Something went wrong.
           document.getElementById("btnSubmit").textContent = "Please try again.";
