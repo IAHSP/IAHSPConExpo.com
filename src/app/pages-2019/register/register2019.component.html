@@ -8,15 +8,16 @@
 
         <!-- INFO -->
         <div class="col-md-6">
-          <h2>Welcome!</h2>
+          <h2>2019 IAHSP CONFERENCE & EXPO</h2>
           <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus iaculis interdum leo, quis commodo purus semper at.
+            The 2019 IAHSP® Conference and EXPO - ROCK Your Business in Music City- brings together top Home Staging Industry business owners and Real Estate professionals, with key Affiliate Vendors for high-level teaching and networking. The Conference is being held in Nashville, TN with an Advanced Stager Training following the event.
           </p>
           <p class="lead">
-            Nam luctus convallis viverra. Nunc nec finibus turpis. Ut in vulputate turpis. Cras id tristique mauris, vitae malesuada felis.
+            Our Conferences are known for key teaching and topics that are pertinent for your success.  We will have Break-out Sessions with topics geared towards newer Stagers and more experienced Stagers.  Our Speakers are all successful Business owners and our KEY NOTE Speakers from outside the industry bring a different perspective to our event and are always well received.
           </p>
           <p class="lead">
-            Aliquam a massa sit amet libero tempor sodales. Cras tempus gravida placerat. Aenean id risus leo. Duis posuere nibh ut fringilla feugiat.
+            OUR KEYNOTE SPEAKERS! To be Announced!<br/>
+            You KNOW we are going to line up great speakers!
           </p>
 
 
@@ -25,77 +26,66 @@
 
         <!-- FORM -->
         <div class="col-md-6">
-          <h2>Start Your Registration Now!</h2>
-          <form>
-
-
-            <p class="lead">
-              Morbi in tellus vitae erat pellentesque viverra ut a nulla. Proin laoreet faucibus magna eget venenatis.
-            </p>
-
-            <form role="form" name="formContactUs" class="white-row" #form="ngForm" novalidate="">
-              <div class="row">
-                <div class="form-group">
-                  <div class="col-sm-12">
-                    <label>Full Name *</label>
-                    <input
-                      type="text" 
-                      class="form-control"
-                      maxlength="100"
-                      name="frmName"
-                      [(ngModel)]="objUser.fullName"
-                      required
-                    /><!-- /frmName -->
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-sm-12">
-                    <label>E-mail Address *</label>
-                    <input
-                      type="email"i
-                      class="form-control"
-                      maxlength="100"
-                      name="frmEmail"
-                      [(ngModel)]="objUser.email"
-                      required
-                    /><!-- /frmEmail -->
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-md-12">
-                    <label>Phone Number *</label>
-                    <input type="text"
-                      class="form-control"
-                      maxlength="100"
-                      name="frmSubject"
-                      [(ngModel)]="objUser.phone"
-                      required
-                    /><!-- /frmSubject -->
-                  </div>
+          <form role="form" name="formContactUs" class="white-row" #form="ngForm" novalidate="">
+            <div class="row">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label>Full Name *</label>
+                  <input
+                    type="text" 
+                    class="form-control"
+                    maxlength="100"
+                    name="frmName"
+                    [(ngModel)]="objUser.fullName"
+                    required
+                  /><!-- /frmName -->
                 </div>
               </div>
-              <br />
-
-              <div class="row">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label>E-mail Address *</label>
+                  <input
+                    type="email"i
+                    class="form-control"
+                    maxlength="100"
+                    name="frmEmail"
+                    [(ngModel)]="objUser.email"
+                    required
+                  /><!-- /frmEmail -->
+                </div>
+              </div>
+              <div class="form-group">
                 <div class="col-md-12">
-                  <re-captcha 
-                    (captchaResponse)="mdCaptchaHandle($event)" 
-                    (captchaExpired)="mdCaptchaExpired()"
-                    site_key="6Lci7RsUAAAAAPHt32HGEiSlk5sAHBLSL-z2MqN-"
-                    ></re-captcha>
+                  <label>Phone Number *</label>
+                  <input type="text"
+                    class="form-control"
+                    maxlength="100"
+                    name="frmSubject"
+                    [(ngModel)]="objUser.phone"
+                    required
+                  /><!-- /frmSubject -->
                 </div>
               </div>
+            </div>
+            <br />
 
-              <br />
-
-              <div class="row">
-                <div class="col-md-12">
-                  <button type="button" id="btnSubmit" class="btn btn-primary btn-lg" [disabled]="form.invalid || objUser.googleResponse == null" (click)="mdSend()">Register</button>
-                </div>
+            <div class="row">
+              <div class="col-md-12">
+                <re-captcha 
+                  (captchaResponse)="mdCaptchaHandle($event)" 
+                  (captchaExpired)="mdCaptchaExpired()"
+                  site_key="6Lci7RsUAAAAAPHt32HGEiSlk5sAHBLSL-z2MqN-"
+                  ></re-captcha>
               </div>
-            </form>
+            </div>
 
+            <br />
 
+            <div class="row">
+              <div class="col-md-12">
+                <button type="button" id="btnSubmit" class="btn btn-primary btn-lg" [disabled]="form.invalid || objUser.googleResponse == null" (click)="mdSend()">Register</button>
+              </div>
+            </div>
           </form>
         </div>
         <!-- /FORM -->
