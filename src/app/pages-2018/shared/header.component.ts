@@ -6,7 +6,7 @@ import { Component, OnInit  } from '@angular/core';
         
 		<!-- Top Bar -->
 		<header id="topHead">
-			<div class="container">
+			<div class="container androidFix">
 
 				<!-- PHONE/EMAIL -->
 				<span class="quick-contact pull-left">
@@ -92,6 +92,9 @@ import { Component, OnInit  } from '@angular/core';
 
         .topHead {
             position: absolute !important;
+        }
+        .androidFix {
+          overflow: hidden;
         }
 
         #btnRegister {
