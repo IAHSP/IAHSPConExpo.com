@@ -69,7 +69,7 @@ import { Component, OnInit  } from '@angular/core';
                   </ul>
               </li>
               <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li>
-              <li><div><a href="https://cvent.me/dZKd4" target="_blank" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
+              <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
