@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>CALL FOR SPEAKERS</h2>
+          <h2>CALL FOR SPEAKERS DEADLINE - JAN 7TH!</h2>
           <p class="lead">CALL FOR SPEAKERS! Please let us know if you would like to be considered as one of our Featured Speakers. You need to submit your 
             <strong>Topic, Outline and Credentials</strong> - as well as a short summary of <em><strong>WHY you would like to speak at our 2019 Conference 
               &amp; EXPO!</strong></em></p>

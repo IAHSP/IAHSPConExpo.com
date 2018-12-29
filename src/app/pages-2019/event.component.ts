@@ -20,7 +20,7 @@ import { Component, OnInit } from '@angular/core';
             <p class="lead">Our Conferences are known for key teaching and topics that are pertinent for your success.  We will have Break-out Sessions with topics 
               geared towards newer Stagers and more experienced Stagers.  Our Speakers are all successful Business owners and our KEY NOTE Speakers from 
               outside the industry bring a different perspective to our event and are always well received.</p>
-            <p class="lead">OUR KEYNOTE SPEAKERS! To be Announced!<br />
+            <p class="lead">OUR KEYNOTE SPEAKERS! Are Confirming!<br />
               You KNOW we are going to line up great speakers!</p>
           </div>
         </div>
