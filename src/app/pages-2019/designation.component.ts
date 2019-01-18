@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
             <p class="lead text-center">This year we are pleased to be issuing:</p>
 
             <h2 class="text-center">IAHSP<sup>®</sup> INVESTOR STAGING<br />
-            CONSULTANT (ICS) DESIGNATION!</h2>
+            CONSULTANT (ISC) DESIGNATION!</h2>
           </div>
           <div class="col-md-offset-1 col-md-4">
             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-investor-staging-consultant-logo.gif" class="center-block 
