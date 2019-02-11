@@ -42,7 +42,7 @@ import { Component, OnInit } from '@angular/core';
                   <td>After Conference Ends we will have an After-Party!</td>
                 </tr>
                 <tr>
-                  <td scope="row">Sunday &amp; Monday, Oct 7-8</td>
+                  <td scope="row">Sunday &amp; Monday, Oct 6-7</td>
                   <td>Advanced Stager Training</td>
                 </tr>
               </tbody>
