@@ -262,233 +262,187 @@ export const speakerList =[
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/john-norris.jpg`,
+    name:`John Norris`,
+    company:`IAHSP® International Sr Exec VP, Owner, Norris4Homes`,
+    topic:`What REALTORS® Really Want from Stagers and It’s Closing Time – Panel Discussions`,
+    modelId:`crozu`,
     description:`
-      <p></p>
+      <p>John is a seasoned, award-winning sales executive with over 25 years in high-tech, 
+        Fortune 500 Sales, which earned him the nickname, “The Negotiator.”  He is also a 
+        successful REALTOR® and business entrepreneur who understand how to work with Home 
+        Stagers to help increase his bottom line.  John will share his wisdom and insights 
+        on two panels and help us all to better understand the mindset of the REALTOR® and 
+        Closing Sales.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sandra-racz.jpg`,
+    name:`Sandra Racz`,
+    company:`The Decorating and Staging Academy`,
+    topic:`How to Hit High “C” with “E”-Decorating/Staging : Cash and Creditability awaits when you add E-Consultations and E-Design/E-Staging`,
+    modelId:`fixer`,
     description:`
-      <p></p>
+      <p>Clients, clients everywhere...why limit yourself to your backyard? The power of the 
+        Internet allows you to decorate and stage without ever leaving your office. There are 
+        many reasons why e-staging and e-decorating has become popular but what really matters 
+        is how to turn it into a lucrative service. This workshop includes a step-by-step guide 
+        to an actual virtual visit to a client. Watch how easy it is to gather pertinent 
+        information, translate it to a successful staging or design and collect your fees.</p>
+
+      <p>We will create a design concept and learn how to deliver a presentation package for 
+        a virtual client.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sanja-radovanovic.jpg`,
+    name:`Sanja Radovanovic`,
+    company:`IAHSP® Europe`,
+    topic:`Update on IAHSP Europe`,
+    modelId:`chine`,
     description:`
-      <p></p>
+      <p>Sanja and her team have done an outstanding job expanding IAHSP® throughout Europe. 
+        Join Sanja for this update on what is happening in Europe and how we are making a 
+        global impact.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/john-reagan.jpg`,
+    name:`John Reagan`,
+    company:`Coldwell Banker Real Estate`,
+    topic:`What REALTORS® Really Want from Stagers – Panel Discussion`,
+    modelId:`tohow`,
     description:`
-      <p></p>
+      <p>What do REALTORS<sup>®</sup> really want when working with a Home Stager?  This panel discussion 
+        will provide valuable insights on how we can partner with REALTORS<sup>®</sup> to earn their 
+        business long term, and how to be an advocate for their success.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/robin-samora.jpg`,
+    name:`Robin Samora`,
+    company:`robinsamora.com`,
+    topic:`Hit the High Note with Your Marketing`,
+    modelId:`cirlb`,
     description:`
-      <p></p>
+      <p>Marketing/PR expert and speaker, Robin Samora, teaches small business owners how to 
+        rev up their brand online and offline, to win more attention, build leadership position 
+        and get more sales. With decades of experience, she helps professionals and entrepreneurs 
+        find their ideal target market, create branding, marketing and PR strategies that work 
+        -- with the ultimate goal -- to bring in more business. Robin’s mission is to help 
+        clients boost their brand, business and bottom line by teaching them how to cut through 
+        the clutter so they can get noticed -- and make more money. She uses social media, 
+        blogging, email marketing, speaking and free publicity strategies to enhance reputation 
+        and credibility, positioning her clients as a “go-to” source, and customizes marketing 
+        strategies according to their personal and professional goals.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sharon-schoenfeld.jpg`,
+    name:`Sharon Schoenfeld`,
+    company:`Remax Allegiance`,
+    topic:`What REALTORS® Really Want from Stagers - Panel Discussion`,
+    modelId:`fodip`,
     description:`
-      <p></p>
+      <p>What do REALTORS® really want when working with a Home Stager?  This panel discussion 
+        will provide valuable insights on how we can partner with REALTORS® to earn their 
+        business long term, and how to be an advocate for their success.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/lyn-spaeth.jpg`,
+    name:`Lyn Spaeth`,
+    company:`IAHSP® Executive Leadership Board, Luxe Home Staging & Design`,
+    topic:`Occupied Home Staging is a Money Maker`,
+    modelId:`drosl`,
     description:`
-      <p></p>
+      <p>With so much focus on vacant properties with inventory and décor, Stagers may be 
+        overlooking a very lucrative market segment for their business.  Occupied Home Staging 
+        uses our creativity and client’s resources in ways that test our talent.  Learn how to 
+        cultivate this aspect of your business where care and compassion are a necessary part 
+        of working with sellers.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/theresa-thomas.jpg`,
+    name:`Theresa Thomas`,
+    company:`Stage Right Home Staging`,
+    topic:`Building a “Bridge over Troubled Waters”- Navigating through Life’s Challenges while sustaining your successful business`,
+    modelId:`viteg`,
     description:`
-      <p></p>
+      <p>Life happens and how we deal with the challenges we face will make or break us.  
+        Join Theresa for this honest look at her journey that includes ups and downs and 
+        solutions she found worked for her life to manage the everyday challenges, focusing 
+        on how respond to situations and challenges to thrive or survive.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/tori-toth.png`,
+    name:`Tori Toth`,
+    company:`Video Visibility`,
+    topic:`3 Ways to Conquer Pressing Record, Build Your Visibility and Leverage Video to Gain Warm Leads`,
+    modelId:`ziphl`,
     description:`
-      <p></p>
+      <p>If you’re looking to reach potential clients in less time with less effort, than 
+        it's time to embrace video. Winning in business today involves discovering, creating 
+        and leveraging competitive advantages through the use of informative, yet entertaining 
+        and actionable content. Join us to learn how to overcome your video fears and create 
+        a video marketing plan you can start implementing TODAY!</p>
+
+      <p>Tori Toth will share how to gain video visibility by discovering your “What + Why,” 
+        The Process Behind Creating Successful Videos and how to Stay Consistent with Limited 
+        Time. Be ready to press record by the end of this presentation. Here’s what you’ll 
+        learn:</p>
+
+      <ul class="list-style-disc">
+        <li>Importance of Using Video</li>
+        <li>Benefits of Video Marketing</li>
+        <li>Content to Create Including 3 Videos You Must Have Now</li>
+        <li>Easy Video Content System to Implement</li>
+      </ul>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/kat-troulinos.jpg`,
+    name:`Kat Troulinos`,
+    company:`Tada Staging by Kat`,
+    topic:`It's Closing Time - Overcoming Objections`,
+    modelId:`drisp`,
     description:`
-      <p></p>
+      <p>The struggle to get business usually boils down to lack of knowledge, confidence and 
+        ability to successfully close the sale.  Overcoming Objections is a also a key part of 
+        closing a sale and understanding what a client is really saying when they may say, 
+        “No,” is an important part of turning a No into a Yes.  Kat joins this panel of 
+        experts who will share their tips on how to smoothly and confidently ask for the 
+        business including negotiation tips and scripting to use with clients.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/bette-vos.jpg`,
+    name:`Bette Vos`,
+    company:`IAHSP® International Executive Board`,
+    topic:`It's Closing Time - Overcoming Objections`,
+    modelId:`xuthi`,
     description:`
-      <p></p>
+      <p>The struggle to get business usually boils down to lack of knowledge, confidence 
+        and ability to successfully close the sale.  Overcoming Objections is a also a key 
+        part of closing a sale and understanding what a client is really saying when they 
+        may say, “No,” is an important part of turning a No into a Yes.  Bette joins this 
+        panel of experts who will share their tips on how to smoothly and confidently ask 
+        for the business including negotiation tips and scripting to use with clients.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/hayden-yates.jpg`,
+    name:`Hayden Yates`,
+    company:`Simply Splendid Staging & Photography`,
+    topic:`Life as a Composition - Looking at what makes a composition engaging in both Staging and Photography`,
+    modelId:`xajet`,
     description:`
-      <p></p>
+      <p>Bring to light the elements that make a composition more dynamic, more engaging, 
+        whether its a 2D image like a photograph or an actual space that is being staged. 
+        Identifying these elements, whether its lighting, staging accessories, architecture 
+        elements, furniture, style, color and contrast are all part of this visual language.</p>
     `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
-  {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
-    description:`
-      <p></p>
-    `
-  },
+  }
 ];

@@ -6,7 +6,7 @@ import { speakerList } from "./shared/speakers";
   selector: 'app-2019-speakers',
   template: `
   
-  <section class="padding100 bg-white">
+  <section class="padding100">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
