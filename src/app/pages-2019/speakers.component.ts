@@ -28,7 +28,7 @@ import { speakerList } from "./shared/speakers";
                 <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
               </figure>
               <div class="item-box-desc">
-                <h4>{{ speaker.name }}</h4>
+                <h4 class="space-bottom-8">{{ speaker.name }}</h4>
                 <h5>TOPIC: {{ speaker.topic }}</h5>
 
                 <!-- modal trigger -->
@@ -49,7 +49,7 @@ import { speakerList } from "./shared/speakers";
 
                       <!-- modal body -->
                       <div class="modal-body">
-                        {{ speaker.description }}
+                        <p class="text-align-left" [innerHTML]="speaker.description"></p>
                       </div><!-- /modal body -->
 
                       <!-- modal footer -->
