@@ -30,7 +30,8 @@ import { speakerList } from "./shared/speakers";
                   <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
                 </figure>
                 <div class="item-box-desc">
-                  <h4 class="space-bottom-8">{{ speaker.name }}</h4>
+                  <h4 class="space-bottom-8">{{ speaker.name }}<br />
+                  <small>{{ speaker.company }}</small></h4>
                   <h5>TOPIC: {{ speaker.topic }}</h5>
 
                   <!-- modal trigger -->
@@ -46,12 +47,12 @@ import { speakerList } from "./shared/speakers";
                         <!-- modal header -->
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="myModalLabel">{{ speaker.name }}</h4>
+                            <h4 class="modal-title" id="myModalLabel">{{ speaker.name }} {{ "- "+speaker.company }}</h4>
                         </div><!-- /modal header -->
 
                         <!-- modal body -->
                         <div class="modal-body">
-                          <p class="text-align-left" [innerHTML]="speaker.description"></p>
+                          <div class="text-align-left" [innerHTML]="speaker.description"></div>
                         </div><!-- /modal body -->
 
                         <!-- modal footer -->
@@ -64,8 +65,8 @@ import { speakerList } from "./shared/speakers";
                 </div>
               </div>
             </li><!-- /speakers -->
-            <div class="clearfix visible-sm" *ngIf="( i + 1 ) % 3 == 0"></div>
-            <div class="clearfix visible-md visible-lg" *ngIf="( i + 1 ) % 4 == 0"></div>
+            <div class="clearfix visible-sm visible-md" *ngIf="( i + 1 ) % 3 == 0"></div>
+            <div class="clearfix visible-lg" *ngIf="( i + 1 ) % 4 == 0"></div>
           </ng-container>
         </ul>
       </div>
@@ -75,6 +76,11 @@ import { speakerList } from "./shared/speakers";
   `,
   styles: [`
   
+    h4 > small {
+      line-height: 1.2;
+      margin-top: 2px;
+    }
+
     .no-bullets {
       list-style: none;
     }
