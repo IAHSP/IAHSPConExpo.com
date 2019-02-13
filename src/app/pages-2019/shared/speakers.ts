@@ -446,3 +446,63 @@ export const speakerList =[
     `
   }
 ];
+
+
+
+export const isdList =[
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/lisa-basham.jpg`,
+    name:`Lisa Basham`,
+    company:`Helpful Home Staging`,
+    topic:`Investor Staging Designation:  If I had a Hammer - I would do a lot more than hang pictures`,
+    modelId:`fewru`,
+    description:`
+      <p>In working with Investors, consider which updates may be needed, how to select, 
+        measure, and obtain pricing and then transform the information into a quote.</p>
+
+      <p>Topics covered:</p>
+
+      <ul class="list-style-disc">
+        <li>Building your mindset with confidence to do this work</li>
+        <li>How to determine best product for client’s situation in each areas: Cabinets, 
+          Counters, Flooring, Lighting and Painting</li>
+        <li>Pro’s and Con’s of using a material (example: tile vs. vinyl laminate flooring)</li>
+        <li>Price guidelines</li>
+        <li>Guidelines on measuring for various improvements</li>
+        <li>How to obtain a quote from a trade and what to look for in Sub trades quotes to you</li>
+        <li>How to CYA in quoting and what to look for with Trades</li>
+        <li>Overview of acting in the position of General Contractor vs. referring trades</li>
+      </ul>
+    `
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sheila-dragon.jpg`,
+    name:`Sheila Dragon`,
+    company:`Dragon Design Co.`,
+    topic:`Flipping Houses is not the time to be a Gambler`,
+    modelId:``,
+    description:`
+      <p></p>
+    `
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
+    name:``,
+    company:``,
+    topic:``,
+    modelId:``,
+    description:`
+      <p></p>
+    `
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
+    name:``,
+    company:``,
+    topic:``,
+    modelId:``,
+    description:`
+      <p></p>
+    `
+  },
+]

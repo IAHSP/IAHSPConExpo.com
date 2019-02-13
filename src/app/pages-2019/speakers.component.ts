@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { speakerList } from "./shared/speakers";
 
+import { isdList } from "./shared/speakers";
+
 @Component({
   selector: 'app-2019-speakers',
   template: `
@@ -69,6 +71,69 @@ import { speakerList } from "./shared/speakers";
             <div class="clearfix visible-lg" *ngIf="( i + 1 ) % 4 == 0"></div>
           </ng-container>
         </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <ul class="no-bullets">
+          <ng-container *ngFor="let isd of isds; let i = index;">
+            <div *ngIf="(speaker % 3) == 0" class="clearfix visible-md"></div>
+
+            <!-- ISDs -->
+            <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+              <div class="item-box">
+                <figure>
+                  <img class="img-responsive center-block" src="{{ isd.image }}" alt="{{ isd.name }}">
+                </figure>
+                <div class="item-box-desc">
+                  <h4 class="space-bottom-8">{{ isd.name }}<br />
+                  <small>{{ isd.company }}</small></h4>
+                  <h5>TOPIC: {{ isd.topic }}</h5>
+
+                  <!-- modal trigger -->
+                  <div class="text-center">
+                    <a href="{{ '#'+isd.modelId }}" class="btn btn-primary" data-toggle="modal">View Bio</a>
+                  </div>
+
+                  <!-- modal dialog -->
+                  <div class="modal fade" id="{{ isd.modelId }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- modal header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">{{ isd.name }} {{ "- "+isd.company }}</h4>
+                        </div><!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <div class="text-align-left" [innerHTML]="isd.description"></div>
+                        </div><!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div><!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div><!-- /modal dialog -->
+                </div>
+              </div>
+            </li><!-- /ISDs -->
+            <div class="clearfix visible-sm visible-md" *ngIf="( i + 1 ) % 3 == 0"></div>
+            <div class="clearfix visible-lg" *ngIf="( i + 1 ) % 4 == 0"></div>
+          </ng-container>
+        </ul>
       </div>
     </div>
   </section>
@@ -89,6 +154,7 @@ import { speakerList } from "./shared/speakers";
 })
 export class Speakers2019Component implements OnInit {
   speakers = speakerList;
+  isds = isdList;
   
   constructor() { }
 
