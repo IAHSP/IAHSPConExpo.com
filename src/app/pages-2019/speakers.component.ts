@@ -20,48 +20,53 @@ import { speakerList } from "./shared/speakers";
         </div>
 
         <ul class="no-bullets">
+          <ng-container *ngFor="let speaker of speakers; let i = index;">
+            <div *ngIf="(speaker % 3) == 0" class="clearfix visible-md"></div>
 
-          <!-- Speakers -->
-          <li class="col-xs-12 col-sm-3" *ngFor="let speaker of speakers">
-            <div class="item-box">
-              <figure>
-                <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
-              </figure>
-              <div class="item-box-desc">
-                <h4 class="space-bottom-8">{{ speaker.name }}</h4>
-                <h5>TOPIC: {{ speaker.topic }}</h5>
+            <!-- Speakers -->
+            <li class="col-xs-12 col-sm-4 col-md-3">
+              <div class="item-box">
+                <figure>
+                  <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
+                </figure>
+                <div class="item-box-desc">
+                  <h4 class="space-bottom-8">{{ speaker.name }}</h4>
+                  <h5>TOPIC: {{ speaker.topic }}</h5>
 
-                <!-- modal trigger -->
-                <div class="text-center">
-                  <a href="{{ '#'+speaker.modelId }}" class="btn btn-primary" data-toggle="modal">View Bio</a>
-                </div>
-
-                <!-- modal dialog -->
-                <div class="modal fade" id="{{ speaker.modelId }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-
-                      <!-- modal header -->
-                      <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                          <h4 class="modal-title" id="myModalLabel">{{ speaker.name }}</h4>
-                      </div><!-- /modal header -->
-
-                      <!-- modal body -->
-                      <div class="modal-body">
-                        <p class="text-align-left" [innerHTML]="speaker.description"></p>
-                      </div><!-- /modal body -->
-
-                      <!-- modal footer -->
-                      <div class="modal-footer">
-                        <button class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div><!-- /modal footer -->
-                    </div>
+                  <!-- modal trigger -->
+                  <div class="text-center">
+                    <a href="{{ '#'+speaker.modelId }}" class="btn btn-primary" data-toggle="modal">View Bio</a>
                   </div>
-                </div><!-- /modal dialog -->
+
+                  <!-- modal dialog -->
+                  <div class="modal fade" id="{{ speaker.modelId }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- modal header -->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">{{ speaker.name }}</h4>
+                        </div><!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <p class="text-align-left" [innerHTML]="speaker.description"></p>
+                        </div><!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div><!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div><!-- /modal dialog -->
+                </div>
               </div>
-            </div>
-          </li><!-- /speakers -->
+            </li><!-- /speakers -->
+            <div class="clearfix visible-sm" *ngIf="( i + 1 ) % 3 == 0"></div>
+            <div class="clearfix visible-md visible-lg" *ngIf="( i + 1 ) % 4 == 0"></div>
+          </ng-container>
         </ul>
       </div>
     </div>
