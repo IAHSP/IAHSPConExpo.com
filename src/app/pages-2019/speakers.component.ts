@@ -24,7 +24,7 @@ import { speakerList } from "./shared/speakers";
             <div *ngIf="(speaker % 3) == 0" class="clearfix visible-md"></div>
 
             <!-- Speakers -->
-            <li class="col-xs-12 col-sm-4 col-md-3">
+            <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
               <div class="item-box">
                 <figure>
                   <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
