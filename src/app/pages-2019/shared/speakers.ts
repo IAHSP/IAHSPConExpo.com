@@ -480,29 +480,50 @@ export const isdList =[
     name:`Sheila Dragon`,
     company:`Dragon Design Co.`,
     topic:`Flipping Houses is not the time to be a Gambler`,
-    modelId:``,
+    modelId:`moswl`,
     description:`
-      <p></p>
+      <p>Sheila is a Home Stager who has transitioned into a property Investor/Flipper, raising Capital 
+        to generate funds to allow her to purchase properties, fix and resell them.  She understands 
+        the mindset of investors and how Home Stagers can work together for success and be of benefit 
+        to Investors.  Understanding where we can contribute in the process and benefits we offer will 
+        help us understand how to market to capture this business segment.</p>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/becky-harmon.jpg`,
+    name:`Becky Harmon`,
+    company:`Transformations Home Staging & Design`,
+    topic:`Material Trends to Make Your House Sing`,
+    modelId:`mixof`,
     description:`
-      <p></p>
+      <p>Becky will share all about the current material trends and how to incorporate them into a 
+        property renovation.  She will cover everything you need to know about:</p>
+
+      <ul class="list-style-disc">
+        <li>Best sources for referral fees</li>
+        <li>Carpet styles and fiber, pads, applications, pros and cons, trends</li>
+        <li>Engineered wood styles and materials, applications, trends</li>
+        <li>Laminate vs. Luxury Vinyl Planking, pros and cons</li>
+        <li>Wood-look tile, pros and cons</li>
+        <li>Porcelain vs. ceramic tile</li>
+        <li>Best backsplash options and why</li>
+        <li>Granite vs. Quartz</li>
+        <li>Best practices for small renos</li>
+        <li>Liability waivers</li>
+      </ul>
     `
   },
   {
-    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/`,
-    name:``,
-    company:``,
-    topic:``,
-    modelId:``,
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sandra-holmes.jpg`,
+    name:`Sandra Holmes`,
+    company:`IAHSP® International Executive Board, Luxe Home Staging & Design`,
+    topic:`Work It 9-5 to Cultivate Loyal Cliente`,
+    modelId:`dufrl`,
     description:`
-      <p></p>
+      <p>Working with Investors starts with getting the business. What steps can you take to market 
+        your services to this segment of the industry and how to you keep their business loyalty 
+        long term?  Find out from Sandra as she shares the importance of positioning your company 
+        and services in the market place to attract investor clients.</p>
     `
-  },
+  }
 ]
