@@ -20,6 +20,10 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
   
+    h2, h3 {
+      color: #2D2926;
+    }
+
   `]
 })
 export class Dinner2019Component implements OnInit {

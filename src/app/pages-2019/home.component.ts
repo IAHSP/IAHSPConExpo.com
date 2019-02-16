@@ -35,8 +35,8 @@ import { Component, OnInit } from '@angular/core';
 
     <app-shared-2019-footer></app-shared-2019-footer>
   `,
-  styles: [`
-      
+  styles: [`      
+
       #speakers {
         text-align: center;
       }
@@ -47,7 +47,7 @@ import { Component, OnInit } from '@angular/core';
 
       #countdown {
         text-align: center;
-      } 
+      }
 
   `]
 })

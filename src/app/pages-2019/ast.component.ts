@@ -39,6 +39,10 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
   
+    h2, p {
+      color: #2D2926;
+    }
+
   `]
 })
 export class Ast2019Component implements OnInit {

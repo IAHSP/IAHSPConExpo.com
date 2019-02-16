@@ -16,6 +16,7 @@
 .margin-top-0 { margin-top: 0px; }
 .margin-bottom-0 { margin-bottom: 0px; }
 .space-top-15 { margin-top: 15px !important; }
+.space-top-40 { margin-top: 40px !important; }
 .space-bottom-5 { margin-bottom: 5px !important; }
 .space-bottom-8 { margin-bottom: 8px !important; }
 .space-bottom-10 { margin-bottom: 10px !important; }
@@ -55,7 +56,6 @@
 .color-white { color: #fff; }
 
 /* Background Color */
-.bg-white { background-color: #fff; }
 .bg-black-trans3 { background-color: rgba(0,0,0,0.3); }
 .bg-black-trans5 { background-color: rgba(0,0,0,0.5); }
 
@@ -68,3 +68,8 @@
 
 /* Float */
 .float-left { float: left !important; }
+
+/* 2019 Speakers */
+#speakers div.text-align-left p, #speakers ul>li {
+    color: #2D2926;
+}

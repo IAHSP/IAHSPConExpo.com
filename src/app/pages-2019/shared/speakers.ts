@@ -211,7 +211,7 @@ export const speakerList =[
   },
   {
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/catherine-lewis-brown.png`,
-    name:`Catherine Lewis Brown`,
+    name:`Catherine Lewis-Brown`,
     company:`The Successful Stager`,
     topic:`Is Your Business Out of Tune? Ensuring Pricing and Profitability are in Harmony`,
     modelId:`drina`,
@@ -309,7 +309,7 @@ export const speakerList =[
   {
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/john-reagan.jpg`,
     name:`John Reagan`,
-    company:`Coldwell Banker Real Estate`,
+    company:`Berkshire Hathaway Home Services KeonigRubloff Realty Group`,
     topic:`What REALTORS® Really Want from Stagers – Panel Discussion`,
     modelId:`tohow`,
     description:`
