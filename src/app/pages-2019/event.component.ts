@@ -23,32 +23,7 @@ import { Component, OnInit } from '@angular/core';
 
             <p class="lead"><strong>Tier 1 Pricing now until April 30, 2019: $555 for IAHSP<sup>&reg;</sup> Members and $675 
             for Non-IAHSP Members (includes a year of membership).</strong></p>
-
-            <hr />
-
-            <h3 class="line-height-32">IAHSP<sup>®</sup> Conference &amp; EXPO - Nashville, TN - Oct 3-5, 2019</h3>
-
-            <p class="lead">Registration fee includes:</p>
-
-              <ul class="lead">
-                <li>(1) Admission to IAHSPConExpo</li>
-                <li>(1) Networking and Trade show with 45 TOP companies coming to meet YOU - the MOST of any industry event! Will be available all 3 days</li>
-                <li>(1) Vendor Expo Evening - Get to know your colleagues - Music, Food, Entertainment and TOP Industry Vendors with SHOW SPECIALS for YOU!</li>
-                <li>(2) Lunches - Friday and Saturday</li>
-                <li>(2) Dinners (Thursday Expo and Friday Awards Dinner)</li>
-                <li>(1) Coffee Stations and snacks during all 3 days</li>
-                <li>(1) Gala Awards Dinner aboard the General Jackson Show Boat</li>
-                <li>Educational Speakers Sharing In-Depth information to help you</li>
-                <li>(8-16) Breakout Sessions with different topics you can attend</li>
-                <li>(1) IAHSP<sup>®</sup> Leadership Session (by invitation)</li>
-                <li>(3) Keynotes - Candice Olson, plus 2 additional Celebrities - Celebrity Keynotes, and Barb Schwarz - Inspirational Keynote</li>
-              </ul>
             
-              <h3 class="line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - open to 6+ figure income earners</h3>
-
-              <p class="lead"><u>This is a separate ticketed event</u></p>
-
-              <p class="lead">NOTE: Hotel, gratuity, transportation and additional meals are your responsibility</p>
           </div>
         </div>
       </div>
