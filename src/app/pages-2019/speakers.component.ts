@@ -42,9 +42,9 @@ import { isdList } from "./shared/speakers";
                     <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
                   </figure>
                   <div class="item-box-desc">
-                    <h4 class="space-bottom-8">{{ speaker.name }}<br />
-                    <small>{{ speaker.company }}</small></h4>
-                    <h5>TOPIC: {{ speaker.topic }}</h5>
+                    <h4 class="space-bottom-8 text-center">{{ speaker.name }}<br />
+                    <small class="text-center">{{ speaker.company }}</small></h4>
+                    <h5 class="text-center">TOPIC: {{ speaker.topic }}</h5>
 
                     <!-- modal trigger -->
                     <div class="text-center">
