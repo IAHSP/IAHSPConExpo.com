@@ -70,6 +70,6 @@
 .float-left { float: left !important; }
 
 /* 2019 Speakers */
-#speakers div.text-align-left p, #speakers ul>li {
+#speakers div.modal-body p, #speakers ul>li {
     color: #2D2926;
 }

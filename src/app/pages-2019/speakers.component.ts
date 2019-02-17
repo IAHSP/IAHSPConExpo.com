@@ -42,9 +42,9 @@ import { isdList } from "./shared/speakers";
                     <img class="img-responsive center-block" src="{{ speaker.image }}" alt="{{ speaker.name }}">
                   </figure>
                   <div class="item-box-desc">
-                    <h4 class="space-bottom-8">{{ speaker.name }}<br />
-                    <small>{{ speaker.company }}</small></h4>
-                    <h5>TOPIC: {{ speaker.topic }}</h5>
+                    <h4 class="space-bottom-8 text-center">{{ speaker.name }}<br />
+                    <small class="text-center">{{ speaker.company }}</small></h4>
+                    <h5 class="text-center">TOPIC: {{ speaker.topic }}</h5>
 
                     <!-- modal trigger -->
                     <div class="text-center">
@@ -101,9 +101,9 @@ import { isdList } from "./shared/speakers";
                     <img class="img-responsive center-block" src="{{ isd.image }}" alt="{{ isd.name }}">
                   </figure>
                   <div class="item-box-desc">
-                    <h4 class="space-bottom-8">{{ isd.name }}<br />
-                    <small>{{ isd.company }}</small></h4>
-                    <h5>TOPIC: {{ isd.topic }}</h5>
+                    <h4 class="space-bottom-8 text-center">{{ isd.name }}<br />
+                    <small class="text-center">{{ isd.company }}</small></h4>
+                    <h5 class="text-center">TOPIC: {{ isd.topic }}</h5>
 
                     <!-- modal trigger -->
                     <div class="text-center">
@@ -123,7 +123,7 @@ import { isdList } from "./shared/speakers";
 
                           <!-- modal body -->
                           <div class="modal-body">
-                            <div class="text-align-left" [innerHTML]="isd.description"></div>
+                            <div [innerHTML]="isd.description"></div>
                           </div><!-- /modal body -->
 
                           <!-- modal footer -->
@@ -141,6 +141,36 @@ import { isdList } from "./shared/speakers";
             </ng-container>
           </ul>
         </div>
+
+        <div class="divider styleColor col-md-12">
+          <i class="fa fa-leaf"></i>
+        </div>
+
+        <div class="col-md-12">
+          <h3 class="line-height-32">IAHSP<sup>®</sup> Conference &amp; EXPO - Nashville, TN - Oct 3-5, 2019</h3>
+
+          <p class="lead">Registration fee includes:</p>
+
+          <ul class="lead">
+            <li>(1) Admission to IAHSPConExpo</li>
+            <li>(1) Networking and Trade show with 45 TOP companies coming to meet YOU - the MOST of any industry event! Will be available all 3 days</li>
+            <li>(1) Vendor Expo Evening - Get to know your colleagues - Music, Food, Entertainment and TOP Industry Vendors with SHOW SPECIALS for YOU!</li>
+            <li>(2) Lunches - Friday and Saturday</li>
+            <li>(2) Dinners (Thursday Expo and Friday Awards Dinner)</li>
+            <li>(1) Coffee Stations and snacks during all 3 days</li>
+            <li>(1) Gala Awards Dinner aboard the General Jackson Show Boat</li>
+            <li>Educational Speakers Sharing In-Depth information to help you</li>
+            <li>(8-16) Breakout Sessions with different topics you can attend</li>
+            <li>(1) IAHSP<sup>®</sup> Leadership Session (by invitation)</li>
+            <li>(3) Keynotes - Candice Olson, plus 2 additional Celebrities - Celebrity Keynotes, and Barb Schwarz - Inspirational Keynote</li>
+          </ul>
+        
+          <h3 class="line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - open to 6+ figure income earners</h3>
+
+          <p class="lead"><u>This is a separate ticketed event</u></p>
+
+          <p class="lead">NOTE: Hotel, gratuity, transportation and additional meals are your responsibility</p>
+        </div>
       </div>
     </div>
   </section>
@@ -149,10 +179,6 @@ import { isdList } from "./shared/speakers";
   styles: [`
   
     h2, h3, h4, li, p {
-      color: #2D2926;
-    }
-
-    div.text-align-left p {
       color: #2D2926;
     }
 
