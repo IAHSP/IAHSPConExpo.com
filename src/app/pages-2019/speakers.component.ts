@@ -24,10 +24,6 @@ import { isdList } from "./shared/speakers";
           <p class="lead">AND Don’t forget about the Investor Staging Consultant Designation you will earn!</p>
           
           <p class="lead"><strong>Our Conference is Your Getaway with a Takeaway!</strong></p>
-
-          <p class="lead">Our Celebrity Keynote Speakers bring EXCITEMENT and FUN as well as Business Experience and Expertise!  
-            More than just pretty faces, these Keynotes Speakers head up large industry companies!  Learn from their wisdom about 
-            longevity and success!</p>
         </div>
 
         <div class="col-md-12 space-bottom-40">
