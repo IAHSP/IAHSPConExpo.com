@@ -35,11 +35,7 @@ import { Component, OnInit } from '@angular/core';
 
     <app-shared-2019-footer></app-shared-2019-footer>
   `,
-  styles: [`      
-
-      #speakers {
-        text-align: center;
-      }
+  styles: [` 
 
       #hotel {
         text-align: center;

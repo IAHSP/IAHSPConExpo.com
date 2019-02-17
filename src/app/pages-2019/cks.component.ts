@@ -22,7 +22,7 @@ import { Component, OnInit } from '@angular/core';
             class="center-block img-responsive space-bottom-15" alt="IAHSP 2019 Conference & Expo" width="512px">
           </div>
           <div class=" col-md-12">
-            <h3 class="space-top-40 text-center line-height-32">as our Inspirational Keynote Speaker - Friday Evening</h3>
+            <h3 class="space-top-40 text-center line-height-32">Our Inspirational Keynote Speaker - Friday Evening</h3>
             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/barb-keynote-promo.jpg" 
             class="center-block img-responsive space-bottom-15" alt="IAHSP 2019 Conference & Expo Barb Schwarz" width="460px">
           </div>
