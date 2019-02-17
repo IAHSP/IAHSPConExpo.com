@@ -7,6 +7,11 @@ import { ContactService } from "./contact.service";
     selector: 'app-2019-contact',
     templateUrl: "./contact.html",
     styles: [`
+
+        p {
+            color: #2D2926;
+        }
+
         button {
             margin: 0 5px 5px 0;
         }

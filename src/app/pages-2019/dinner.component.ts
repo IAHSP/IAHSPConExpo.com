@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-2019-dinner',
   template: `
 
-  <section class="padding100 bg-white">
+  <section class="padding100">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -20,6 +20,10 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
   
+    h2, h3 {
+      color: #2D2926;
+    }
+
   `]
 })
 export class Dinner2019Component implements OnInit {
