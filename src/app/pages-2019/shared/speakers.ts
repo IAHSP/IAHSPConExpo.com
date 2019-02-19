@@ -517,7 +517,7 @@ export const isdList =[
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sandra-holmes.jpg`,
     name:`Sandra Holmes`,
     company:`IAHSP® International Executive Board, Luxe Home Staging & Design`,
-    topic:`Work It 9-5 to Cultivate Loyal Cliente`,
+    topic:`Work It 9-5 to Cultivate Loyal Client`,
     modelId:`dufrl`,
     description:`
       <p>Working with Investors starts with getting the business. What steps can you take to market 
