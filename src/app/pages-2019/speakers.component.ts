@@ -14,7 +14,7 @@ import { isdList } from "./shared/speakers";
         <div class="col-md-12 text-center">
           <h2><strong>Our 2019 IAHSP<sup>®</sup> Conference Speaker Line Up is Amazing!</strong></h2>
 
-          <p class="lead">We have selected industry professionals who will inspire, educate, motivate and challenge you to 
+          <p class="lead">We have selected industry professionals who will inspire, educate,<br /> motivate and challenge you to 
             <span class="rock"><strong>ROCK</strong></span> your business success!</p>
 
           <p class="lead">The Speakers and Topics are presented by seasoned professionals who own and operate successful Home Staging 
