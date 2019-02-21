@@ -90,6 +90,30 @@ import { Component, OnInit } from '@angular/core';
         </ul>
       </div>
     </section>
+
+    <div class="bg-white padding100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center">Check out some of the highlights of our 2018 Conference & EXPO!</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="space-bottom-15">
+              <video width="100%" controls="" controlslist="nodownload">
+                  <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/iahsp-2018-montage-sessions-and-awards-dinner.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="space-bottom-15">
+              <video width="100%" controls="" controlslist="nodownload">
+                  <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/2018-iahsp-conference-set-and-expo.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   `,
   styles: [`
     .fullscreenbanner-container {
