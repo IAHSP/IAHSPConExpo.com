@@ -33,10 +33,35 @@ import { Component, OnInit } from '@angular/core';
         <section class="padding100 bg-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-offset-2 col-md-8">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/nLte2bd_SNo" frameborder="0" allow="accelerometer; 
-                            encrypted-media;" allowfullscreen></iframe>
+                    <div class="col-md-12">
+                        <h2 class="text-center"><strong>Highlights From Our Conference</strong></h2>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 space-bottom-15">
+                            <video width="100%" controls="" controlslist="nodownload">
+                                <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/iahsp-2018-montage-sessions-and-awards-dinner.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 space-bottom-15">
+                            <video width="100%" controls="" controlslist="nodownload">
+                                <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/2018-award-winners-montage.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 space-bottom-15">
+                            <video width="100%" controls="" controlslist="nodownload">
+                                <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/scott-bros-meet-and-greet-and-book-signing-montage.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 space-bottom-15">
+                            <video width="100%" controls="" controlslist="nodownload">
+                                <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/2018-iahsp-conference-set-and-expo.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                 </div>

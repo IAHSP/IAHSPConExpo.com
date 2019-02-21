@@ -10,7 +10,7 @@ import { Component, OnInit  } from '@angular/core';
 
 				<!-- PHONE/EMAIL -->
 				<span class="quick-contact pull-left">
-                    <i class="fa fa-phone"></i> <a href="tel:8003927161">800-392-7161</a>
+                    <i class="fa fa-phone"></i>&nbsp;<a href="tel:8003927161">800-392-7161</a>
                     <span class="hidden-xs">&bull;&nbsp;  <a href="mailto:help@iahsp.com"><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a></span>
 				</span><!-- /PHONE/EMAIL -->
 
@@ -37,7 +37,7 @@ import { Component, OnInit  } from '@angular/core';
                 </button>
 
                 <!-- Logo text or image -->
-                <a class="logo" routerLink="/iahsp2018">
+                <a class="logo" routerLink="/2018">
                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
                 </a>
 
@@ -45,7 +45,7 @@ import { Component, OnInit  } from '@angular/core';
                 <div class="navbar-collapse nav-main-collapse collapse pull-right">
                     <nav class="nav-main mega-menu">
                         <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-                            <li class="active"><a routerLink="/iahsp2018">Home</a></li>
+                            <!-- <li class="active"><a routerLink="/2018">Home</a></li>
                             <li class="dropdown visible-md visible-lg">
 								<a class="dropdown-toggle" href="#">
 									Information <i class="fa fa-angle-down"></i>
@@ -74,10 +74,10 @@ import { Component, OnInit  } from '@angular/core';
                                 <li><a routerLink="ccs">Confident Color System</a></li>
                                 <li><a routerLink="lhsiahsp">Luxury Home Staging</a></li>
                                 <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
-                            </div>
-                            <li><a routerLink="contact2018">Contact</a></li>
-                            <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-home" 
-                            aria-hidden="true"></i>Home</a></div></li>
+                            </div> -->
+                            <!-- <li><a routerLink="contact2018">Contact</a></li> -->
+                            <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-globe" 
+                            aria-hidden="true"></i>2019 Conference Expo</a></div></li>
                         </ul>
                     </nav>
                 </div><!-- /Top Nav -->
