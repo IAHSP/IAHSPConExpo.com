@@ -143,7 +143,7 @@ import { isdList } from "./shared/speakers";
         </div>
 
         <div class="col-md-12">
-          <h3 class="line-height-32">IAHSP<sup>®</sup> Conference &amp; EXPO - Nashville, TN - Oct 3-5, 2019</h3>
+          <h3 class="font-weight-400 line-height-32">IAHSP<sup>®</sup> Conference &amp; EXPO - Nashville, TN - Oct 3-5, 2019</h3>
 
           <p class="lead">Registration fee includes:</p>
 
@@ -159,7 +159,7 @@ import { isdList } from "./shared/speakers";
             <li>(1) Gala Awards Dinner aboard the General Jackson Show Boat</li>
             <li>Educational Speakers Sharing In-Depth information to help you</li>
             <li>(15) Breakout Sessions with different topics you can attend</li>
-            <li>(1) IAHSP<sup>®</sup> Leadership Session (by invitation)</li>
+            <li>(1) IAHSP<sup>&reg;</sup> Leadership Session (by invitation)</li>
             <li>(4) Keynotes - Candice Olson, Carson Kressley, and Thom Filicia - Celebrity Keynotes, and Barb Schwarz - 
             Inspirational Keynote</li>
             <li>(38) Speakers Sharing on Topics for Beginner, Intermediate and Advanced Stagers in attendance!  We have something 
@@ -169,10 +169,10 @@ import { isdList } from "./shared/speakers";
           <p class="lead">Learning, networking and getting to know colleagues from around the globe: 
           <strong>PRICELESS!</strong></p>
           
-          <p class="lead">Join the warm and welcoming IAHSP Family - we are excited to have you join us for the most exciting 
+          <p class="lead">Join the warm and welcoming IAHSP<sup>&reg;</sup> Family - we are excited to have you join us for the most exciting 
           Home Staging Industry Event of the Year!</p>
 
-          <h3 class="line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - 
+          <h3 class="font-weight-400 line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - 
           open to 6+ figure income earners</h3>
 
           <p class="lead"><u>This is a separate ticketed event</u></p>
