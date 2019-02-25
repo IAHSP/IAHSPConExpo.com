@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>HEADQUARTER HOTEL</h2>
+            <h2><strong>HEADQUARTER HOTEL</strong></h2>
             <h3>The Gaylord Hotel - Nashville</h3>
           </div>
 

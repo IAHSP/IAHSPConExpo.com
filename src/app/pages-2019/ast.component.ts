@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">Advanced Stager Training (AST)</h2>
+            <h2 class="text-center"><strong>Advanced Stager Training (AST)</strong></h2>
 
             <p class="lead"><strong>Advanced Stager Training (AST)</strong> is a workshop intensive coordinated by IAHSP and offered in 
             <strong>collaboration</strong> with other industry leaders.  We believe in the collective genius found when we bring like-minded people 

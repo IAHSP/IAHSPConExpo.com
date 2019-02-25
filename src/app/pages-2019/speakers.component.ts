@@ -149,19 +149,31 @@ import { isdList } from "./shared/speakers";
 
           <ul class="lead">
             <li>(1) Admission to IAHSPConExpo</li>
-            <li>(1) Networking and Trade show with 45 TOP companies coming to meet YOU - the MOST of any industry event! Will be available all 3 days</li>
-            <li>(1) Vendor Expo Evening - Get to know your colleagues - Music, Food, Entertainment and TOP Industry Vendors with SHOW SPECIALS for YOU!</li>
+            <li>(1) Networking and Trade show with 45 TOP companies coming to meet YOU - the MOST of any industry event! Will 
+            be available all 3 days</li>
+            <li>(1) Vendor Expo Evening - Get to know your colleagues - Music, Food, Entertainment and TOP Industry Vendors 
+            with SHOW SPECIALS for YOU!</li>
             <li>(2) Lunches - Friday and Saturday</li>
             <li>(2) Dinners (Thursday Expo and Friday Awards Dinner)</li>
             <li>(1) Coffee Stations and snacks during all 3 days</li>
             <li>(1) Gala Awards Dinner aboard the General Jackson Show Boat</li>
             <li>Educational Speakers Sharing In-Depth information to help you</li>
-            <li>(8-16) Breakout Sessions with different topics you can attend</li>
+            <li>(15) Breakout Sessions with different topics you can attend</li>
             <li>(1) IAHSP<sup>®</sup> Leadership Session (by invitation)</li>
-            <li>(3) Keynotes - Candice Olson, plus 2 additional Celebrities - Celebrity Keynotes, and Barb Schwarz - Inspirational Keynote</li>
+            <li>(4) Keynotes - Candice Olson, Carson Kressley, and Thom Filicia - Celebrity Keynotes, and Barb Schwarz - 
+            Inspirational Keynote</li>
+            <li>(38) Speakers Sharing on Topics for Beginner, Intermediate and Advanced Stagers in attendance!  We have something 
+            for everybody!</li>          
           </ul>
-        
-          <h3 class="line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - open to 6+ figure income earners</h3>
+
+          <p class="lead">Learning, networking and getting to know colleagues from around the globe: 
+          <strong>PRICELESS!</strong></p>
+          
+          <p class="lead">Join the warm and welcoming IAHSP Family - we are excited to have you join us for the most exciting 
+          Home Staging Industry Event of the Year!</p>
+
+          <h3 class="line-height-32">Advanced Stager Training - Collaboration between 6 different Industry Leaders - 
+          open to 6+ figure income earners</h3>
 
           <p class="lead"><u>This is a separate ticketed event</u></p>
 

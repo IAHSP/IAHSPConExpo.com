@@ -95,7 +95,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">Check out some of the highlights of our 2018 Conference & EXPO!</h2>
+            <h3 class="text-center">Check out some of the highlights of our 2018 Conference & EXPO!</h3>
           </div>
           <div class="col-md-6">
             <div class="space-bottom-15">

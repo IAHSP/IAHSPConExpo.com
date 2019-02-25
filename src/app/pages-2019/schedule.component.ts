@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">SCHEDULE OF EVENTS</h2>
+            <h2 class="text-center"><strong>SCHEDULE OF EVENTS</strong></h2>
 
             <p class="lead font-weight-400 text-center">You are going to be inspired to ROCK Your Business with<br />
             what you learn at our 2019 IAHSP<sup>®</sup> Conference & EXPO!</p>
