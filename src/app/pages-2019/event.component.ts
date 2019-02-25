@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">2019 IAHSP<sup>®</sup> CONFERENCE & EXPO</h2>
+            <h2 class="text-center"><strong>2019 IAHSP<sup>®</sup> CONFERENCE & EXPO</strong></h2>
           </div>
           <div class=" col-md-12">
             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-conference-and-expo-2019-logo.png" 
