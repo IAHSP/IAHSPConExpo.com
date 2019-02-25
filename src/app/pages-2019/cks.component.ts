@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-center">CELEBRITY KEYNOTE SPEAKERS</h2>
+            <h2 class="text-center"><strong>CELEBRITY KEYNOTE SPEAKERS</strong></h2>
             <p class="lead space-bottom-32">Our Celebrity Keynote Speakers bring EXCITEMENT and FUN as well as Business Experience and Expertise!  
               More than just pretty faces, these Keynotes Speakers head up large industry companies!  Learn from their wisdom 
               about longevity and success!</p>

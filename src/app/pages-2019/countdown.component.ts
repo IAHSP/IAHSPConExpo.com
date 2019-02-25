@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2><a href="https://cvent.me/dZKd4" target="_blank" rel="noopener"><strong>Register</strong></a> By The Deadline - unless we are SOLD OUT</h2>
+            <h2><a href="https://cvent.me/dZKd4" target="_blank" rel="noopener"><strong>Register</strong></a> 
+            By The Deadline - unless we are SOLD OUT</h2>
             <h3>October 2, 2019 11:59 PM</h3>
             <div id="demo"></div>
           </div>
