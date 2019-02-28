@@ -340,7 +340,7 @@ export const speakerList =[
   {
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/sharon-schoenfeld.jpg`,
     name:`Sharon Schoenfeld`,
-    company:`Remax Allegiance`,
+    company:`ReMax Allegiance`,
     topic:`What REALTORS® Really Want from Stagers - Panel Discussion`,
     modelId:`fodip`,
     description:`
