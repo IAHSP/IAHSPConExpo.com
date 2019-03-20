@@ -525,5 +525,29 @@ export const isdList =[
         long term?  Find out from Sandra as she shares the importance of positioning your company 
         and services in the market place to attract investor clients.</p>
     `
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/amy-powers.jpg`,
+    name:`Amy Powers`,
+    company:`Ask For Staging`,
+    topic:`Work It 9-5 to Cultivate Loyal Client`,
+    modelId:`qidon`,
+    description:`
+      <p>Amy Powers is a 12 year staging industry veteran and the owner of Ask For Staging, LLC, an Atlanta Home Staging 
+      company focusing on target demographic research to better understand what will attract the most likely buyer faster. 
+      Since 2007, Amy has successfully communicated the value of staging to Real Estate Agents, Investors and Home Sellers. 
+      She received her training through C.S.P., Certified Staging Professionals and has earned their International Masters 
+      in Real Estate Staging designation. She has also earned the Certified Luxury Home Staging Specialist for her work in 
+      the Luxury Market.</p>
+
+      <p>For the last 11 years, Amy has enthusiastically participated in the Real Estate Industry as a volunteer, leader 
+      and mentor. In 2014, Amy started working almost full-time with investors, locally and internationally. She loves 
+      the investor and has learned strategies that complement her and the investor.</p>
+      
+      <p>In 2019, Amy started her own CE School in Georgia and teaches REALTORS various courses that focuses on the value 
+      of staging, the importance of professional online presentation and how Agents can effectively work with investors.</p>
+      
+      <p>Amy is a member of REIA, RESA and IAHSP, International Association of Home Staging Professionals.</p>    
+    `
   }
 ]
