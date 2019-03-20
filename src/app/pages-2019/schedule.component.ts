@@ -20,16 +20,16 @@ import { Component, OnInit } from '@angular/core';
               <tbody>
 
                 <!-- Thursday -->
-                <tr>
+                <tr bgcolor="#C9DAF8">
                   <th>THURSDAY: OCT 3, 2019</th>
                   <th colspan="2">VENDOR EXPO AND SOCIAL</th>
                 </tr>
                 <tr>
-                  <td>5:00:PM</td>
+                  <td>5:00 PM</td>
                   <td colspan="2">REGISTRATION OPENS</td>
                 </tr>
                 <tr>
-                  <td>6:00:PM</td>
+                  <td>6:00 PM</td>
                   <td colspan="2">DOORS OPEN</td>
                 </tr>
                 <tr>
@@ -44,29 +44,29 @@ import { Component, OnInit } from '@angular/core';
 
 
                 <!-- Friday -->
-                <tr>
+                <tr bgcolor="C9DAF8">
                   <th>FRIDAY: OCT 4, 2019</th>
                   <th>TOPIC</th>
                   <th>SPEAKER</th>
                 </tr>
                 <tr>
-                  <td>8:00 - 9:00</td>
-                  <td colspan="2">EXPO OPEN</td>
+                  <td><strong>8:00 - 9:00</strong></td>
+                  <td colspan="2"><strong>EXPO OPEN</strong></td>
                 </tr>
                 <tr>
                   <td>9:00 - 9:10</td>
                   <td>WELCOME & OVERVIEW</td>
-                  <td>LEADERSHIP TEAM with special word from PRESIDENT, BETTE VOS</td>
+                  <td><strong>LEADERSHIP TEAM with special word from PRESIDENT, BETTE VOS</strong></td>
                 </tr>
                 <tr>
                   <td>9:10 - 9:30</td>
                   <td>ROCK YOUR BUSINESS - Resources, Opportunities, Connections, Knowledge</td>
-                  <td>LEADERSHIP TEAM - JENNIE NORRIS, LYN SPAETH, BETTE VOS, SANDRA HOLMES</td>
+                  <td><strong>LEADERSHIP TEAM - JENNIE NORRIS, LYN SPAETH, BETTE VOS, SANDRA HOLMES</strong></td>
                 </tr>
                 <tr>
                   <td>9:35 - 10:15 (40 MIN)</td>
                   <td>How to build a Rock Star brand with Platinum Earnings</td>
-                  <td>MELISSA MARRO</td>
+                  <td><strong>MELISSA MARRO</strong></td>
                 </tr>
                 <tr>
                   <td>10:25 - 10:40</td>
@@ -76,122 +76,127 @@ import { Component, OnInit } from '@angular/core';
                 <tr>
                   <td>10:40- 11:25 (45 MIN)</td>
                   <td>10 STEPS TO AVOID ACHY BREAKY DESIGN</td>
-                  <td>JOANNE LENART-WEARY</td>
+                  <td><strong>JOANNE LENART-WEARY</strong></td>
                 </tr>
                 <tr>
                   <td>11:30 - 12:10 (40 MIN)</td>
                   <td>What Realtors REALLY Want from Home Stagers</td>
-                  <td>SHARON SCHOENFELD, JOHN NORRIS, JOHN REAGAN, KEVIN HTAIN</td>
+                  <td><strong>SHARON SCHOENFELD, JOHN NORRIS, JOHN REAGAN, KEVIN HTAIN</strong></td>
                 </tr>
-                <tr>
-                  <td>12:20 - 1:15 PM</td>
-                  <td>LUNCH BREAK</td>
-                  <td>LUNCH PROVIDED - BUFFET STYLE - LIGHTER LUNCH AND VENDOR BOOTHS SHOPPING</td>
+                <tr bgcolor="FFF2CC">
+                  <td><strong>12:20 - 1:15 PM</strong></td>
+                  <td><strong>LUNCH BREAK</strong></td>
+                  <td><strong>LUNCH PROVIDED - BUFFET STYLE - LIGHTER LUNCH AND VENDOR BOOTHS SHOPPING</strong></td>
                 </tr>
-                <tr>
-                  <td>1:15 - 2:00</td>
-                  <td>BREAKOUT SESSIONS</td>
-                  <td>ATTENDEES GET TO GO TO 1 OUT OF 5</td>
+                <tr bgcolor="D9EAD3">
+                  <td><strong>1:15 - 2:00</strong></td>
+                  <td><strong>BREAKOUT SESSIONS</strong></td>
+                  <td><strong>ATTENDEES GET TO GO TO 1 OUT OF 5</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Fearless - Tailor a Swift Plan to Success - 10 Steps to Build a Successful Business</td>
-                  <td>LIV CONLON</td>
+                  <td><strong>LIV CONLON</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Crazy Dreams Become Reality - Building Your Staging Empire</td>
-                  <td>BLAIR HAMATY</td>
+                  <td><strong>BLAIR HAMATY</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>How to Hit High “C” with “E”-Decorating/Staging : Cash and Creditability awaits when you add E-Consultations and E-Design/E-Staging.</td>
-                  <td>SANDRA RACZ</td>
+                  <td><strong>SANDRA RACZ</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Create a Rock Star Brand </td>
-                  <td>AMBER GRIFFITHS</td>
+                  <td><strong>AMBER GRIFFITHS</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Occupied Home Staging is a Money Maker</td>
-                  <td>LYN SPAETH</td>
+                  <td><strong>LYN SPAETH</strong></td>
                 </tr>
                 <tr>
-                  <td>2:00 - 2:10</td>
-                  <td>BREAK AND GET TO NEXT SESSION</td>
-                  <td>BREAK AND GET TO NEXT SESSION</td>
+                  <td><em>2:00 - 2:10</em></td>
+                  <td><em>BREAK AND GET TO NEXT SESSION</em></td>
+                  <td><em>BREAK AND GET TO NEXT SESSION</em></td>
                 </tr>
-                <tr>
-                  <td>2:10 - 2:55</td>
-                  <td>BREAKOUT SESSIONS</td>
-                  <td>ATTENDEES GET TO GO TO 1 OUT OF 5</td>
+                <tr bgcolor="D9EAD3">
+                  <td><strong>2:10 - 2:55</strong></td>
+                  <td><strong>BREAKOUT SESSIONS</strong></td>
+                  <td><strong>ATTENDEES GET TO GO TO 1 OUT OF 5</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:55</td>
                   <td>Hit the High Note with Your Marketing</td>
-                  <td>ROBIN SAMORA</td>
+                  <td><strong>ROBIN SAMORA</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:55</td>
                   <td>Fret Note More! The Keys to Avoid Hiring A-Flat Employees</td>
-                  <td>ANTHEA CLICK</td>
+                  <td><strong>ANTHEA CLICK</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:55</td>
                   <td>Life as a Composition - Looking at what makes a composition engaging in both Staging and Photography</td>
-                  <td>HAYDEN YATES</td>
+                  <td><strong>HAYDEN YATES</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:55</td>
                   <td>Is Your Business Out of Tune? Ensuring Pricing and Profitability are in Harmony</td>
-                  <td>CATHERINE LEWIS BROWN</td>
+                  <td><strong>CATHERINE LEWIS BROWN</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:55</td>
                   <td>From Stuff to Staging: Organizing and Staging in Harmony</td>
-                  <td>JUNE CARTER</td>
+                  <td><strong>JUNE CARTER</strong></td>
                 </tr>
                 <tr>
-                  <td>3:05 - 3:50</td>
-                  <td>BREAKOUT SESSIONS</td>
-                  <td>ATTENDEES GET TO GO TO 1 OUT OF 5</td>
+                  <td><em>2:55 - 3:05</em></td>
+                  <td><em>BREAK AND GO TO NEXT SESSION</em></td>
+                  <td><em>BREAK AND GO TO NEXT SESSION</em></td>
+                </tr>
+                <tr bgcolor="D9EAD3">
+                  <td><strong>3:05 - 3:50</strong></td>
+                  <td><strong>BREAKOUT SESSIONS</strong></td>
+                  <td><strong>ATTENDEES GET TO GO TO 1 OUT OF 5</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
                   <td>Turn Real Estate Agents Into Raving Fans</td>
-                  <td>MARIANNE CHERICO</td>
+                  <td><strong>MARIANNE CHERICO</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
                   <td>Rock of Ages - Do you have something to Sell?</td>
-                  <td>LESLIE AND LEEANN KRAMER</td>
+                  <td><strong>LESLIE AND LEEANN KRAMER</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
                   <td>Building a “Bridge over Troubled Waters”- Navigating through Life’s Challenges while sustaining your successful business</td>
-                  <td>THERESA THOMAS</td>
+                  <td><strong>THERESA THOMAS</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
                   <td>Creating Architectural Harmony - Staging Challenging Living Areas</td>
-                  <td>KRISTIE BARNETT</td>
+                  <td><strong>KRISTIE BARNETT</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
                   <td>Top Ten Organizing Tips To Be Successful in Business</td>
-                  <td>JENNY ABRAMS</td>
+                  <td><strong>JENNY ABRAMS</strong></td>
                 </tr>
                 <tr>
                   <td>3:50 - 4:15</td>
                   <td>BREAK AND GO TO BALLROOM</td>
                   <td>BREAK AND GO TO BALLROOM</td>
                 </tr>
-                <tr>
-                  <td>4:15 - 5:15</td>
-                  <td>KEYNOTE SPEAKER</td>
-                  <td>CANDICE OLSON</td>
+                <tr bgcolor="D9D2E9">
+                  <td><strong>4:15 - 5:15</strong></td>
+                  <td><strong>KEYNOTE SPEAKER</strong></td>
+                  <td><strong>CANDICE OLSON</strong></td>
                 </tr>
                 <tr>
                   <td>5:15 - 6:45</td>
@@ -213,10 +218,10 @@ import { Component, OnInit } from '@angular/core';
                   <td>DINNER AND AWARDS</td>
                   <td>GENERAL JACKSON SHOW BOAT - ON THE WATER</td>
                 </tr>
-                <tr>
+                <tr bgcolor="D9D2E9">
                   <td>8:30 - 9:00</td>
                   <td>"Whose Educating Who?</td>
-                  <td>BARB SCHWARZ - INSPIRATIONAL KEYNOTE</td>
+                  <td><strong>BARB SCHWARZ - INSPIRATIONAL KEYNOTE</strong></td>
                 </tr>
                 <tr>
                   <td>9:00 - 10:00</td>
@@ -229,17 +234,17 @@ import { Component, OnInit } from '@angular/core';
                   <td>GENERAL JACKSON AT THE DOCK</td>
                 </tr>
 
-                
+
 
                 <!-- Saturday -->
-                <tr>
+                <tr bgcolor="C9DAF8">
                   <th>SATURDAY: OCT 5, 2019</th>
                   <th>TOPIC</th>
                   <th>SPEAKER</th>
                 </tr>
                 <tr>
-                  <td>8:00 - 9:00</td>
-                  <td>EXPO</td>
+                  <td><strong>8:00 - 9:00</strong></td>
+                  <td><strong>EXPO</strong></td>
                   <td>EXPO OPEN</td>
                 </tr>
                 <tr>
@@ -250,7 +255,7 @@ import { Component, OnInit } from '@angular/core';
                 <tr>
                   <td>9:15 AM - 10:30</td>
                   <td>INVESTOR HOME STAGING DESIGNATION</td>
-                  <td>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</td>
+                  <td><strong>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</strong></td>
                 </tr>
                 <tr>
                   <td>10:30 - 11:00</td>
@@ -260,32 +265,32 @@ import { Component, OnInit } from '@angular/core';
                 <tr>
                   <td>11:00 - 11:45</td>
                   <td>INVESTOR HOME STAGING DESIGNATION</td>
-                  <td>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</td>
+                  <td><strong>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</strong></td>
                 </tr>
                 <tr>
                   <td>11:45 - 12:15</td>
                   <td>INVESTOR HOME STAGING DESIGNATION</td>
-                  <td>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</td>
+                  <td><strong>LISA BASHAM, SHEILA DRAGON, BECKY HARMON, SANDRA HOLMES, AMY POWERS</strong></td>
                 </tr>
-                <tr>
-                  <td>12:15 - 1:15</td>
-                  <td>LUNCH BREAK - VENDORS</td>
-                  <td>LUNCH BREAK AND VENDORS</td>
+                <tr bgcolor="FFF2CC">
+                  <td><strong>12:15 - 1:15</strong></td>
+                  <td><strong>LUNCH BREAK - VENDORS</strong></td>
+                  <td><strong>LUNCH BREAK AND VENDORS</strong></td>
                 </tr>
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Are You Running on Empty? How to Keep a Balance in Life and Work</td>
-                  <td>JENNIE NORRIS</td>
+                  <td><strong>JENNIE NORRIS</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:45</td>
                   <td>It's Closing Time! Speaker Panel</td>
-                  <td>CHRISTA JESSUP, JOHN NORRIS,KAT TROULINOS, BETTE VOS</td>
+                  <td><strong>CHRISTA JESSUP, JOHN NORRIS,KAT TROULINOS, BETTE VOS</strong></td>
                 </tr>
                 <tr>
                   <td>2:50 - 3:10</td>
                   <td>IAHSP EU UPDATE</td>
-                  <td>SANJA RADOVANOVIC</td>
+                  <td><strong>SANJA RADOVANOVIC</strong></td>
                 </tr>
                 <tr>
                   <td>3:10 - 3:25</td>
@@ -295,37 +300,37 @@ import { Component, OnInit } from '@angular/core';
                 <tr>
                   <td>3:25 - 4:10</td>
                   <td>3 Ways to Conquer Pressing Record, Build Your Visibility and Leverage Video to Gain Warm Leads”</td>
-                  <td>TORI TOTH</td>
+                  <td><strong>TORI TOTH</strong></td>
                 </tr>
                 <tr>
-                  <td>4:10 - 4:30</td>
-                  <td>BREAK</td>
-                  <td>BREAK</td>
+                  <td><em>4:10 - 4:30</em></td>
+                  <td><em>BREAK</em></td>
+                  <td><em>BREAK</em></td>
                 </tr>
-                <tr>
-                  <td>4:30 - 5:30</td>
-                  <td>KEYNOTE SPEAKERS</td>
-                  <td>CARSON KRESSLEY AND THOM FILICIA</td>
+                <tr bgcolor="D9D2E9">
+                  <td><strong>4:30 - 5:30</strong></td>
+                  <td><strong>KEYNOTE SPEAKERS</strong></td>
+                  <td><strong>CARSON KRESSLEY AND THOM FILICIA</strong></td>
                 </tr>
                 <tr>
                   <td>5:30 - 6:00</td>
                   <td>WRAP UP - RECOGNITION - REVEAL FOR 2020</td>
-                  <td>LEADERSHIP TEAM - JENNIE NORRIS, LYN SPAETH, BETTE VOS, SANDRA HOLMES</td>
+                  <td><strong>LEADERSHIP TEAM - JENNIE NORRIS, LYN SPAETH, BETTE VOS, SANDRA HOLMES</strong></td>
                 </tr>
                 <tr>
                   <td>MEET AND GREET/PHOTOS</td>
                   <td>BALLROOM AND/OR at one of the restaurants at the Gaylord</td>
                   <td>KEYNOTE SPEAKERS</td>
                 </tr>
-                <tr>
-                  <td>SPECIAL BROADCASTS:</td>
-                  <td>THE CHAISE LOUNGE</td>
-                  <td>NICK MAY</td>
+                <tr bgcolor="EAD1DC">
+                  <td><strong>SPECIAL BROADCASTS:</strong></td>
+                  <td><strong>THE CHAISE LOUNGE</strong></td>
+                  <td><strong>NICK MAY</strong></td>
                 </tr>
-                <tr>
+                <tr bgcolor="EAD1DC">
                   <td></td>
-                  <td>DESIGN TALK LIVE</td>
-                  <td>JOSEPH HAECKER</td>
+                  <td><strong>DESIGN TALK LIVE</strong></td>
+                  <td><strong>JOSEPH HAECKER</strong></td>
                 </tr>
               </tbody>
             </table>
