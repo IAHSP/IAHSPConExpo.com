@@ -530,7 +530,7 @@ export const isdList =[
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/amy-powers.jpg`,
     name:`Amy Powers`,
     company:`Ask For Staging`,
-    topic:`Work It 9-5 to Cultivate Loyal Client`,
+    topic:`Getting In with REIA and AirBNB Staging`,
     modelId:`qidon`,
     description:`
       <p>Amy Powers is a 12 year staging industry veteran and the owner of Ask For Staging, LLC, an Atlanta Home Staging 
