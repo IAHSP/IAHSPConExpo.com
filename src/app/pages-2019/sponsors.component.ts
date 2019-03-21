@@ -88,16 +88,16 @@ import { Component, OnInit } from '@angular/core';
             <h3 class="text-center">Silver</h3>
           </div>
           <div class="col-sm-4">
-            <img src="" 
-            class="center-block img-responsive" alt="">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/elk-group-logo.png" 
+            class="center-block img-responsive" alt="ELK Group Sponsor Logo">
           </div>
           <div class="col-sm-4">
-            <img src="" 
-            class="center-block img-responsive" alt="">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/jlw-company-logo.jpg" 
+            class="center-block img-responsive" alt="JLW Company Logo">
           </div>
           <div class="col-sm-4">
-            <img src="" 
-            class="center-block img-responsive" alt="">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/the-successful-stager-logo.png" 
+            class="center-block img-responsive" alt="The Successful Stager Sponsor Logo">
           </div>
         </div>
       </div>
