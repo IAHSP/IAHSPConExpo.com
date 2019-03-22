@@ -17,6 +17,7 @@
 .margin-bottom-0 { margin-bottom: 0px; }
 .space-top-15 { margin-top: 15px !important; }
 .space-top-40 { margin-top: 40px !important; }
+.space-top-80 { margin-top: 80px !important; }
 .space-bottom-5 { margin-bottom: 5px !important; }
 .space-bottom-8 { margin-bottom: 8px !important; }
 .space-bottom-10 { margin-bottom: 10px !important; }
@@ -52,7 +53,10 @@
 .line-height-32 { line-height: 32px; }
 
 /* Color */
+.color-diamond { color: #98e9fc; }
 .color-gold { color: #cf8f12 }
+.color-platinum { color: #cecdcc }
+.color-silver { color: silver }
 .color-white { color: #fff; }
 
 /* Background Color */
