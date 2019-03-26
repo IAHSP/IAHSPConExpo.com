@@ -11,19 +11,23 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <!-- Diamond -->
+          <div class="col-sm-12">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/diamond-sponsor.jpg" 
+            class="center-block img-responsive space-bottom-20" alt="Diamond Sponsors" width="240px">
+          </div>
           <div class="diamond">
             <div class="col-sm-offset-1 col-sm-10">
-              <h3 class="text-center color-diamond"><strong>Diamond</strong></h3>
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/coaster-logo.png" 
               class="center-block img-responsive space-bottom-80" alt="Coaster Sponsor Logo">
             </div>
           </div>
 
           <!-- Platinum -->
-          <div class="platinum">
-            <div class="col-sm-12">
-              <h3 class="text-center color-platinum"><strong>Platinum</strong></h3>
-            </div>
+          <div class="col-sm-12">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/platinum-sponsor.gif" 
+            class="center-block img-responsive space-bottom-20" alt="Platinum Sponsors" width="240px">
+          </div>
+          <div class="platinum">            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/classic-home-logo.png" 
               class="center-block img-responsive classic" alt="Classic Home Sponsor Logo">
@@ -59,10 +63,11 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <!-- Gold -->
+          <div class="col-sm-12">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/gold-sponsor.gif" 
+            class="center-block img-responsive space-bottom-20" alt="Gold Sponsors" width="240px">
+          </div>
           <div class="gold">
-            <div class="col-sm-12">
-              <h3 class="text-center color-gold"><strong>Gold</strong></h3>
-            </div>
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/aflac-logo.png" 
               class="center-block img-responsive aflac" alt="Aflac Sponsor Logo">
@@ -111,10 +116,11 @@ import { Component, OnInit } from '@angular/core';
           </div>
 
           <!-- Silver -->
+          <div class="col-sm-12">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/silver-sponsor.gif" 
+            class="center-block img-responsive space-bottom-20" alt="Silver Sponsors" width="240px">
+          </div>
           <div class="silver">
-            <div class="col-sm-12">
-              <h3 class="text-center color-silver"><strong>Silver</strong></h3>
-            </div>
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/elk-group-logo.png" 
               class="center-block img-responsive elk" alt="ELK Group Sponsor Logo">
@@ -142,19 +148,14 @@ import { Component, OnInit } from '@angular/core';
   
     img { margin-bottom: 15px; }
 
-    /* Platinum */
-    .platinum img {
-      width: 90%;
-    }
-
     /* Gold */
     .gold img {
-      width: 78%;
+      width: 58%;
     }
 
     /* Silver */
     .silver img {
-      width: 58%;
+      width: 33%;
     }
 
     @media screen and (min-width: 768px) {
