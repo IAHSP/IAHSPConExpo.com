@@ -14,6 +14,8 @@ import { Component, OnInit } from '@angular/core';
       <app-2019-cks id="cks"></app-2019-cks>
 
       <app-2019-event id="event"></app-2019-event>
+      
+      <app-2019-sponsors id="sponsors"></app-2019-sponsors>
 
       <app-2019-speakers id="speakers"></app-2019-speakers>
 

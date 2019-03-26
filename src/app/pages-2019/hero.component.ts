@@ -91,7 +91,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </section>
 
-    <div class="bg-white padding100">
+    <div class="padding100">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

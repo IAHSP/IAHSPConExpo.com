@@ -25,6 +25,7 @@ import { Dinner2019Component } from './pages-2019/dinner.component';
 import { Ast2019Component } from './pages-2019/ast.component';
 import { Cks2019Component } from './pages-2019/cks.component';
 import { Register2019Component } from './pages-2019/register/register2019.component';
+import { SponsorsComponent } from './pages-2019/sponsors.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
@@ -55,7 +56,8 @@ const appRoutes: Routes = [
     Dinner2019Component,
     Ast2019Component,
     Cks2019Component,
-    Register2019Component
+    Register2019Component,
+    SponsorsComponent
   ],
 
   imports: [

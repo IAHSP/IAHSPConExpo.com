@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-2019-event',
   template: `
   
-    <section class="padding100 bg-white">
+    <section class="padding100">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

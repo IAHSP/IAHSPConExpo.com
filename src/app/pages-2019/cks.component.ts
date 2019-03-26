@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-2019-cks',
   template: `
   
-    <section class="padding100">
+    <section class="padding100 bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
