@@ -418,6 +418,18 @@ export const speakerList =[
     `
   },
   {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/jana-uselton.jpg`,
+    name:`Jana Uselton`,
+    company:`HSRA and Model My Home`,
+    topic:`CE is the Highway to Higher Sales & Profitability: Leveraging Exposure & Gaining More Clients`,
+    modelId:`vatoq`,
+    description:`
+      <p>Join Jana Uselton, Founder of HSRA and Model My Home as she shares about giving presentations as a way to gain more 
+      clients. Jana has developed multiple Home Staging presentations you can give at offices, and they come with agent CE 
+      credits. Learn how you can participate in this program during this informative session.</p>
+    `
+  },
+  {
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/bette-vos.jpg`,
     name:`Bette Vos`,
     company:`IAHSP® International Executive Board`,

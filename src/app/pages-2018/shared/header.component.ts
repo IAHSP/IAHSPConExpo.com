@@ -10,7 +10,7 @@ import { Component, OnInit  } from '@angular/core';
 
 				<!-- PHONE/EMAIL -->
 				<span class="quick-contact pull-left">
-                    <i class="fa fa-phone"></i>&nbsp;<a href="tel:8003927161">800-392-7161</a>
+                    <i class="fa fa-phone"></i>&nbsp;<a href="tel:8444247799">844-IAHSP99</a>
                     <span class="hidden-xs">&bull;&nbsp;  <a href="mailto:help@iahsp.com"><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a></span>
 				</span><!-- /PHONE/EMAIL -->
 
