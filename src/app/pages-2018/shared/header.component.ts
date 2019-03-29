@@ -21,7 +21,6 @@ import { Component, OnInit  } from '@angular/core';
 				<!-- LINKS -->
 				<div class="pull-right nav hidden-xs">
 					<a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank" rel="noopener"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="https://plus.google.com/111999019043473881716" target="_blank" rel="noopener"><i class="fa fa-google-plus fa-lg"></i></a>
                     <a href="https://iahspblog.com/blog/" target="_blank" rel="noopener"><i class="fa fa-wordpress fa-lg"></i></a>
 				</div>
 
