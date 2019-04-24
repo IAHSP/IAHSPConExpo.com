@@ -39,18 +39,14 @@ import { Component, OnInit } from '@angular/core';
               <hr class="visible-xs" />
             </div>
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/company-c-logo.png" 
-              class="center-block img-responsive" alt="Company C Sponsor Logo">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/dalyn-logo.png" 
+              class="center-block img-responsive" alt="Dalyn Sponsor Logo">
               <hr class="visible-xs" />
             </div>
 
             <div class="clearfix space-bottom-30"></div>
 
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/dalyn-logo.png" 
-              class="center-block img-responsive" alt="Dalyn Sponsor Logo">
-              <hr class="visible-xs" />
-            </div>
+            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/universal-furniture-logo.png" 
               class="center-block img-responsive universal" alt="Universal Furniture Sponsor Logo">
