@@ -21,7 +21,7 @@ import { Component, OnInit } from '@angular/core';
               geared towards newer Stagers and more experienced Stagers.  Our Speakers are all successful Business owners and our KEY NOTE Speakers from 
               outside the industry bring a different perspective to our event and are always well received.</p>
 
-            <p class="lead"><strong>Tier 1 Pricing now until April 30, 2019: $555 for IAHSP<sup>&reg;</sup> Members and $675 
+            <p class="lead"><strong>Tier 1 Pricing now until April 30, 2019: $585 for IAHSP<sup>&reg;</sup> Members and $715 
             for Non-IAHSP Members (includes a year of membership).</strong></p>
             
           </div>
