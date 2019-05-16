@@ -16,9 +16,14 @@ import { Component, OnInit } from '@angular/core';
             class="center-block img-responsive space-bottom-20" alt="Diamond Sponsors" width="240px">
           </div>
           <div class="diamond">
-            <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-6">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/coaster-logo.png" 
-              class="center-block img-responsive space-bottom-80" alt="Coaster Sponsor Logo">
+              class="center-block img-responsive coaster" alt="Coaster Sponsor Logo">
+            </div>
+            <hr class="visible-xs" />
+            <div class="col-sm-6">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/spectra-home-logo.png" 
+              class="center-block img-responsive space-bottom-80" alt="Coaster Sponsor Logo" width="323px">
             </div>
           </div>
 
@@ -166,6 +171,10 @@ import { Component, OnInit } from '@angular/core';
     }
 
     @media screen and (min-width: 768px) {
+      /* Diamond */
+      .coaster {
+        padding: 78px 0;
+      }
 
       /* Platinum */
       .classic {
