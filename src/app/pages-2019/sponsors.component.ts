@@ -140,7 +140,7 @@ import { Component, OnInit } from '@angular/core';
           <div class="bronze">
             <div class="col-sm-12">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/simply-splendid-logo.png" 
-              class="center-block img-responsive space-bottom-80 simply-splendid" alt="Simply Splendid Sponsor Logo" width="290px">
+              class="center-block img-responsive space-bottom-80 simply-splendid" alt="Simply Splendid Sponsor Logo" width="135px">
             </div>
           </div>
 
@@ -208,11 +208,6 @@ import { Component, OnInit } from '@angular/core';
       /* Silver */
       .elk, .successful {
         padding: 33px 0;
-      }
-
-      /* Bronze */
-      .simply-splendid {
-        width: 135px;
       }
     }
     
