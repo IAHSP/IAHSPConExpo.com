@@ -46,7 +46,6 @@ import { Component, OnInit } from '@angular/core';
 
             <div class="clearfix space-bottom-30"></div>
 
-            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/universal-furniture-logo.png" 
               class="center-block img-responsive universal" alt="Universal Furniture Sponsor Logo">
@@ -133,6 +132,18 @@ import { Component, OnInit } from '@angular/core';
             </div>
           </div>
 
+          <!-- Bronze -->
+          <div class="col-sm-12">
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/bronze-logo.png" 
+            class="center-block img-responsive space-bottom-20" alt="Bronze Sponsors" width="240px">
+          </div>
+          <div class="bronze">
+            <div class="col-sm-12">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/simply-splendid-logo.png" 
+              class="center-block img-responsive space-bottom-80 simply-splendid" alt="Simply Splendid Sponsor Logo" width="290px">
+            </div>
+          </div>
+
           <div class="col-sm-12">
             <h2 class="text-center"><em><strong>and MORE being added every week!</strong></em></h2>
           </div>
@@ -197,6 +208,11 @@ import { Component, OnInit } from '@angular/core';
       /* Silver */
       .elk, .successful {
         padding: 33px 0;
+      }
+
+      /* Bronze */
+      .simply-splendid {
+        width: 135px;
       }
     }
     
