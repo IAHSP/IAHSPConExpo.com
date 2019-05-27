@@ -44,14 +44,14 @@ import { Component, OnInit } from '@angular/core';
               <hr class="visible-xs" />
             </div>
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/dalyn-logo.png" 
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/dalyn-logo.png"
               class="center-block img-responsive" alt="Dalyn Sponsor Logo">
               <hr class="visible-xs" />
             </div>
 
             <div class="clearfix space-bottom-30"></div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-offset-2 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/universal-furniture-logo.png" 
               class="center-block img-responsive universal" alt="Universal Furniture Sponsor Logo">
               <hr class="visible-xs" />
@@ -123,15 +123,22 @@ import { Component, OnInit } from '@angular/core';
           <div class="silver">
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/elk-group-logo.png" 
-              class="center-block img-responsive elk" alt="ELK Group Sponsor Logo">
-              <hr class="visible-xs" />
-            </div>
+              class="center-block img-responsive elk" alt="ELK Group Sponsor Logo">              
+            </div><hr class="visible-xs" />
+
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/home-staging-and-redesign-association-logo.png" 
+              class="center-block img-responsive hsra" alt="Home Staging and Redesign Association Logo">
+            </div><hr class="visible-xs" />
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/jlw-company-logo.jpg" 
               class="center-block img-responsive" alt="JLW Company Logo">
-              <hr class="visible-xs" />
-            </div>
-            <div class="col-sm-4">
+            </div><hr class="visible-xs" />
+
+            <div class="clearfix"></div>
+
+            <div class="col-sm-offset-4 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/the-successful-stager-logo.png" 
               class="center-block img-responsive successful space-bottom-80" alt="The Successful Stager Sponsor Logo">
             </div>
@@ -143,7 +150,11 @@ import { Component, OnInit } from '@angular/core';
             class="center-block img-responsive space-bottom-20" alt="Bronze Sponsors" width="240px">
           </div>
           <div class="bronze">
-            <div class="col-sm-12">
+            <div class="col-sm-offset-2 col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/decorating-and-staging-academy.jpg" 
+              class="center-block img-responsive space-bottom-80 dsa" alt="Decorating and Staging Academy Logo" width="135px">
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/simply-splendid-logo.png" 
               class="center-block img-responsive space-bottom-80 simply-splendid" alt="Simply Splendid Sponsor Logo" width="135px">
             </div>
@@ -170,6 +181,11 @@ import { Component, OnInit } from '@angular/core';
       width: 33%;
     }
 
+    /* Bronze */
+    .bronze img {
+      width: 29%;
+    }
+
     @media screen and (min-width: 768px) {
       /* Diamond */
       .coaster {
@@ -178,17 +194,14 @@ import { Component, OnInit } from '@angular/core';
 
       /* Platinum */
       .classic {
-        padding: 14px 0;
+        padding: 47px 0;
       }
-
       .essentials {
-        padding: 3px 0;
+        padding: 35px 0;
       }
-
       .universal {
         padding: 69px 0;
       }
-
       .zoom {
         padding: 57px 0;
       }
@@ -197,25 +210,21 @@ import { Component, OnInit } from '@angular/core';
       .aflac {
         padding: 21px 0;
       }
-
       .olliix {
         padding: 22px 0;
       }
-
       .paragon {
         padding: 34px 0;
       }
-
       .propac {
         padding: 10px 0;
       }
-
       .srm {
         padding: 62px 0;
       }
 
       /* Silver */
-      .elk, .successful {
+      .elk, .successful, .hsra {
         padding: 33px 0;
       }
     }
