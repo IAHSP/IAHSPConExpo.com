@@ -34,6 +34,11 @@ import { Component, OnInit } from '@angular/core';
           </div>
           <div class="platinum">            
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/bedford-logo.png" 
+              class="center-block img-responsive bedford" alt="Bedford Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/classic-home-logo.png" 
               class="center-block img-responsive classic" alt="Classic Home Sponsor Logo">
               <hr class="visible-xs" />
@@ -42,16 +47,16 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/essentials-for-living-with-two-companies-logo.jpg" 
               class="center-block img-responsive essentials" alt="Essentials For Living Sponsor Logo">
               <hr class="visible-xs" />
-            </div>
+            </div>            
+
+            <div class="clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/dalyn-logo.png"
               class="center-block img-responsive" alt="Dalyn Sponsor Logo">
               <hr class="visible-xs" />
             </div>
-
-            <div class="clearfix space-bottom-30"></div>
-
-            <div class="col-sm-offset-2 col-sm-4">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/universal-furniture-logo.png" 
               class="center-block img-responsive universal" alt="Universal Furniture Sponsor Logo">
               <hr class="visible-xs" />
@@ -193,6 +198,9 @@ import { Component, OnInit } from '@angular/core';
       }
 
       /* Platinum */
+      .bedford {
+        padding: 58px 0;
+      }
       .classic {
         padding: 47px 0;
       }
