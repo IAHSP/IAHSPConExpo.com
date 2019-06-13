@@ -84,18 +84,31 @@ import { Component, OnInit } from '@angular/core';
               <hr class="visible-xs" />
             </div>
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
-              class="center-block img-responsive olliix" alt="Olliix Sponsor Logo">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/diamond-sofa-logo.png" 
+              class="center-block img-responsive" alt="Diamond Sofa Logo">
               <hr class="visible-xs" />
-            </div>
+            </div>            
 
             <div class="clearfix space-bottom-30"></div>
 
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" 
+              class="center-block img-responsive jutus" alt="Jutus Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
+              class="center-block img-responsive olliix" alt="Olliix Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
               class="center-block img-responsive paragon" alt="Paragon Sponsor Logo">
               <hr class="visible-xs" />
-            </div>
+            </div>                       
+
+            <div class="clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" 
               class="center-block img-responsive propac" alt="Propac Sponsor Logo">
@@ -106,6 +119,11 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive" alt="Rave Staging Redesign Sponsor Logo">
               <hr class="visible-xs" />
             </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
+              class="center-block img-responsive sherwin-williams" alt="Sherwin Williams Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>            
 
             <div class="clearfix space-bottom-30"></div>
 
@@ -218,6 +236,9 @@ import { Component, OnInit } from '@angular/core';
       .aflac {
         padding: 21px 0;
       }
+      .jutus {
+        padding: 3px 0;
+      }
       .olliix {
         padding: 22px 0;
       }
@@ -226,6 +247,9 @@ import { Component, OnInit } from '@angular/core';
       }
       .propac {
         padding: 10px 0;
+      }
+      .sherwin-williams {
+        padding: 19px 0;
       }
       .srm {
         padding: 62px 0;
