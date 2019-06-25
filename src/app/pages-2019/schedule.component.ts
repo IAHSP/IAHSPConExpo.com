@@ -209,7 +209,7 @@ import { Component, OnInit } from '@angular/core';
                   <td>GENERAL JACKSON SHOW BOAT</td>
                 </tr>
                 <tr>
-                  <td>7:15- 7:45</td>
+                  <td>7:15 - 7:45</td>
                   <td>Depart for General Jackson - Cash Bar and Music</td>
                   <td>GENERAL JACKSON SHOW BOAT</td>
                 </tr>
