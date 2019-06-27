@@ -563,3 +563,26 @@ export const isdList =[
     `
   }
 ]
+
+
+
+export const astList =[
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/images/renee-helten.jpg`,
+    name:`Lisa Basham`,
+    company:`KW Realtor, Owner of HIRED Real Estate School`,
+    title:`Sales and Productivity Coach`
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/images/johnathan-miller.jpg`,
+    name:`Johnathan Miller`,
+    company:`JSquared Staging and Redesign`,
+    title:`Marketing Expert`
+  },
+  {
+    image:`https://d3oaxt0bwkjnjn.cloudfront.net/images/brandy-sales.jpg`,
+    name:`Brandy Sales`,
+    company: null,
+    title:`Video Marketing and Tech Expert`
+  }
+]
