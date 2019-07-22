@@ -79,18 +79,24 @@ import { Component, OnInit } from '@angular/core';
               <hr class="visible-xs" />
             </div>
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/cubiqz-logo.png" 
-              class="center-block img-responsive" alt="Cubiqz Sponsor Logo">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/artist-guild-of-america.jpg" 
+              class="center-block img-responsive" alt="Artist Guild of America Sponsor Logo">
               <hr class="visible-xs" />
             </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/cubiqz-logo.png" 
+              class="center-block img-responsive cubiqz" alt="Cubiqz Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
+            
+            <div class="clearfix space-bottom-30"></div>
+
+            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/diamond-sofa-logo.png" 
               class="center-block img-responsive" alt="Diamond Sofa Logo">
               <hr class="visible-xs" />
             </div>            
-
-            <div class="clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" 
               class="center-block img-responsive jutus" alt="Jutus Sponsor Logo">
@@ -101,14 +107,14 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive olliix" alt="Olliix Sponsor Logo">
               <hr class="visible-xs" />
             </div>
+            
+            <div class="clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
               class="center-block img-responsive paragon" alt="Paragon Sponsor Logo">
               <hr class="visible-xs" />
-            </div>                       
-
-            <div class="clearfix space-bottom-30"></div>
-
+            </div>
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" 
               class="center-block img-responsive propac" alt="Propac Sponsor Logo">
@@ -119,15 +125,16 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive" alt="Rave Staging Redesign Sponsor Logo">
               <hr class="visible-xs" />
             </div>
+            
+            <div class="clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block img-responsive sherwin-williams" alt="Sherwin Williams Sponsor Logo">
               <hr class="visible-xs" />
             </div>            
 
-            <div class="clearfix space-bottom-30"></div>
-
-            <div class="col-sm-offset-2 col-sm-4">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/srm-staging-policy-logo.jpg" 
               class="center-block img-responsive srm" alt="SRM Staging Policy Sponsor Logo">
               <hr class="visible-xs" />
@@ -234,7 +241,10 @@ import { Component, OnInit } from '@angular/core';
 
       /* Gold */
       .aflac {
-        padding: 21px 0;
+        padding: 45px 0;
+      }
+      .cubiqz {
+        padding: 31px 0;
       }
       .jutus {
         padding: 3px 0;
@@ -249,7 +259,7 @@ import { Component, OnInit } from '@angular/core';
         padding: 10px 0;
       }
       .sherwin-williams {
-        padding: 19px 0;
+        padding: 79px 0;
       }
       .srm {
         padding: 62px 0;
