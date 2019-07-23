@@ -138,11 +138,7 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/srm-staging-policy-logo.jpg" 
               class="center-block img-responsive srm" alt="SRM Staging Policy Sponsor Logo">
               <hr class="visible-xs" />
-            </div>
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
-              class="center-block img-responsive space-bottom-80" alt="Staged Homes Banner">
-            </div>
+            </div>            
           </div>
 
           <!-- Silver -->
@@ -152,23 +148,29 @@ import { Component, OnInit } from '@angular/core';
           </div>
           <div class="silver">
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/barb-schwarz-logo.png" 
+              class="center-block img-responsive barb" alt="Barb Schwarz Sponsor Logo">              
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/elk-group-logo.png" 
               class="center-block img-responsive elk" alt="ELK Group Sponsor Logo">              
             </div><hr class="visible-xs" />
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/home-staging-and-redesign-association-logo.png" 
               class="center-block img-responsive hsra" alt="Home Staging and Redesign Association Logo">
-            </div><hr class="visible-xs" />
+            </div><hr class="visible-xs" />            
+
+            <div class="clearfix"></div>
 
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/jlw-company-logo.jpg" 
               class="center-block img-responsive" alt="JLW Company Logo">
             </div><hr class="visible-xs" />
-
-            <div class="clearfix"></div>
-
-            <div class="col-sm-offset-4 col-sm-4">
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
+              class="center-block img-responsive space-bottom-80" alt="Staged Homes Banner">
+            </div>
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/the-successful-stager-logo.png" 
               class="center-block img-responsive successful space-bottom-80" alt="The Successful Stager Sponsor Logo">
             </div>
@@ -266,8 +268,14 @@ import { Component, OnInit } from '@angular/core';
       }
 
       /* Silver */
-      .elk, .successful, .hsra {
+      .barb {
         padding: 33px 0;
+      }
+      .elk, .hsra {
+        padding: 76px 0;
+      }
+      .successful {
+        padding: 27px 0;
       }
     }
     
