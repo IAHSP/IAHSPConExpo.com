@@ -84,14 +84,18 @@ import { Component, OnInit } from '@angular/core';
               <hr class="visible-xs" />
             </div>
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/black-swan-boutique.png" 
+              class="center-block img-responsive" alt="Black Swan Boutique Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
+            
+            <div class="clearfix space-bottom-30"></div>            
+            
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/cubiqz-logo.png" 
               class="center-block img-responsive cubiqz" alt="Cubiqz Sponsor Logo">
               <hr class="visible-xs" />
             </div>
-            
-            <div class="clearfix space-bottom-30"></div>
-
-            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/diamond-sofa-logo.png" 
               class="center-block img-responsive" alt="Diamond Sofa Logo">
@@ -102,14 +106,14 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive jutus" alt="Jutus Sponsor Logo">
               <hr class="visible-xs" />
             </div>
+            
+            <div class="clearfix space-bottom-30"></div>
+            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
               class="center-block img-responsive olliix" alt="Olliix Sponsor Logo">
               <hr class="visible-xs" />
             </div>
-            
-            <div class="clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
               class="center-block img-responsive paragon" alt="Paragon Sponsor Logo">
@@ -120,24 +124,22 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive propac" alt="Propac Sponsor Logo">
               <hr class="visible-xs" />
             </div>
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/rave-staging-redesign-logo.png" 
-              class="center-block img-responsive" alt="Rave Staging Redesign Sponsor Logo">
-              <hr class="visible-xs" />
-            </div>
             
             <div class="clearfix space-bottom-30"></div>
-
+            
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/rave-staging-redesign-logo.png" 
+              class="center-block img-responsive rave" alt="Rave Staging Redesign Sponsor Logo">
+              <hr class="visible-xs" />
+            </div>
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block img-responsive sherwin-williams" alt="Sherwin Williams Sponsor Logo">
               <hr class="visible-xs" />
-            </div>            
-
+            </div>
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/srm-staging-policy-logo.jpg" 
-              class="center-block img-responsive srm" alt="SRM Staging Policy Sponsor Logo">
-              <hr class="visible-xs" />
+              class="center-block img-responsive srm space-bottom-80" alt="SRM Staging Policy Sponsor Logo">
             </div>            
           </div>
 
@@ -169,7 +171,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
               class="center-block img-responsive space-bottom-80" alt="Staged Homes Banner">
-            </div>
+            </div><hr class="visible-xs" />
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/the-successful-stager-logo.png" 
               class="center-block img-responsive successful space-bottom-80" alt="The Successful Stager Sponsor Logo">
@@ -259,6 +261,9 @@ import { Component, OnInit } from '@angular/core';
       }
       .propac {
         padding: 10px 0;
+      }
+      .rave {
+        padding: 64px 0;
       }
       .sherwin-williams {
         padding: 79px 0;
