@@ -189,7 +189,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/the-successful-stager-logo.png" 
               class="center-block" alt="The Successful Stager Sponsor Logo">
-            </div>
+            </div><hr class="visible-xs" />
 
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
