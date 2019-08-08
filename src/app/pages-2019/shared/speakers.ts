@@ -569,7 +569,7 @@ export const isdList =[
 export const astList =[
   {
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/images/renee-helten.jpg`,
-    name:`Lisa Basham`,
+    name:`Renee Helten`,
     company:`KW Realtor, Owner of HIRED Real Estate School`,
     title:`Sales and Productivity Coach`
   },
