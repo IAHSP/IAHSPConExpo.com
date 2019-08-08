@@ -131,7 +131,7 @@ import { Component, OnInit } from '@angular/core';
 
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-offset-4 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block sherwin-williams space-bottom-80" alt="Sherwin Williams Sponsor Logo">
             </div>    
