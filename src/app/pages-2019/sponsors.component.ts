@@ -159,7 +159,7 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
             
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/kmrd-partners-logo.jpg" 
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/kmrd-partners-logo.png" 
               class="center-block kmrd" alt="KMRD Partners Company Logo">
             </div><hr class="visible-xs" />
             <div class="col-sm-4">
@@ -295,6 +295,7 @@ import { Component, OnInit } from '@angular/core';
       }
       .kmrd {
         padding: 26px 0;
+        width: 26% !important;
       }
       .stageforce {
         padding: 25px 0;
