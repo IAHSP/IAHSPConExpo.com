@@ -297,7 +297,8 @@ import { Component, OnInit } from '@angular/core';
         padding: 26px 0;
       }
       .stageforce {
-        padding: 30px 0;
+        padding: 25px 0;
+        width: 48% !important;
       }
       
       /* Bronze */
