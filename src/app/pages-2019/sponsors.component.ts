@@ -295,6 +295,7 @@ import { Component, OnInit } from '@angular/core';
       }
       .kmrd {
         padding: 26px 0;
+        width: 26% !important;
       }
       .stageforce {
         padding: 25px 0;
