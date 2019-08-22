@@ -98,9 +98,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/diamond-sofa-logo.png" 
               class="center-block img-responsive" alt="Diamond Sofa Logo">              
             </div><hr class="visible-xs" />
-            
+
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-            
+
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/downtown-logo.png" 
+              class="center-block img-responsive downtown" alt="Down Town Co Logo">              
+            </div><hr class="visible-xs" />
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" 
               class="center-block jutus" alt="Jutus Sponsor Logo">              
@@ -109,13 +113,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
               class="center-block olliix" alt="Olliix Sponsor Logo">              
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
-              class="center-block paragon" alt="Paragon Sponsor Logo">              
+              class="center-block paragon" alt="Paragon Sponsor Logo">
             </div><hr class="visible-xs" />
-            
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-            
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" 
               class="center-block propac" alt="Propac Sponsor Logo">              
@@ -124,14 +128,14 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/rave-staging-redesign-logo.png" 
               class="center-block rave" alt="Rave Staging Redesign Sponsor Logo">
             </div><hr class="visible-xs" />
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sagebrook-home-logo.jpg" 
-              class="center-block img-responsive" alt="Sagebrook Sponsor Logo">              
-            </div><hr class="visible-xs" />
 
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
-            <div class="col-sm-offset-4 col-sm-4">
+            <div class="col-sm-offset-2 col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sagebrook-home-logo.jpg" 
+              class="center-block img-responsive" alt="Sagebrook Sponsor Logo">              
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block sherwin-williams space-bottom-80" alt="Sherwin Williams Sponsor Logo">
             </div>    
@@ -264,26 +268,26 @@ import { Component, OnInit } from '@angular/core';
       .cubiqz {
         padding: 3px 0;
       }
+      .downtown {
+        padding: 8px 0;
+      }
       .jutus {
         padding: 3px 0;
       }
       .olliix {
-        padding: 22px 0;
+        padding: 16px 0;
       }
       .paragon {
-        padding: 34px 0;
+        padding: 18px 0;
       }
       .propac {
-        padding: 60px 0;
+        padding: 4px 0;
       }
       .rave {
-        padding: 55px 0;
+        padding: 0;
       }
       .sherwin-williams {
-        /* padding: 79px 0; */
-      }
-      .srm {
-        padding: 62px 0;
+        padding: 57px 0;
       }
 
       /* Silver */
