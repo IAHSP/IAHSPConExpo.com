@@ -175,8 +175,8 @@ import { Component, OnInit } from '@angular/core';
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
-                  <td>Building a “Bridge over Troubled Waters”- Navigating through Life’s Challenges while sustaining your successful business</td>
-                  <td><strong>THERESA THOMAS</strong></td>
+                  <td>CE is the Highway to Higher Sales &amp; Profitability: Leveraging Exposure &amp; Gaining More Clients</td>
+                  <td><strong>JANA USELTON</strong></td>
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
@@ -280,7 +280,7 @@ import { Component, OnInit } from '@angular/core';
                 <tr>
                   <td>1:15 - 2:00</td>
                   <td>Are You Running on Empty? How to Keep a Balance in Life and Work</td>
-                  <td><strong>JENNIE NORRIS</strong></td>
+                  <td><strong>JENNIE NORRIS, THERESA THOMAS</strong></td>
                 </tr>
                 <tr>
                   <td>2:10 - 2:45</td>
