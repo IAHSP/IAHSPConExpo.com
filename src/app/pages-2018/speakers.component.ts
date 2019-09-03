@@ -1166,7 +1166,7 @@ import { Component } from '@angular/core';
                         <li class="col-sm-3">
                             <div class="item-box">
                                 <figure>
-                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/barb-schwarz-320-392.jpg" 
+                                    <img class="img-responsive center-block" src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/profiles/barb-schwarz.jpg" 
                                     alt="Barb Schwarz">
                                 </figure>
                                 <div class="item-box-desc">
