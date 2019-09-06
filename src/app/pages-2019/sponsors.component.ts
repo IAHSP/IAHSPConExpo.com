@@ -106,6 +106,10 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/elavon-logo.png" 
+              class="center-block img-responsive elavon" alt="Elavon Logo">              
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/global-views-logo.jpg" 
               class="center-block img-responsive global-views" alt="Global Views Sponsor Logo">              
             </div><hr class="visible-xs" />
@@ -113,17 +117,24 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" 
               class="center-block jutus" alt="Jutus Sponsor Logo">              
             </div><hr class="visible-xs" />
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
-              class="center-block olliix" alt="Olliix Sponsor Logo">              
-            </div><hr class="visible-xs" />
 
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/levitate-logo.png" 
+              class="center-block levitate" alt="Levitate Sponsor Logo">              
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
+              class="center-block olliix" alt="Olliix Sponsor Logo">              
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
               class="center-block paragon" alt="Paragon Sponsor Logo">
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" 
               class="center-block propac" alt="Propac Sponsor Logo">              
@@ -132,25 +143,22 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/rave-staging-redesign-logo.png" 
               class="center-block rave" alt="Rave Staging Redesign Sponsor Logo">
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sagebrook-home-logo.jpg" 
               class="center-block img-responsive" alt="Sagebrook Sponsor Logo">              
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block sherwin-williams" alt="Sherwin Williams Sponsor Logo">
             </div><hr class="visible-xs" />
-            <div class="col-offset-sm-2 col-sm-4">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" 
               class="center-block img-responsive staged-2-buy" alt="Staged 2 Buy Sponsor Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-            
-            <div class="col-sm-offset-4 col-sm-4">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
               class="center-block staged-homes space-bottom-80" alt="Staged Homes Banner">
             </div>
@@ -295,6 +303,9 @@ import { Component, OnInit } from '@angular/core';
       .jutus {
         padding: 3px 0;
       }
+      .levitate {
+        padding: 29px 0;
+      }
       .olliix {
         padding: 16px 0;
       }
@@ -302,10 +313,10 @@ import { Component, OnInit } from '@angular/core';
         padding: 18px 0;
       }
       .propac {
-        padding: 4px 0;
+        padding: 60px 0;
       }
       .rave {
-        padding: 0;
+        padding: 55px 0;
       }
       .sherwin-williams {
         padding: 70px 0;
