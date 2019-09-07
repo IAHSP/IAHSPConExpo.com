@@ -17,8 +17,8 @@ import { Component, OnInit } from '@angular/core';
           </div>
           <div class="diamond">
             <div class="col-sm-6">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ashley-furniture-logo.png" 
-              class="center-block img-responsive ashley-furniture" alt="Ashley Furniture Sponsor Logo">              
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ashley-furniture-logo.jpg" 
+              class="center-block img-responsive ashley-furniture" alt="Ashley Furniture Sponsor Logo" width="283">              
             </div><hr class="visible-xs" />
             <div class="col-sm-6">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/coaster-logo.png" 
@@ -255,17 +255,15 @@ import { Component, OnInit } from '@angular/core';
     @media screen and (min-width: 768px) {
       /* Diamond */
       .ashley-furniture {
-        padding: 92px 0;
+        padding: 43px 0;
       }
       .coaster {
-        padding: 78px 0;
+        padding: 120px 0;
       }
       .karastan {
         padding: 33px 0;
       }
-      .spectra-home {
-        padding: 32px 0;
-      }
+      .spectra-home {}
 
       /* Platinum */
       .bedford {
