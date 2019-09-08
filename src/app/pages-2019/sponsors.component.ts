@@ -200,9 +200,13 @@ import { Component, OnInit } from '@angular/core';
 
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
-            <div class="col-sm-offset-4 col-sm-4">
+            <div class="col-sm-offset-2 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/stageforce-logo.png" 
-              class="center-block stageforce space-bottom-80" alt="Stageforce Sponsor Logo">
+              class="center-block stageforce" alt="Stageforce Sponsor Logo">
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/video-visibility-logo.jpg" 
+              class="center-block video-visibility space-bottom-80" alt="Video Visibility Sponsor Logo">
             </div>
           </div>
 
@@ -337,6 +341,9 @@ import { Component, OnInit } from '@angular/core';
       .stageforce {
         padding: 25px 0;
         width: 48% !important;
+      }
+      .video-visibility {
+        
       }
       
       /* Bronze */
