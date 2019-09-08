@@ -545,13 +545,11 @@ export const isdList =[
     topic:`Getting In with REIA and AirBNB Staging`,
     modelId:`qidon`,
     description:`
-      <p>Amy Powers is an award-winning stager and industry leader. She specializes in merchandising homes in today’s residential 
-      short-term rental market, while building relationships with RE Agents, Investors and other professionals in the real estate 
-      industry. With the trend of short-term vacation rentals expanding, Investors are using this as a means to have on-going revenue. 
-      There are many elements to consider when staging these types of properties from online presence to salt and pepper shakers. 
-      Learn how to get the business, a design template for easy planning and what relationships are important in expanding this service. 
-      Don't let Amy's big smile and winsome Southern approach ability fool you, Amy is a strong force in communicating exactly what it takes 
-      to turn a house into a money making property.</p>
+      <p>Amy Powers is an award-winning stager and industry leader. She specializes in staging homes in Investor properties and the 
+      residential short-term rental market. With the trend of short-term vacation rentals expanding, Investors are using this as a means 
+      to have on-going revenue. Learn how to get the business, a design template for easy planning and what relationships are important 
+      in expanding this service. Don't let Amy's big smile and winsome Southern approach ability fool you, Amy is a strong force in 
+      communicating exactly what it takes to turn a house into a money making property.</p>
     `
   }
 ]
