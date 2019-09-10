@@ -17,7 +17,7 @@ export const speakerList =[
     image:`https://d3oaxt0bwkjnjn.cloudfront.net/web/images/conference/speakers/kristie-barnett.jpg`,
     name:`Kristie Barnett`,
     company:`The Decorologist`,
-    topic:`Striking a Chord with your Audience through Blogging`,
+    topic:`Creating Architectural Harmony - Staging Challenging Living Areas`,
     modelId:`wathl`,
     description:`
       <p>In this presentation, you will learn how to:</p>
