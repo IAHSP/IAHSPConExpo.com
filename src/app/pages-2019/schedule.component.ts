@@ -180,7 +180,7 @@ import { Component, OnInit } from '@angular/core';
                 </tr>
                 <tr>
                   <td>3:05 - 3:50</td>
-                  <td>Creating Architectural Harmony - Staging Challenging Living Areas</td>
+                  <td>Striking a Chord with your Audience through Blogging</td>
                   <td><strong>KRISTIE BARNETT</strong></td>
                 </tr>
                 <tr>
