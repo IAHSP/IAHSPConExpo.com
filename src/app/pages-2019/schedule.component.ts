@@ -220,7 +220,7 @@ import { Component, OnInit } from '@angular/core';
                 </tr>
                 <tr bgcolor="D9D2E9">
                   <td>8:30 - 9:00</td>
-                  <td>"Whose Educating Who?</td>
+                  <td>"Barb's 3 Keys To Power!</td>
                   <td><strong>BARB SCHWARZ - INSPIRATIONAL KEYNOTE</strong></td>
                 </tr>
                 <tr>
