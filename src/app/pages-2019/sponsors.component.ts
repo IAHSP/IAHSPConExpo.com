@@ -151,6 +151,10 @@ import { Component, OnInit } from '@angular/core';
             <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
 
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/scan-unlock-logo.png" 
+              class="center-block scan-unlock" alt="Scan Unlock Sponsor Logo">
+            </div><hr class="visible-xs" />
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block sherwin-williams" alt="Sherwin Williams Sponsor Logo">
             </div><hr class="visible-xs" />
@@ -158,7 +162,10 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" 
               class="center-block img-responsive staged-2-buy" alt="Staged 2 Buy Sponsor Logo">              
             </div><hr class="visible-xs" />
-            <div class="col-sm-4">
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
+
+            <div class="col-md-offset-4 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
               class="center-block staged-homes space-bottom-80" alt="Staged Homes Banner">
             </div>
@@ -315,16 +322,16 @@ import { Component, OnInit } from '@angular/core';
         padding: 18px 0;
       }
       .propac {
-        padding: 60px 0;
+        padding: 37px 0;
       }
       .rave {
-        padding: 55px 0;
+        padding: 34px 0;
       }
       .sherwin-williams {
-        padding: 70px 0;
+        padding: 11px 0;
       }
       .staged-2-buy {
-        padding: 53px 0;
+        padding: 1px 0;
       }
 
       /* Silver */
