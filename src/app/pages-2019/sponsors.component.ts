@@ -84,12 +84,16 @@ import { Component, OnInit } from '@angular/core';
               class="center-block img-responsive" alt="Black Swan Boutique Sponsor Logo">              
             </div><hr class="visible-xs" />
             <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ca-lighting-and-accessories-logo.png" 
+              class="center-block img-responsive" alt="CA Lighting and Accessories Sponsor Logo">              
+            </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/couture-cashmere-logo.png" 
               class="center-block couture-cashmere" alt="Couture Cashmere Sponsor Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>    
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/cubiqz-logo.png" 
               class="center-block cubiqz" alt="Cubiqz Sponsor Logo">              
@@ -98,13 +102,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/diamond-sofa-logo.png" 
               class="center-block img-responsive" alt="Diamond Sofa Logo">              
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/downtown-logo.png" 
               class="center-block img-responsive downtown" alt="Down Town Co Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/elavon-logo.png" 
               class="center-block img-responsive elavon" alt="Elavon Logo">              
@@ -113,13 +117,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/global-views-logo.jpg" 
               class="center-block img-responsive global-views" alt="Global Views Sponsor Logo">              
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" 
               class="center-block jutus" alt="Jutus Sponsor Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/levitate-logo.png" 
               class="center-block levitate" alt="Levitate Sponsor Logo">              
@@ -128,13 +132,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/ollix-logo.png" 
               class="center-block olliix" alt="Olliix Sponsor Logo">              
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/paragon-logo.png" 
               class="center-block paragon" alt="Paragon Sponsor Logo">
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" 
               class="center-block propac" alt="Propac Sponsor Logo">              
@@ -143,13 +147,13 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/rave-staging-redesign-logo.png" 
               class="center-block rave" alt="Rave Staging Redesign Sponsor Logo">
             </div><hr class="visible-xs" />
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sagebrook-home-logo.jpg" 
               class="center-block img-responsive" alt="Sagebrook Sponsor Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/scan-unlock-logo.png" 
               class="center-block scan-unlock" alt="Scan Unlock Sponsor Logo">
@@ -158,14 +162,14 @@ import { Component, OnInit } from '@angular/core';
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" 
               class="center-block sherwin-williams" alt="Sherwin Williams Sponsor Logo">
             </div><hr class="visible-xs" />
-            <div class="col-sm-4">
+
+            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div> 
+
+            <div class="col-md-offset-2 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" 
               class="center-block img-responsive staged-2-buy" alt="Staged 2 Buy Sponsor Logo">              
             </div><hr class="visible-xs" />
-
-            <div class="col-sm-12 hidden-xs clearfix space-bottom-30"></div>
-
-            <div class="col-md-offset-4 col-sm-4">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/banners/shc-table-banner.jpg" 
               class="center-block staged-homes space-bottom-80" alt="Staged Homes Banner">
             </div>
