@@ -35,7 +35,7 @@ import { Component, OnInit  } from '@angular/core';
         </button>
 
         <!-- Logo text or image -->
-        <a class="logo scrollTo" href="#wrapper">
+        <a class="logo" href="/">
           <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
         </a>
 
@@ -43,8 +43,8 @@ import { Component, OnInit  } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li><a href="#wrapper" class="scrollTo">Home</a></li>              
-              <li class="dropdown">
+              <li><a href="/">Home</a></li>              
+              <!-- <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
@@ -59,7 +59,7 @@ import { Component, OnInit  } from '@angular/core';
                     <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
                     <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
                   </ul>
-              </li>
+              </li> -->
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Past Events
