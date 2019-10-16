@@ -38,7 +38,7 @@ export class Register2019Component {
           (<HTMLInputElement> document.getElementById("btnSubmit")).disabled = true;
 
           // Successful submission, so lets redirect
-          window.location.href = 'https://cvent.me/dZKd4';
+          window.location.href = 'https://cvent.me/RqqGLR';
         } else {
           // Something went wrong.
           document.getElementById("btnSubmit").textContent = "Please try again.";

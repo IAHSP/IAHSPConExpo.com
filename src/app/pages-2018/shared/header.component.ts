@@ -76,7 +76,7 @@ import { Component, OnInit  } from '@angular/core';
                             </div> -->
                             <!-- <li><a routerLink="contact2018">Contact</a></li> -->
                             <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-globe" 
-                            aria-hidden="true"></i>2019 Conference Expo</a></div></li>
+                            aria-hidden="true"></i>2020 Conference Expo</a></div></li>
                         </ul>
                     </nav>
                 </div><!-- /Top Nav -->
