@@ -31,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
 
       <!-- <app-2019-countdown id="countdown"></app-2019-countdown> -->
 
-      <app-2019-contact id="contact"></app-2019-contact>
+      <!-- <app-2019-contact id="contact"></app-2019-contact> -->
 
     </div>
 

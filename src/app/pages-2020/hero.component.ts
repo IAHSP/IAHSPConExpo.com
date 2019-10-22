@@ -14,7 +14,8 @@ import { Component, OnInit } from '@angular/core';
           <li data-transition="fade" data-slotamount="1" data-masterspeed="1500">
 
             <!-- MAIN IMAGE -->
-            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-hero-background.jpg" alt="Nashville, TN" data-bgfit="cover" data-bgposition="left top" 
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-conference-expo-denver.jpg" 
+            alt="IAHSP Conference and Expo Denver Colorado 2020" data-bgfit="cover" data-bgposition="left top" 
             data-bgrepeat="no-repeat">
 
             <!-- LAYER NR. 1 -->
@@ -30,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
               data-endeasing="Power4.easeIn"
               style="z-index: 2">
 
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-conference-and-expo-2019-logo.png" alt="IAHSP Conference and Expo 2020" 
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-conference-and-expo-2020.jpg" alt="IAHSP Conference and Expo 2020" 
               width="390px" class="img-responsive center-block" />
             </div>
 
@@ -63,7 +64,7 @@ import { Component, OnInit } from '@angular/core';
               data-endeasing="Power4.easeIn"
               style="z-index: 3">
               
-              Oct 3-5, 2020 – Nashville, TN
+              Sept 25-27, 2020 – Denver, CO
             </div>
 
             <!-- LAYER NR. 4 -->
@@ -125,7 +126,7 @@ import { Component, OnInit } from '@angular/core';
     }
 
     .largegreenbg {
-        background-color: #D99A33;
+        background-color: #008BCC;
     }
   `]
 

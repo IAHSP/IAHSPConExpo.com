@@ -65,6 +65,7 @@ import { Component, OnInit  } from '@angular/core';
                     <i class="fa fa-angle-down"></i>Past Events
                 </a>
                   <ul class="dropdown-menu">                    
+                    <li><a href="/2019">2019</a></li>
                     <li><a href="/2018">2018</a></li>
                   </ul>
               </li>

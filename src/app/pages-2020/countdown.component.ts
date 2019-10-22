@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2><a href="https://cvent.me/dZKd4" target="_blank" rel="noopener"><strong>Register</strong></a> 
+            <h2><a href="/register"><strong>Register</strong></a> 
             By The Deadline - unless we are SOLD OUT</h2>
-            <h3>October 2, 2020 11:59 PM</h3>
+            <h3>Sept 24, 2020 11:59 PM</h3>
             <div id="demo"></div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export class Countdown2020Component implements OnInit {
 
   ngOnInit() {
     // Set the date we're counting down to
-var countDownDate = new Date("Oct 2, 2020 23:59:00").getTime();
+var countDownDate = new Date("Sept 24, 2020 23:59:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
