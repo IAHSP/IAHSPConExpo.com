@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 
       <app-2019-hero id="hero"></app-2019-hero>
 
-      <!-- <app-2019-cks id="cks"></app-2019-cks>
+      <app-2019-cks id="cks"></app-2019-cks>
 
       <app-2019-event id="event"></app-2019-event>
       
@@ -29,7 +29,7 @@ import { Component, OnInit } from '@angular/core';
 
       <app-2019-hotel id="hotel"></app-2019-hotel>
 
-      <app-2019-countdown id="countdown"></app-2019-countdown> -->
+      <!-- <app-2019-countdown id="countdown"></app-2019-countdown> -->
 
       <app-2019-contact id="contact"></app-2019-contact>
 

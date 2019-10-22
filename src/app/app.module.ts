@@ -29,7 +29,7 @@ import { SponsorsComponent } from './pages-2019/sponsors.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
-  { path: "", component: Home2019Component },
+  { path: "2019", component: Home2019Component },
   
   // Lazy Loaded
   { path: "2018", loadChildren: "./pages-2018/iahsp2018.module#Iahsp2018Module" },

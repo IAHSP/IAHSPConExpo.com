@@ -6,19 +6,19 @@ import { Component, OnInit } from '@angular/core';
   `
 
     <!-- REVOLUTION SLIDER -->
-    <!-- <section class="fullscreenbanner-container">
+    <section class="fullscreenbanner-container">
       <div class="fullscreenbanner">
-        <ul> -->
+        <ul>
 
           <!-- SLIDE  -->
-          <!-- <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" >                  -->
+          <li data-transition="fade" data-slotamount="1" data-masterspeed="1500">
 
             <!-- MAIN IMAGE -->
-            <!-- <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-hero-background.jpg" alt="Nashville, TN" data-bgfit="cover" data-bgposition="left top" 
-            data-bgrepeat="no-repeat"> -->
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-hero-background.jpg" alt="Nashville, TN" data-bgfit="cover" data-bgposition="left top" 
+            data-bgrepeat="no-repeat">
 
             <!-- LAYER NR. 1 -->
-            <!-- <div id="revolution-layer-0" class="tp-caption large_bold_white customin customout"
+            <div id="revolution-layer-0" class="tp-caption large_bold_white customin customout"
               data-x="center" data-hoffset=""
               data-y="25" data-voffset=""
               data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
@@ -32,10 +32,10 @@ import { Component, OnInit } from '@angular/core';
 
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/2019/iahsp-conference-and-expo-2019-logo.png" alt="IAHSP Conference and Expo 2019" 
               width="390px" class="img-responsive center-block" />
-            </div> -->
+            </div>
 
             <!-- LAYER NR. 2 -->
-            <!-- <div id="revolution-layer-1" class="tp-caption large_bold_white customin customout"
+            <div id="revolution-layer-1" class="tp-caption large_bold_white customin customout"
               data-x="center" data-hoffset=""
               data-y="340" data-voffset=""
               data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
@@ -48,10 +48,10 @@ import { Component, OnInit } from '@angular/core';
               style="z-index: 2">
 
               2019 Educational Conference & EXPO!
-            </div> -->
+            </div>
 
             <!-- LAYER NR. 3 -->
-            <!-- <div id="revolution-layer-2" class="tp-caption largegreenbg customin customout"
+            <div id="revolution-layer-2" class="tp-caption largegreenbg customin customout"
               data-x="center" data-hoffset=""
               data-y="410" data-voffset=""
               data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
@@ -64,10 +64,10 @@ import { Component, OnInit } from '@angular/core';
               style="z-index: 3">
               
               Oct 3-5, 2019 – Nashville, TN
-            </div> -->
+            </div>
 
             <!-- LAYER NR. 4 -->
-            <!-- <div id="revolution-layer-3" class="tp-caption small_text customin customout"
+            <div id="revolution-layer-3" class="tp-caption small_text customin customout"
               data-x="center" data-hoffset=""
               data-y="500" data-voffset=""
               data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 0%;"
@@ -89,9 +89,9 @@ import { Component, OnInit } from '@angular/core';
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
-    <div class="padding100 bg-white">
+    <!-- <div class="padding100 bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -99,9 +99,9 @@ import { Component, OnInit } from '@angular/core';
             <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/denver-colorado-iahsp-con-expo-2020.jpg" 
             alt="Denver Colorado IAHSP Conference and Expo"
             class="center-block img-responsive" width="660"/>
-            <!-- <h3 class="text-center">Check out some of the highlights of our 2018 Conference & EXPO!</h3> -->
+            <h3 class="text-center">Check out some of the highlights of our 2018 Conference & EXPO!</h3>
           </div>
-          <!-- <div class="col-md-6">
+          <div class="col-md-6">
             <div class="space-bottom-15">
               <video width="100%" controls="" controlslist="nodownload">
                   <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/iahsp-2018-montage-sessions-and-awards-dinner.mp4" type="video/mp4">
@@ -114,10 +114,10 @@ import { Component, OnInit } from '@angular/core';
                   <source src="https://d3oaxt0bwkjnjn.cloudfront.net/web/videos/2018-iahsp-conference-set-and-expo.mp4" type="video/mp4">
               </video>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
-    </div>
+    </div> -->
   `,
   styles: [`
     .fullscreenbanner-container {

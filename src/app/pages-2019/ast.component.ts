@@ -62,9 +62,9 @@ import { astList } from './shared/speakers';
             $499<br />
             When you register for BOTH the 2019 IAHSP Conference & EXPO and the ASTl you can save $75.00. Use code AST75</p>
             
-            <div class="text-center">
+            <!-- <div class="text-center">
               <a href="https://pages.iahsp.com/advanced-stager-training/" class="btn btn-primary color-white">Register Now</a>
-            </div>            
+            </div>             -->
           </div>
         </div>
       </div>
