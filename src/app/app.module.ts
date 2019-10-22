@@ -9,6 +9,15 @@ import { ReCaptchaModule } from 'angular2-recaptcha';
 
 import { AppComponent } from './app.component';
 
+// IAHSP 2020 Conference & Expo
+import { Header2020Component } from './pages-2020/shared/header.component';
+import { Footer2020Component } from './pages-2020/shared/footer.component';
+import { Home2020Component } from './pages-2020/home.component';
+import { Hero2020Component } from './pages-2020/hero.component';
+import { Countdown2020Component } from './pages-2020/countdown.component';
+import { Contact2020Component } from './pages-2020/contact/contact.component';
+import { Register2020Component } from './pages-2020/register/register.component';
+
 // IAHSP 2019 Conference & Expo
 import { Header2019Component } from './pages-2019/shared/header.component';
 import { Footer2019Component } from './pages-2019/shared/footer.component';
@@ -29,6 +38,7 @@ import { SponsorsComponent } from './pages-2019/sponsors.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
+  { path: "", component: Home2020Component },
   { path: "2019", component: Home2019Component },
   
   // Lazy Loaded
@@ -40,6 +50,15 @@ const appRoutes: Routes = [
   declarations: [
 
     AppComponent,
+
+    // IAHSP 2020 Conference & Expo
+    Header2020Component,
+    Footer2020Component,
+    Home2020Component,
+    Hero2020Component,
+    Countdown2020Component,
+    Contact2020Component,
+    Register2020Component,
 
     // IAHSP 2019 Conference & Expo
     Header2019Component,
