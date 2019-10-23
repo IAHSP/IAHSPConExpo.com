@@ -43,10 +43,10 @@ import { Component, OnInit } from '@angular/core';
 
             <p class="lead">Make your hotel reservations NOW!</p>
 
-            <div class="text-center">
+            <!-- <div class="text-center">
               <a href="https://book.passkey.com/gt/217265789?gtid=6490c326db9faa31a04ce58e75d4f22d" class="btn btn-primary space-bottom-8 
               color-white" target="_blank" rel=”noopener”>Reservations</a>
-            </div>            
+            </div>             -->
 
             <p class="lead"><strong><u>Reservations</u></strong></p>
 
