@@ -1,7 +1,7 @@
 import { Component, OnInit  } from '@angular/core';
 
 @Component({
-  selector: 'app-shared-2019-header',
+  selector: 'app-shared-2020-header',
   template: 
   `
     <!-- Top Bar -->
@@ -35,16 +35,16 @@ import { Component, OnInit  } from '@angular/core';
         </button>
 
         <!-- Logo text or image -->
-        <a class="logo" href="/2019">
-          <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP Logo" />
+        <a class="logo" href="/">
+          <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
         </a>
 
         <!-- Top Nav -->
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li><a href="/2019">Home</a></li>
-              <li class="dropdown">
+              <li><a href="/">Home</a></li>              
+              <!-- <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
@@ -59,19 +59,18 @@ import { Component, OnInit  } from '@angular/core';
                     <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
                     <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
                   </ul>
-              </li>
+              </li> -->
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Past Events
                 </a>
                   <ul class="dropdown-menu">                    
+                    <li><a href="/2019">2019</a></li>
                     <li><a href="/2018">2018</a></li>
                   </ul>
               </li>
-              <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-globe" 
-                aria-hidden="true"></i>2020 Conference Expo</a></div></li>
               <!-- <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li> -->
-              <!-- <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li> -->
+              <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
@@ -82,7 +81,7 @@ import { Component, OnInit  } from '@angular/core';
   styles: [``]
 })
 
-export class Header2019Component implements OnInit {
+export class Header2020Component implements OnInit {
 
   constructor() { }
 

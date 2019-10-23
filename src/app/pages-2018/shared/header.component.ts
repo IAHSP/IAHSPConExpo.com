@@ -36,7 +36,7 @@ import { Component, OnInit  } from '@angular/core';
                 </button>
 
                 <!-- Logo text or image -->
-                <a class="logo" routerLink="/2018">
+                <a class="logo" href="/2018">
                     <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
                 </a>
 
@@ -44,6 +44,7 @@ import { Component, OnInit  } from '@angular/core';
                 <div class="navbar-collapse nav-main-collapse collapse pull-right">
                     <nav class="nav-main mega-menu">
                         <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
+                            <li><a href="/2018">Home</a></li>
                             <!-- <li class="active"><a routerLink="/2018">Home</a></li>
                             <li class="dropdown visible-md visible-lg">
 								<a class="dropdown-toggle" href="#">
@@ -75,6 +76,14 @@ import { Component, OnInit  } from '@angular/core';
                                 <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
                             </div> -->
                             <!-- <li><a routerLink="contact2018">Contact</a></li> -->
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" href="#">
+                                    <i class="fa fa-angle-down"></i>Past Events
+                                </a>
+                                <ul class="dropdown-menu">                    
+                                <li><a href="/2019">2019</a></li>
+                                </ul>
+                              </li>
                             <li><div><a id="btnRegister" href="/" class="btn btn-primary btn-sm color-white pull-left"><i class="fa fa-globe" 
                             aria-hidden="true"></i>2020 Conference Expo</a></div></li>
                         </ul>
