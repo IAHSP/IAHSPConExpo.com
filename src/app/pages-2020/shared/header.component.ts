@@ -44,22 +44,15 @@ import { Component, OnInit  } from '@angular/core';
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
               <li><a href="/">Home</a></li>              
-              <!-- <li class="dropdown">
+              <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
                   <ul class="dropdown-menu">
                     <li><a href="#cks" class="scrollTo">Celebrity Keynote Speakers</a></li>
                     <li><a href="#event" class="scrollTo">Event Summary</a></li>
-                    <li><a href="#sponsors" class="scrollTo">Sponsors</a></li>
-                    <li><a href="#speakers" class="scrollTo">Speakers</a></li>
-                    <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
-                    <li><a href="#dinner" class="scrollTo">Friday Awards Dinner</a></li>
-                    <li><a href="#designation" class="scrollTo">NEW Designation</a></li>
-                    <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
-                    <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
                   </ul>
-              </li> -->
+              </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Past Events
@@ -69,7 +62,7 @@ import { Component, OnInit  } from '@angular/core';
                     <li><a href="/2018">2018</a></li>
                   </ul>
               </li>
-              <!-- <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li> -->
+              <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li>
               <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
