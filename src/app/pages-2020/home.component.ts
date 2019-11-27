@@ -141,6 +141,67 @@ import { Component, OnInit } from "@angular/core";
         </div>
       </section>
 
+      <section class="bg-white padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center">VISION for <strong>SUCCESS!</strong>
+              <span class="subtitle">FOCUS – CLARITY – FUTURE</span></h2>
+              
+              <p>Join hundreds of Home Staging Industry Colleagues from around the world for the <strong>BIGGEST and most COMPREHENSIVE Educational Event of 
+              the Year!</strong> We bring Expert Speakers teaching you not just WHAT you need but HOW to be Successful! Learn to implement processes, marketing 
+              plans, business logistics and success strategies!  Our Conference is a complete resource for our attendees from Learning how to be more 
+              successful to Connecting with key companies offering resources and services and Forming new friendships with colleagues from around the 
+              world.</p>
+              
+              <p>We selected our 2020 theme carefully to provide our industry members clear expectations for what we will be putting together for our 
+              Conference.  We want you to be able to have a clear vision for where your business is headed, and get the tools you need to make that 
+              happen.</p>
+              
+              <p>We offer education for all levels of business owner:<br />
+              <strong>Beginners – Experienced – Advanced</strong></p>
+              
+              <p><strong>All speakers will be teaching on topics that help our members and industry grow.  There will be no sales pitches or inclusion of any 
+              sales offerings allowed by any speaker.  We will require the speaker to share not just WHAT to do but HOW to do it.  Our attendees will 
+              come away with USEFUL and ACTIONABLE information.</strong></p>
+
+              <p><strong>TOPICS ON OUR LIST:</strong></p>
+
+              <ul>
+                <li><strong>Marketing & Branding</strong> – Marketing and Branding are the core component of your business as marketing precedes any sales.  Learn what 
+                  Marketing is most effective, resources to help you produce effective collateral materials, and how to stand out in your messaging.</li>
+                <li><strong>Social Media</strong> – What platforms do you need to be using and why? Learn where to invest your time, how to maximize your time and which 
+                  platforms are the most effective based on target demographics and your services.</li>
+                <li><strong>Sales Strategies</strong> – From cold calling, follow-up, and relationship building – learn how to overcome objections, what to say, how and 
+                  when to say it to gain business and establish long-term loyal clients.</li>
+                <li><strong>Industry Trends</strong> – Real Estate, Investor, Builder – Learn what is happening within our industry and externally with industries we 
+                  serve to understand how to position your services for a changing industry.</li>
+                <li><strong>Staging Trends</strong> – What are the new trends for 2020 and beyond that we need to know about to continue to position ourselves as an 
+                  EXPERT in our industry and with our clients?  Learn where we are now and where we are headed, colors, styles, and predictions for the coming years.</li>
+                <li><strong>Market Niches</strong> – Staging Vacation Property Rentals, Color, Feng Shui, and Decorating – learn what to do to add these key market niches 
+                  and services to your business.</li>
+                <li><strong>Personal Growth</strong> – Learn WHO you are in this business and embrace the ROLE you have as the OWNER and CEO of your Company.  Mindset 
+                  Strategies and Confidence Building Techniques, Scripts, and Resources/</li>
+                <li><strong>Business Organization</strong> – Streamlining Systems and Time Management are essential for growth of your Business. Get recommended Business 
+                  Apps, Online Resources, and understand HOW to use them – Trello, Monday, HoneyDo, 17 Hats, Slack and more!</li>
+                <li><strong>Business Processes</strong> – From Proposals, Agreements, Consultations and Vacant Projects – Learn WHAT you need to do and receive forms and 
+                  templates.</li>
+                <li><strong>Warehousing – Process and Expansion, Moving Team and Trucks</strong> – Whether you are growing into your first warehouse or expanding into a 
+                  larger space, learn HOW to make this happen and WHAT to know to make this process efficient and effective.</li>
+              </ul>
+
+              <p class="lead"><strong>PLUS!!</strong></p>
+              <p><strong>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</strong> We plan on bringing KEYNOTE Business Speakers who will motivate and inspire 
+                us to success!</p>
+              <p><strong>NEW Industry Designation to ADD to your Credentials!</strong>  We will be offering a Designation to help you position yourself in your 
+                marketing and market to differentiate yourself from your competition.  Knowledge = Power and we want to EMPOWER YOU to be able to ADD to your success.</p>
+              <p><strong>CALL for SPEAKERS WILL BE RELEASED JAN 2020.</strong>  If you would like to share or know someone we need to learn about, please 
+                email <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a>.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <app-2020-contact id="contact"></app-2020-contact>
     </div>
 
