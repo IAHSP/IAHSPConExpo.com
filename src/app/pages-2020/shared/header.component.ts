@@ -51,13 +51,6 @@ import { Component, OnInit  } from '@angular/core';
                   <ul class="dropdown-menu">
                     <li><a href="#cks" class="scrollTo">Celebrity Keynote Speakers</a></li>
                     <li><a href="#event" class="scrollTo">Event Summary</a></li>
-                    <li><a href="#sponsors" class="scrollTo">Sponsors</a></li>
-                    <li><a href="#speakers" class="scrollTo">Speakers</a></li>
-                    <li><a href="#schedule" class="scrollTo">Schedule of Events</a></li>
-                    <li><a href="#dinner" class="scrollTo">Friday Awards Dinner</a></li>
-                    <li><a href="#designation" class="scrollTo">NEW Designation</a></li>
-                    <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
-                    <li><a href="#hotel" class="scrollTo">Hotel Information</a></li>
                   </ul>
               </li> -->
               <li class="dropdown">
