@@ -13,8 +13,6 @@ import { AppComponent } from './app.component';
 import { Header2020Component } from './pages-2020/shared/header.component';
 import { Footer2020Component } from './pages-2020/shared/footer.component';
 import { Home2020Component } from './pages-2020/home.component';
-import { Hero2020Component } from './pages-2020/hero.component';
-import { Countdown2020Component } from './pages-2020/countdown.component';
 import { Contact2020Component } from './pages-2020/contact/contact.component';
 import { Register2020Component } from './pages-2020/register/register.component';
 
@@ -37,10 +35,12 @@ import { SponsorsComponent } from './pages-2019/sponsors.component';
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
   { path: "", component: Home2020Component },
-  { path: "2019", component: Home2019Component },
   { path: "register", component: Register2020Component },
   
-  // Lazy Loaded
+  // 2019
+  { path: "2019", component: Home2019Component },
+
+  // 2018
   { path: "2018", loadChildren: "./pages-2018/iahsp2018.module#Iahsp2018Module" },
 ];
 
@@ -53,8 +53,6 @@ const appRoutes: Routes = [
     Header2020Component,
     Footer2020Component,
     Home2020Component,
-    Hero2020Component,
-    Countdown2020Component,
     Contact2020Component,
     Register2020Component,
 
