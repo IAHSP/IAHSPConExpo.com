@@ -126,21 +126,6 @@ import { Component, OnInit } from "@angular/core";
         </div>
       </section>
 
-      <section class="countdown padding100 parallax">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>
-                <a href="/register"><strong>Register</strong></a> By The
-                Deadline - unless we are SOLD OUT
-              </h2>
-              <h3>Sept 24, 2020 11:59 PM</h3>
-              <div id="demo"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section class="bg-white padding100">
         <div class="container">
           <div class="row">
@@ -201,6 +186,23 @@ import { Component, OnInit } from "@angular/core";
           </div>
         </div>
       </section>
+
+      <section class="countdown padding100 parallax">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>
+                <a href="/register"><strong>Register</strong></a> By The
+                Deadline - unless we are SOLD OUT
+              </h2>
+              <h3>Sept 24, 2020 11:59 PM</h3>
+              <div id="demo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
 
       <app-2020-contact id="contact"></app-2020-contact>
     </div>
