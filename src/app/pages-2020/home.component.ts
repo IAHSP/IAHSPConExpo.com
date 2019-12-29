@@ -8,7 +8,8 @@ import { Component, OnInit } from "@angular/core";
     <span id="header_shadow"></span>
 
     <div id="wrapper" class="padding-bottom-0">
-      <!-- REVOLUTION SLIDER -->
+
+      <!-- Hero REVOLUTION SLIDER -->
       <section class="fullscreenbanner-container">
         <div class="fullscreenbanner">
           <ul>
@@ -20,7 +21,7 @@ import { Component, OnInit } from "@angular/core";
             >
               <!-- MAIN IMAGE -->
               <img
-                src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-conference-expo-denver.jpg"
+                src="https://d3oaxt0bwkjnjn.cloudfront.net/images/denver-colorado-where-to-stay-luxury-skyline.jpg"
                 alt="IAHSP Conference and Expo Denver Colorado 2020"
                 data-bgfit="cover"
                 data-bgposition="left top"
@@ -126,33 +127,36 @@ import { Component, OnInit } from "@angular/core";
         </div>
       </section>
 
-      <section class="bg-white padding100">
+      <!-- Vision for Success -->
+      <section id="vfs" class="bg-white padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-center">VISION for <strong>SUCCESS!</strong>
-              <span class="subtitle">FOCUS – CLARITY – FUTURE</span></h2>
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-con-expo-2020-vision-for-success-logo.jpg" 
+              alt="IAHSP Con Expo 2020 Vision for Success Logo"
+              class="center-block img-responsive space-bottom-40"
+              width="640" />
               
-              <p>Join hundreds of Home Staging Industry Colleagues from around the world for the <strong>BIGGEST and most COMPREHENSIVE Educational Event of 
+              <p class="lead">Join hundreds of Home Staging Industry Colleagues from around the world for the <strong>BIGGEST and most COMPREHENSIVE Educational Event of 
               the Year!</strong> We bring Expert Speakers teaching you not just WHAT you need but HOW to be Successful! Learn to implement processes, marketing 
               plans, business logistics and success strategies!  Our Conference is a complete resource for our attendees from Learning how to be more 
               successful to Connecting with key companies offering resources and services and Forming new friendships with colleagues from around the 
               world.</p>
               
-              <p>We selected our 2020 theme carefully to provide our industry members clear expectations for what we will be putting together for our 
+              <p class="lead">We selected our 2020 theme carefully to provide our industry members clear expectations for what we will be putting together for our 
               Conference.  We want you to be able to have a clear vision for where your business is headed, and get the tools you need to make that 
               happen.</p>
               
-              <p>We offer education for all levels of business owner:<br />
+              <p class="lead">We offer education for all levels of business owner:<br />
               <strong>Beginners – Experienced – Advanced</strong></p>
               
-              <p><strong>All speakers will be teaching on topics that help our members and industry grow.  There will be no sales pitches or inclusion of any 
+              <p class="lead"><strong>All speakers will be teaching on topics that help our members and industry grow.  There will be no sales pitches or inclusion of any 
               sales offerings allowed by any speaker.  We will require the speaker to share not just WHAT to do but HOW to do it.  Our attendees will 
               come away with USEFUL and ACTIONABLE information.</strong></p>
 
-              <p><strong>TOPICS ON OUR LIST:</strong></p>
+              <p class="lead"><strong>TOPICS ON OUR LIST:</strong></p>
 
-              <ul>
+              <ul class="lead">
                 <li><strong>Marketing & Branding</strong> – Marketing and Branding are the core component of your business as marketing precedes any sales.  Learn what 
                   Marketing is most effective, resources to help you produce effective collateral materials, and how to stand out in your messaging.</li>
                 <li><strong>Social Media</strong> – What platforms do you need to be using and why? Learn where to invest your time, how to maximize your time and which 
@@ -176,17 +180,84 @@ import { Component, OnInit } from "@angular/core";
               </ul>
 
               <p class="lead"><strong>PLUS!!</strong></p>
-              <p><strong>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</strong> We plan on bringing KEYNOTE Business Speakers who will motivate and inspire 
+              <p class="lead"><strong>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</strong> We plan on bringing KEYNOTE Business Speakers who will motivate and inspire 
                 us to success!</p>
-              <p><strong>NEW Industry Designation to ADD to your Credentials!</strong>  We will be offering a Designation to help you position yourself in your 
+              <p class="lead"><strong>NEW Industry Designation to ADD to your Credentials!</strong>  We will be offering a Designation to help you position yourself in your 
                 marketing and market to differentiate yourself from your competition.  Knowledge = Power and we want to EMPOWER YOU to be able to ADD to your success.</p>
-              <p><strong>CALL for SPEAKERS WILL BE RELEASED JAN 2020.</strong>  If you would like to share or know someone we need to learn about, please 
+              <p class="lead"><strong>CALL for SPEAKERS WILL BE RELEASED JAN 2020.</strong>  If you would like to share or know someone we need to learn about, please 
                 email <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a>.</p>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Great Gatsby Gala -->
+      <section id="ggg" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center"><strong>Great Gatsby Gala Dinner</strong></h2>
+              <h3 class="line-height-32 text-center">Join us for our ROARING 2020's Great Gatsby Gala Dinner and Party!</h3>
+            </div>
+            <div class="col-md-offset-3 col-md-6 space-bottom-40">
+              <video width="100%" controls="" controlslist="nodownload">
+                <source src="https://d3oaxt0bwkjnjn.cloudfront.net/videos/iahsp-con-expo-gatsby-gala-reveal.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-md-offset-3 col-md-6">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-con-expo-2020-awards-gala-promo.jpg" 
+              alt="Great Gatsby Galla Promo" 
+              class="center-block img-responsive" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hotel" class="padding100 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center"><strong>Headquarter Hotel</strong></h2 >
+              <h3 class="line-height-32 text-center">Gaylord Rockies Hotel - Denver</h3>
+            </div>
+  
+            <div class="col-md-offset-3 col-md-6">
+              <div class="owl-carousel controlls-over" data-plugin-options='{"autoPlay":9000, "stopOnHover":true, "items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "itemsScaleUp":true}'>
+                <div>
+                  <img alt="IAHSP Gaylord Outside Hotel" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-reception.jpg" />
+                </div>
+                <div>
+                  <img alt="IAHSP Gaylord Bedroom" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-top-opening.jpg" />
+                </div>
+                <div>
+                  <img alt="Second IAHSP Gaylord Bedroom " class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-opening-1.jpg" />
+                </div>
+                <div>
+                  <img alt="IAHSP Nashville Tennessee Plaza" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-opening-2.jpg" />
+                </div>
+                <div>
+                  <img alt="Second IAHSP Nashville Tennessee Plaza" class="img-responsive" src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-bedroom.jpg" />
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-12">
+              <p class="lead">If guests prefer to book over the phone, please have them call Marriott Reservations at <a href="tel:8888403143">888-840-3143</a> 
+              and reference the IAHSP Conference and Expo 2020. Cutoff date for reservations is August 26th, 2020. There will be no extensions possible 
+              due to hotel policy. No exceptions. After the 26th the rates will be the current hotel rates and subject to availability.</p>
+  
+              <p class="lead text-center">Make your hotel reservations NOW!</p>
+  
+              <div class="text-center">
+                <a href="https://book.passkey.com/go/IAHSP2020" class="btn btn-primary space-bottom-8 
+                color-white" target="_blank" rel=”noopener”><i class="fa fa-bed" aria-hidden="true"></i>Make a Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Countdown -->
       <section class="countdown padding100 parallax">
         <div class="container">
           <div class="row">
@@ -195,16 +266,15 @@ import { Component, OnInit } from "@angular/core";
                 <a href="/register"><strong>Register</strong></a> By The
                 Deadline - unless we are SOLD OUT
               </h2>
-              <h3>Sept 24, 2020 11:59 PM</h3>
+              <h3 class="line-height-32">Sept 24, 2020 11:59 PM</h3>
               <div id="demo"></div>
             </div>
           </div>
         </div>
       </section>
-
       
-
-      <app-2020-contact id="contact"></app-2020-contact>
+      <!-- Contact Us -->
+      <app-2020-contact id="contactus"></app-2020-contact>
     </div>
 
     <app-shared-2020-footer></app-shared-2020-footer>

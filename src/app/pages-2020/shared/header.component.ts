@@ -44,15 +44,17 @@ import { Component, OnInit  } from '@angular/core';
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
               <li><a href="/">Home</a></li>              
-              <!-- <li class="dropdown">
+              <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#cks" class="scrollTo">Celebrity Keynote Speakers</a></li>
-                    <li><a href="#event" class="scrollTo">Event Summary</a></li>
+                    <li><a href="#vfs" class="scrollTo">Vision for Success</a></li>
+                    <li><a href="#ggg" class="scrollTo">Great Gatsby Galla</a></li>
+                    <li><a href="#hotel" class="scrollTo">Gaylord Rockies Hotel</a></li>
+                    <li><a href="#contactus" class="scrollTo">Contact Us</a></li>
                   </ul>
-              </li> -->
+              </li>
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Past Events
