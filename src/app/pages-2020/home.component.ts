@@ -254,6 +254,7 @@ import { Component, OnInit } from "@angular/core";
         </div>
       </section>
 
+      <!-- Gaylord Rockies Hotel - Denver -->
       <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
@@ -322,13 +323,20 @@ import { Component, OnInit } from "@angular/core";
   `,
   styles: [
     `
+      /* Make fonts black on a section */
+      #hotel p {
+        color: #2D2926;
+      }
+      
       .countdown {
         text-align: center;
         background: #2d2926 !important;
       }
+      
       .fullscreenbanner-container {
         margin-bottom: 0 !important;
       }
+      
       .largegreenbg {
         background-color: #008bcc;
       }      
