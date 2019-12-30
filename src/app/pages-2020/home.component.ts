@@ -109,10 +109,8 @@ import { Component, OnInit } from "@angular/core";
                 data-endspeed="500"
                 data-endeasing="Power4.easeInOut"
               >
-                The International Association of Home Staging Professionals<sup
-                  >®</sup
-                >
-                (IAHSP<sup>®</sup>) is excited to host this high level
+                The International Association of Home Staging Professionals<sup>&reg;</sup>
+                (IAHSP<sup>&reg;</sup>) is excited to host this high level
                 educational event for top Home Staging business owners
                 worldwide! Join colleagues to learn, share and grow a successful
                 business that has longevity and profitability. We have planned
@@ -213,7 +211,50 @@ import { Component, OnInit } from "@angular/core";
         </div>
       </section>
 
-      <section id="hotel" class="padding100 bg-white">
+      <!-- Advence Stager Training -->
+      <section id="ast" class="padding100 bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/advance-stager-training-logo-623-623.jpg" 
+              alt="Advance Stager Training Logo" 
+              class="center-block img-responsive space-bottom-15"
+              width="290" />
+              
+              <h2 class="text-center"><strong>Advanced Stager Training (AST)</strong></h2>
+              
+              <p class="lead"><strong>Advanced Stager Training (AST)</strong> is a workshop intensive coordinated by IAHSP<sup>&reg;</sup> and offered in 
+              <strong>collaboration</strong> with other industry leaders.  We believe in the collective genius found when we bring like-minded 
+              people together.  Our industry has many talented, knowledgeable and highly successful individuals who own and operate Staging 
+              Associations, Coaching Businesses, and Training Companies.  Tapping into the collective minds of these respected individuals who 
+              will help facilitate meaningful, honest and open conversations with 6+ Figure Home Staging Business Owners results in synergy 
+              found only in a collective collaboration.</p><hr class="center-hr" width="33%" />
+
+              <h3 class="lead text-center"><strong>We are already making plans for another GREAT Workshop Intensive for 2020!<br />
+                Mark your Calendars: Sept 28-29, 2020 in Denver!</strong></h3>
+
+              <p class="lead text-center"><strong>WHEN: Monday and Tuesday, September 29-30, 2020</strong></p>
+
+              <p class="lead text-center"><strong>INVESTMENT: $499.00</strong> (when you book BOTH 2019 IAHSP<sup>&reg;</sup> Conference & EXPO AND the AST Workshop, save $75!)</p>
+
+              <p class="lead text-center"><strong>LOCATION: The Gaylord Rockies Hotel – Denver</strong> (IAHSP<sup>&reg;</sup> has negotiated special rates with the hotel for these days.  
+              Make sure to extend your hotel stay when you book your 2020 IAHSP<sup>&reg;</sup> Conference & EXPO stay.  You do NOT have to attend the 2020 IAHSP<sup>&reg;</sup> Conference 
+              to attend the AST Workshop, however <strong><em>we recommend you do both!</em></strong></p>
+
+              <p class="lead text-center"><strong>TIME: 9:30AM – 6PM (lunch included both days and Dinner provided on Day 1).</strong></p>
+
+              <div class="text-center space-bottom-7">
+                <a href="https://www.cvent.com/d/thq0qv" class="btn btn-primary space-bottom-8 
+                color-white" target="_blank" rel="noopener noreferrer"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Register for AST Now!</a>
+              </div>
+
+              <p class="lead text-center"><strong>SPACE IS LIMITED TO ONLY 60 PEOPLE!</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -243,14 +284,14 @@ import { Component, OnInit } from "@angular/core";
   
             <div class="col-md-12">
               <p class="lead">If guests prefer to book over the phone, please have them call Marriott Reservations at <a href="tel:8888403143">888-840-3143</a> 
-              and reference the IAHSP Conference and Expo 2020. Cutoff date for reservations is August 26th, 2020. There will be no extensions possible 
+              and reference the IAHSP<sup>&reg;</sup> Conference and Expo 2020. Cutoff date for reservations is August 26th, 2020. There will be no extensions possible 
               due to hotel policy. No exceptions. After the 26th the rates will be the current hotel rates and subject to availability.</p>
   
               <p class="lead text-center">Make your hotel reservations NOW!</p>
   
               <div class="text-center">
                 <a href="https://book.passkey.com/go/IAHSP2020" class="btn btn-primary space-bottom-8 
-                color-white" target="_blank" rel=”noopener”><i class="fa fa-bed" aria-hidden="true"></i>Make a Reservation</a>
+                color-white" target="_blank" rel="noopener noreferrer"><i class="fa fa-bed" aria-hidden="true"></i>Make a Reservation</a>
               </div>
             </div>
           </div>
@@ -281,19 +322,16 @@ import { Component, OnInit } from "@angular/core";
   `,
   styles: [
     `
-    .countdown {
-      text-align: center;
-      background: #2d2926 !important;
-    }
-
+      .countdown {
+        text-align: center;
+        background: #2d2926 !important;
+      }
       .fullscreenbanner-container {
         margin-bottom: 0 !important;
       }
       .largegreenbg {
         background-color: #008bcc;
-      }
-
-      
+      }      
     `
   ]
 })
