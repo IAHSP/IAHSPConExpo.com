@@ -21,7 +21,7 @@ import { Component, OnInit  } from '@angular/core';
         <!-- LINKS -->
         <div class="pull-right nav hidden-xs">
           <a href="https://www.facebook.com/InternationalAssociationofHomeStagingProfessionals/" target="_blank" rel="noopener"><i class="fa fa-facebook fa-lg"></i></a>
-          <a href="https://iahspblog.com/blog/" target="_blank" rel="noopener"><i class="fa fa-wordpress fa-lg"></i></a>
+          <a href="https://iahspblog.com/blog/" target="_blank" rel="noopener">BLOG</a>
         </div>
       </div>
     </header><!-- /Top Bar -->
@@ -51,6 +51,7 @@ import { Component, OnInit  } from '@angular/core';
                   <ul class="dropdown-menu">
                     <li><a href="#vfs" class="scrollTo">Vision for Success</a></li>
                     <li><a href="#ggg" class="scrollTo">Great Gatsby Galla</a></li>
+                    <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
                     <li><a href="#hotel" class="scrollTo">Gaylord Rockies Hotel</a></li>
                     <li><a href="#contactus" class="scrollTo">Contact Us</a></li>
                   </ul>

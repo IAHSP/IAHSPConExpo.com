@@ -19,6 +19,7 @@
 .space-top-40 { margin-top: 40px !important; }
 .space-top-80 { margin-top: 80px !important; }
 .space-bottom-5 { margin-bottom: 5px !important; }
+.space-bottom-7 { margin-bottom: 7px !important; }
 .space-bottom-8 { margin-bottom: 8px !important; }
 .space-bottom-10 { margin-bottom: 10px !important; }
 .space-bottom-12 { margin-bottom: 12px !important; }
@@ -74,6 +75,9 @@
 
 /* Float */
 .float-left { float: left !important; }
+
+/* Center hr */
+.center-hr { margin: 60px auto; }
 
 /* 2019 Speakers */
 #speakers div.modal-body p, #speakers ul>li {
