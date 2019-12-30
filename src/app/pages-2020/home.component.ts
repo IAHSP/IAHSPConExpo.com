@@ -248,12 +248,19 @@ import { Component, OnInit } from "@angular/core";
                 color-white" target="_blank" rel="noopener noreferrer"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Register for AST Now!</a>
               </div>
 
-              <p class="lead text-center"><strong>SPACE IS LIMITED TO ONLY 60 PEOPLE!</strong></p>
+              <p class="lead text-center"><strong>SPACE IS LIMITED TO ONLY 60 PEOPLE!</strong></p><hr class="center-hr" width="33%" />
+
+              <p class="lead">If you currently own a 6+ figure business, join us for these 2 days of open dialogue with colleagues from around the globe.  
+              Even though businesses may be at different financial levels, we all experience similar challenges related to growth, team members, pricing 
+              and positioning in our respective markets.  Being in a room with other successful business owners creates a palpable dynamic and allows us 
+              to get in depth and real in a very supportive environment where the goal is to HELP one another move our businesses to the next level, 
+              whatever that is for you.</p>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Gaylord Rockies Hotel - Denver -->
       <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
@@ -322,13 +329,20 @@ import { Component, OnInit } from "@angular/core";
   `,
   styles: [
     `
+      /* Make fonts black on a section */
+      #hotel p {
+        color: #2D2926;
+      }
+
       .countdown {
         text-align: center;
         background: #2d2926 !important;
       }
+
       .fullscreenbanner-container {
         margin-bottom: 0 !important;
       }
+
       .largegreenbg {
         background-color: #008bcc;
       }      
