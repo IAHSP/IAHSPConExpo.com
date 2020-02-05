@@ -53,16 +53,19 @@
 /* Line Height */
 .line-height-28 { line-height: 28px; }
 .line-height-32 { line-height: 32px; }
+.line-height-36 { line-height: 36px; }
 .line-height-48 { line-height: 48px; }
 
 /* Color */
 .color-diamond { color: #98e9fc; }
 .color-gold { color: #cf8f12 }
 .color-platinum { color: #cecdcc }
+.color-red { color: red }
 .color-silver { color: silver }
 .color-white { color: #fff; }
 
 /* Background Color */
+.bg-light-gray { background-color: #f8f8f8 }
 .bg-black-trans3 { background-color: rgba(0,0,0,0.3); }
 .bg-black-trans5 { background-color: rgba(0,0,0,0.5); }
 
