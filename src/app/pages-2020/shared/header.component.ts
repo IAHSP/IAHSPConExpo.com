@@ -50,8 +50,10 @@ import { Component, OnInit  } from '@angular/core';
                 </a>
                   <ul class="dropdown-menu">
                     <li><a href="#vfs" class="scrollTo">Vision for Success</a></li>
-                    <li><a href="#ggg" class="scrollTo">Great Gatsby Galla</a></li>
-                    <li><a href="#ast" class="scrollTo">Advance Stager Training</a></li>
+                    <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
+                    <li><a href="#cde" class="scrollTo">NEW Designation - IAHSP-CDE</a></li>
+                    <li><a href="#ggg" class="scrollTo">Great Gatsby Gala</a></li>
+                    <li><a href="#ast" class="scrollTo">Advanced Stager Training</a></li>
                     <li><a href="#hotel" class="scrollTo">Gaylord Rockies Hotel</a></li>
                     <li><a href="#contactus" class="scrollTo">Contact Us</a></li>
                   </ul>
