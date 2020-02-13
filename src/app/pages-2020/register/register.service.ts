@@ -19,7 +19,7 @@ export class RegisterService {
     
     constructor (private http: HttpClient) {
         if (this.isTesting) {
-            this.strRegisterAPI = "http://localhost:5002/iahsp-31959/us-central1/iahspconexpo/register";
+            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/universal_register_lead/";
             
             // Contains user's info.
             this.objUser = {
@@ -29,6 +29,7 @@ export class RegisterService {
                 fullName: "Duane Leem",
                 email: "Duane@IAHSP.com",
                 phone: "111-222-3333",
+                location: "Conference Lead",
 
                 /* ========================================================
                     Final Section: Google reCaptcha
@@ -37,7 +38,7 @@ export class RegisterService {
             }; // objUser
         } else {
             //this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/register";
-            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo_register/";
+            this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/universal_register_lead/";
             
             // Contains user's info.
             this.objUser = {
@@ -47,6 +48,7 @@ export class RegisterService {
                 fullName: null,
                 email: null,
                 phone: null,
+                location: "Conference Lead",
 
                 /* ========================================================
                     Final Section: Google reCaptcha
