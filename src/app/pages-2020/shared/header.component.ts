@@ -35,7 +35,7 @@ import { Component, OnInit  } from '@angular/core';
         </button>
 
         <!-- Logo text or image -->
-        <a class="logo" href="/">
+        <a class="logo scrollTo" href="#wrapper">
           <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
         </a>
 
@@ -43,19 +43,18 @@ import { Component, OnInit  } from '@angular/core';
         <div class="navbar-collapse nav-main-collapse collapse pull-right">
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
-              <li><a href="/">Home</a></li>              
+              <li><a href="#wrapper" class="scrollTo">Home</a></li>              
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                     <i class="fa fa-angle-down"></i>Information
                 </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#vfs" class="scrollTo">Vision for Success</a></li>
                     <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
+                    <li><a href="#vfs" class="scrollTo">Vision for Success</a></li>
                     <li><a href="#cde" class="scrollTo">NEW Designation - IAHSP-CDE</a></li>
                     <li><a href="#ggg" class="scrollTo">Great Gatsby Gala</a></li>
                     <li><a href="#ast" class="scrollTo">Advanced Stager Training</a></li>
                     <li><a href="#hotel" class="scrollTo">Gaylord Rockies Hotel</a></li>
-                    <li><a href="#contactus" class="scrollTo">Contact Us</a></li>
                   </ul>
               </li>
               <li class="dropdown">
@@ -67,7 +66,7 @@ import { Component, OnInit  } from '@angular/core';
                     <li><a href="/2018">2018</a></li>
                   </ul>
               </li>
-              <!-- <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li> -->
+              <li class="space-right-5"><a class="scrollTo" href="#contactus">Contact Us</a></li>
               <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
