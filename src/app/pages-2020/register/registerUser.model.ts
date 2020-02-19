@@ -4,4 +4,6 @@ export interface User {
     phone;
     location;
     googleResponse;
+    googleSheetURL;
+    googleSheetName;
 }

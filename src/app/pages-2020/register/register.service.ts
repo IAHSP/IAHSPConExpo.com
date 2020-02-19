@@ -23,37 +23,46 @@ export class RegisterService {
             
             // Contains user's info.
             this.objUser = {
-                /* ========================================================
-                    Section 1: Personal Information
-                ======================================================== */
+
+                // Section 1: Personal Information
                 fullName: "Duane Leem",
                 email: "Duane@IAHSP.com",
                 phone: "111-222-3333",
+
+                // Sends to GCF location
                 location: "Conference Lead",
 
-                /* ========================================================
-                    Final Section: Google reCaptcha
-                ======================================================== */
-                googleResponse: null
+                // Google reCaptcha
+                googleResponse: null,
+
+                // Google Sheet URL
+                googleSheetURL: "1x5OAccOgYlJ5UVg2_7buT41oN1_c6xFZbL19SrIzRsk",
+
+                // Google Sheet Tab
+                googleSheetName: "2020 Conference leads",
             }; // objUser
         } else {
-            //this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/iahspconexpo/register";
             this.strRegisterAPI = "https://us-central1-iahsp-31959.cloudfunctions.net/universal_register_lead/";
             
             // Contains user's info.
             this.objUser = {
-                /* ========================================================
-                    Section 1: Personal Information
-                ======================================================== */
+                
+                // Section 1: Personal Information
                 fullName: null,
                 email: null,
                 phone: null,
+
+                // Sends to GCF location
                 location: "Conference Lead",
 
-                /* ========================================================
-                    Final Section: Google reCaptcha
-                ======================================================== */
-                googleResponse: null
+                // Google reCaptcha
+                googleResponse: null,
+
+                // Google Sheet URL
+                googleSheetURL: "1x5OAccOgYlJ5UVg2_7buT41oN1_c6xFZbL19SrIzRsk",
+
+                // Google Sheet Tab
+                googleSheetName: "2020 Conference leads",
             }; // objUser
         }
     } // constructor
