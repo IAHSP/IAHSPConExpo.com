@@ -35,7 +35,7 @@ import { Component, OnInit  } from '@angular/core';
         </button>
 
         <!-- Logo text or image -->
-        <a class="logo scrollTo" href="#wrapper">
+        <a class="logo" href="/">
           <img src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg" class="height-100p" alt="IAHSP" />
         </a>
 
