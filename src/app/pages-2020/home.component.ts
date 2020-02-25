@@ -161,6 +161,17 @@ import { astList, cdeList, ksList } from './shared/data';
                 <i class="fa fa-star"></i>
               </div>
 
+              <div class="row">
+                <div class="col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener-speaker-promo.jpg" class="center-block img-responsive space-bottom-15" 
+                alt="Chris Widener Speaker Promo"></div>
+
+                <div class="col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler-speaker-promo.jpg" class="center-block img-responsive space-bottom-15" 
+                alt="Jonny Fowler Speaker Promo"></div>
+
+                <div class="col-md-offset-3 col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing-speaker-promo.jpg" class="center-block img-responsive space-bottom-15" 
+                alt="Ravi Hutheesing Speaker Promo"></div>                
+              </div><hr />
+
               <ul class="no-bullets padding-left-0">
                 <ng-container *ngFor="let ks of kss; let i = index;">
                   <div *ngIf="(ks % 3) == 0" class="clearfix visible-md"></div>
@@ -250,23 +261,32 @@ import { astList, cdeList, ksList } from './shared/data';
               
               <p class="lead"><strong>All speakers will be teaching on topics that help our members and industry grow. There will be no sales pitches
               or inclusion of any sales offerings allowed by any speaker. All Speakers will not only share WHAT to do but HOW to do
-              it. Our attendees will come away with USEFUL and ACTIONABLE information. In other words, #SCUBADIVEnotSNORKEL with content.</strong></p>
+              it. Our attendees will come away with USEFUL and ACTIONABLE information. In other words, #SCUBADIVEnotSNORKEL with content.</strong></p><hr />
 
-              <p class="lead"><strong>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</strong> We have lined up AMAZING and knowledgeable
-              KEYNOTE Business Speakers who will motivate and inspire us to success!</p>
+              <h2 class="text-center"><strong><em>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</em></strong></h2>
+              
+              <p class="lead">We have lined up AMAZING and knowledgeable KEYNOTE Speakers who will motivate and inspire us to success!</p>
 
-              <p class="lead"><strong>JONNY FOWLER – Marketing KEYNOTE – Sunday, Sept 27, 2020 and Advanced Stager Training Session, Monday, Sept 28, 2020.</strong></p>
+              <p class="lead"><strong class="bg-gold color-white padding-0-8">BUSINESS KEYNOTE:</strong></p>
 
-              <p class="lead"><strong>CHRIS WIDENER – Business KEYNOTE on Sept 26, 2020, and Advanced Stager Training Session on Monday, Sept 28, 2020.</strong></p>
+              <p class="lead"><strong>CHRIS WIDENER – Saturday, Sept 26, 2020, and Advanced Stager Training Session on Monday, Sept 28, 2020.</strong></p>
 
-              <p class="lead"><strong>RAVI HUTHEESING – Designation KEYNOTE – Sept 27, 2020</strong> - NEW Industry Designation: IAHSP<sup>&reg;</sup>-CDE – Cultural Diversity Expert</p>
+              <p class="lead"><strong class="bg-gold color-white padding-0-8">MARKETING KEYNOTE:</strong></p>
+              
+              <p class="lead"><strong>JONNY FOWLER – Sunday, Sept 27, 2020 and Advanced Stager Training Session, Monday, Sept 28, 2020.</strong></p>
 
-              <p class="lead space-bottom-67"><strong>NEW Industry Designation to ADD to your Credentials!</strong> CULTURAL DIVERSITY EXPERT – IAHSP<sup>&reg;</sup>-CDE Designation. Learn more!</p>
+              <p class="lead"><strong class="bg-gold color-white padding-0-8">IAHSP®-CDE DESIGNATION KEYNOTE:</strong></p>
+
+              <p class="lead"><strong>RAVI HUTHEESING – Sept 27, 2020</strong> - NEW Industry Designation: IAHSP<sup>&reg;</sup>-CDE – Cultural Diversity Expert</p>
+
+              <p class="lead"><strong class="bg-gold color-white padding-0-8">NEW INDUSTRY DESIGNATION:</strong></p>
+              
+              <p class="lead space-bottom-67">CULTURAL DIVERSITY EXPERT – IAHSP<sup>&reg;</sup>-CDE Designation. <em>Learn more!</em></p>
 
               <!-- CALLOUT -->
               <div class="bs-callout text-center styleBackground">
                 <h2 class="line-height-42">Call for Speakers Deadline has passed. We will be announcing<br />
-                  <strong>our amazing speakers <em>soon</em>!</strong></h2>
+                  <strong>our amazing speakers <em>soon!</em></strong></h2>
               </div>
               <!-- /CALLOUT -->
             </div>

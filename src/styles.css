@@ -42,6 +42,7 @@
 .padding-bottom-0 { padding-bottom: 0 !important; }
 .padding-left-0 { padding-left: 0px !important}
 .padding-left-80 { padding-left: 80px !important}
+.padding-0-8 { padding: 0 8px }
 
 /* Font Size */
 .font-60 { font-size: 60px !important; }
@@ -68,9 +69,10 @@
 .color-platinum { color: #cecdcc }
 .color-red { color: red }
 .color-silver { color: silver }
-.color-white { color: #fff; }
+.color-white { color: #F4F5F0; }
 
 /* Background Color */
+.bg-gold { background-color: #cf8f12 }
 .bg-light-gray { background-color: #f8f8f8 }
 .bg-black-trans3 { background-color: rgba(0,0,0,0.3); }
 .bg-black-trans5 { background-color: rgba(0,0,0,0.5); }
