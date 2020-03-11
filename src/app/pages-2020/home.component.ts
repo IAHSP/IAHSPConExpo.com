@@ -171,6 +171,14 @@ import { astList, cdeList, ksList } from './shared/data';
                 <div class="col-md-offset-3 col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing-speaker-promo.jpg" class="center-block img-responsive space-bottom-15" 
                 alt="Ravi Hutheesing Speaker Promo"></div>                
               </div><hr />
+              
+              <div class="row">
+                <div class="col-md-offset-1 col-md-10">
+                  <h2 class="text-center">Check out what RAVI has to say about our upcoming IAHSPConEXPO!</h2>
+                  <iframe width="1252" height="704" src="https://www.youtube.com/embed/hODdPvLxp_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>             
+              </div><hr />
+
 
               <ul class="no-bullets padding-left-0">
                 <ng-container *ngFor="let ks of kss; let i = index;">
