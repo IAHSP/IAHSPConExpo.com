@@ -237,8 +237,53 @@ import { astList, cdeList, ksList } from './shared/data';
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+
+
+      <!-- Featured Speakers -->
+      <section id="fs" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center"><strong>Featured Speakers</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/renee-helten-featured-speaker-promo-iahsp-con-expo-2020.jpg" class="center-block img-responsive space-bottom-15" 
+                alt="Renee Helten Featured Speaker Promo"></div>
+
+                <div class="col-md-6"><img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sandra-racz-and-joanne-lenart-weary-featured-speaker-promo-iahsp-con-expo-2020.jpg" class="center-block img-responsive space-bottom-15" 
+                alt="Sandra Racz and Joanne Lenart-Weary Featured Speaker Promo"></div>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- Vision for Success -->
-      <section id="vfs" class="padding100">
+      <section id="vfs" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -303,7 +348,7 @@ import { astList, cdeList, ksList } from './shared/data';
       </section>      
 
       <!-- NEW Designation - IAHSP-CDE -->
-      <section id="cde" class="padding100 special-row">
+      <section id="cde" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -395,7 +440,7 @@ import { astList, cdeList, ksList } from './shared/data';
       </section>
 
       <!-- Great Gatsby Gala -->
-      <section id="ggg" class="padding100">
+      <section id="ggg" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -423,7 +468,7 @@ import { astList, cdeList, ksList } from './shared/data';
       </section>
 
       <!-- Advence Stager Training -->
-      <section id="ast" class="padding100 special-row">
+      <section id="ast" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -538,7 +583,7 @@ import { astList, cdeList, ksList } from './shared/data';
       </section>
 
       <!-- Gaylord Rockies Hotel - Denver -->
-      <section id="hotel" class="padding100">
+      <section id="hotel" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
