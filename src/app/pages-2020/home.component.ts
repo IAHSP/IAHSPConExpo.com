@@ -173,12 +173,26 @@ import { astList, cdeList, ksList } from './shared/data';
               </div><hr />
               
               <div class="row">
-                <div class="col-md-offset-1 col-md-10">
-                  <h2 class="text-center">Check out what RAVI has to say about our upcoming IAHSPConEXPO!</h2>
+
+                <!-- Jonny Fowler -->
+                <div class="col-md-12">
+                  <h2 class="text-center">Check out what <strong>JONNY</strong> has to say about our upcoming IAHSPConEXPO!</h2>
+                </div>                
+                <div class="col-md-offset-1 col-md-10 space-bottom-40"> 
+                  <div class="text-center embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1aMGs7ITe3Ih4gEPvqmlCcB4E1Y_FBLyE/preview" allowfullscreen></iframe>
+                    <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"></div>
+                  </div>
+                </div>
+
+                <!-- Ravi Hutheesing -->
+                <div class="col-md-12">
+                  <h2 class="text-center">Check out what <strong>RAVI</strong> has to say about our upcoming IAHSPConEXPO!</h2>
+                </div>
+                <div class="col-md-offset-1 col-md-10">                  
                   <iframe width="1252" height="704" src="https://www.youtube.com/embed/hODdPvLxp_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>             
               </div><hr />
-
 
               <ul class="no-bullets padding-left-0">
                 <ng-container *ngFor="let ks of kss; let i = index;">
