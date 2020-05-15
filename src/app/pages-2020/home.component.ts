@@ -569,7 +569,7 @@ import { astList, cdeList, ksList } from './shared/data';
               </div>
               <!-- /CALLOUT -->
 
-              <p class="lead text-center"><strong>WHEN: Monday and Tuesday, September 29-30, 2020</strong></p>
+              <p class="lead text-center"><strong>WHEN: Monday and Tuesday, September 28-29, 2020</strong></p>
 
               <p class="lead text-center"><strong>INVESTMENT: $499.00</strong> (when you book BOTH 2019 IAHSP<sup>&reg;</sup> Conference & EXPO AND the AST Workshop, save $75!)</p>
 
