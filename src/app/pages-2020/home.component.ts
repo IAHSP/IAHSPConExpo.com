@@ -7,9 +7,14 @@ import { astList, cdeList, ksList } from './shared/data';
   template: `
     <app-shared-2020-header>Loading...</app-shared-2020-header>
 
-    <span id="header_shadow"></span>
+    <!-- <span id="header_shadow"></span> -->
 
     <div id="wrapper" class="padding-bottom-0">
+
+      <div class="container">
+        <p class="lead color-black font-weight-400 line-height-1-5 space-top-28">Our LIVE IAHSP CONFERENCE and EXPO has been CANCELED DUE TO COVID19 and inability to have large group gatherings in 
+        Colorado. Please watch for details regarding our virtual conference for 2020 coming soon!</p>
+      </div>
 
       <!-- Hero REVOLUTION SLIDER -->
       <section class="fullscreenbanner-container">
