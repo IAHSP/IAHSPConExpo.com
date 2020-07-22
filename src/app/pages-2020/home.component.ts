@@ -13,7 +13,7 @@ import { astList, cdeList, ksList } from './shared/data';
 
       <div class="container">
         <p class="lead color-black font-weight-400 line-height-1-5 space-top-28">Our LIVE IAHSP CONFERENCE and EXPO has been CANCELED DUE TO COVID19 and inability to have large group gatherings in 
-        Colorado. Please watch for details regarding our virtual conference for 2020 coming soon!</p>
+        Colorado. Please watch for details regarding our <a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer">Virtual Conference</a> for 2020 coming soon!</p>
       </div>
 
       <!-- Hero REVOLUTION SLIDER -->
@@ -137,7 +137,7 @@ import { astList, cdeList, ksList } from './shared/data';
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>IAHSP Conference Expo 2019</strong></h1>
+              <h1 class="text-center"><strong>Please enjoy this montage from our IAHSP Conference & EXPO 2019 - Nashville</strong></h1>
 
               <!-- divider -->
               <div class="divider styleColor">
