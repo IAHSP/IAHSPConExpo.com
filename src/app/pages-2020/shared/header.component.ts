@@ -68,7 +68,9 @@ import { Component, OnInit  } from '@angular/core';
                   </ul>
               </li>
               <li class="space-right-5"><a class="scrollTo" href="#contactus">Contact Us</a></li>
-              <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
+              <li class="space-right-5"><a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer"><strong>IAHSP Virtual Conference</strong></a></li>
+              <li><div><a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer" 
+              class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li>
             </ul>
           </nav>
         </div><!-- /Top Nav -->
