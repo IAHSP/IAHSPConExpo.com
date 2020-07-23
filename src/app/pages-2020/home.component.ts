@@ -97,7 +97,7 @@ import { astList, cdeList, ksList } from './shared/data';
                 data-endeasing="Power4.easeIn"
                 style="z-index: 3"
               >
-                Sept 25-27, 2020 – Denver, CO
+                Sept 29 - Oct 1, 2020 – Denver, CO
               </div>
 
               <!-- LAYER NR. 4 -->
