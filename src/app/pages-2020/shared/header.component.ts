@@ -70,23 +70,7 @@ import { Component, OnInit } from "@angular/core";
                   <i class="fa fa-angle-down"></i>Information
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
-                  <li><a href="#fs" class="scrollTo">Featured Speakers</a></li>
-                  <li>
-                    <a href="#vfs" class="scrollTo">Vision for Success</a>
-                  </li>
-                  <li>
-                    <a href="#cde" class="scrollTo"
-                      >NEW Designation - IAHSP-CDE</a
-                    >
-                  </li>
-                  <li><a href="#ggg" class="scrollTo">Great Gatsby Gala</a></li>
-                  <li>
-                    <a href="#ast" class="scrollTo">Advanced Stager Training</a>
-                  </li>
-                  <li>
-                    <a href="#hotel" class="scrollTo">Gaylord Rockies Hotel</a>
-                  </li>
+                  <li><a href="#ks" class="scrollTo">Speakers</a></li>
                 </ul>
               </li>
               <li class="dropdown">
