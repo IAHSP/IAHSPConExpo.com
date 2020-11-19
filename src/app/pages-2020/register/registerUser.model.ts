@@ -1,9 +1,12 @@
 export interface User {
+  lead: {
     fullName;
     email;
     phone;
     location;
-    googleResponse;
-    googleSheetURL;
-    googleSheetName;
+    date;
+  };
+  googleResponse;
+  googleSheetURL;
+  googleSheetName;
 }
