@@ -178,7 +178,7 @@ import { astList, cdeList, ksList } from "./shared/data";
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>Speakers</strong></h1>
+              <h1 class="text-center"><strong>Keynote Speakers</strong></h1>
 
               <!-- divider -->
               <div class="divider styleColor">
