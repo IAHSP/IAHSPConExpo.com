@@ -70,7 +70,7 @@ import { Component, OnInit } from "@angular/core";
                   <i class="fa fa-angle-down"></i>Information
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#ks" class="scrollTo">Speakers</a></li>
+                  <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
                 </ul>
               </li>
               <li class="dropdown">
