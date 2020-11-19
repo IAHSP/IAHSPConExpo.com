@@ -1,11 +1,11 @@
 export const astList = [
-	{
-		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener.jpg`,
-		name: `Chris Widener`,
-		company: ``,
-		title: `Motivational Speaker and Business Success Expert`,
-		modelId: `tA2ey`,
-		description: `
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener.jpg`,
+    name: `Chris Widener`,
+    company: ``,
+    title: `Motivational Speaker and Business Success Expert`,
+    modelId: `tA2ey`,
+    description: `
 		
 			<p><strong>Chris Widener</strong> is a best-selling author, motivational speaker, and business success expert who has worked closely with Jim Rohn and Zig Ziglar. Chris 
 			hosted a popular television show with Zig, and co-authored books with Jim Rohn, a highly respected and recognized motivational speaker and educator.</p>
@@ -16,15 +16,15 @@ export const astList = [
 			<p>He has also been named one of the <strong>Top 50 Speakers in the World, one of Inc. Magazine's Top 100 Leadership speakers, and is a member of the Motivational 
 			Speakers Hall of Fame.</strong> Chris’ 21st book will be released this Fall, <em>“Lasting Impact, Creating a Life and a Business that Lives Beyond You”.</em></p>
 		
-		`
-	},
-  	{
-		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
-		name: `Jonny Fowler`,
-		company: ``,
-		title: `Speaker | Podcaster | Leadership Coach | Senior VP`,
-		modelId: `Gldlv`,
-		description: `
+		`,
+  },
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
+    name: `Jonny Fowler`,
+    company: ``,
+    title: `Speaker | Podcaster | Leadership Coach | Senior VP`,
+    modelId: `Gldlv`,
+    description: `
 
 			<h2 class="text-center"><strong><span class="color-red">JONNY</span> FOWLER</strong></h2>
 
@@ -74,8 +74,8 @@ export const astList = [
 
 			<h3 class="color-red line-height-36"><strong>Book Jonny at JonnyFowler.com!</strong></h3>
 	
-		`
-  	}
+		`,
+  },
 ];
 
 export const cdeList = [
@@ -83,9 +83,9 @@ export const cdeList = [
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing.jpg`,
     name: `Ravi Hutheesing`,
     company: ``,
-		title: `International Keynote Speaker and Cultural Catalyst`,
-		modelId: `WlYeb`,
-		description: `
+    title: `International Keynote Speaker and Cultural Catalyst`,
+    modelId: `WlYeb`,
+    description: `
 		
 			<p><strong>Ravi Hutheesing</strong> is an international keynote speaker and cultural
 			catalyst. He empowers businesses, educators, and millions of
@@ -114,18 +114,18 @@ export const cdeList = [
 			
 			<p>Read more: <a href="https://raviunites.com/about/" target="_blank" rel="noopener noreferrer">https://raviunites.com/about/</a></p>
 		
-		`
-  }
+		`,
+  },
 ];
 
-export const ksList = [	
-	{
-		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener.jpg`,
-		name: `Chris Widener`,
-		company: ``,
-		title: `Motivational Speaker and Business Success Expert`,
-		modelId: `tA2ey`,
-		description: `
+export const ksList = [
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener.jpg`,
+    name: `Chris Widener`,
+    company: ``,
+    title: `Motivational Speaker and Business Success Expert`,
+    modelId: `tA2ey`,
+    description: `
 		
 			<p><strong>Chris Widener</strong> is a best-selling author, motivational speaker, and business success expert who has worked closely with Jim Rohn and Zig Ziglar. Chris 
 			hosted a popular television show with Zig, and co-authored books with Jim Rohn, a highly respected and recognized motivational speaker and educator.</p>
@@ -136,15 +136,15 @@ export const ksList = [
 			<p>He has also been named one of the <strong>Top 50 Speakers in the World, one of Inc. Magazine's Top 100 Leadership speakers, and is a member of the Motivational 
 			Speakers Hall of Fame.</strong> Chris’ 21st book will be released this Fall, <em>“Lasting Impact, Creating a Life and a Business that Lives Beyond You”.</em></p>
 		
-		`
-	},
-	{
-		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
-		name: `Jonny Fowler`,
-		company: ``,
-		title: `Speaker | Podcaster | Leadership Coach | Senior VP`,
-		modelId: `Gldlv`,
-		description: `
+		`,
+  },
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
+    name: `Jonny Fowler`,
+    company: ``,
+    title: `Speaker | Podcaster | Leadership Coach | Senior VP`,
+    modelId: `Gldlv`,
+    description: `
 		
 			<h2 class="text-center"><strong><span class="color-red">JONNY</span> FOWLER</strong></h2>
 
@@ -194,43 +194,6 @@ export const ksList = [
 
 			<h3 class="color-red line-height-36"><strong>Book Jonny at JonnyFowler.com!</strong></h3>
 		
-		`
-	  },
-	  {
-		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing.jpg`,
-		name: `Ravi Hutheesing`,
-		company: ``,
-		title: `International Keynote Speaker and Cultural Catalyst`,
-		modelId: `WlYeb`,
-		description: `
-		
-			<p><strong>Ravi Hutheesing</strong> is an international keynote speaker and cultural
-			catalyst. He empowers businesses, educators, and millions of
-			people worldwide to pivot and transcend cultural and generational
-			divides, and his incomparable life story keeps audiences on the
-			edge of their seats.</p>
-			
-			<p>The first American-born member of the family that created and
-			governed the world&#39;s largest democracy for over 40 years, Ravi is
-			the grand-nephew of Jawaharlal Nehru (India&#39;s first prime
-			minister) and the cousin of prime ministers Indira Gandhi and
-			Rajiv Gandhi.</p>
-			
-			<p>His worldwide visibility skyrocketed in 1997 when he became the guitarist for triple Grammy
-			nominee, Hanson, whose massive millennial fan base catapulted them to the White House,
-			Madison Square Garden, Tonight Show, Good Morning America, Saturday Night Live, and
-			more.</p>
-
-			<p>In 2014, he was invited to serve as a cultural diplomat for the US Department of State and went
-			to Russia to give presentations on arts, entrepreneurship, and youth leadership. In 2016, he
-			went to Indonesia and created songwriting and cultural entrepreneurship programs that bridged
-			the most severe cultural and religious divides.</p>
-			
-			<p>As a global citizen, Ravi continues to pivot and grow. He shares his experiences and revelations
-			in an effort to increase cross-cultural understanding and create a pathway to world peace.</p>
-			
-			<p>Read more: <a href="https://raviunites.com/about/" target="_blank" rel="noopener noreferrer">https://raviunites.com/about/</a></p>
-		
-		`
-	  }
-  ];
+		`,
+  },
+];
