@@ -11,11 +11,6 @@ import { astList, cdeList, ksList } from './shared/data';
 
     <div id="wrapper" class="padding-bottom-0">
 
-      <div class="container">
-        <p class="lead color-black font-weight-400 line-height-1-5 space-top-28">Our LIVE IAHSP CONFERENCE and EXPO has been CANCELED DUE TO COVID19 and inability to have large group gatherings in 
-        Colorado. Please watch for details regarding our <a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer">Virtual Conference</a> for 2020 coming soon!</p>
-      </div>
-
       <!-- Hero REVOLUTION SLIDER -->
       <section class="fullscreenbanner-container">
         <div class="fullscreenbanner">
@@ -29,7 +24,7 @@ import { astList, cdeList, ksList } from './shared/data';
               <!-- MAIN IMAGE -->
               <img
                 src="https://d3oaxt0bwkjnjn.cloudfront.net/images/denver-colorado-where-to-stay-luxury-skyline.jpg"
-                alt="IAHSP Conference and Expo Denver Colorado 2020"
+                alt="IAHSP Conference and Expo Denver Colorado 2021"
                 data-bgfit="cover"
                 data-bgposition="left top"
                 data-bgrepeat="no-repeat"
@@ -41,7 +36,7 @@ import { astList, cdeList, ksList } from './shared/data';
                 class="tp-caption large_bold_white customin customout"
                 data-x="center"
                 data-hoffset=""
-                data-y="25"
+                data-y="-25"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -53,8 +48,8 @@ import { astList, cdeList, ksList } from './shared/data';
                 style="z-index: 2"
               >
                 <img
-                  src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-conference-and-expo-2020.jpg"
-                  alt="IAHSP Conference and Expo 2020"
+                  src="https://d3oaxt0bwkjnjn.cloudfront.net/images/2021-iahsp-conference-expo.png"
+                  alt="IAHSP Conference and Expo 2021"
                   width="390px"
                   class="img-responsive center-block"
                 />
@@ -63,10 +58,10 @@ import { astList, cdeList, ksList } from './shared/data';
               <!-- LAYER NR. 2 -->
               <div
                 id="revolution-layer-1"
-                class="tp-caption large_bold_white customin customout"
+                class="tp-caption large_bold_white customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="340"
+                data-y="300"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -77,16 +72,36 @@ import { astList, cdeList, ksList } from './shared/data';
                 data-endeasing="Power4.easeIn"
                 style="z-index: 2"
               >
-                2020 Educational Conference & EXPO!
+                2021 Educational Conference & EXPO!                
               </div>
 
               <!-- LAYER NR. 3 -->
+              <div
+                id="revolution-layer-1"
+                class="tp-caption large_bold_white customin customout text-center"
+                data-x="center"
+                data-hoffset=""
+                data-y="342"
+                data-voffset=""
+                data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+                data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="900"
+                data-start="1000"
+                data-easing="Back.easeOut"
+                data-endspeed="500"
+                data-endeasing="Power4.easeIn"
+                style="z-index: 2"
+              >
+                <small style="font-size: 47%; font-weight: 600;">The Home Staging Industry's Largest Educational Event & Vendor EXPO of the Year!</small>
+              </div>
+
+              <!-- LAYER NR. 4 -->
               <div
                 id="revolution-layer-2"
                 class="tp-caption largegreenbg customin customout"
                 data-x="center"
                 data-hoffset=""
-                data-y="410"
+                data-y="418"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -97,16 +112,16 @@ import { astList, cdeList, ksList } from './shared/data';
                 data-endeasing="Power4.easeIn"
                 style="z-index: 3"
               >
-                Sept 29 - Oct 1, 2020 – Denver, CO
+                Sept 24-26, 2021 – Denver, CO
               </div>
 
-              <!-- LAYER NR. 4 -->
+              <!-- LAYER NR. 5 -->
               <div
                 id="revolution-layer-3"
-                class="tp-caption small_text customin customout"
+                class="tp-caption small_text customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="500"
+                data-y="512"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -116,16 +131,9 @@ import { astList, cdeList, ksList } from './shared/data';
                 data-endspeed="500"
                 data-endeasing="Power4.easeInOut"
               >
-                The International Association of Home Staging Professionals<sup>&reg;</sup>
-                (IAHSP<sup>&reg;</sup>) is excited to host this high level
-                educational event for top Home Staging business owners
-                worldwide! Join colleagues to learn, share and grow a successful
-                business that has longevity and profitability. We have planned
-                two power-packed days full of vital information as well as
-                opportunities for you to network with colleagues from all over.
-                Our vendor-sponsors play a key role in our business success and
-                we are excited to welcome them to the EXPO portion of our event.
-                Sign up NOW to secure your spot!
+                We are bringing IAHSP Conference & EXPO to HEADQUARTERS in the heart of the Rocky Mountains - Denver! The 2021 IAHSP®
+                Conference and EXPO brings together top Home Staging Industry business owners and Real Estate professionals, with key
+                Affiliate Vendors for high-level teaching and networking.
               </div>
             </li>
           </ul>
