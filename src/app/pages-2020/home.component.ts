@@ -289,7 +289,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 <a routerLink="/register"><strong>Register</strong></a> By The
                 Deadline - unless we are SOLD OUT
               </h2>
-              <h3 class="line-height-32">Sept 24, 2020 11:59 PM</h3>
+              <h3 class="line-height-32">Sept 24, 2021 11:59 PM</h3>
               <div id="demo"></div>
             </div>
           </div>
