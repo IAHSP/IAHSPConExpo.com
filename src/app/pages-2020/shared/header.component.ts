@@ -71,6 +71,9 @@ import { Component, OnInit } from "@angular/core";
                 </a>
                 <ul class="dropdown-menu">
                   <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
+                  <li>
+                    <a href="#hotel" class="scrollTo">Gaylord Rockies Resort</a>
+                  </li>
                 </ul>
               </li>
               <li class="dropdown">
