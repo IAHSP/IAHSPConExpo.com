@@ -173,7 +173,7 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
-      <!-- Speakers -->
+      <!-- Keynote Speakers -->
       <section id="ks" class="padding100 special-row">
         <div class="container">
           <div class="row">
@@ -275,6 +275,118 @@ import { astList, cdeList, ksList } from "./shared/data";
                   ></div>
                 </ng-container>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gaylord Rockies Hotel - Denver -->
+      <section id="hotel" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center"><strong>Headquarter Hotel</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <h2 class="line-height-42 text-center">
+                Gaylord Rockies Resort &amp; Convention Center
+              </h2>
+            </div>
+
+            <div class="col-md-offset-3 col-md-6">
+              <div
+                class="owl-carousel controlls-over"
+                data-plugin-options='{"autoPlay":9000, "stopOnHover":true, "items": 1, "singleItem": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp", "itemsScaleUp":true}'
+              >
+                <div>
+                  <img
+                    alt="IAHSP Gaylord Outside Hotel"
+                    class="center-block img-responsive"
+                    src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-reception.jpg"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="IAHSP Gaylord Bedroom"
+                    class="center-block img-responsive"
+                    src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-top-opening.jpg"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="Second IAHSP Gaylord Bedroom"
+                    class="center-block img-responsive"
+                    src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-opening-1.jpg"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="IAHSP Nashville Tennessee Plaza"
+                    class="center-block img-responsive"
+                    src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-opening-2.jpg"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="Second IAHSP Nashville Tennessee Plaza"
+                    class="center-block img-responsive"
+                    src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-bedroom.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <p class="lead">
+                <strong
+                  >REGISTRATION DETAILS ARE HERE FOR YOU TO USE TO SECURE YOUR
+                  HOTEL ROOM AT THE BEST PRICE.</strong
+                >
+              </p>
+
+              <p class="lead">
+                Hotel block includes special negotiated pricing for this hotel.
+                We encourage you to room share to save costs. Our IAHSPConEXPO
+                FB Group allows you to post requests for roommates. You must
+                make your reservations by Aug 30, 2021. After that date, hotel
+                rates increase and rooms may not be available. Your initial
+                reservation includes a 1 night deposit the hotel will process
+                when you register. Please adhere to all hotel room changes and
+                reservation cancellation information provided on their site. We
+                are NOT SOLD OUT. We will not approach capacity for rooms
+                selling out until fairly close to the event. If you speak with
+                the reservations department and they tell you that we are sold
+                out, that is FALSE and you need to alert us ASAP. The dates of
+                Sept 24-26 have plenty of room availability.
+              </p>
+
+              <p class="lead">
+                If you are reserving rooms prior to and after the conference,
+                those dates can sell out quickly and that may impact the
+                reservation department ability to fulfill your reservation
+                request. If all the dates you are requesting are not available,
+                the reservations department will just share that the dates you
+                are requesting are sold out - and they do not indicate which
+                dates are sold out vs dates that have space. You need to call
+                them and ASK for the dates that are available so you are at the
+                HQ hotel for the main event.
+              </p>
+
+              <div class="text-center">
+                <a
+                  href="https://book.passkey.com/go/IAHSP2021"
+                  class="btn btn-primary space-bottom-8 
+                color-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-bed" aria-hidden="true"></i>Make a
+                  Reservation</a
+                >
+              </div>
             </div>
           </div>
         </div>
