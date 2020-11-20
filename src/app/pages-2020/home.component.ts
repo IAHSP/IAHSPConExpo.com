@@ -144,35 +144,6 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
-      <!-- IAHSP 2019 Promo -->
-      <section class="padding100">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="text-center">
-                <strong
-                  >Please enjoy this montage from our IAHSP Conference & EXPO
-                  2019 - Nashville</strong
-                >
-              </h1>
-
-              <!-- divider -->
-              <div class="divider styleColor">
-                <i class="fa fa-star"></i>
-              </div>
-            </div>
-            <div class="col-md-offset-1 col-md-10 space-bottom-40">
-              <video width="100%" controls="" controlslist="nodownload">
-                <source
-                  src="https://d3oaxt0bwkjnjn.cloudfront.net/videos/iahsp-con-expo-2019.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Keynote Speakers -->
       <section id="ks" class="padding100 special-row">
         <div class="container">
@@ -184,6 +155,209 @@ import { astList, cdeList, ksList } from "./shared/data";
               <div class="divider styleColor">
                 <i class="fa fa-star"></i>
               </div>
+
+              <!-- CALLOUT -->
+              <div
+                class="bs-callout text-center styleBackground"
+                style="padding: 36px 15px;"
+              >
+                <h3 style="line-height: 36px;">
+                  Speakers will be added to this site once they are
+                  confirmed.<br />
+                  <strong>Call for Speakers will be issued in Jan 2021.</strong>
+                </h3>
+              </div>
+              <!-- /CALLOUT -->
+
+              <p class="lead">
+                <strong
+                  >Join hundreds of Home Staging Industry Colleagues from around
+                  the world for the BIGGEST and most COMPREHENSIVE Educational
+                  Event of the Year! We bring Expert Speakers teaching you not
+                  just WHAT you need but HOW to be Successful! Learn to
+                  implement processes, marketing plans, business logistics and
+                  success strategies! Our Conference is a complete resource for
+                  our attendees from Learning how to be more successful to
+                  Connecting with key companies offering resources and services
+                  and Forming new friendships with colleagues from around the
+                  world.</strong
+                >
+              </p>
+
+              <p class="lead">
+                <strong
+                  >We selected our 2021 theme, SOAR, based on the word "RISE"
+                  that kept resonating with us as a choice to rise above our
+                  current circumstances and challenges with things that we
+                  cannot control. We need to RISE to new heights of Success in
+                  our Businesses.</strong
+                >
+              </p>
+
+              <p class="lead">
+                <strong
+                  >SEEK OPPORTUNITIES AND RISE - together as an industry, as an
+                  association and as a family.</strong
+                >
+              </p>
+
+              <p class="lead">
+                Our Conferences are known for key teaching and topics that are
+                pertinent for your success. We will have Break-out Sessions with
+                topics geared towards newer Stagers and more experienced
+                Stagers. Our Speakers are all successful Business owners and our
+                Speakers from outside the industry bring a different perspective
+                to our event and are always well received.
+              </p>
+
+              <p class="lead">
+                <strong
+                  >NEW THIS YEAR: YOU MUST CALL TO REGISTER IN ORDER TO TAKE
+                  ADVANTAGE OF THESE OPTIONS.
+                  <a href="tel:8444247799">844-IAHSP99</a> or email
+                  <a href="mailto:christa@iahsp.com"
+                    >Christa@iahsp.com</a
+                  ></strong
+                >
+              </p>
+
+              <p class="lead">
+                <strong>PAYMENT PLAN:</strong> For those who want to lock in
+                their spot now - we are offering 1/3 down payment $199.34 (IAHSP
+                MEMBERS) $251.34 (NON-IAHSP MEMBERS) paid by Feb 15, 2021. The
+                Second payment would be April 15, 2021 and the last and final
+                payment would be June 15, 2021.
+              </p>
+
+              <p class="lead">
+                <strong>GROUP RATE:</strong> For those with 2 or more team
+                members you would like to bring to conference, we are offering a
+                special rate for 2nd-4th team member, and 5+ team members will
+                have an even lower price!
+              </p>
+
+              <p class="lead">
+                <strong
+                  >We offer education for all levels of business owner:
+                  Beginners – Experienced – Advanced</strong
+                >
+              </p>
+
+              <p class="lead">
+                All speakers will be teaching on topics that help our members
+                and industry grow. There will be no sales pitches or inclusion
+                of any sales offerings allowed by any speaker. We will require
+                the speaker to share not just WHAT to do but HOW to do it. Our
+                attendees will come away with USEFUL and ACTIONABLE information.
+              </p>
+
+              <p class="lead"><strong>TOPICS ON OUR LIST:</strong></p>
+
+              <ul class="lead">
+                <strong>
+                  <li>
+                    Marketing &amp; Branding – Marketing and Branding are the
+                    core component of your business as marketing precedes any
+                    sales. Learn what Marketing is most effective, resources to
+                    help you produce effective collateral materials, and how to
+                    stand out in your messaging.
+                  </li>
+
+                  <li>
+                    Social Media – What platforms do you need to be using and
+                    why? Learn where to invest your time, how to maximize your
+                    time and which platforms are the most effective based on
+                    target demographics and your services.
+                  </li>
+
+                  <li>
+                    Sales Strategies – From cold calling, follow-up, and
+                    relationship building – learn how to overcome objections,
+                    what to say, how and when to say it to gain business and
+                    establish long-term loyal clients.
+                  </li>
+
+                  <li>
+                    Industry Trends – Real Estate, Investor, Builder – Learn
+                    what is happening within our industry and externally with
+                    industries we serve to understand how to position your
+                    services for a changing industry.
+                  </li>
+
+                  <li>
+                    Staging Trends – What are the new trends for 2021 and beyond
+                    that we need to know about to continue to position ourselves
+                    as an EXPERT in our industry and with our clients? Learn
+                    where we are now and where we are headed, colors, styles,
+                    and predictions for the coming years.
+                  </li>
+
+                  <li>
+                    Market Niches – from Design to Staging Vacation Property
+                    Rentals, to Color, Feng Shui, and Decorating – learn what to
+                    do to add these key market niches and services to your
+                    business.
+                  </li>
+
+                  <li>
+                    Personal Growth – Learn WHO you are in this business and
+                    embrace the ROLE you have as the OWNER and CEO of your
+                    Company. Mindset Strategies and Confidence Building
+                    Techniques, Scripts, and Resources.
+                  </li>
+
+                  <li>
+                    Business Organization – Streamlining Systems and Time
+                    Management are essential for growth of your Business. Get
+                    recommended Business Apps, Online Resources, and understand
+                    HOW to use them.
+                  </li>
+
+                  <li>
+                    Business Processes – From Proposals, Agreements,
+                    Consultations and Vacant Projects – Learn WHAT you need to
+                    do and receive forms and templates.
+                  </li>
+
+                  <li>
+                    Warehousing – Process and Expansion, Moving Team and Trucks
+                    – Whether you are growing into your first warehouse or
+                    expanding into a larger space, learn HOW to make this happen
+                    and WHAT to know to make this process efficient and
+                    effective.
+                  </li>
+                </strong>
+              </ul>
+
+              <p class="lead"><strong>PLUS!!</strong></p>
+
+              <p class="lead">
+                <strong
+                  >EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS! We have
+                  KEYNOTE Business Speakers who will motivate and inspire us to
+                  success!</strong
+                >
+              </p>
+
+              <p class="lead">
+                <strong
+                  >NEW Industry Designation to ADD to your Credentials! We will
+                  be offering a Designation to help you position yourself in
+                  your marketing and market to differentiate yourself from your
+                  competition. Knowledge = Power and we want to EMPOWER YOU to
+                  be able to ADD to your success.</strong
+                >
+              </p>
+
+              <p class="lead">
+                <strong
+                  >CALL for SPEAKERS WILL BE RELEASED JAN 2021. If you would
+                  like to share or know someone we need to learn about, please
+                  email
+                  <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a
+                  >.</strong
+                >
+              </p>
 
               <ul class="no-bullets padding-left-0">
                 <ng-container *ngFor="let ks of kss; let i = index">
@@ -280,7 +454,7 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
-      <!-- Gaylord Rockies Hotel - Denver -->
+      <!-- Gaylord Rockies Resort Convention Center -->
       <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
@@ -387,6 +561,35 @@ import { astList, cdeList, ksList } from "./shared/data";
                   Reservation</a
                 >
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IAHSP 2019 Promo -->
+      <section class="padding100 special-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">
+                <strong
+                  >Please enjoy this montage from our IAHSP Conference & EXPO
+                  2019 - Nashville</strong
+                >
+              </h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-md-10 space-bottom-40">
+              <video width="100%" controls="" controlslist="nodownload">
+                <source
+                  src="https://d3oaxt0bwkjnjn.cloudfront.net/videos/iahsp-con-expo-2019.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </div>
           </div>
         </div>
