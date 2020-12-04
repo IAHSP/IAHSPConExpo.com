@@ -595,6 +595,50 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
+      <!-- Priority Ticket -->
+      <section id="pticket" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">
+                <strong>Priority Ticket</strong>
+              </h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+              <p class="lead">Your Priority Ticket Includes:</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="lead margin-bottom-0">
+                <li>Priority Registration</li>
+                <li>Priority Check In</li>
+                <li>Premium Swag Bag w/ exclusive items</li>
+                <li>Priority Seating</li>
+              </ul>
+              <div class="visible-md visible-lg space-bottom-20"></div>
+            </div>
+            <div class="col-md-6">
+              <ul class="lead">
+                <li>Priority Access to Keynote Speakers</li>
+                <li>
+                  Exclusive VIP Speakeasy during Great Gatsby Gala Dinner and
+                  Awards
+                </li>
+                <li>PLUS MORE!</li>
+              </ul>
+            </div>
+            <div class="col-md-12">
+              <p class="lead">
+                Your registration will be placed into a drawing for a special
+                prize.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Countdown -->
       <section class="countdown padding100 parallax">
         <div class="container">
