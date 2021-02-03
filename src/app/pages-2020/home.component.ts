@@ -156,6 +156,97 @@ import { astList, cdeList, ksList } from "./shared/data";
                 <i class="fa fa-star"></i>
               </div>
 
+              <ul class="no-bullets clearfix padding-left-0">
+                <ng-container *ngFor="let ks of kss; let i = index">
+                  <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
+
+                  <!-- kss -->
+                  <li class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="item-box bg-light-gray">
+                      <figure>
+                        <img
+                          class="img-responsive center-block"
+                          src="{{ ks.image }}"
+                          alt="{{ ks.name }}"
+                        />
+                      </figure>
+                      <div class="item-box-desc">
+                        <h4 class="space-bottom-8 text-center">
+                          {{ ks.name }}<br />
+                          <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.company }}</small>
+                        </h4>
+                        <h5 class="text-center"><strong>{{ ks.title }}</strong></h5>
+
+                        <!-- modal trigger -->
+                        <div class="text-center">
+                          <a
+                            href="{{ '#' + ks.modelId }}"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            >View Info</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /kss -->
+
+                  <!-- modal dialog -->
+                  <div
+                    class="modal fade"
+                    id="{{ ks.modelId }}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-hidden="true"
+                          >
+                            &times;
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">
+                            <strong>{{ ks.name }}</strong> {{ "- " + ks.title }}
+                          </h4>
+                        </div>
+                        <!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <div [innerHTML]="ks.description"></div>
+                        </div>
+                        <!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                        <!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /modal dialog -->
+
+                  <div
+                    class="clearfix visible-sm visible-md"
+                    *ngIf="(i + 1) % 3 == 0"
+                  ></div>
+                  <div
+                    class="clearfix visible-lg"
+                    *ngIf="(i + 1) % 4 == 0"
+                  ></div>
+                </ng-container>
+              </ul>
+
               <!-- CALLOUT -->
               <div
                 class="bs-callout text-center styleBackground"
@@ -357,98 +448,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                   <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a
                   >.</strong
                 >
-              </p>
-
-              <ul class="no-bullets padding-left-0">
-                <ng-container *ngFor="let ks of kss; let i = index">
-                  <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
-
-                  <!-- kss -->
-                  <li class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <div class="item-box bg-light-gray">
-                      <figure>
-                        <img
-                          class="img-responsive center-block"
-                          src="{{ ks.image }}"
-                          alt="{{ ks.name }}"
-                        />
-                      </figure>
-                      <div class="item-box-desc">
-                        <h4 class="space-bottom-8 text-center">
-                          {{ ks.name }}<br />
-                          <small class="text-center">{{ ks.company }}</small>
-                        </h4>
-                        <h5 class="text-center">{{ ks.title }}</h5>
-
-                        <!-- modal trigger -->
-                        <div class="text-center">
-                          <a
-                            href="{{ '#' + ks.modelId }}"
-                            class="btn btn-primary"
-                            data-toggle="modal"
-                            >View Info</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- /kss -->
-
-                  <!-- modal dialog -->
-                  <div
-                    class="modal fade"
-                    id="{{ ks.modelId }}"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="myModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <!-- modal header -->
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="close"
-                            data-dismiss="modal"
-                            aria-hidden="true"
-                          >
-                            &times;
-                          </button>
-                          <h4 class="modal-title" id="myModalLabel">
-                            <strong>{{ ks.name }}</strong> {{ "- " + ks.title }}
-                          </h4>
-                        </div>
-                        <!-- /modal header -->
-
-                        <!-- modal body -->
-                        <div class="modal-body">
-                          <div [innerHTML]="ks.description"></div>
-                        </div>
-                        <!-- /modal body -->
-
-                        <!-- modal footer -->
-                        <div class="modal-footer">
-                          <button class="btn btn-default" data-dismiss="modal">
-                            Close
-                          </button>
-                        </div>
-                        <!-- /modal footer -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /modal dialog -->
-
-                  <div
-                    class="clearfix visible-sm visible-md"
-                    *ngIf="(i + 1) % 3 == 0"
-                  ></div>
-                  <div
-                    class="clearfix visible-lg"
-                    *ngIf="(i + 1) % 4 == 0"
-                  ></div>
-                </ng-container>
-              </ul>
+              </p>              
             </div>
           </div>
         </div>
