@@ -122,8 +122,8 @@ export const ksList = [
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener.jpg`,
     name: `Chris Widener`,
-    company: ``,
-    title: `Motivational Speaker and Business Success Expert`,
+    company: `Motivational Speaker and Business Success Expert`,
+    title: `Best selling author of 21 books, world renown business expert top 50 motivational speakers in the WORLD`,
     modelId: `tA2ey`,
     description: `
 		
@@ -141,8 +141,8 @@ export const ksList = [
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
     name: `Jonny Fowler`,
-    company: ``,
-    title: `Speaker | Podcaster | Leadership Coach | Senior VP`,
+    company: `Speaker | Podcaster | Leadership Coach | Senior VP`,
+    title: `Marketing and social media guru - expert on how to outsmart algorithms and reach your target audience`,
     modelId: `Gldlv`,
     description: `
 		
