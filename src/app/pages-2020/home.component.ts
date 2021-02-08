@@ -370,8 +370,8 @@ import { astList, cdeList, ksList } from "./shared/data";
               </p>
 
               <p class="lead">
-                SPECIAL OPTIONS: YOU MUST CALL TO REGISTER IN ORDER TO TAKE ADVANTAGE OF THESE OPTIONS. 844-IAHSP99 or 
-                email <a href="mailto:christa@iahsp.com">Christa@iahsp.com</a>
+                SPECIAL OPTIONS: YOU MUST CALL TO REGISTER IN ORDER TO TAKE ADVANTAGE OF THESE OPTIONS. 
+                <a href="tel:8444247799">844-IAHSP99</a> or email <a href="mailto:christa@iahsp.com">Christa@iahsp.com</a>
               </p>
 
               <p class="lead">
@@ -454,18 +454,18 @@ import { astList, cdeList, ksList } from "./shared/data";
               </strong></h3>
 
               <p class="lead">
-                <strong><u>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</u></strong> Our KEYNOTE Speakers motivate and 
+                <strong><em>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</em></strong> Our KEYNOTE Speakers motivate and 
                 inspire us to success!
               </p>
 
               <p class="lead">
-                <strong><u>NEW Industry Designation to ADD to your Credentials!</u></strong> We will be offering a 
+                <strong><em>NEW Industry Designation to ADD to your Credentials!</em></strong> We will be offering a 
                 Designation to help you position yourself in your marketing and market to differentiate yourself from 
                 your competition. Knowledge = Power and we want to EMPOWER YOU to be able to ADD to your success.
               </p>
 
               <p class="lead">
-                <strong><u>CALL for SPEAKERS WILL BE RELEASED SOON</u></strong>. If you would like to share or know 
+                <strong><em>CALL for SPEAKERS WILL BE RELEASED SOON</em></strong>. If you would like to share or know 
                 someone we need to learn about, please email <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a>.
               </p>
             </div>
