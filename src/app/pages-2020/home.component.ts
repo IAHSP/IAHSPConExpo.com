@@ -255,200 +255,224 @@ import { astList, cdeList, ksList } from "./shared/data";
                 <h3 style="line-height: 36px;">
                   Speakers will be added to this site once they are
                   confirmed.<br />
-                  <strong>Call for Speakers will be issued in Jan 2021.</strong>
+                  <strong>Call for Speakers will be coming soon.</strong>
                 </h3>
               </div>
               <!-- /CALLOUT -->
 
+              <h2 class="text-center">
+                Join your Home Staging Industry FAMILY at the 2021 IAHSP® Family Reunion – SOAR 
+                Conference & EXPO
+              </h2>
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-2021-soar-family-black-logo.png" 
+                alt="IAHSP 2021 Soar Family Black Logo" 
+                class="center-block img-responsive space-bottom-32" width="330px" />
+
               <p class="lead">
-                <strong
-                  >Join hundreds of Home Staging Industry Colleagues from around
-                  the world for the BIGGEST and most COMPREHENSIVE Educational
-                  Event of the Year! We bring Expert Speakers teaching you not
-                  just WHAT you need but HOW to be Successful! Learn to
-                  implement processes, marketing plans, business logistics and
-                  success strategies! Our Conference is a complete resource for
-                  our attendees from Learning how to be more successful to
-                  Connecting with key companies offering resources and services
-                  and Forming new friendships with colleagues from around the
-                  world.</strong
-                >
+                IAHSP<sup>&reg;</sup> is <strong><em>Your Home in the Home Staging 
+                Industry<sup>&reg;</sup></em></strong> - people are the heart of the industry and your connection 
+                for relationships and long-term success is found with IAHSP<sup>&reg;</sup>. Since 1999, we 
+                have provided a home for industry colleagues who see the value in connection, camaraderie, and 
+                collaboration.
               </p>
 
               <p class="lead">
-                <strong
-                  >We selected our 2021 theme, SOAR, based on the word "RISE"
-                  that kept resonating with us as a choice to rise above our
-                  current circumstances and challenges with things that we
-                  cannot control. We need to RISE to new heights of Success in
-                  our Businesses.</strong
-                >
+                Let’s face it, we have been isolated from one another for too long and this prolonged inability 
+                to see our family and friends in person has taken a toll.  <strong><em>People were not made to 
+                live in isolation</em></strong> – getting around others who are like-minded, positive and 
+                encouraging is a VITAL part of your journey of success.
               </p>
 
               <p class="lead">
-                <strong
-                  >SEEK OPPORTUNITIES AND RISE - together as an industry, as an
-                  association and as a family.</strong
-                >
+                Our goal for our conferences is to bring us together to laugh, hug, and have fun while 
+                learning <u>key education</u> for all levels:  <strong>Beginner, Intermediate, and Advanced 
+                Business Owner</strong>.
               </p>
 
               <p class="lead">
-                Our Conferences are known for key teaching and topics that are
-                pertinent for your success. We will have Break-out Sessions with
-                topics geared towards newer Stagers and more experienced
-                Stagers. Our Speakers are all successful Business owners and our
-                Speakers from outside the industry bring a different perspective
-                to our event and are always well received.
+                Join us at the <strong>2021 Home Staging Industry <span class="color-gold">Family 
+                Reunion</span></strong> – brought to you by IAHSP<sup>&reg;</sup> - <em>Your Home in the 
+                Home Staging Industry<sup>&reg;</sup></em>
+              </p>
+
+              <p class="lead text-center"><strong>Celebrate Connection.</strong></p>
+
+              <p class="lead text-center"><strong>Celebrate Our Industry.</strong></p>
+
+              <p class="lead text-center space-bottom-32"><strong>Celebrate Your Success.</strong></p>
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/your-home-in-the-home-staging-industry.jpg" 
+              alt="Your Home in the Home Staging Industry" 
+              class="center-block img-responsive space-bottom-32" width="330px" />
+
+              <p class="lead">
+                <em>Join hundreds of Home Staging Industry Colleagues from around the world for the BIGGEST and 
+                most COMPREHENSIVE Educational Event and Industry Celebration of the Year!</em>
               </p>
 
               <p class="lead">
-                <strong
-                  >NEW THIS YEAR: YOU MUST CALL TO REGISTER IN ORDER TO TAKE
-                  ADVANTAGE OF THESE OPTIONS.
-                  <a href="tel:8444247799">844-IAHSP99</a> or email
-                  <a href="mailto:christa@iahsp.com"
-                    >Christa@iahsp.com</a
-                  ></strong
-                >
+                We bring Expert Speakers teaching you not just WHAT you need but HOW to be Successful with 
+                ACTIONABLE information you can use right away.  We don’t snorkel – we scuba dive – meaning 
+                we will not just give you suggestions or tips – we share HOW to implement it and WHY you need 
+                to do something to help your business succeed.
               </p>
 
               <p class="lead">
-                <strong>PAYMENT PLAN:</strong> For those who want to lock in
-                their spot now - we are offering 1/3 down payment $199.34 (IAHSP
-                MEMBERS) $251.34 (NON-IAHSP MEMBERS) paid by Feb 15, 2021. The
-                Second payment would be April 15, 2021 and the last and final
-                payment would be June 15, 2021.
+                <strong><u>Some of the Topic Areas Include:</u></strong>
               </p>
-
-              <p class="lead">
-                <strong>GROUP RATE:</strong> For those with 2 or more team
-                members you would like to bring to conference, we are offering a
-                special rate for 2nd-4th team member, and 5+ team members will
-                have an even lower price!
-              </p>
-
-              <p class="lead">
-                <strong
-                  >We offer education for all levels of business owner:
-                  Beginners – Experienced – Advanced</strong
-                >
-              </p>
-
-              <p class="lead">
-                All speakers will be teaching on topics that help our members
-                and industry grow. There will be no sales pitches or inclusion
-                of any sales offerings allowed by any speaker. We will require
-                the speaker to share not just WHAT to do but HOW to do it. Our
-                attendees will come away with USEFUL and ACTIONABLE information.
-              </p>
-
-              <p class="lead"><strong>TOPICS ON OUR LIST:</strong></p>
 
               <ul class="lead">
-                <strong>
-                  <li>
-                    Marketing &amp; Branding – Marketing and Branding are the
-                    core component of your business as marketing precedes any
-                    sales. Learn what Marketing is most effective, resources to
-                    help you produce effective collateral materials, and how to
-                    stand out in your messaging.
-                  </li>
-
-                  <li>
-                    Social Media – What platforms do you need to be using and
-                    why? Learn where to invest your time, how to maximize your
-                    time and which platforms are the most effective based on
-                    target demographics and your services.
-                  </li>
-
-                  <li>
-                    Sales Strategies – From cold calling, follow-up, and
-                    relationship building – learn how to overcome objections,
-                    what to say, how and when to say it to gain business and
-                    establish long-term loyal clients.
-                  </li>
-
-                  <li>
-                    Industry Trends – Real Estate, Investor, Builder – Learn
-                    what is happening within our industry and externally with
-                    industries we serve to understand how to position your
-                    services for a changing industry.
-                  </li>
-
-                  <li>
-                    Staging Trends – What are the new trends for 2021 and beyond
-                    that we need to know about to continue to position ourselves
-                    as an EXPERT in our industry and with our clients? Learn
-                    where we are now and where we are headed, colors, styles,
-                    and predictions for the coming years.
-                  </li>
-
-                  <li>
-                    Market Niches – from Design to Staging Vacation Property
-                    Rentals, to Color, Feng Shui, and Decorating – learn what to
-                    do to add these key market niches and services to your
-                    business.
-                  </li>
-
-                  <li>
-                    Personal Growth – Learn WHO you are in this business and
-                    embrace the ROLE you have as the OWNER and CEO of your
-                    Company. Mindset Strategies and Confidence Building
-                    Techniques, Scripts, and Resources.
-                  </li>
-
-                  <li>
-                    Business Organization – Streamlining Systems and Time
-                    Management are essential for growth of your Business. Get
-                    recommended Business Apps, Online Resources, and understand
-                    HOW to use them.
-                  </li>
-
-                  <li>
-                    Business Processes – From Proposals, Agreements,
-                    Consultations and Vacant Projects – Learn WHAT you need to
-                    do and receive forms and templates.
-                  </li>
-
-                  <li>
-                    Warehousing – Process and Expansion, Moving Team and Trucks
-                    – Whether you are growing into your first warehouse or
-                    expanding into a larger space, learn HOW to make this happen
-                    and WHAT to know to make this process efficient and
-                    effective.
-                  </li>
-                </strong>
+                <li>Business Logistics</li>
+                <li>Marketing &amp; Branding</li>
+                <li>Sales Strategies</li>
+                <li>Mindset and Motivation</li>
+                <li>Business Planning</li>
+                <li>Industry Trends</li>
+                <li>Business Growth</li>
+                <li>Team Building</li>
+                <li>Financial Strategies</li>
+                <li>Leadership</li>
               </ul>
 
-              <p class="lead"><strong>PLUS!!</strong></p>
-
-              <p class="lead">
-                <strong
-                  >EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS! We have
-                  KEYNOTE Business Speakers who will motivate and inspire us to
-                  success!</strong
-                >
-              </p>
-
-              <p class="lead">
-                <strong
-                  >NEW Industry Designation to ADD to your Credentials! We will
-                  be offering a Designation to help you position yourself in
-                  your marketing and market to differentiate yourself from your
-                  competition. Knowledge = Power and we want to EMPOWER YOU to
-                  be able to ADD to your success.</strong
-                >
-              </p>
-
-              <p class="lead">
-                <strong
-                  >CALL for SPEAKERS WILL BE RELEASED JAN 2021. If you would
-                  like to share or know someone we need to learn about, please
-                  email
-                  <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a
-                  >.</strong
-                >
-              </p>              
+              <!-- Read More button to collapse -->
+              <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#more-details">Read More</button>
+              <div id="more-details" class="collapse">
+                <br />
+                <p class="lead">
+                  And . . . our Conference is always a “Getaway with a Takeaway”.  We are ONLY industry conference that 
+                  gives YOU new credentials you can use to gain more business and understand how to be successful.  
+                  This year we will be teaching all about effective Marketing and Sales – and how you can add value 
+                  to your services by being a PARTNER with your clients for marketing and exposure for their success.
+                </p>
+  
+                <p class="lead">
+                  Our Conference is a complete resource for our attendees from Learning how to be more successful 
+                  to Connecting with key companies offering resources and services and Forming new friendships with 
+                  colleagues from around the world.
+                </p>
+  
+                <p class="lead">
+                  We selected our 2021 theme, SOAR, based on the word "RISE" that kept resonating with us as a choice 
+                  to rise above our current circumstances and challenges with things that we cannot control. We need 
+                  to RISE to new heights of Success in our Businesses.
+                </p>
+  
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-soar-let-your-dreams-take-flight.png" 
+                alt="IAHSP SOAR Let Your Dreams Take Flight" 
+                class="center-block img-responsive space-bottom-32" width="390px">
+  
+                <p class="lead">
+                  SEEK OPPORTUNITIES AND RISE - together as an industry, as an association and as a family.
+                </p>
+  
+                <p class="lead">
+                  Our Conferences are known for key teaching and topics that are pertinent for your success. We will have 
+                  Break-out Sessions with topics geared towards newer Stagers and more experienced Stagers. Our Speakers are 
+                  all successful Business owners and our Speakers from outside the industry bring a different perspective 
+                  to our event and are always well received.
+                </p>
+  
+                <p class="lead">
+                  SPECIAL OPTIONS: YOU MUST CALL TO REGISTER IN ORDER TO TAKE ADVANTAGE OF THESE OPTIONS. 
+                  <a href="tel:8444247799">844-IAHSP99</a> or email <a href="mailto:christa@iahsp.com">Christa@iahsp.com</a>
+                </p>
+  
+                <p class="lead">
+                  <strong><u>PAYMENT PLAN</u></strong> For those who want to lock in their spot now - we are offering 1/3 
+                  down payment $199.34 (IAHSP MEMBERS) $251.34 (NON-IAHSP MEMBERS) paid by Feb 15, 2021. The Second payment 
+                  would be April 15, 2021 and the last and final payment would be June 15, 2021.
+                </p>
+  
+                <p class="lead">
+                  <strong><u>GROUP RATE</u></strong> For those with 2 or more team members you would like to bring to conference, 
+                  we are offering a special rate for 2nd-4th team member, and 5+ team members will have an even lower price!
+                </p>
+  
+                <p class="lead">
+                  All speakers will be teaching on topics that help our members and industry grow. There will be no sales pitches 
+                  or inclusion of any sales offerings allowed by any speaker. We will require the speaker to share not just WHAT 
+                  to do but HOW to do it. Our attendees will come away with USEFUL and ACTIONABLE information.
+                </p>
+  
+                <p class="lead">TOPICS ON OUR LIST:</p>
+  
+                <ul class="lead">
+                  <li>
+                    Marketing &amp; Branding – Marketing and Branding are the core component of your business as marketing 
+                    precedes any sales. Learn what Marketing is most effective, resources to help you produce effective collateral 
+                    materials, and how to stand out in your messaging.
+                  </li>
+  
+                  <li>
+                    Social Media – What platforms do you need to be using and why? Learn where to invest your time, how to 
+                    maximize your time and which platforms are the most effective based on target demographics and your 
+                    services.
+                  </li>
+  
+                  <li>
+                    Sales Strategies – From cold calling, follow-up, and relationship building – learn how to overcome 
+                    objections, what to say, how and when to say it to gain business and establish long-term loyal clients.
+                  </li>
+  
+                  <li>
+                    Industry Trends – Real Estate, Investor, Builder – Learn what is happening within our industry and externally 
+                    with industries we serve to understand how to position your services for a changing industry.
+                  </li>
+  
+                  <li>
+                    Staging Trends – What are the new trends for 2021 and beyond that we need to know about to continue to 
+                    position ourselves as an EXPERT in our industry and with our clients? Learn where we are now and where 
+                    we are headed, colors, styles, and predictions for the coming years.
+                  </li>
+  
+                  <li>
+                    Market Niches – from Design to Staging Vacation Property Rentals, to Color, Feng Shui, and Decorating – 
+                    learn what to do to add these key market niches and services to your business.
+                  </li>
+  
+                  <li>
+                    Personal Growth – Learn WHO you are in this business and embrace the ROLE you have as the OWNER and CEO 
+                    of your Company. Mindset Strategies and Confidence Building Techniques, Scripts, and Resources.
+                  </li>
+  
+                  <li>
+                    Business Organization – Streamlining Systems and Time Management are essential for growth of your Business. 
+                    Get recommended Business Apps, Online Resources, and understand HOW to use them.
+                  </li>
+  
+                  <li>
+                    Business Processes – From Proposals, Agreements, Consultations and Vacant Projects – Learn WHAT you need to 
+                    do and receive forms and templates.
+                  </li>
+  
+                  <li>
+                    Warehousing – Process and Expansion, Moving Team and Trucks – Whether you are growing into your first 
+                    warehouse or expanding into a larger space, learn HOW to make this happen and WHAT to know to make this 
+                    process efficient and effective.
+                  </li>
+                </ul>              
+  
+                <h3 class="color-gold"><strong>
+                  PLUS!!
+                </strong></h3>
+  
+                <p class="lead">
+                  <strong><em>EDUCATIONAL AND MOTIVATIONAL KEYNOTE SPEAKERS!</em></strong> Our KEYNOTE Speakers motivate and 
+                  inspire us to success!
+                </p>
+  
+                <p class="lead">
+                  <strong><em>NEW Industry Designation to ADD to your Credentials!</em></strong> We will be offering a 
+                  Designation to help you position yourself in your marketing and market to differentiate yourself from 
+                  your competition. Knowledge = Power and we want to EMPOWER YOU to be able to ADD to your success.
+                </p>
+  
+                <p class="lead">
+                  <strong><em>CALL for SPEAKERS WILL BE RELEASED SOON</em></strong>. If you would like to share or know 
+                  someone we need to learn about, please email <a href="mailto:jennie@iahsp.com">Jennie@iahsp.com</a>.
+                </p>
+              </div>              
             </div>
           </div>
         </div>
