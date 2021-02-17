@@ -47,9 +47,9 @@ import { astList, cdeList, ksList } from "./shared/data";
                 style="z-index: 2"
               >
                 <img
-                  src="https://d3oaxt0bwkjnjn.cloudfront.net/images/2021-iahsp-conference-expo.png"
+                  src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-2021-soar-family-black-logo.png"
                   alt="IAHSP Conference and Expo 2021"
-                  width="390px"
+                  width="333px"
                   class="img-responsive center-block"
                 />
               </div>
