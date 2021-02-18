@@ -22,7 +22,7 @@ import { astList, cdeList, ksList } from "./shared/data";
             >
               <!-- MAIN IMAGE -->
               <img
-                src="https://d3oaxt0bwkjnjn.cloudfront.net/images/denver-colorado-where-to-stay-luxury-skyline.jpg"
+                src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-2021-cover.jpg"
                 alt="IAHSP Conference and Expo Denver Colorado 2021"
                 data-bgfit="cover"
                 data-bgposition="left top"
@@ -156,96 +156,98 @@ import { astList, cdeList, ksList } from "./shared/data";
                 <i class="fa fa-star"></i>
               </div>
 
-              <ul class="no-bullets clearfix padding-left-0">
-                <ng-container *ngFor="let ks of kss; let i = index">
-                  <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
+              <div class="speaker-border">
+                <ul class="no-bullets clearfix padding-left-0">
+                  <ng-container *ngFor="let ks of kss; let i = index">
+                    <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
 
-                  <!-- kss -->
-                  <li class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="item-box bg-light-gray">
-                      <figure>
-                        <img
-                          class="img-responsive center-block"
-                          src="{{ ks.image }}"
-                          alt="{{ ks.name }}"
-                        />
-                      </figure>
-                      <div class="item-box-desc">
-                        <h4 class="space-bottom-8 text-center">
-                          {{ ks.name }}<br />
-                          <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.company }}</small>
-                        </h4>
-                        <h5 class="text-center"><strong>{{ ks.title }}</strong></h5>
-
-                        <!-- modal trigger -->
-                        <div class="text-center">
-                          <a
-                            href="{{ '#' + ks.modelId }}"
-                            class="btn btn-primary"
-                            data-toggle="modal"
-                            >View Info</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- /kss -->
-
-                  <!-- modal dialog -->
-                  <div
-                    class="modal fade"
-                    id="{{ ks.modelId }}"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="myModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <!-- modal header -->
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="close"
-                            data-dismiss="modal"
-                            aria-hidden="true"
-                          >
-                            &times;
-                          </button>
-                          <h4 class="modal-title" id="myModalLabel">
-                            <strong>{{ ks.name }}</strong> {{ "- " + ks.title }}
+                    <!-- kss -->
+                    <li class="col-xs-12 col-sm-4 col-md-4">
+                      <div class="item-box bg-light-gray">
+                        <figure>
+                          <img
+                            class="img-responsive center-block"
+                            src="{{ ks.image }}"
+                            alt="{{ ks.name }}"
+                          />
+                        </figure>
+                        <div class="item-box-desc">
+                          <h4 class="space-bottom-8 text-center">
+                            {{ ks.name }}<br />
+                            <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.company }}</small>
                           </h4>
-                        </div>
-                        <!-- /modal header -->
+                          <h5 class="text-center"><strong>{{ ks.title }}</strong></h5>
 
-                        <!-- modal body -->
-                        <div class="modal-body">
-                          <div [innerHTML]="ks.description"></div>
+                          <!-- modal trigger -->
+                          <div class="text-center">
+                            <a
+                              href="{{ '#' + ks.modelId }}"
+                              class="btn btn-primary"
+                              data-toggle="modal"
+                              >View Info</a
+                            >
+                          </div>
                         </div>
-                        <!-- /modal body -->
+                      </div>
+                    </li>
+                    <!-- /kss -->
 
-                        <!-- modal footer -->
-                        <div class="modal-footer">
-                          <button class="btn btn-default" data-dismiss="modal">
-                            Close
-                          </button>
+                    <!-- modal dialog -->
+                    <div
+                      class="modal fade"
+                      id="{{ ks.modelId }}"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="myModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- modal header -->
+                          <div class="modal-header">
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-hidden="true"
+                            >
+                              &times;
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">
+                              <strong>{{ ks.name }}</strong> {{ "- " + ks.title }}
+                            </h4>
+                          </div>
+                          <!-- /modal header -->
+
+                          <!-- modal body -->
+                          <div class="modal-body">
+                            <div [innerHTML]="ks.description"></div>
+                          </div>
+                          <!-- /modal body -->
+
+                          <!-- modal footer -->
+                          <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                          <!-- /modal footer -->
                         </div>
-                        <!-- /modal footer -->
                       </div>
                     </div>
-                  </div>
-                  <!-- /modal dialog -->
+                    <!-- /modal dialog -->
 
-                  <div
-                    class="clearfix visible-sm visible-md"
-                    *ngIf="(i + 1) % 3 == 0"
-                  ></div>
-                  <div
-                    class="clearfix visible-lg"
-                    *ngIf="(i + 1) % 4 == 0"
-                  ></div>
-                </ng-container>
-              </ul>
+                    <div
+                      class="clearfix visible-sm visible-md"
+                      *ngIf="(i + 1) % 3 == 0"
+                    ></div>
+                    <div
+                      class="clearfix visible-lg"
+                      *ngIf="(i + 1) % 4 == 0"
+                    ></div>
+                  </ng-container>
+                </ul>
+              </div>
 
               <!-- CALLOUT -->
               <div
@@ -702,6 +704,11 @@ import { astList, cdeList, ksList } from "./shared/data";
       }
       .largegreenbg {
         background-color: #008bcc;
+      }
+      .speaker-border {
+        border-radius: 8px;
+        background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-denver-2021.jpg");
+
       }
     `,
   ],
