@@ -707,7 +707,7 @@ import { astList, cdeList, ksList } from "./shared/data";
       }
       .speaker-border {
         border-radius: 8px;
-        background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-denver-2021.jpg");
+        background-image: url("https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-denver-2021.png");
 
       }
     `,
