@@ -502,8 +502,51 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
+      <!-- Sales and Marketing Specialist -->
+      <section id="sms" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center"><strong>IAHSP<sup>&reg;</sup> Sales and Marketing Specialist</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <p class="lead">IAHSP<sup>&reg;</sup> Family Reunion Conference &amp; EXPO is your GETAWAY with a TAKEAWAY.  As we have for all our educational conferences, 
+              we will be issuing <strong>NEW CREDENTIALS</strong> to all attendees.  This year, we have developed a new designation:  <strong><em>IAHSP<sup>&reg;</sup>-SMS - 
+              Sales and Marketing Specialist</em></strong>.</p>
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sales-and-marketing-specialist-logo.png" 
+              alt="Sales and Marketing Specialist Logo" class="center-block img-responsive space-bottom-15" width="390px" />
+
+              <p class="lead">Being an effective Marketer is essential for business success. Understanding Sales is also crucial to obtain revenue. We also need to understand the 
+              real estate sales process and how we fit in as a partner to our clients.  As a professional real estate agent and/or home stager, we want to find ways 
+              to add value to our services and stand out over our competition.  To receive these new credentials, attendees must attend all sessions assigned to 
+              this designation.</p>
+
+              <p class="lead"><strong><u>The IAHSP®-SMS will cover</u></strong>:</p>
+              <ul class="lead">
+                <li>Marketing Strategies and Branding</li>
+                <li>Value-Added Marketing Services</li>
+                <li>How to Increase SEO Organically</li>
+                <li>Social Media Marketing Strategies</li>
+                <li>Real Estate Sales Process</li>
+                <li>Sales Process – Steps to Close Sales</li>
+                <li>DISCovery Session for Temperament Awareness and Relatability</li>
+              </ul>
+
+              <p class="lead"><strong><u>Upon completion, you will receive</u></strong>:</p>
+
+              <p class="lead">Your IAHSP®-SMS Logo and Certificate of Achievement, Forms, Templates, Marketing Scheduler, Social Media Posting Calendar, Sales Funnel Systems</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Gaylord Rockies Resort Convention Center -->
-      <section id="hotel" class="padding100">
+      <section id="hotel" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -615,7 +658,7 @@ import { astList, cdeList, ksList } from "./shared/data";
       </section>
 
       <!-- IAHSP 2019 Promo -->
-      <section class="padding100 special-row">
+      <section class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -644,7 +687,7 @@ import { astList, cdeList, ksList } from "./shared/data";
       </section>
 
       <!-- Priority Ticket -->
-      <section id="pticket" class="padding100">
+      <section id="pticket" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
