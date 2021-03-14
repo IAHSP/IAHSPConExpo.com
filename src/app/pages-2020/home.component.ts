@@ -35,7 +35,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption large_bold_white customin customout"
                 data-x="center"
                 data-hoffset=""
-                data-y="-25"
+                data-y="-55"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -60,7 +60,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption large_bold_white customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="300"
+                data-y="270"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -71,7 +71,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 data-endeasing="Power4.easeIn"
                 style="z-index: 2"
               >
-                2021 Educational Conference & EXPO!
+                2021 IAHSP Family Reunion Conference<br />& EXPO
               </div>
 
               <!-- LAYER NR. 3 -->
@@ -80,7 +80,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption large_bold_white customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="342"
+                data-y="372"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -103,7 +103,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption largegreenbg customin customout"
                 data-x="center"
                 data-hoffset=""
-                data-y="418"
+                data-y="448"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -123,7 +123,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption small_text customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="512"
+                data-y="542"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -141,6 +141,28 @@ import { astList, cdeList, ksList } from "./shared/data";
               </div>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section id="cfs" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center"><strong>Call for Speakers</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-call-for-speakers-promo.png" class="center-block img-responsive space-bottom-15" 
+              alt="IAHSP Call for Speakers" width="390px" />
+              <div class="text-center">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9CDgsnvjZqKs5ZKqge76Gfw5m7U_7i0araF9ZiNPN6ZJTyA/viewform"
+                class="btn btn-primary color-white" target="_blank" rel="noopener noreferrer"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Submit Form</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -718,7 +740,7 @@ export class Home2020Component implements OnInit {
   cdes = cdeList;
   kss = ksList;
 
-  constructor() {}
+  constructor() { }
 
   ngOnInit() {
     // Set the date we're counting down to
