@@ -35,7 +35,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 class="tp-caption large_bold_white customin customout"
                 data-x="center"
                 data-hoffset=""
-                data-y="-55"
+                data-y="15"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -57,10 +57,10 @@ import { astList, cdeList, ksList } from "./shared/data";
               <!-- LAYER NR. 2 -->
               <div
                 id="revolution-layer-1"
-                class="tp-caption large_bold_white customin customout text-center"
+                class="tp-caption large_text customin customout text-center"
                 data-x="center"
                 data-hoffset=""
-                data-y="270"
+                data-y="345"
                 data-voffset=""
                 data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
                 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -71,7 +71,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                 data-endeasing="Power4.easeIn"
                 style="z-index: 2"
               >
-                2021 IAHSP Family Reunion Conference<br />& EXPO
+                2021 IAHSP Family Reunion Conference & EXPO
               </div>
 
               <!-- LAYER NR. 3 -->
@@ -278,8 +278,7 @@ import { astList, cdeList, ksList } from "./shared/data";
               >
                 <h3 style="line-height: 36px;">
                   Speakers will be added to this site once they are
-                  confirmed.<br />
-                  <strong>Call for Speakers will be coming soon.</strong>
+                  confirmed.
                 </h3>
               </div>
               <!-- /CALLOUT -->
