@@ -144,6 +144,25 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
+      <section id="covid" class="padding-40-0" style="background-image: url('https://d3oaxt0bwkjnjn.cloudfront.net/images/social-distancing.jpg');">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center color-white"><strong>COVID Safety Measures Planned</strong></h1>
+
+              <p class="lead text-center color-white">
+                Depending on Covid Requirements for Colorado in Sept 2021, our plan is follow social distancing protocol with 
+                attendees seated the appropriate distance apart (unless they come together). We will monitor temperatures daily 
+                and attendees will wear  a sticker showing they have been checked.  Sanitizing wipes will be provided daily to 
+                wipe down conference chairs and we will be able to take our masks off once seated (since each person will be 6' 
+                from the other) or outside. We want all attendees to feel safe and comfortable during our event. The Gaylord may 
+                have additional requirements in place that attendees will need to follow for hotel protocol.
+              </p>              
+            </div>
+          </div>
+        </div>
+      </section>  
+
       <section id="cfs" class="padding100">
         <div class="container">
           <div class="row">
