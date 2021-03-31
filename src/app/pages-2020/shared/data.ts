@@ -196,4 +196,19 @@ export const ksList = [
 		
 		`,
   },
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing.jpg`,
+    name: `Ravi Hutheesign`,
+    company: `International Keynote Speaker`,
+    title: `PIVOT, the Difference Between Staying Relevant and Becoming Redundant`,
+    modelId: `gUgAg`,
+    description: `
+		
+			<p><strong>PIVOT, the Difference Between Staying Relevant and Becoming Redundant</strong>. It teaches the art of reinventing yourself, your 
+			business, etc.; how to recognize and create opportunities that convert; building cross-generational and cross-cultural networks, 
+			life and career planning along with ongoing “course correction,” developing a tolerance for risk and a willingness to fail (and 
+				recover), and much more.</p>
+		
+		`,
+  },
 ];
