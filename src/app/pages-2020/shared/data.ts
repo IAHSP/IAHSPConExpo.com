@@ -198,7 +198,7 @@ export const ksList = [
   },
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/ravi-hutheesing.jpg`,
-    name: `Ravi Hutheesign`,
+    name: `Ravi Hutheesing`,
     company: `International Keynote Speaker`,
     title: `PIVOT, the Difference Between Staying Relevant and Becoming Redundant`,
     modelId: `gUgAg`,
