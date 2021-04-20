@@ -161,25 +161,29 @@ import { astList, cdeList, ksList } from "./shared/data";
             </div>
           </div>
         </div>
-      </section>  
-
-      <section id="cfs" class="padding100">
+      </section> 
+      
+      <!-- Great Gatsby Gala -->
+      <section id="agenda" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>Call for Speakers</strong></h1>
+              <h1 class="text-center"><strong>Agenda</strong></h1>
 
               <!-- divider -->
               <div class="divider styleColor">
                 <i class="fa fa-star"></i>
               </div>
-
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/iahsp-call-for-speakers-promo.png" class="center-block img-responsive space-bottom-15" 
-              alt="IAHSP Call for Speakers" width="390px" />
-              <div class="text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9CDgsnvjZqKs5ZKqge76Gfw5m7U_7i0araF9ZiNPN6ZJTyA/viewform"
-                class="btn btn-primary color-white" target="_blank" rel="noopener noreferrer"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Submit Form</a>
-              </div>
+            </div>
+              
+            <div class="col-md-8 col-md-offset-2">
+              <h3 class=""><strong>We are planning a jam-packed event for our attendees!</strong></h3>
+              <p class="lead">Friday 5PM-11PM - Registration and Vendor EXPO Evening</p>
+              <p class="lead">Saturday:  9:30 AM - 5:30 PM  - Educational Sessions for all Levels</p>
+              <p class="lead">Sunday:  10:00 AM - 5:30 PM - Educational Sessions for All Levels</p>
+              <p class="lead">Sunday:  6:30 PM - 10:30 PM - Great Gatsby Gala Awards Dinner Celebration</p>
+              <p class="lead">Dinner starts at 7 PM - 10:30 PM</p>
+              <p class="lead"><strong>Detailed Agenda will be provided once we finalize our schedule.</strong></p>
             </div>
           </div>
         </div>
@@ -563,8 +567,39 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
+      <!-- Great Gatsby Gala -->
+      <section id="ggg" class="padding100 special-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center"><strong>The Great Gatsby Gala!</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/great-gatsby-gala-roaring-2021.jpg" 
+              class="center-block img-responsive space-bottom-15" alt="Great Gatsby Gala 2021 Banner" width="330px" />
+
+              <p class="lead">
+                Join us for a fabulous evening as we celebrate the ROARING 2021 with a Great Gatsby Gala Dinner and Awards 
+                Ceremony! We will have a special SPEAKEASY for our VIP Attendees PLUS great food and DANCING!  It is the 
+                PERFECT way to wrap up our IAHSP Family Reunion Conference and EXPO and CELEBRATE our industry and home 
+                staging family!  Costumes are encouraged but not required.
+              </p>
+            </div>
+              <!-- <p class="lead">Our schedule is:  Friday 5PM-11PM - Registration and Vendor EXPO Evening</p>
+              <p class="lead">Saturday:  9:30 AM - 5:30 PM  - Educational Sessions for all Levels</p>
+              <p class="lead">Sunday:  10:00 AM - 5:30 PM - Educational Sessions for All Levels</p>
+              <p class="lead">Sunday:  6:30 PM - 10:30 PM - Great Gatsby Gala Awards Dinner Celebration</p>
+              <p class="lead">Dinner starts at 7 PM - 10:30 PM</p> -->
+          </div>
+        </div>
+      </section>
+
       <!-- Gaylord Rockies Resort Convention Center -->
-      <section id="hotel" class="padding100 special-row">
+      <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -676,7 +711,7 @@ import { astList, cdeList, ksList } from "./shared/data";
       </section>
 
       <!-- IAHSP 2019 Promo -->
-      <section class="padding100">
+      <section class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -705,7 +740,7 @@ import { astList, cdeList, ksList } from "./shared/data";
       </section>
 
       <!-- Priority Ticket -->
-      <section id="pticket" class="padding100 special-row">
+      <section id="pticket" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -772,6 +807,10 @@ import { astList, cdeList, ksList } from "./shared/data";
   `,
   styles: [
     `
+      p, ul > li {
+        color: #2D2926;
+        font-weight: 400;
+      }
       .no-bullets {
         list-style: none;
       }
