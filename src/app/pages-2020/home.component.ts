@@ -148,16 +148,28 @@ import { astList, cdeList, ksList } from "./shared/data";
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center color-white"><strong>COVID Safety Measures Planned</strong></h1>
 
-              <p class="lead text-center color-white">
-                Depending on Covid Requirements for Colorado in Sept 2021, our plan is follow social distancing protocol with 
-                attendees seated the appropriate distance apart (unless they come together). We will monitor temperatures daily 
-                and attendees will wear  a sticker showing they have been checked.  Sanitizing wipes will be provided daily to 
-                wipe down conference chairs and we will be able to take our masks off once seated (since each person will be 6' 
-                from the other) or outside. We want all attendees to feel safe and comfortable during our event. The Gaylord may 
-                have additional requirements in place that attendees will need to follow for hotel protocol.
-              </p>              
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-logo.jpg" alt="Gaylord Rockies Logo" class="center-block img-responsive space-bottom-15" width="270px" />
+
+              <h2 class="text-center color-white"><strong>Information on COLORADO Opening to Large Group Events<br /><small class="color-white">April 20, 2021</small></strong></h2>
+
+              <p class="lead color-white"><strong>The Gaylord Rockies Hotel is located in Adams County and is overseen by Tri-County Health</strong>.  Right now we are not under any capacity limits indoors or outdoors – as long as we have 6’ between seats.  Starting May 16, we expect all restrictions to go away (except wearing masks indoors).  We can also set (10) people per banquet round right now. </p>
+              
+              <p class="lead color-white">On 4/16/2021 Adams County and Tri-County Health announced they will be implementing public health orders that will largely align into a two-phase exit from COVID regulations.  </p>
+
+              <p class="lead color-white"><u>The plan includes two phases</u></p>
+
+              <ul class="lead">
+                <li class="color-white">Phase 1 goes from <em>April 16 through May 15</em>. Individual counties can operate at one level below their current level on the state's Dial 3.0. That will be Level Blue for Denver, Broomfield, Boulder, Jefferson, Douglas and Adams, and Level Green for Arapahoe.</li>
+                <li class="color-white">Phase 2 goes from May 16 through Aug 16.  This is an “observation period” which the counties will move to a new level on the dial, Level Clear, which has NO restrictions. Under Level Clear, businesses can operate at 100% capacity, though indoor mask requirements could still be in effect.</li>
+              </ul>
+
+              <p class="lead color-white">
+                <a href="https://www.tchd.org/825/Public-Health-Orders" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/825/Public-Health-Orders</a><br />
+                <a href="https://www.tchd.org/CivicAlerts.aspx?AID=444" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/CivicAlerts.aspx?AID=444</a><br />
+                <a href="https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart</a>
+              </p>
+
             </div>
           </div>
         </div>
