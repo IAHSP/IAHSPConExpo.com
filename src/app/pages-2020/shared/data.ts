@@ -139,6 +139,36 @@ export const ksList = [
 		`,
   },
   {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/barber-deshauna.jpg`,
+    name: `Deshauna Barber`,
+    company: `Former Miss USA and award-winning international speaker, coach, and entrepreneur`,
+    title: ``,
+    modelId: `fr4Br`,
+    description: `
+		
+		<p>Deshauna Barber is a former Miss USA and award-winning international speaker, coach, and entrepreneur with a bold approach to inspiring and encouraging her audience. 
+		Deshauna uses her experience as an Army officer, Non-Profit CEO, former Miss USA, and STEM graduate to inspire her audience. Deshauna shows the power of perseverance and 
+		tenacity to now become a top-rated speaker that is widely sought after by Fortune 500 companies. She currently works full time as the President and Chief Executive 
+		Officer of Service Women’s Action Network, the nation’s leading 501c3 nonprofit organization advocating on behalf of all service women and women veterans in the country.</p>  
+		
+		<p>Deshauna is currently receiving her Diversity, Social Justice and Inclusion Certification at University of Colorado, Colorado Springs. She has a Bachelor of Science 
+		degree in Business Management from Virginia State University and a Master of Science degree in Computer Information Systems and Services from University of Maryland 
+		University College.</p> 
+		
+		<p>As Miss USA, she spent her year-long reign advocating for our men and women in uniform by encouraging our government to provide additional support for soldiers 
+		suffering from Post-Traumatic Stress Disorder (PTSD). The 31-year-old uses her platform to encourage us to pay close attention to the mental health of our service 
+		members after deployments and their service to our country.</p>  
+		
+		<p>Captain Barber has served her country for over 10 years and now works as cadet instructor at Howard University's Bison Battalion during her Army Reserve commitment. 
+		When she is not serving her country, she travels the world as a full time Motivational Speaker. She has made it her life goal to encourage, inspire and strengthen the 
+		people around her.</p> 
+		
+		<p>Deshauna has appeared on <em>The Steve Harvey Show, The Rachael Ray Show, Fox and Friends, The Chelsea Show, Good Morning Washington, The Ellen DeGeneres Show, The T.D. 
+		Jakes Show, The Nightly Show, The Source on Sirius XM, The Daily Show, Lunch Break, Live with Kelly, Good Morning America and in Glamour Magazine and Diversity Magazine</em>.</p>
+
+		`,
+  },
+  {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jonny-fowler.jpg`,
     name: `Jonny Fowler`,
     company: `Speaker | Podcaster | Leadership Coach | Senior VP`,
