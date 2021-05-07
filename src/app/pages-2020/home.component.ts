@@ -295,7 +295,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                     <!-- /modal dialog -->
 
                     <div
-                      class="clearfix visible-sm visible-md"
+                      class="clearfix visible-sm visible-md visible-lg"
                       *ngIf="(i + 1) % 3 == 0"
                     ></div>
                     <div
