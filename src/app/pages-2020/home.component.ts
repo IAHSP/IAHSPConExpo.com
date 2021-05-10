@@ -183,9 +183,11 @@ import { fsList, ksList, astList } from "./shared/data";
               </div>
 
               <div class="speaker-border space-bottom-40">
-                <ul class="no-bullets clearfix padding-left-0">
+                <ul class="no-bullets clearfix padding-left-0">                  
                   <ng-container *ngFor="let ks of kss; let i = index">
-                    <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
+                    <!-- <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div> -->
+
+                    <li class="col-sm-2" *ngIf="(i + 1) % 2 == 1">
 
                     <!-- kss -->
                     <li class="col-xs-12 col-sm-4 col-md-4">
@@ -265,7 +267,7 @@ import { fsList, ksList, astList } from "./shared/data";
 
                     <div
                       class="clearfix visible-sm visible-md visible-lg"
-                      *ngIf="(i + 1) % 3 == 0"
+                      *ngIf="(i + 1) % 2 == 0"
                     ></div>
                     <div
                       class="clearfix visible-lg"
