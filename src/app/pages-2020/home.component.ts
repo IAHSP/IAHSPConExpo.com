@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
-import { astList, cdeList, ksList } from "./shared/data";
+import { fsList, ksList, astList } from "./shared/data";
 
 @Component({
   selector: "app-2020-home",
@@ -142,38 +142,7 @@ import { astList, cdeList, ksList } from "./shared/data";
             </li>
           </ul>
         </div>
-      </section>
-
-      <section id="covid" class="padding-40-0" style="background-image: url('https://d3oaxt0bwkjnjn.cloudfront.net/images/social-distancing.jpg');">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-logo.jpg" alt="Gaylord Rockies Logo" class="center-block img-responsive space-bottom-15" width="270px" />
-
-              <h2 class="text-center color-white"><strong>Information on COLORADO Opening to Large Group Events<br /><small class="color-white">April 20, 2021</small></strong></h2>
-
-              <p class="lead color-white"><strong>The Gaylord Rockies Hotel is located in Adams County and is overseen by Tri-County Health</strong>.  Right now we are not under any capacity limits indoors or outdoors – as long as we have 6’ between seats.  Starting May 16, we expect all restrictions to go away (except wearing masks indoors).  We can also set (10) people per banquet round right now. </p>
-              
-              <p class="lead color-white">On 4/16/2021 Adams County and Tri-County Health announced they will be implementing public health orders that will largely align into a two-phase exit from COVID regulations.  </p>
-
-              <p class="lead color-white"><u>The plan includes two phases</u></p>
-
-              <ul class="lead">
-                <li class="color-white">Phase 1 goes from <em>April 16 through May 15</em>. Individual counties can operate at one level below their current level on the state's Dial 3.0. That will be Level Blue for Denver, Broomfield, Boulder, Jefferson, Douglas and Adams, and Level Green for Arapahoe.</li>
-                <li class="color-white">Phase 2 goes from May 16 through Aug 16.  This is an “observation period” which the counties will move to a new level on the dial, Level Clear, which has NO restrictions. Under Level Clear, businesses can operate at 100% capacity, though indoor mask requirements could still be in effect.</li>
-              </ul>
-
-              <p class="lead color-white">
-                <a href="https://www.tchd.org/825/Public-Health-Orders" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/825/Public-Health-Orders</a><br />
-                <a href="https://www.tchd.org/CivicAlerts.aspx?AID=444" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/CivicAlerts.aspx?AID=444</a><br />
-                <a href="https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart</a>
-              </p>
-
-            </div>
-          </div>
-        </div>
-      </section> 
+      </section>      
       
       <!-- Great Gatsby Gala -->
       <section id="agenda" class="padding100">
@@ -213,10 +182,12 @@ import { astList, cdeList, ksList } from "./shared/data";
                 <i class="fa fa-star"></i>
               </div>
 
-              <div class="speaker-border">
-                <ul class="no-bullets clearfix padding-left-0">
+              <div class="speaker-border space-bottom-40">
+                <ul class="no-bullets clearfix padding-left-0">                  
                   <ng-container *ngFor="let ks of kss; let i = index">
-                    <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div>
+                    <!-- <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div> -->
+
+                    <li class="col-sm-2" *ngIf="(i + 1) % 2 == 1">
 
                     <!-- kss -->
                     <li class="col-xs-12 col-sm-4 col-md-4">
@@ -225,15 +196,15 @@ import { astList, cdeList, ksList } from "./shared/data";
                           <img
                             class="img-responsive center-block"
                             src="{{ ks.image }}"
-                            alt="{{ ks.name }}"
+                            alt="{{ ks.fname }} {{ ks.lname }}"
                           />
                         </figure>
                         <div class="item-box-desc">
                           <h4 class="space-bottom-8 text-center">
-                            {{ ks.name }}<br />
-                            <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.company }}</small>
+                            {{ ks.fname }} {{ ks.lname }}<br />
+                            <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.title }}</small>
                           </h4>
-                          <h5 class="text-center"><strong>{{ ks.title }}</strong></h5>
+                          <h5 class="text-center"><strong>{{ ks.class }}</strong></h5>
 
                           <!-- modal trigger -->
                           <div class="text-center">
@@ -241,7 +212,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                               href="{{ '#' + ks.modelId }}"
                               class="btn btn-primary"
                               data-toggle="modal"
-                              >View Info</a
+                              >{{ ks.fname }}'s Info</a
                             >
                           </div>
                         </div>
@@ -271,7 +242,7 @@ import { astList, cdeList, ksList } from "./shared/data";
                               &times;
                             </button>
                             <h4 class="modal-title" id="myModalLabel">
-                              <strong>{{ ks.name }}</strong> {{ "- " + ks.title }}
+                              <strong>{{ ks.fname }} {{ ks.lname }}</strong> {{ ks.title }}
                             </h4>
                           </div>
                           <!-- /modal header -->
@@ -296,7 +267,7 @@ import { astList, cdeList, ksList } from "./shared/data";
 
                     <div
                       class="clearfix visible-sm visible-md visible-lg"
-                      *ngIf="(i + 1) % 3 == 0"
+                      *ngIf="(i + 1) % 2 == 0"
                     ></div>
                     <div
                       class="clearfix visible-lg"
@@ -305,6 +276,183 @@ import { astList, cdeList, ksList } from "./shared/data";
                   </ng-container>
                 </ul>
               </div>
+
+              <!-- Featured Speakers -->
+              <h2 class="text-center"><strong>Featured Speakers</strong></h2>
+
+              <ul class="no-bullets clearfix padding-left-0 space-bottom-40">
+                <ng-container *ngFor="let fs of fss; let i = index">
+
+                  <!-- fss -->
+                  <li class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="item-box bg-light-gray">
+                      <figure>
+                        <img
+                          class="img-responsive center-block"
+                          src="{{ fs.image }}"
+                          alt="{{ fs.name }}"
+                        />
+                      </figure>
+                      <div class="item-box-desc">
+
+                        <!-- modal trigger -->
+                        <div class="text-center">
+                          <a
+                            href="{{ '#' + fs.modelId }}"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            >{{ fs.fname }}'s Bio</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /fss -->
+
+                  <!-- modal dialog -->
+                  <div
+                    class="modal fade"
+                    id="{{ fs.modelId }}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-hidden="true"
+                          >
+                            &times;
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">
+                            <strong>{{ fs.fname }} {{ fs.lname }}</strong></h4>
+                        </div>
+                        <!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <div [innerHTML]="fs.description"></div>
+                        </div>
+                        <!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                        <!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /modal dialog -->
+
+                  <div
+                    class="clearfix visible-sm visible-md visible-lg"
+                    *ngIf="(i + 1) % 3 == 0"
+                  ></div>
+                  <div
+                    class="clearfix visible-lg"
+                    *ngIf="(i + 1) % 4 == 0"
+                  ></div>
+                </ng-container>
+              </ul>
+
+              <!-- Advanced Stager Training Speakers -->
+              <h2 class="text-center"><strong>Advanced Stager Training Speakers</strong></h2>
+
+              <ul class="no-bullets clearfix padding-left-0">
+                <ng-container *ngFor="let ast of asts; let i = index">
+
+                  <!-- asts -->
+                  <li class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="item-box bg-light-gray">
+                      <figure>
+                        <img
+                          class="img-responsive center-block"
+                          src="{{ ast.image }}"
+                          alt="{{ ast.fname }} {{ ast.lname }}"
+                        />
+                      </figure>
+                      <div class="item-box-desc">
+                        <h4 class="space-bottom-8 text-center">
+                          {{ ast.fname }} {{ ast.lname }}
+                        </h4>
+
+                        <!-- modal trigger -->
+                        <div class="text-center">
+                          <a
+                            href="{{ '#' + ast.modelId }}"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            >{{ ast.fname }}'s Bio</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /asts -->
+
+                  <!-- modal dialog -->
+                  <div
+                    class="modal fade"
+                    id="{{ ast.modelId }}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-hidden="true"
+                          >
+                            &times;
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">
+                            <strong>{{ ast.fname }} {{ ast.lname }}</strong></h4>
+                        </div>
+                        <!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <div [innerHTML]="ast.description"></div>
+                        </div>
+                        <!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                        <!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /modal dialog -->
+
+                  <div
+                    class="clearfix visible-sm"
+                    *ngIf="(i + 1) % 3 == 0"
+                  ></div>
+                  <div
+                    class="clearfix visible-md visible-lg"
+                    *ngIf="(i + 1) % 4 == 0"
+                  ></div>
+                </ng-container>
+              </ul>
 
               <!-- CALLOUT -->
               <div
@@ -811,6 +959,37 @@ import { astList, cdeList, ksList } from "./shared/data";
         </div>
       </section>
 
+      <section id="covid" class="padding-40-0" style="background-image: url('https://d3oaxt0bwkjnjn.cloudfront.net/images/social-distancing.jpg');">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/gaylord-rockies-logo.jpg" alt="Gaylord Rockies Logo" class="center-block img-responsive space-bottom-15" width="270px" />
+
+              <h2 class="text-center color-white"><strong>Information on COLORADO Opening to Large Group Events<br /><small class="color-white">April 20, 2021</small></strong></h2>
+
+              <p class="color-white"><strong>The Gaylord Rockies Hotel is located in Adams County and is overseen by Tri-County Health</strong>.  Right now we are not under any capacity limits indoors or outdoors – as long as we have 6’ between seats.  Starting May 16, we expect all restrictions to go away (except wearing masks indoors).  We can also set (10) people per banquet round right now. </p>
+              
+              <p class="color-white">On 4/16/2021 Adams County and Tri-County Health announced they will be implementing public health orders that will largely align into a two-phase exit from COVID regulations.  </p>
+
+              <p class="color-white"><u>The plan includes two phases</u></p>
+
+              <ul>
+                <li class="color-white">Phase 1 goes from <em>April 16 through May 15</em>. Individual counties can operate at one level below their current level on the state's Dial 3.0. That will be Level Blue for Denver, Broomfield, Boulder, Jefferson, Douglas and Adams, and Level Green for Arapahoe.</li>
+                <li class="color-white">Phase 2 goes from May 16 through Aug 16.  This is an “observation period” which the counties will move to a new level on the dial, Level Clear, which has NO restrictions. Under Level Clear, businesses can operate at 100% capacity, though indoor mask requirements could still be in effect.</li>
+              </ul>
+
+              <p class="color-white">
+                <a href="https://www.tchd.org/825/Public-Health-Orders" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/825/Public-Health-Orders</a><br />
+                <a href="https://www.tchd.org/CivicAlerts.aspx?AID=444" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/CivicAlerts.aspx?AID=444</a><br />
+                <a href="https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart" target="_blank" rel="noopener noreferrer" >https://www.tchd.org/DocumentCenter/View/8715/Public-Health-Order-Capacity-Chart</a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Contact Us -->
       <app-2020-contact id="contactus"></app-2020-contact>
     </div>
@@ -849,7 +1028,7 @@ import { astList, cdeList, ksList } from "./shared/data";
 })
 export class Home2020Component implements OnInit {
   asts = astList;
-  cdes = cdeList;
+  fss = fsList;
   kss = ksList;
 
   constructor() { }
