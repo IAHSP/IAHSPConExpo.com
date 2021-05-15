@@ -142,334 +142,22 @@ import { fsList, ksList, astList } from "./shared/data";
             </li>
           </ul>
         </div>
-      </section>      
-      
-      <!-- Great Gatsby Gala -->
-      <section id="agenda" class="padding100">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="text-center"><strong>Agenda</strong></h1>
-
-              <!-- divider -->
-              <div class="divider styleColor">
-                <i class="fa fa-star"></i>
-              </div>
-            </div>
-              
-            <div class="col-md-8 col-md-offset-2">
-              <h3 class=""><strong>We are planning a jam-packed event for our attendees!</strong></h3>
-              <p class="lead">Friday 5PM-11PM - Registration and Vendor EXPO Evening</p>
-              <p class="lead">Saturday:  9:30 AM - 5:30 PM  - Educational Sessions for all Levels</p>
-              <p class="lead">Sunday:  10:00 AM - 5:30 PM - Educational Sessions for All Levels</p>
-              <p class="lead">Sunday:  6:30 PM - 10:30 PM - Great Gatsby Gala Awards Dinner Celebration</p>
-              <p class="lead">Dinner starts at 7 PM - 10:30 PM</p>
-              <p class="lead"><strong>Detailed Agenda will be provided once we finalize our schedule.</strong></p>
-            </div>
-          </div>
-        </div>
       </section>
-
-      <!-- Keynote Speakers -->
-      <section id="ks" class="padding100 special-row">
+      
+      <!-- SOAR Reach New Heights of Success -->
+      <section id="soar" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>Keynote Speakers</strong></h1>
-
-              <!-- divider -->
-              <div class="divider styleColor">
-                <i class="fa fa-star"></i>
-              </div>
-
-              <div class="speaker-border space-bottom-40">
-                <ul class="no-bullets clearfix padding-left-0">                  
-                  <ng-container *ngFor="let ks of kss; let i = index">
-                    <!-- <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div> -->
-
-                    <li class="col-sm-2" *ngIf="(i + 1) % 2 == 1">
-
-                    <!-- kss -->
-                    <li class="col-xs-12 col-sm-4 col-md-4">
-                      <div class="item-box bg-light-gray">
-                        <figure>
-                          <img
-                            class="img-responsive center-block"
-                            src="{{ ks.image }}"
-                            alt="{{ ks.fname }} {{ ks.lname }}"
-                          />
-                        </figure>
-                        <div class="item-box-desc">
-                          <h4 class="space-bottom-8 text-center">
-                            {{ ks.fname }} {{ ks.lname }}<br />
-                            <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.title }}</small>
-                          </h4>
-                          <h5 class="text-center"><strong>{{ ks.class }}</strong></h5>
-
-                          <!-- modal trigger -->
-                          <div class="text-center">
-                            <a
-                              href="{{ '#' + ks.modelId }}"
-                              class="btn btn-primary"
-                              data-toggle="modal"
-                              >{{ ks.fname }}'s Info</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <!-- /kss -->
-
-                    <!-- modal dialog -->
-                    <div
-                      class="modal fade"
-                      id="{{ ks.modelId }}"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="myModalLabel"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <!-- modal header -->
-                          <div class="modal-header">
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-hidden="true"
-                            >
-                              &times;
-                            </button>
-                            <h4 class="modal-title" id="myModalLabel">
-                              <strong>{{ ks.fname }} {{ ks.lname }}</strong> {{ ks.title }}
-                            </h4>
-                          </div>
-                          <!-- /modal header -->
-
-                          <!-- modal body -->
-                          <div class="modal-body">
-                            <div [innerHTML]="ks.description"></div>
-                          </div>
-                          <!-- /modal body -->
-
-                          <!-- modal footer -->
-                          <div class="modal-footer">
-                            <button class="btn btn-default" data-dismiss="modal">
-                              Close
-                            </button>
-                          </div>
-                          <!-- /modal footer -->
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /modal dialog -->
-
-                    <div
-                      class="clearfix visible-sm visible-md visible-lg"
-                      *ngIf="(i + 1) % 2 == 0"
-                    ></div>
-                    <div
-                      class="clearfix visible-lg"
-                      *ngIf="(i + 1) % 4 == 0"
-                    ></div>
-                  </ng-container>
-                </ul>
-              </div>
-
-              <!-- Featured Speakers -->
-              <h2 class="text-center"><strong>Featured Speakers</strong></h2>
-
-              <ul class="no-bullets clearfix padding-left-0 space-bottom-40">
-                <ng-container *ngFor="let fs of fss; let i = index">
-
-                  <!-- fss -->
-                  <li class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="item-box bg-light-gray">
-                      <figure>
-                        <img
-                          class="img-responsive center-block"
-                          src="{{ fs.image }}"
-                          alt="{{ fs.name }}"
-                        />
-                      </figure>
-                      <div class="item-box-desc">
-
-                        <!-- modal trigger -->
-                        <div class="text-center">
-                          <a
-                            href="{{ '#' + fs.modelId }}"
-                            class="btn btn-primary"
-                            data-toggle="modal"
-                            >{{ fs.fname }}'s Bio</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- /fss -->
-
-                  <!-- modal dialog -->
-                  <div
-                    class="modal fade"
-                    id="{{ fs.modelId }}"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="myModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <!-- modal header -->
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="close"
-                            data-dismiss="modal"
-                            aria-hidden="true"
-                          >
-                            &times;
-                          </button>
-                          <h4 class="modal-title" id="myModalLabel">
-                            <strong>{{ fs.fname }} {{ fs.lname }}</strong></h4>
-                        </div>
-                        <!-- /modal header -->
-
-                        <!-- modal body -->
-                        <div class="modal-body">
-                          <div [innerHTML]="fs.description"></div>
-                        </div>
-                        <!-- /modal body -->
-
-                        <!-- modal footer -->
-                        <div class="modal-footer">
-                          <button class="btn btn-default" data-dismiss="modal">
-                            Close
-                          </button>
-                        </div>
-                        <!-- /modal footer -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /modal dialog -->
-
-                  <div
-                    class="clearfix visible-sm visible-md visible-lg"
-                    *ngIf="(i + 1) % 3 == 0"
-                  ></div>
-                  <div
-                    class="clearfix visible-lg"
-                    *ngIf="(i + 1) % 4 == 0"
-                  ></div>
-                </ng-container>
-              </ul>
-
-              <!-- Advanced Stager Training Speakers -->
-              <h2 class="text-center"><strong>Advanced Stager Training Speakers</strong></h2>
-
-              <ul class="no-bullets clearfix padding-left-0">
-                <ng-container *ngFor="let ast of asts; let i = index">
-
-                  <!-- asts -->
-                  <li class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="item-box bg-light-gray">
-                      <figure>
-                        <img
-                          class="img-responsive center-block"
-                          src="{{ ast.image }}"
-                          alt="{{ ast.fname }} {{ ast.lname }}"
-                        />
-                      </figure>
-                      <div class="item-box-desc">
-                        <h4 class="space-bottom-8 text-center">
-                          {{ ast.fname }} {{ ast.lname }}
-                        </h4>
-
-                        <!-- modal trigger -->
-                        <div class="text-center">
-                          <a
-                            href="{{ '#' + ast.modelId }}"
-                            class="btn btn-primary"
-                            data-toggle="modal"
-                            >{{ ast.fname }}'s Bio</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- /asts -->
-
-                  <!-- modal dialog -->
-                  <div
-                    class="modal fade"
-                    id="{{ ast.modelId }}"
-                    tabindex="-1"
-                    role="dialog"
-                    aria-labelledby="myModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <!-- modal header -->
-                        <div class="modal-header">
-                          <button
-                            type="button"
-                            class="close"
-                            data-dismiss="modal"
-                            aria-hidden="true"
-                          >
-                            &times;
-                          </button>
-                          <h4 class="modal-title" id="myModalLabel">
-                            <strong>{{ ast.fname }} {{ ast.lname }}</strong></h4>
-                        </div>
-                        <!-- /modal header -->
-
-                        <!-- modal body -->
-                        <div class="modal-body">
-                          <div [innerHTML]="ast.description"></div>
-                        </div>
-                        <!-- /modal body -->
-
-                        <!-- modal footer -->
-                        <div class="modal-footer">
-                          <button class="btn btn-default" data-dismiss="modal">
-                            Close
-                          </button>
-                        </div>
-                        <!-- /modal footer -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /modal dialog -->
-
-                  <div
-                    class="clearfix visible-sm"
-                    *ngIf="(i + 1) % 3 == 0"
-                  ></div>
-                  <div
-                    class="clearfix visible-md visible-lg"
-                    *ngIf="(i + 1) % 4 == 0"
-                  ></div>
-                </ng-container>
-              </ul>
-
-              <!-- CALLOUT -->
-              <div
-                class="bs-callout text-center styleBackground"
-                style="padding: 36px 15px;"
-              >
-                <h3 style="line-height: 36px;">
-                  Speakers will be added to this site once they are
-                  confirmed.
-                </h3>
-              </div>
-              <!-- /CALLOUT -->
-
-              <h2 class="text-center">
+              <h2 class="text-center"><strong>
                 Join your Home Staging Industry FAMILY at the 2021 IAHSP® Family Reunion – SOAR 
                 Conference & EXPO
-              </h2>
+              </strong></h2>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
 
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/iahsp-2021-soar-family-black-logo.png" 
                 alt="IAHSP 2021 Soar Family Black Logo" 
@@ -685,7 +373,7 @@ import { fsList, ksList, astList } from "./shared/data";
       </section>
 
       <!-- Sales and Marketing Specialist -->
-      <section id="sms" class="padding100">
+      <section id="sms" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -727,12 +415,330 @@ import { fsList, ksList, astList } from "./shared/data";
         </div>
       </section>
 
-      <!-- Great Gatsby Gala -->
-      <section id="ggg" class="padding100 special-row">
+      <!-- Keynote Speakers -->
+      <section id="ks" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>The Great Gatsby Gala!</strong></h1>
+              <h1 class="text-center"><strong>Keynote Speakers</strong></h1>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+
+              <div class="speaker-border space-bottom-40">
+                <ul class="no-bullets clearfix padding-left-0">
+
+                  <!-- Chris Widener -->
+                  <li class="col-sm-offset-2 col-sm-8">
+                    <div class="item-box bg-light-gray">
+                      <figure>
+                        <img
+                          class="img-responsive center-block"
+                          src="https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener-and-lasting-impact-book.jpg"
+                          alt="Chris {{ Widener }}"
+                        />
+                      </figure>
+                      <div class="item-box-desc">
+                        <h4 class="space-bottom-8 text-center">
+                          Chris Widener<br />
+                          <small class="text-center" style="margin-top: 3px; line-height: 18px;">Motivational Speaker and Business Success Expert</small>
+                        </h4>
+                        <h5 class="text-center"><strong>Best selling author of 21 books, world renown business expert top 50 motivational speakers in the WORLD</strong></h5>
+
+                        <!-- modal trigger -->
+                        <div class="text-center">
+                          <a
+                            href="#tA2ey"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            >Chris's Info</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /kss -->
+
+                  <!-- modal dialog -->
+                  <div
+                    class="modal fade"
+                    id="tA2ey"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-hidden="true"
+                          >
+                            &times;
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">
+                            <strong>Chris Widener</strong> Motivational Speaker and Business Success Expert
+                          </h4>
+                        </div>
+                        <!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <p><strong>Chris Widener</strong> is a best-selling author, motivational speaker, and business success expert who has worked closely with Jim Rohn and Zig Ziglar. Chris 
+                            hosted a popular television show with Zig, and co-authored books with Jim Rohn, a highly respected and recognized motivational speaker and educator.</p>
+                            
+                          <p>Chris is the author of 20 books which have been translated into 13 languages, including his book, The Art of Influence, which his popular keynote is based 
+                          upon. He has been speaking professionally since 1988 and has given over 2,000 speeches to crowds as large as 25,000 people!</p>
+                          
+                          <p>He has also been named one of the <strong>Top 50 Speakers in the World, one of Inc. Magazine's Top 100 Leadership speakers, and is a member of the Motivational 
+                          Speakers Hall of Fame.</strong> Chris’ 21st book will be released this Fall, <em>“Lasting Impact, Creating a Life and a Business that Lives Beyond You”.</em></p>
+                        </div>
+                        <!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                        <!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /modal dialog -->
+                  
+                  <ng-container *ngFor="let ks of kss; let i = index">
+                    <!-- <div *ngIf="ks % 3 == 0" class="clearfix visible-md"></div> -->
+
+                    <!-- <li class="col-sm-2" *ngIf="(i + 1) % 2 == 1"> -->
+
+                    <!-- kss -->
+                    <li class="col-xs-12 col-sm-4 col-md-4">
+                      <div class="item-box bg-light-gray">
+                        <figure>
+                          <img
+                            class="img-responsive center-block"
+                            src="{{ ks.image }}"
+                            alt="{{ ks.fname }} {{ ks.lname }}"
+                          />
+                        </figure>
+                        <div class="item-box-desc">
+                          <h4 class="space-bottom-8 text-center">
+                            {{ ks.fname }} {{ ks.lname }}<br />
+                            <small class="text-center" style="margin-top: 3px; line-height: 18px;">{{ ks.title }}</small>
+                          </h4>
+                          <h5 class="text-center"><strong>{{ ks.class }}</strong></h5>
+
+                          <!-- modal trigger -->
+                          <div class="text-center">
+                            <a
+                              href="{{ '#' + ks.modelId }}"
+                              class="btn btn-primary"
+                              data-toggle="modal"
+                              >{{ ks.fname }}'s Info</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- /kss -->
+
+                    <!-- modal dialog -->
+                    <div
+                      class="modal fade"
+                      id="{{ ks.modelId }}"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="myModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- modal header -->
+                          <div class="modal-header">
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-hidden="true"
+                            >
+                              &times;
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">
+                              <strong>{{ ks.fname }} {{ ks.lname }}</strong> {{ ks.title }}
+                            </h4>
+                          </div>
+                          <!-- /modal header -->
+
+                          <!-- modal body -->
+                          <div class="modal-body">
+                            <div [innerHTML]="ks.description"></div>
+                          </div>
+                          <!-- /modal body -->
+
+                          <!-- modal footer -->
+                          <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal">
+                              Close
+                            </button>
+                          </div>
+                          <!-- /modal footer -->
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /modal dialog -->
+
+                    <div
+                      class="clearfix visible-sm visible-md visible-lg"
+                      *ngIf="(i + 1) % 3 == 0"
+                    ></div>
+                    <!-- <div
+                      class="clearfix visible-lg"
+                      *ngIf="(i + 1) % 4 == 0"
+                    ></div> -->
+                  </ng-container>
+                </ul>
+              </div>
+
+              <!-- Featured Speakers -->
+              <h2 class="text-center"><strong>Featured Speakers</strong></h2>
+
+              <ul class="no-bullets clearfix padding-left-0 space-bottom-40">
+                <ng-container *ngFor="let fs of fss; let i = index">
+
+                  <!-- fss -->
+                  <li class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="item-box bg-light-gray">
+                      <figure>
+                        <img
+                          class="img-responsive center-block"
+                          src="{{ fs.image }}"
+                          alt="{{ fs.name }}"
+                        />
+                      </figure>
+                      <div class="item-box-desc">
+
+                        <!-- modal trigger -->
+                        <div class="text-center">
+                          <a
+                            href="{{ '#' + fs.modelId }}"
+                            class="btn btn-primary"
+                            data-toggle="modal"
+                            >{{ fs.fname }}'s Bio</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- /fss -->
+
+                  <!-- modal dialog -->
+                  <div
+                    class="modal fade"
+                    id="{{ fs.modelId }}"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!-- modal header -->
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-hidden="true"
+                          >
+                            &times;
+                          </button>
+                          <h4 class="modal-title" id="myModalLabel">
+                            <strong>{{ fs.fname }} {{ fs.lname }}</strong></h4>
+                        </div>
+                        <!-- /modal header -->
+
+                        <!-- modal body -->
+                        <div class="modal-body">
+                          <div [innerHTML]="fs.description"></div>
+                        </div>
+                        <!-- /modal body -->
+
+                        <!-- modal footer -->
+                        <div class="modal-footer">
+                          <button class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                        <!-- /modal footer -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /modal dialog -->
+
+                  <div
+                    class="clearfix visible-sm visible-md visible-lg"
+                    *ngIf="(i + 1) % 3 == 0"
+                  ></div>
+                  <div
+                    class="clearfix visible-lg"
+                    *ngIf="(i + 1) % 4 == 0"
+                  ></div>
+                </ng-container>
+              </ul>              
+
+              <!-- CALLOUT -->
+              <div
+                class="bs-callout text-center styleBackground"
+                style="padding: 36px 15px;"
+              >
+                <h3 style="line-height: 36px;">
+                  Speakers will be added to this site once they are
+                  confirmed.
+                </h3>
+              </div>
+              <!-- /CALLOUT -->                        
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advance Stager Training -->
+      <section id="ast" class="padding100 special-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center"><strong>Advance Stager Training</strong></h2>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            
+            <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/advanced-stager-training-2021.png" class="center-block img-responsive space-bottom-15" 
+            alt="Advanced Stager Training 2021" width="512px">
+
+            <p class="lead text-center">For <strong>6+ Figure Business Owners</strong>, join industry experts for the <strong>>Advanced Stager Training (AST)</strong> Session 
+            Sept 27-28. <strong>This is a separate ticketed event</strong>.  When you register for both the 2021 IAHSP Conference AND the AST - you will receive 
+            a special rate.  <strong>SPACE IS LIMITED for the AST</strong>. Learn more 
+            <a href="https://pages.iahsp.com/advanced-stager-training/" target="_blank" rel="noopener noreferrer">HERE</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Great Gatsby Gala -->
+      <section id="ggg" class="padding100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center"><strong>The Great Gatsby Gala!</strong></h2>
 
               <!-- divider -->
               <div class="divider styleColor">
@@ -758,12 +764,38 @@ import { fsList, ksList, astList } from "./shared/data";
         </div>
       </section>
 
+      <!-- Great Gatsby Gala -->
+      <section id="agenda" class="padding100 special-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center"><strong>Agenda</strong></h2>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+              
+            <div class="col-md-8 col-md-offset-2">
+              <h3 class=""><strong>We are planning a jam-packed event for our attendees!</strong></h3>
+              <p class="lead">Friday 5PM-11PM - Registration and Vendor EXPO Evening</p>
+              <p class="lead">Saturday:  9:30 AM - 5:30 PM  - Educational Sessions for all Levels</p>
+              <p class="lead">Sunday:  10:00 AM - 5:30 PM - Educational Sessions for All Levels</p>
+              <p class="lead">Sunday:  6:30 PM - 10:30 PM - Great Gatsby Gala Awards Dinner Celebration</p>
+              <p class="lead">Dinner starts at 7 PM - 10:30 PM</p>
+              <p class="lead"><strong>Detailed Agenda will be provided once we finalize our schedule.</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Gaylord Rockies Resort Convention Center -->
       <section id="hotel" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center"><strong>Headquarter Hotel</strong></h1>
+              <h2 class="text-center"><strong>Headquarter Hotel</strong></h2>
 
               <!-- divider -->
               <div class="divider styleColor">
@@ -871,16 +903,16 @@ import { fsList, ksList, astList } from "./shared/data";
       </section>
 
       <!-- IAHSP 2019 Promo -->
-      <section class="padding100 special-row">
+      <section class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center">
+              <h2 class="text-center">
                 <strong
                   >Please enjoy this montage from our IAHSP Conference & EXPO
                   2019 - Nashville</strong
                 >
-              </h1>
+              </h2>
 
               <!-- divider -->
               <div class="divider styleColor">
@@ -900,13 +932,13 @@ import { fsList, ksList, astList } from "./shared/data";
       </section>
 
       <!-- Priority Ticket -->
-      <section id="pticket" class="padding100">
+      <section id="pticket" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center">
+              <h2 class="text-center">
                 <strong>Priority Ticket</strong>
-              </h1>
+              </h2>
 
               <!-- divider -->
               <div class="divider styleColor">
