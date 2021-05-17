@@ -12,7 +12,7 @@ env:
 phases:
     install:
         runtime-versions:
-            nodejs: 10
+            nodejs: 12
         commands:
             - echo Installing source NPM dependencies...
             # FIX 2021-02-13: Issue with GPG. Use this fix.
@@ -20,8 +20,6 @@ phases:
             # Need https driver.
             - apt-get update -y
             - apt-get install -y apt-transport-https
-            # Install Angular CLI
-            - npm install -g @angular/cli
             # Install node dependancies.
             - npm install
             # Slack notification.
@@ -31,7 +29,7 @@ phases:
         commands:
             # Builds Angular application.
             - echo Build started on `date`
-            - ng build --${BUILD_ENV}
+            - npm run ng -- build --prod
             # Slack notification.
             - curl -k -g -X POST -d "payload={\"text\":\"Step 2/3 - Build phase is completed.\", \"channel\":\"#devops\", \"username\":\"AWS CodeBuild | ${DOMAIN}\", \"icon_emoji\":\":white_check_mark:\"}" $SHC_SLACK_HOOK
     
