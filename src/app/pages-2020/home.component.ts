@@ -437,7 +437,7 @@ import { fsList, ksList, astList } from "./shared/data";
                         <img
                           class="img-responsive center-block"
                           src="https://d3oaxt0bwkjnjn.cloudfront.net/images/chris-widener-and-lasting-impact-book.jpg"
-                          alt="Chris {{ Widener }}"
+                          alt="Chris Widener"
                         />
                       </figure>
                       <div class="item-box-desc">
