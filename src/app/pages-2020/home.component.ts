@@ -709,6 +709,33 @@ import { fsList, ksList, astList } from "./shared/data";
         </div>
       </section>
 
+      <!-- Vendors -->
+      <section id="vendors" class="padding100" style="background-color: white;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="text-center"><strong>Vendors</strong></h2>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star" style="background-color: white;"></i>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <h3 class="text-center color-gold"><strong>Gold</strong></h3>
+            </div>
+
+            <div class="col-sm-offset-2 col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/ollix-logo.png" class="center-block img-responsive" alt="" width="290px">
+            </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/paragon-logo.png" class="center-block img-responsive" alt="" width="290px">
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Advance Stager Training -->
       <section id="ast" class="padding100 special-row">
         <div class="container">
@@ -903,7 +930,7 @@ import { fsList, ksList, astList } from "./shared/data";
       </section>
 
       <!-- IAHSP 2019 Promo -->
-      <section class="padding100">
+      <section id="iahsp2019promo" class="padding100 special-row">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -932,7 +959,7 @@ import { fsList, ksList, astList } from "./shared/data";
       </section>
 
       <!-- Priority Ticket -->
-      <section id="pticket" class="padding100 special-row">
+      <section id="pticket" class="padding100">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
