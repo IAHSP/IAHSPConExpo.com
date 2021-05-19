@@ -73,10 +73,12 @@ import { Component, OnInit } from "@angular/core";
                   <li><a href="#soar" class="scrollTo">SOAR</a></li>
                   <li><a href="#sms" class="scrollTo">Sales and Marketing Specialist</a></li>
                   <li><a href="#ks" class="scrollTo">Keynote Speakers</a></li>
+                  <li><a href="#vendors" class="scrollTo">Vendors</a></li>
                   <li><a href="#ast" class="scrollTo">Advanced Stager Training</a></li>
                   <li><a href="#ggg" class="scrollTo">Great Gatsby Gala</a></li>
                   <li><a href="#agenda" class="scrollTo">Agenda</a></li>
                   <li><a href="#hotel" class="scrollTo">Gaylord Rockies Resort</a></li>
+                  <li><a href="#iahsp2019promo" class="scrollTo">IAHSP 2019 Promo</a></li>
                   <li><a href="#pticket" class="scrollTo">Priority Ticket</a></li>
                   <li><a href="#covid" class="scrollTo">COVID Safety Measures</a></li>
                 </ul>
