@@ -622,7 +622,7 @@ import { fsList, ksList, astList } from "./shared/data";
                           alt="{{ fs.name }}"
                         />
                       </figure>
-                      <div class="item-box-desc">
+                      <div class="item-box-desc" *ngIf="fs.description !== null">
 
                         <!-- modal trigger -->
                         <div class="text-center">
@@ -685,10 +685,6 @@ import { fsList, ksList, astList } from "./shared/data";
                   <div
                     class="clearfix visible-sm visible-md visible-lg"
                     *ngIf="(i + 1) % 3 == 0"
-                  ></div>
-                  <div
-                    class="clearfix visible-lg"
-                    *ngIf="(i + 1) % 4 == 0"
                   ></div>
                 </ng-container>
               </ul>              
