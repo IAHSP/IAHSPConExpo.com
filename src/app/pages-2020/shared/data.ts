@@ -146,6 +146,50 @@ export const ksList = [
 ];
 
 export const fsList = [
+	{
+		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/june-carter-featured-speaker-2021.jpg`,
+    fname: `June`,
+    lname: `Carter`,
+    modelId: `7oTru`,
+    description: `
+		
+		<p>A unique mix of skill sets allows June Carter to be here with you. June is an entrepreneur, founding Corporate Interior Solutions 
+		and GYST* Solutions.  She has moved within the worlds of corporations and creativity.  Her experience inside major corporations such 
+		as AIG, NBC, Steelcase, Knoll and 3form provided June the right forums for problem solving, design and business.  With a Bachelor of 
+		Fine Arts in Interior Design, June's career as a Certified Professional Organizer and an Accredited Staging Professional Master is 
+		the result of the combined ability to be creative, provide spatial solutions, increase productivity, apply Professional Organizing 
+		skills, finesse sales, set priorities and walk the collaborative path of Coaching.</p>
+		
+		<p>June is a Certified Professional Organizer (CPO), an Accredited Staging Professional Master (ASPM), Certified Accredited 
+		Staging Professional instructor for the International Association of Home Staging Professionals (IAHSP), the Home Stager Coach 
+		for the IAHSP Coaching program and a Certified Productivity Coach.</p>
+		
+		<p>June and her husband live in Fernandinda Beach and love it.  They are proud parent of a member of the Coast Guard and a happy 
+		rescue dog.</p>		
+		
+		`
+  },
+	{
+		image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/marianne-charico-featured-speaker-2021.jpg`,
+		fname: `Marianne`,
+		lname: `Charico`,
+		modelId: `Th7vu`,
+		description: `
+			
+			<p>Marianne Cherico - The Home Stager’s Coach, is a trained personal and professional development coach.  She has also owned and 
+			operated a successful Home Staging Business since 2005. Her background includes 27 years in Real Estate.</p>
+
+			<p><strong>Marianne has coached many home stagers throughout the country on how to up level their business by developing both 
+			mindset skills and savvy business strategies. Helping these home stagers own their magnificence and create a life and business 
+			that sets their soul on fire is Marianne's sweet spot!</strong></p>
+			
+			<p>Marianne’s Podcast <strong><u>Home Stagers and Designers on Fire</u></strong> is a great way to learn business and mindset 
+			strategies for those of you wanting to grow your Home Staging business. <strong>If you are looking for a coach who will help 
+			you grow your business, your way, Marianne is your gal!</strong> <a href="https://coachingbymarianne.com/" target="_blank" 
+			rel="noopener noreferrer">www.coachingbymarianne.com</a></p>
+					
+		`
+	},
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/joseph-haecker-featured-speaker.png`,
     fname: `Joseph`,
@@ -153,61 +197,82 @@ export const fsList = [
     modelId: `2HlTr`,
     description: `
 		
-		<p>The LIVE Broadcast Network. TheLBN is the first LIVE stream broadcast network to host original programs with a variety of topics, niches and genres, 
-		regularly scheduled with celebrity hosts and guests, exclusively on social media.</p>
+			<p>The LIVE Broadcast Network. TheLBN is the first LIVE stream broadcast network to host original programs with a variety of topics, niches and genres, 
+			regularly scheduled with celebrity hosts and guests, exclusively on social media.</p>
 
-		<p>Instead of going LIVE multiple times per week, Joseph signing new hosts and show concepts under multiple categories, such as; food, travel, music, 
-		design, lifestyle and more.  Each show features its own host, theme, guests, branding and network reach. Though it will all broadcast from The LIVE Broadcast 
-		Network business page, as a media and broadcasting network.</p>
+			<p>Instead of going LIVE multiple times per week, Joseph signing new hosts and show concepts under multiple categories, such as; food, travel, music, 
+			design, lifestyle and more.  Each show features its own host, theme, guests, branding and network reach. Though it will all broadcast from The LIVE Broadcast 
+			Network business page, as a media and broadcasting network.</p>
+			
+			<p>When asked about this, Joseph said, "This has been done before in television and radio. Before networks were established, individuals were broadcasting 
+			on the free airwaves. Then networks like ABC and NBC formed, to pool talent and sell advertisement. We are employing the same business model through social 
+			media."  By operating as a network, TheLBN is able to offer advertisement as both a network and show sponsorship. This allows companies to either benefit 
+			from a broad market segment reach. Or drill directly into the viewership within a specific show's niche audience.</p>
+			
+			<p>What started as a rant, has the potential to change the concept of influencer marketing in an over saturated social media famous landscape. As consumers 
+			migrate away from cable television to mobile platforms, such as Netflix, Hulu, and YouTube. The LIVE Broadcast Network business model may set the precedence 
+			for a viable LIVE stream media broadcasting alternative.</p>
+			
+			<p>Joseph says that he is looking to capture Facebook's attention by proving that this is a viable avenue that would give Facebook a competitive advantage 
+			over other media outlets. The LIVE Broadcast Network already has several Hollywood celebrities in the pipeline for weekly LIVE broadcasts that are monetized 
+			and provide compensation that rivals most established networks budgets. For sponsors, The LIVE Broadcast Network offers unparalleled engagement and digital 
+			interactive capability. The future of television may just become LIVE stream network broadcasting on Facebook. And The LIVE Broadcast Network is the first 
+			to market in this new frontier.</p>
 		
-		<p>When asked about this, Joseph said, "This has been done before in television and radio. Before networks were established, individuals were broadcasting 
-		on the free airwaves. Then networks like ABC and NBC formed, to pool talent and sell advertisement. We are employing the same business model through social 
-		media."  By operating as a network, TheLBN is able to offer advertisement as both a network and show sponsorship. This allows companies to either benefit 
-		from a broad market segment reach. Or drill directly into the viewership within a specific show's niche audience.</p>
-		
-		<p>What started as a rant, has the potential to change the concept of influencer marketing in an over saturated social media famous landscape. As consumers 
-		migrate away from cable television to mobile platforms, such as Netflix, Hulu, and YouTube. The LIVE Broadcast Network business model may set the precedence 
-		for a viable LIVE stream media broadcasting alternative.</p>
-		
-		<p>Joseph says that he is looking to capture Facebook's attention by proving that this is a viable avenue that would give Facebook a competitive advantage 
-		over other media outlets. The LIVE Broadcast Network already has several Hollywood celebrities in the pipeline for weekly LIVE broadcasts that are monetized 
-		and provide compensation that rivals most established networks budgets. For sponsors, The LIVE Broadcast Network offers unparalleled engagement and digital 
-		interactive capability. The future of television may just become LIVE stream network broadcasting on Facebook. And The LIVE Broadcast Network is the first 
-		to market in this new frontier.</p>
-		
-		`,
+		`
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/bridget-king-featured-speaker-2021.jpg`,
+    fname: `Bridget`,
+    lname: `King`,
+    modelId: `Gox5C`,
+    description: null,
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/leslie-kramer-featured-speaker-2021.jpg`,
+    fname: `Leslie`,
+    lname: `kramer`,
+    modelId: `d4eCe`,
+    description: null
   },
   {
-    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/joanne-lenart-weary-featured-speaker.png`,
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/joanne-lenart-weary-featured-speaker-2021.jpg`,
     fname: `JoAnne`,
     lname: `Lenart-Weary`,
     modelId: `woS1y`,
     description: `
 		
-		<p>Founder and Education Director of DIY Education at How to Decorate and Stage, Creator & Instructor at Confident Color System and Founder at The Decorating 
-		and Staging Academy</p>
+			<p>Founder and Education Director of DIY Education at How to Decorate and Stage, Creator & Instructor at Confident Color System and Founder at The Decorating 
+			and Staging Academy</p>
 
-		<p>I LOVE HOUSES!  Creating beautiful spaces is in my DNA.  My Dad was a contractor,  and my Mother was always turning a sow’s ear into a silk purse.  Money 
-		(or the lack of it) never stopped her from making her home the best it could be. I caught their bug for transformation and as soon as I had enough muscle 
-		power, I was pushing furniture around.  In fact, just moments before I sat down to write this copy, I was rearranging my family room.  It still is a great 
-		stress reliever.</p>
-		
-		<p>My early adult years were spent using my various apartments and homes as a decorating lab.  My first Husband often arrived home to see I had moved the 
-		dining room into the living room, painted something crazy, (there was even a red toilet attempt, which resulted in a finish that stuck to his bottom more 
-		than the toilet) Did I mention he was my first Husband…bless the poor man…he was there during my formative years.   Over the years, I did everything I 
-		could to get into homes. I began with a wallpapering and painting business and earned my Real Estate license which allowed me access to any house I 
-		wanted to see.</p>
-		
-		<p>Let me be honest…houses were my jam.</p>
-		
-		<p>So where did all this passion take me?  Well, it has now been 45 years…and I am still doing what I love.  Even better, I get to teach others how to do 
-		what I do.  Over the past 20 years, I have won many awards, added education to my mix, appeared multiple times on HGTV and ABC, was featured in many 
-		publications, did unique projects in Dubai, Turkey, and Nigeria, and have taught thousands how to create beautiful rooms.</p>
-		
-		<p>Plus, I am the Mom of 3 amazing grown kids, step-mother to 2, and a very hands-on Grandma to 16, ranging in age from 4-24. Bonus-my first Great 
-		Grandchild, Hayden, was recently born.</p>
+			<p>I LOVE HOUSES!  Creating beautiful spaces is in my DNA.  My Dad was a contractor,  and my Mother was always turning a sow’s ear into a silk purse.  Money 
+			(or the lack of it) never stopped her from making her home the best it could be. I caught their bug for transformation and as soon as I had enough muscle 
+			power, I was pushing furniture around.  In fact, just moments before I sat down to write this copy, I was rearranging my family room.  It still is a great 
+			stress reliever.</p>
+			
+			<p>My early adult years were spent using my various apartments and homes as a decorating lab.  My first Husband often arrived home to see I had moved the 
+			dining room into the living room, painted something crazy, (there was even a red toilet attempt, which resulted in a finish that stuck to his bottom more 
+			than the toilet) Did I mention he was my first Husband…bless the poor man…he was there during my formative years.   Over the years, I did everything I 
+			could to get into homes. I began with a wallpapering and painting business and earned my Real Estate license which allowed me access to any house I 
+			wanted to see.</p>
+			
+			<p>Let me be honest…houses were my jam.</p>
+			
+			<p>So where did all this passion take me?  Well, it has now been 45 years…and I am still doing what I love.  Even better, I get to teach others how to do 
+			what I do.  Over the past 20 years, I have won many awards, added education to my mix, appeared multiple times on HGTV and ABC, was featured in many 
+			publications, did unique projects in Dubai, Turkey, and Nigeria, and have taught thousands how to create beautiful rooms.</p>
+			
+			<p>Plus, I am the Mom of 3 amazing grown kids, step-mother to 2, and a very hands-on Grandma to 16, ranging in age from 4-24. Bonus-my first Great 
+			Grandchild, Hayden, was recently born.</p>
 		
 		`,
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/karen-mendenhall-featured-speaker-2021.jpg`,
+    fname: `Karen`,
+    lname: `Mendenhall`,
+    modelId: `7oTru`,
+    description: null
   },
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/jennie-norris-featured-speaker.png`,
@@ -296,6 +361,27 @@ export const fsList = [
 		
 		`,
   },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/john-norris-featured-speaker-2021.jpg`,
+    fname: `John`,
+    lname: `Norris`,
+    modelId: `noW1A`,
+    description: null,
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/steven-norris-featured-speaker-2021.jpg`,
+    fname: `Steven`,
+    lname: `Norris`,
+    modelId: `fO6eP`,
+    description: null,
+  },
+  {
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/amy-powers-featured-speaker-2021.jpg`,
+    fname: `Amy`,
+    lname: `Powers`,
+    modelId: `s3fIc`,
+    description: null,
+  },
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/sandra-racz-featured-speaker.png`,
     fname: `Sandra`,
@@ -319,6 +405,20 @@ export const fsList = [
 			Health Clinic to name a few.</p>		
 		
 		`,
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/theresa-thomas-featured-speaker-2021.jpg`,
+    fname: `Theresa`,
+    lname: `Thomas`,
+    modelId: `HixI2`,
+    description: null
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/kat-troulinos-featured-speaker-2021.jpg`,
+    fname: `Kat`,
+    lname: `Troulinos`,
+    modelId: `YLs9y`,
+    description: null
   }
 ];
 
