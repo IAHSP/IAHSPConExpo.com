@@ -800,15 +800,8 @@ import { fsList, ksList, astList } from "./shared/data";
               </div>
             </div>
               
-            <div class="col-md-8 col-md-offset-2">
-              <h3 class=""><strong>We are planning a jam-packed event for our attendees!</strong></h3>
-              <p class="lead">Friday 5PM-11PM - Registration and Vendor EXPO Evening</p>
-              <p class="lead">Saturday:  9:30 AM - 5:30 PM  - Educational Sessions for all Levels</p>
-              <p class="lead">Sunday:  10:00 AM - 5:30 PM - Educational Sessions for All Levels</p>
-              <p class="lead">Sunday:  6:30 PM - 10:30 PM - Great Gatsby Gala Awards Dinner Celebration</p>
-              <p class="lead">Dinner starts at 7 PM - 10:30 PM</p>
-              <p class="lead"><strong>Detailed Agenda will be provided once we finalize our schedule.</strong></p>
-            </div>
+            <iframe class="col-md-10 col-md-offset-1" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYh08q3x9xThUZBlrxKY9wnheDsXJEefSv86D1TJSLdPJGA5bHQjoAqN7Bw44V4AjYJv075V3NBXHn/pubhtml?gid=949958035&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="965px"></iframe>
+
           </div>
         </div>
       </section>
