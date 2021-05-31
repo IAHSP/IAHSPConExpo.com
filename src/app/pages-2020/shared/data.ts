@@ -380,7 +380,18 @@ export const fsList = [
     fname: `Amy`,
     lname: `Powers`,
     modelId: `s3fIc`,
-    description: null,
+    description: `
+		
+			<p>Amy Powers has been involved in the Home Staging Industry since 2007. She is a huge advocate for encouraging, equipping and educating 
+			those around her. She loves experiencing and sharing joy with others which is why she is enthusiastic to share at the 2021 IAHSP Family Reunion 
+			the Attitude of Appreciation. Her experience has proven that understanding how an individual feels valued will make them a more successful staff 
+			member and a faithful client. In a referral based industry, Amy shares how building on the relationships authentically will expand your business 
+			and reputation.</p>
+		
+			<p>Amy lives in north Atlanta, GA with her children and husband. She is the SE Regional Director and 2021 Atlanta Regional Board President. She 
+			won the 2020 Trailblazer award for her Short Term Rental Staging Specialist course.</p>
+		
+		`,
   },
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/sandra-racz-featured-speaker.png`,
