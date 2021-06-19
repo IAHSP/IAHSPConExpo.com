@@ -736,14 +736,23 @@ import { fsList, ksList, astList } from "./shared/data";
               <h3 class="text-center color-silver"><strong>Silver</strong></h3>
             </div>
   
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaching-by-marianne.png" class="center-block img-responsive" alt="Coaching by Marianne" style="margin: 36px auto;" width="290px">
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaching-by-marianne.png" class="center-block img-responsive" alt="Coaching by Marianne Logo" style="margin: 36px auto;" width="290px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" class="center-block img-responsive" alt="Jutus Logo" width="290px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" class="center-block img-responsive" alt="Staged 2 Buy Logo" width="290px">
+              </div>
+              
             </div>
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" class="center-block img-responsive" alt="Staged 2 Buy" width="290px">
-            </div>
-            <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/stageforce-logo.png" class="center-block img-responsive" alt="Stagedforce" style="margin: 39px auto;" width="290px">
+
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/stageforce-logo.png" class="center-block img-responsive" alt="Stagedforce Logo" style="margin: 39px auto;" width="290px">
+              </div>
             </div>
           </div>          
         </div>
