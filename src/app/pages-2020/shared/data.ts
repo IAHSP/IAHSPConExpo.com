@@ -392,7 +392,7 @@ export const fsList = [
 			won the 2020 Trailblazer award for her Short Term Rental Staging Specialist course.</p>
 		
 		`,
-  },
+  },	
   {
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/sandra-racz-featured-speaker.png`,
     fname: `Sandra`,
@@ -416,6 +416,13 @@ export const fsList = [
 			Health Clinic to name a few.</p>		
 		
 		`,
+  },
+	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/john-reagan-featured-speaker.jpg`,
+    fname: `John`,
+    lname: `Reagan`,
+    modelId: `cO6fP`,
+    description: null,
   },
 	{
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/theresa-thomas-featured-speaker-2021.jpg`,
