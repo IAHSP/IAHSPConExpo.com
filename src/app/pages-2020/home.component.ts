@@ -979,7 +979,7 @@ import { fsList, ksList, astList } from "./shared/data";
           <div class="row">
             <div class="col-md-12">
               <h2 class="text-center">
-                <strong>Priority Ticket</strong>
+                <strong>Priority Ticket $580.00</strong>
               </h2>
 
               <!-- divider -->
@@ -1007,11 +1007,38 @@ import { fsList, ksList, astList } from "./shared/data";
                 <li>PLUS MORE!</li>
               </ul>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 space-bottom-40">
               <p class="lead">
                 Your registration will be placed into a drawing for a special
                 prize.
               </p>
+            </div>
+
+            <!-- General Ticket -->
+            <div class="col-md-12">
+              <h2 class="text-center">
+                <strong>General Ticket $495.00</strong>
+              </h2>
+
+              <!-- divider -->
+              <div class="divider styleColor">
+                <i class="fa fa-star"></i>
+              </div>
+              <p class="lead">This General Ticket includes:</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="lead margin-bottom-0">
+                <li>General Registration</li>
+                <li>General Seating for all 3 days</li>
+                <li>General Access to Keynote Speakers</li>
+              </ul>
+              <div class="visible-md visible-lg space-bottom-20"></div>
+            </div>
+            <div class="col-md-6">
+              <ul class="lead">
+                <li>General Access to the Sunday Awards Dinner</li>
+                <li>Plus A Swag Bag</li>
+              </ul>
             </div>
           </div>
         </div>
