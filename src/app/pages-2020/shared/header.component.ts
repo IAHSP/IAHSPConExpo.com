@@ -106,7 +106,7 @@ import { Component, OnInit } from "@angular/core";
               <li>
                 <div>
                   <a
-                    routerLink="/register"
+                    href="https://pages.iahsp.com/iahsp-2021-conference-expo-registration/"
                     class="btn btn-primary btn-sm color-white float-left"
                     >Register Now</a
                   >
