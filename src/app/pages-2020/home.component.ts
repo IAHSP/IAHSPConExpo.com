@@ -1050,7 +1050,7 @@ import { fsList, ksList, astList } from "./shared/data";
           <div class="row">
             <div class="col-md-12">
               <h2>
-                <a routerLink="/register"><strong>Register</strong></a> By The
+                <a href="https://pages.iahsp.com/iahsp-2021-conference-expo-registration/"><strong>Register</strong></a> By The
                 Deadline - unless we are SOLD OUT
               </h2>
               <h3 class="line-height-32">Sept 24, 2021 11:59 PM</h3>
