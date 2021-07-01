@@ -718,7 +718,14 @@ import { fsList, ksList, astList } from "./shared/data";
               </div>
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-12 space-top-40">
+              <h3 class="text-center color-diamond"><strong>Diamond</strong></h3>
+            </div>
+            <div class="col-sm-offset-4 col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaster-furniture-logo.jpg" class="center-block img-responsive" alt="Coaster Logo" style="margin: 32px auto;" width="290px">
+            </div>
+
+            <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-gold"><strong>Gold</strong></h3>
             </div>
 
@@ -728,11 +735,11 @@ import { fsList, ksList, astList } from "./shared/data";
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/paragon-logo.png" class="center-block img-responsive" alt="Paragon Logo" width="290px">
             </div>
-            <div class="col-sm-4 space-bottom-32">
+            <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" class="center-block img-responsive" alt="Propac Images" style="margin: 32px auto;" width="290px">
             </div>
 
-            <div class="col-sm-12 space-top-32">
+            <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-silver"><strong>Silver</strong></h3>
             </div>
   
