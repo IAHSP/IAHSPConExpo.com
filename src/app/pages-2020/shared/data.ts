@@ -432,6 +432,13 @@ export const fsList = [
     description: null
   },
 	{
+    image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/tori-toth-featured-speaker-2021.png`,
+    fname: `Tori`,
+    lname: `Toth`,
+    modelId: `HixI8`,
+    description: null
+  },
+	{
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/kat-troulinos-featured-speaker-2021.jpg`,
     fname: `Kat`,
     lname: `Troulinos`,
