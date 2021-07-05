@@ -736,7 +736,16 @@ import { fsList, ksList, astList } from "./shared/data";
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/paragon-logo.png" class="center-block img-responsive" alt="Paragon Logo" width="290px">
             </div>
             <div class="col-sm-4">
-              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" class="center-block img-responsive" alt="Propac Images" style="margin: 32px auto;" width="290px">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/propac-logo.png" class="center-block img-responsive" alt="Propac Images Logo" style="margin: 32px auto;" width="290px">
+            </div>
+
+            <div class="clearfix hidden-xs"></div>
+
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/sherwin-williams-logo.png" class="center-block img-responsive" alt="Sherwin Williams Logo" style="margin: 97px auto;" width="290px">
+            </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/shc-table-banner.jpg" class="center-block img-responsive" alt="Staged Homes with other Designation Logo" style="margin: 32px auto;" width="290px">
             </div>
 
             <div class="col-sm-12 space-top-40">
@@ -745,20 +754,47 @@ import { fsList, ksList, astList } from "./shared/data";
   
             <div class="row">
               <div class="col-sm-4">
-                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaching-by-marianne.png" class="center-block img-responsive" alt="Coaching by Marianne Logo" style="margin: 36px auto;" width="290px">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaching-by-marianne.png" class="center-block img-responsive" alt="Coaching by Marianne Logo" style="margin: 58px auto;" width="290px">
               </div>
               <div class="col-sm-4">
-                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" class="center-block img-responsive" alt="Jutus Logo" width="290px">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/cort-logo.png" class="center-block img-responsive" alt="CORT Furniture Logo" width="290px">
               </div>
               <div class="col-sm-4">
-                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" class="center-block img-responsive" alt="Staged 2 Buy Logo" width="290px">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/hiend-accents-logo.png" class="center-block img-responsive" alt="Hiend Accents Logo" style="margin: 53px auto;" width="290px">
               </div>
-              
-            </div>
 
-            <div class="row">
+              <div class="clearfix hidden-xs"></div>
+
               <div class="col-sm-4">
-                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/stageforce-logo.png" class="center-block img-responsive" alt="Stagedforce Logo" style="margin: 39px auto;" width="290px">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/web/images/logos/jlw-company-logo.jpg" class="center-block img-responsive" alt="JLW Company Logo" style="margin: 36px auto;" width="210px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/jutus-logo.png" class="center-block img-responsive" style="margin: 26px auto;" alt="Jutus Logo" width="290px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/nevermeasure-logo.png" class="center-block img-responsive" style="margin: 53px auto;" alt="Nevermeasure Logo" width="290px">
+              </div>
+
+              <div class="clearfix hidden-xs"></div>
+
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/staged-2-buy-logo.jpg" class="center-block img-responsive" alt="Staged 2 Buy Logo" style="margin: 79px auto;" width="290px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/stageforce-logo.png" class="center-block img-responsive" alt="Stagedforce Logo" style="margin: 118px auto;" width="290px">
+              </div>
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/the-decorating-and-academy-logo.jpg" class="center-block img-responsive" alt="The Decorating and Academy Logo" width="290px">
+              </div>
+
+              <div class="clearfix hidden-xs"></div>
+
+              <div class="col-sm-4">
+                <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/tori-toth-international-logo.png" class="center-block img-responsive" alt="Tori Toth International Logo" style="margin: 32px auto;" width="290px">
+              </div>
+
+              <div class="col-sm-12">
+                <p class="lead text-center"><strong>Brought to you by <a href="https://iahsp.com" target="_blank" rel="noopener noreferrer">IAHSP</a></strong></p>
               </div>
             </div>
           </div>          
