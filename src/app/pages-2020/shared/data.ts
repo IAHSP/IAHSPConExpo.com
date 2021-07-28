@@ -226,7 +226,24 @@ export const fsList = [
     fname: `Bridget`,
     lname: `King`,
     modelId: `Gox5C`,
-    description: null,
+    description: `
+	
+		<p>Meet Bridget King, the Owner and Creative Director of Captiva Design Interior Decorating and Home Staging based in Ft. Lauderdale, FL. With 
+		over 17 years of experience in the emerging Home Staging industry as a certified and accredited Staging professional, Bridget has established herself 
+		as one of South Florida’s leading Home Staging subject matter experts. The goal is to help clients sell their properties and attract higher sales 
+		prices while decreasing the number of Listing days on the market. She has won acclaim from local Realtors in selling Staged homes within two days on 
+		the market. Bridget has been featured as the “Home Stager” on networks such as DIY House Flipping Shows, “Miami Flip,” and most recently HGTV’s “All-Star 
+		Flip,” featuring Actress, Gabrielle Union, and NBA All-Star Basketball player Dwayne Wade. Bridget's Home Staging work has also been featured on the 
+		local WPLG Channel 10 show, “South Florida Home Project”.</p>
+
+		<p>Bridget is President of the South Florida Chapter IAHSP, (International Association of Home Staging Professionals). She has been a resident of South 
+		Florida for over 35 years. Her passion for design and helping people have cultivated a coaching and mentorship program for Home Stagers and Interior Decorators 
+		new to the industry, called “Stager Development.” She believes that education is fundamental to any successful business. She is available for realtor 
+		workshop training and guest speaking engagements. She continues to increase her knowledge in the Home Staging and Design industry through various seminars 
+		and training opportunities to stay informed on the most recent industry trends. In her spare time, she enjoys traveling and exploring cultural arts and food 
+		scenes worldwide for experiences and inspiration.</p>
+	
+	`,
   },
 	{
     image: `https://d3oaxt0bwkjnjn.cloudfront.net/images/leslie-kramer-featured-speaker-2021.jpg`,
