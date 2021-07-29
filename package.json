@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^8.2.14",
     "@angular/router": "^8.2.14",
     "angular2-recaptcha": "^0.4.1",
+    "browserslist": "^4.16.6",
     "caniuse-lite": "^1.0.30001248",
     "core-js": "^2.6.12",
     "rxjs": "^6.6.7",
@@ -51,7 +52,7 @@
     "protractor": "^7.0.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "3.5.3"
+    "typescript": "~3.5.3"
   },
   "description": "IAHSP Conference Website",
   "main": "index.html",
