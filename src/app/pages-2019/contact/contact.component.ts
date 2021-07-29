@@ -19,7 +19,7 @@ import { ContactService } from "./contact.service";
     providers: [ContactService]
 })
 export class Contact2019Component {
-    @ViewChild(ReCaptchaComponent) captcha: ReCaptchaComponent;
+    @ViewChild(ReCaptchaComponent, {static: false}) captcha: ReCaptchaComponent;
     objUser;
 
     constructor(private contactService: ContactService) {
