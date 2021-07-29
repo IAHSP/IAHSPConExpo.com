@@ -41,7 +41,7 @@ const appRoutes: Routes = [
   { path: "2019", component: Home2019Component },
 
   // 2018
-  { path: "2018", loadChildren: "./pages-2018/iahsp2018.module#Iahsp2018Module" },
+  { path: "2018", loadChildren: () => import('./pages-2018/iahsp2018.module').then(m => m.Iahsp2018Module) },
 ];
 
 @NgModule({
