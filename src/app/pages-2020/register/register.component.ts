@@ -11,7 +11,7 @@ import { RegisterService } from "./register.service";
   providers: [RegisterService],
 })
 export class Register2020Component {
-  @ViewChild(ReCaptchaComponent) captcha: ReCaptchaComponent;
+  @ViewChild(ReCaptchaComponent, {static: false}) captcha: ReCaptchaComponent;
   objUser;
 
   constructor(private registerService: RegisterService) {
