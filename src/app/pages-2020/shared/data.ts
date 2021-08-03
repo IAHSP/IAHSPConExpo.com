@@ -460,7 +460,34 @@ export const fsList = [
     fname: `Kat`,
     lname: `Troulinos`,
     modelId: `YLs9y`,
-    description: null
+    description: `
+	
+		<p>KAT Troulinos-Wong is a lifetime IAHSP member and received her ASPM designation in 2017. She relocated to Texas after serving over two decades in 
+		corporate America in advertising and high-tech industries in California. She was able to parlay her knowledge to the new home and real estate industry. 
+		TA DA by KAT next level staging &amp; design was launched in 2014 after over a decade in the new home sales industry in Houston and reached a 6-figure 
+		status in less than 24 months.</p>
+
+		<p>KAT traveled to Rome to support Barb Schwarz and our global brothers and sisters in the industry and was honored to share her “WOW” talk with 
+		the very first European IAHSP conference in 2017 She has been voted Best of Houzz 2017, 2018, 2019, 2020, 2021 and is very proud of over 84 5 star 
+		reviews to date. Her goal is to hit 100 by the end of 2021. KAT served as ambassador for Worldwide Staging week 3 consecutive years while holding the 
+		education	chair for the local IAHSP chapter.</p>
+
+		<p>She is a Texas Real Estate Commission approved instructor and teaches a 3 hour CE class “Stage it to Sell” and “Color me Sold” throughout Houston 
+		educating realtors on the benefits and value of what she says is the most strategic marketing tool to have in your tool bag……Staging!</p>
+
+		<p>KAT & Jeff Spike Wong her husband of 23 years and business partner are the curators of the Professional Staging Hall of Fame and presented the very 
+		first recipient, the honorable Barb Schwarz at IAHSP conference in Nashville Tennessee 2019.</p>
+
+		<p>Coming up to the 50th episode of “KAT’s Home Chat Live” where she interviews guests weekly on “all things home” and posts to her YouTube channel 
+		<a href="https://www.youtube.com/c/tadabykat" target=”_blank” rel=”noopener noreferrer”>www.youtube.com/c/tadabykat</a>. (you can find replays of all 
+		episodes here. KAT has kept the conversation flowing with her diverse guests and topics while delivering the message of “Staying Positive, Staying 
+		Hopeful and Staying Connected”. She is the Momma to 3 awesome adult children and a self-proclaimed “GLAMMA” of 3 beautiful grandchildren. She is 
+		a fur baby Momma to 4 amazing puppies and when not staging, is the CEO of KAT’s eye décor & more creating her signature series of wall art &amp; décor.</p>
+
+		<p>To balance the Yang to the Yin….KAT enjoys yoga, spending time with family, her husband and fur babies, gardening, meditation &amp; engaging in 
+		all things thought provoking.</p>
+
+	`
   }
 ];
 
