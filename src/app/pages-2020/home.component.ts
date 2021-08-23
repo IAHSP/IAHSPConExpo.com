@@ -718,12 +718,12 @@ import { fsList, ksList, astList } from "./shared/data";
               </div>
             </div>
 
-            <div class="col-sm-12 space-top-40">
+            <!-- <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-diamond"><strong>Diamond</strong></h3>
             </div>
             <div class="col-sm-offset-4 col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/coaster-furniture-logo.jpg" class="center-block img-responsive" alt="Coaster Logo" style="margin: 32px auto;" width="290px">
-            </div>
+            </div> -->
 
             <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-gold"><strong>Gold</strong></h3>
