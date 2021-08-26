@@ -747,6 +747,9 @@ import { fsList, ksList, astList } from "./shared/data";
             <div class="col-sm-4">
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/shc-table-banner.jpg" class="center-block img-responsive" alt="Staged Homes with other Designation Logo" style="margin: 32px auto;" width="290px">
             </div>
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/surya-logo.png" class="center-block img-responsive" alt="Surya Logo" style="margin: 98px auto;" width="290px">
+            </div>
 
             <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-silver"><strong>Silver</strong></h3>
