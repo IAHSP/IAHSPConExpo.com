@@ -751,6 +751,12 @@ import { fsList, ksList, astList } from "./shared/data";
               <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/surya-logo.png" class="center-block img-responsive" alt="Surya Logo" style="margin: 98px auto;" width="290px">
             </div>
 
+            <div class="clearfix hidden-xs"></div>
+
+            <div class="col-sm-4">
+              <img src="https://d3oaxt0bwkjnjn.cloudfront.net/images/zuo-logo.png" class="center-block img-responsive" alt="Zuo Logo" style="margin: 33px auto;" width="190px">
+            </div>
+
             <div class="col-sm-12 space-top-40">
               <h3 class="text-center color-silver"><strong>Silver</strong></h3>
             </div>
