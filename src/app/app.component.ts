@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
-declare var $;
+// declare var $;
 
 @Component({
     selector: 'app-root',
     template: `
         <!-- Modal -->
-        <div class="modal fade" id="iahspconexpotexting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="iahspconexpotexting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -18,40 +18,40 @@ declare var $;
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Homepage -->
         <router-outlet></router-outlet>
     `
 })
 export class AppComponent {
-    ngAfterViewInit() {
-      // Launch modal.
-      this.launchModal();
-    } // ngAfterViewInit()
+    // ngAfterViewInit() {
+    //   // Launch modal.
+    //   this.launchModal();
+    // } // ngAfterViewInit()
 
     /**
      * Launches modal.
      */
-    private launchModal = () => {
-      if (localStorage.getItem("isOptedOutTexting") === "true") {
-        // Do nothing 
-      } else {
-        $("#iahspconexpotexting").modal('show');
-      } // if
-    } // launchModal()
+    // private launchModal = () => {
+    //   if (localStorage.getItem("isOptedOutTexting") === "true") {
+    //     // Do nothing 
+    //   } else {
+    //     $("#iahspconexpotexting").modal('show');
+    //   } // if
+    // } // launchModal()
 
     /**
      * Closes modal.
      */
-    public closeModal = () => {
-      $("#iahspconexpotexting").modal('hide');
-    } // closeModal()
+    // public closeModal = () => {
+    //   $("#iahspconexpotexting").modal('hide');
+    // } // closeModal()
   
     /**
      * User opted out of text messaging.
      */
-    public isOptedOut = () => {
-      localStorage.setItem("isOptedOutTexting", "true");
-    } // isOptedOut()
+    // public isOptedOut = () => {
+    //   localStorage.setItem("isOptedOutTexting", "true");
+    // } // isOptedOut()
 }
