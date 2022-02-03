@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Title } from "@angular/platform-browser";
 
 import { fsList, ksList, astList } from "./shared/data";
 
@@ -9,50 +10,9 @@ declare var jQuery:any;
   selector: "app-2020-home",
   template: `
 
-  <!-- Marketing Pop-up -->
-  <div id="promoPopUp" class="modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-md" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-
-          <div class="space-bottom-40">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-
-          <div class="row">
-
-            <div class="col-md-12 space-bottom-40">
-              <img src="http://d3oaxt0bwkjnjn.cloudfront.net/images/virtual-2021-iahsp-con-expo-logo.png"
-                alt="IAHSP 2021 Virtual Conference and Expo" class="center-block img-responsive space-bottom-15" width="330px" />
-
-              <p class="text-center"><strong>You can now attend our 2021 IAHSP Conference & Expo LIVE VIRTUALLY or purchase 
-                and view later.</strong></p>
-
-              <p class="text-center">This is THE Home Staging and Real Estate Industry Event of the YEAR! Only IAHSP invests the resources 
-                needed to bring you top notch speakers sharing on timely topics.</p>
-
-              <p class="text-center">Tickets to join are $299 + Processing fee!</p>
-
-              <div class="text-center">
-                <a href="https://cvent.me/34QM99" class="btn btn-primary" target="_blank"
-                  rel="noopener noreferrer">Register Now</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- <hr style="margin: 32px 0;" /> -->
-
-          <button type="button" class="btn btn-danger pull-right space-bottom-15" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div><!-- /Marketing Pop-up-->
-
   <app-shared-2020-header>Loading...</app-shared-2020-header>  
 
-  <span id="header_shadow"></span>    
+  <span id="header_shadow"></span>
 
     <div id="wrapper" class="padding-bottom-0">
 
@@ -1230,7 +1190,9 @@ export class Home2020Component implements OnInit {
   fss = fsList;
   kss = ksList;
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('IAHSP 2021 Educational Conference and EXPO');
+  }
 
   ngOnInit() {
 
