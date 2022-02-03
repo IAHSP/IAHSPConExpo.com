@@ -15,7 +15,6 @@ import { Ast2018Component } from "./pages-2018/ast.component";
 import { Ccs2018Component } from "./pages-2018/ccs.component";
 import { Lhsiahsp2018Component } from "./pages-2018/lhsiahsp.component";
 import { Stageindustawards2018Component } from "./pages-2018/stageindustawards.component";
-import { Countdown2018Component } from "./pages-2018/countdown.component";
 import { Contact2018Component } from "./pages-2018/contact/contact.component";
 import { FooterComponent } from "./pages-2018/shared/footer.component";
 
@@ -38,7 +37,6 @@ describe('AppComponent', () => {
         Ccs2018Component,
         Lhsiahsp2018Component,
         Stageindustawards2018Component,
-        Countdown2018Component,
         Contact2018Component,
         FooterComponent
       ],

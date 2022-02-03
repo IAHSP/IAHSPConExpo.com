@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-2019-home',
@@ -51,9 +52,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Home2019Component implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('IAHSP 2019 Educational Conference and EXPO');
+  }
 
-  ngOnInit() {
+  ngOnInit(): void {
+
   }
 
 }

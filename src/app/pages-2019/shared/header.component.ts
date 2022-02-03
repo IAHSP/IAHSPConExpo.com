@@ -12,8 +12,8 @@ import { Component, OnInit } from "@angular/core";
             >844-IAHSP99</a
           >
           <span class="hidden-xs"
-            ><a href="mailto:help@iahsp.com"
-              ><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a
+            ><a href="mailto:christa@iahsp.com"
+              ><i class="fa fa-envelope-o"></i> christa@iahsp.com</a
             ></span
           > </span
         ><!-- /PHONE/EMAIL -->
@@ -100,30 +100,12 @@ import { Component, OnInit } from "@angular/core";
                   <i class="fa fa-angle-down"></i>Past Events
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      href="https://iahspvirtualconexpo.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >2020 IAHSP Virtual Conference</a
-                    >
-                  </li>
+                  <li><a href="/">2023</a></li>
+                  <li><a href="/2021">2021</a></li>
+                  <li><a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer">2020</a></li>
                   <li><a href="/2018">2018</a></li>
                 </ul>
               </li>
-              <li>
-                <div>
-                  <a
-                    id="btnRegister"
-                    href="/"
-                    class="btn btn-primary btn-sm color-white pull-left"
-                    ><i class="fa fa-globe" aria-hidden="true"></i>2021
-                    Conference Expo</a
-                  >
-                </div>
-              </li>
-              <!-- <li class="space-right-5"><a class="scrollTo" href="#contact">Contact Us</a></li> -->
-              <!-- <li><div><a href="/register" rel="noopener" class="btn btn-primary btn-sm color-white float-left">Register Now</a></div></li> -->
             </ul>
           </nav>
         </div>
