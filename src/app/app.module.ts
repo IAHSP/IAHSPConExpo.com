@@ -9,6 +9,15 @@ import { ReCaptchaModule } from 'angular2-recaptcha';
 
 import { AppComponent } from './app.component';
 
+// Components
+import { ContactComponent } from './components/contact/contact.component';
+import { CountdownComponent } from './components/countdown.component';
+import { FooterComponent } from './components/footer.component';
+import { MarketPopUpComponent } from './components/market-pop-up.component';
+
+// IAHSP 2023 Conference & Expo
+import { ConExpo2023Component } from './pages/2023/home.component';
+
 // IAHSP 2020 Conference & Expo
 import { Header2020Component } from './pages-2020/shared/header.component';
 import { Footer2020Component } from './pages-2020/shared/footer.component';
@@ -34,20 +43,32 @@ import { SponsorsComponent } from './pages-2019/sponsors.component';
 
 // Main IAHSP Conference & Expo Routes
 const appRoutes: Routes = [
-  { path: "", component: Home2020Component },
-  { path: "register", component: Register2020Component },
-  
+
+  // 2023
+  { path: "", component: ConExpo2023Component },
+
+  // 2021
+  { path: "2021", component: Home2020Component },
+
   // 2019
   { path: "2019", component: Home2019Component },
 
   // 2018
-  { path: "2018", loadChildren: () => import('./pages-2018/iahsp2018.module').then(m => m.Iahsp2018Module) },
+  { path: "2018", loadChildren: () => import('./pages-2018/iahsp2018.module').then(m => m.Iahsp2018Module) }
 ];
 
 @NgModule({
   declarations: [
-
     AppComponent,
+
+    // Components
+    ContactComponent,
+    CountdownComponent,
+    FooterComponent,
+    MarketPopUpComponent,
+
+    // IAHSP 2023 Conference & Expo
+    ConExpo2023Component,
 
     // IAHSP 2020 Conference & Expo
     Header2020Component,
@@ -82,8 +103,9 @@ const appRoutes: Routes = [
     // Routing
     RouterModule.forRoot(appRoutes)
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

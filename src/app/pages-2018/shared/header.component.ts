@@ -13,8 +13,8 @@ import { Component, OnInit } from "@angular/core";
           >
           <span class="hidden-xs"
             >&bull;&nbsp;
-            <a href="mailto:help@iahsp.com"
-              ><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a
+            <a href="mailto:christa@iahsp.com"
+              ><i class="fa fa-envelope-o"></i> christa@iahsp.com</a
             ></span
           > </span
         ><!-- /PHONE/EMAIL -->
@@ -66,64 +66,16 @@ import { Component, OnInit } from "@angular/core";
           <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main scroll-menu" id="topMain">
               <li><a href="/2018">Home</a></li>
-              <!-- <li class="active"><a routerLink="/2018">Home</a></li>
-                            <li class="dropdown visible-md visible-lg">
-								<a class="dropdown-toggle" href="#">
-									Information <i class="fa fa-angle-down"></i>
-								</a>
-                                <ul class="dropdown-menu">
-                                    <li><a routerLink="scott">Keynote Speakers</a></li>
-                                    <li><a routerLink="sponsors">Sponsors</a></li>
-									<li><a routerLink="speakers">Speakers</a></li>
-                                    <li><a routerLink="vendors">Vendors</a></li>
-                                    <li><a routerLink="hotel">Hotel</a></li>
-                                    <li><a routerLink="wholesale">High Point Wholesale Experience</a></li>
-                                    <li><a routerLink="ast">Advance Stager Training</a></li>
-                                    <li><a routerLink="ccs">Confident Color System</a></li>
-                                    <li><a routerLink="lhsiahsp">Luxury Home Staging</a></li>
-                                    <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
-								</ul>
-                            </li>
-                            <div class="visible-xs visible-sm">
-                                <li><a routerLink="scott">Keynote Speakers</a></li>
-                                <li><a routerLink="sponsors">Sponsors</a></li>
-                                <li><a routerLink="speakers">Speakers</a></li>
-                                <li><a routerLink="vendors">Vendors</a></li>
-                                <li><a routerLink="hotel">Hotel</a></li>
-                                <li><a routerLink="wholesale">High Point Wholesale Experience</a></li>
-                                <li><a routerLink="ast">Advance Stager Training</a></li>
-                                <li><a routerLink="ccs">Confident Color System</a></li>
-                                <li><a routerLink="lhsiahsp">Luxury Home Staging</a></li>
-                                <li><a routerLink="stageindustawards">Staging Industry Awards</a></li>
-                            </div> -->
-              <!-- <li><a routerLink="contact2018">Contact</a></li> -->
               <li class="dropdown">
                 <a class="dropdown-toggle" href="#">
                   <i class="fa fa-angle-down"></i>Past Events
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      href="https://iahspvirtualconexpo.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >2020 IAHSP Virtual Conference</a
-                    >
-                  </li>
-
+                  <li><a href="/">2023</a></li>
+                  <li><a href="/2021">2021</a></li>
+                  <li><a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer">2020</a></li>
                   <li><a href="/2019">2019</a></li>
                 </ul>
-              </li>
-              <li>
-                <div>
-                  <a
-                    id="btnRegister"
-                    href="/"
-                    class="btn btn-primary btn-sm color-white pull-left"
-                    ><i class="fa fa-globe" aria-hidden="true"></i>2021
-                    Conference Expo</a
-                  >
-                </div>
               </li>
             </ul>
           </nav>

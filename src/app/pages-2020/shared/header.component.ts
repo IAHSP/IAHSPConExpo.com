@@ -12,8 +12,8 @@ import { Component, OnInit } from "@angular/core";
             >844-IAHSP99</a
           >
           <span class="hidden-xs"
-            ><a href="mailto:help@iahsp.com"
-              ><i class="fa fa-envelope-o"></i> Help@IAHSP.com</a
+            ><a href="mailto:christa@iahsp.com"
+              ><i class="fa fa-envelope-o"></i> christa@iahsp.com</a
             ></span
           > </span
         ><!-- /PHONE/EMAIL -->
@@ -52,7 +52,7 @@ import { Component, OnInit } from "@angular/core";
         </button>
 
         <!-- Logo text or image -->
-        <a class="logo" href="/">
+        <a class="logo" href="/2021">
           <img
             src="https://d3oaxt0bwkjnjn.cloudfront.net/iahspconexpo/images/logo.jpg"
             class="height-100p"
@@ -88,29 +88,11 @@ import { Component, OnInit } from "@angular/core";
                   <i class="fa fa-angle-down"></i>Past Events
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      href="https://iahspvirtualconexpo.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >2020 IAHSP Virtual Conference</a
-                    >
-                  </li>
+                  <li><a href="/">2023</a></li>
+                  <li><a href="https://iahspvirtualconexpo.com/" target="_blank" rel="noopener noreferrer">2020</a></li>
                   <li><a href="/2019">2019</a></li>
                   <li><a href="/2018">2018</a></li>
                 </ul>
-              </li>
-              <li class="space-right-5">
-                <a class="scrollTo" href="#contactus">Contact Us</a>
-              </li>
-              <li>
-                <div>
-                  <a
-                    href="https://pages.iahsp.com/iahsp-2021-conference-expo-registration/"
-                    class="btn btn-primary btn-sm color-white float-left"
-                    >Register Now</a
-                  >
-                </div>
               </li>
             </ul>
           </nav>
