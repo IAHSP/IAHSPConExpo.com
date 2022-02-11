@@ -3,7 +3,7 @@ import { Title } from "@angular/platform-browser";
 
 @Component({
   selector: "app-con-expo-2023",
-  templateUrl: "./home.html",
+  templateUrl: "./home.component.html",
   styles: [`
     .largegreenbg {
       background-color: #0376cd;
