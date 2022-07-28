@@ -33,9 +33,9 @@ import { Component, OnInit } from '@angular/core';
                   <li class="footer-sprite phone">
                     Phone: <a href="tel:8444247799">844-IAHSP99</a>
                   </li>
-                  <li class="footer-sprite email">
+                  <!-- <li class="footer-sprite email">
                     <a href="mailto:christa@iahsp.com">christa@iahsp.com</a>
-                  </li>
+                  </li> -->
                 </ul>
               </address>
             </div><!-- /FOOTER CONTACT INFO -->

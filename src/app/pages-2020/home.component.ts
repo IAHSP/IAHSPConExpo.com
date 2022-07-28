@@ -275,7 +275,7 @@ declare var jQuery:any;
   
                 <p class="lead">
                   SPECIAL OPTIONS: YOU MUST CALL TO REGISTER IN ORDER TO TAKE ADVANTAGE OF THESE OPTIONS. 
-                  <a href="tel:8444247799">844-IAHSP99</a> or email <a href="mailto:christa@iahsp.com">Christa@iahsp.com</a>
+                  <a href="tel:8444247799">844-IAHSP99</a><!-- or email <a href="mailto:christa@iahsp.com">Christa@iahsp.com</a> -->
                 </p>
   
                 <p class="lead">
