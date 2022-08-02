@@ -94,7 +94,7 @@ import { ContactService } from "./contact.service";
     
               <p class="nomargin-bottom">
                 <span class="block"><strong><i class="fa fa-phone"></i> Phone: </strong><a href="tel:8444247799">844-IAHSP99</a></span>
-                <!-- <span class="block"><strong><i class="fa fa-envelope"></i> Email: </strong><a href="mailto:christa@iahsp.com">christa@iahsp.com</a></span> -->
+                <span class="block"><strong><i class="fa fa-envelope"></i> Email: </strong><a href="mailto:info@iahsp.com">info@iahsp.com</a></span>
               </p>
     
             </div>

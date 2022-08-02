@@ -11,12 +11,12 @@ import { Component, OnInit } from "@angular/core";
           <i class="fa fa-phone"></i>&nbsp;<a href="tel:8444247799"
             >844-IAHSP99</a
           >
-          <!-- <span class="hidden-xs"
+          <span class="hidden-xs"
             >&bull;&nbsp;
-            <a href="mailto:christa@iahsp.com"
-              ><i class="fa fa-envelope-o"></i> christa@iahsp.com</a
+            <a href="mailto:info@iahsp.com"
+              ><i class="fa fa-envelope-o"></i> info@iahsp.com</a
             ></span
-          > --> </span
+          ></span
         > <!-- /PHONE/EMAIL -->
 
         <div class="pull-right">
